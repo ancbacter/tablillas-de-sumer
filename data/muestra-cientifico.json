@@ -1,0 +1,147 @@
+{
+  "periodos": [
+    { "id": "el-obeid", "nombre": "El Obeid", "inicio": -5500, "fin": -4000, "descripcion": "Primeras aldeas y templos de adobe en el sur de Mesopotamia. Eridu ya es un centro de culto." },
+    { "id": "uruk", "nombre": "Periodo de Uruk", "inicio": -4000, "fin": -3100, "descripcion": "Urbanización, sellos cilíndricos y las primeras tablillas protocuneiformes, de uso administrativo." },
+    { "id": "dinastico-arcaico", "nombre": "Dinástico Arcaico", "inicio": -2900, "fin": -2350, "descripcion": "Ciudades-estado sumerias rivales. Aparecen las primeras listas de dioses y textos literarios." },
+    { "id": "acadio", "nombre": "Imperio acadio", "inicio": -2334, "fin": -2154, "descripcion": "Sargón unifica Mesopotamia; el acadio se convierte en lengua de la administración." },
+    { "id": "ur-iii", "nombre": "Ur III", "inicio": -2112, "fin": -2004, "descripcion": "Renacimiento sumerio bajo la tercera dinastía de Ur. Gran parte de la literatura sumeria se copia en la época siguiente." },
+    { "id": "paleobabilonico", "nombre": "Paleobabilónico", "inicio": -2000, "fin": -1595, "descripcion": "Hammurabi; las escuelas de escribas fijan los grandes textos sumerios y acadios." },
+    { "id": "medio-babilonico", "nombre": "Casita / Mediobabilónico", "inicio": -1595, "fin": -1155, "descripcion": "Dinastía casita en Babilonia. Se canonizan obras como la epopeya de Gilgamesh estándar." },
+    { "id": "neoasirio", "nombre": "Imperio neoasirio", "inicio": -911, "fin": -609, "descripcion": "Asiria domina el Próximo Oriente. Asurbanipal reúne su biblioteca en Nínive." },
+    { "id": "neobabilonico", "nombre": "Imperio neobabilónico", "inicio": -626, "fin": -539, "descripcion": "Nabucodonosor II reconstruye Babilonia y el templo de Marduk, el Esagil." },
+    { "id": "aquemenida", "nombre": "Dominio aqueménida", "inicio": -539, "fin": -330, "descripcion": "Babilonia bajo los persas; la tradición cuneiforme continúa en los templos." }
+  ],
+  "entradas": [
+    {
+      "id": "anunnaki",
+      "nombre": "Anunnaki",
+      "nombre_original": "da-nun-na (sum.) / Anunnakū (acad.)",
+      "categoria": "deidad",
+      "culturas": ["sumeria", "acadia", "babilonia", "asiria"],
+      "periodo": "paleobabilonico",
+      "fecha_texto": "Atestiguados desde c. 2500 a. C.; uso frecuente desde c. 1900 a. C.",
+      "resumen": "Término colectivo para un grupo de dioses, a menudo los grandes dioses del cielo y de la tierra, y en otros textos los jueces del inframundo.",
+      "interpretacion": "El nombre se suele entender como «descendencia del príncipe» (de An). No designa un pueblo ni una familia cerrada: su composición y su papel cambian según la época y el texto.",
+      "detalles": [
+        "En Atrahasis, los Anunnaki imponen el trabajo a los Igigi, cuya rebelión lleva a crear a la humanidad.",
+        "En el Enuma Elish, Marduk reparte a los Anunnaki entre el cielo y el inframundo.",
+        "En el Descenso de Inanna, siete Anunnaki juzgan a la diosa en el mundo de los muertos."
+      ],
+      "fuentes_primarias": ["Atrahasis, tablilla I", "Enuma Elish, tablillas V–VI", "Descenso de Inanna al inframundo"],
+      "bibliografia": [
+        { "titulo": "Gods, Demons and Symbols of Ancient Mesopotamia", "autor": "Jeremy Black y Anthony Green", "anio": 1992 },
+        { "titulo": "Electronic Text Corpus of Sumerian Literature", "autor": "Universidad de Oxford", "anio": 2006, "url": "https://etcsl.orinst.ox.ac.uk/" }
+      ],
+      "relaciones": [
+        { "id": "enki-ea", "tipo": "miembro destacado" },
+        { "id": "enuma-elish", "tipo": "aparece en" },
+        { "id": "atrahasis", "tipo": "aparece en" }
+      ]
+    },
+    {
+      "id": "nibiru",
+      "nombre": "Nibiru",
+      "nombre_original": "nēberu (acad.), «paso, vado»",
+      "categoria": "concepto",
+      "culturas": ["babilonia", "asiria"],
+      "periodo": "neoasirio",
+      "fecha_texto": "Textos astronómicos de c. 1100–500 a. C.",
+      "resumen": "Término astronómico babilonio vinculado a Marduk. Designa un punto de paso en el cielo y, según el texto, un cuerpo visible: casi siempre Júpiter, a veces Mercurio.",
+      "interpretacion": "La palabra significa «lugar de cruce». En la astronomía cuneiforme marca una posición o un astro observable a simple vista; ningún texto describe un planeta oculto ni una órbita de miles de años.",
+      "detalles": [
+        "El compendio MUL.APIN asocia Nēberu con la estrella de Marduk.",
+        "En el Enuma Elish (tablilla V) Marduk fija Nēberu para ordenar los caminos de las estrellas.",
+        "Los astrónomos babilonios registraron con detalle los ciclos de Júpiter, de unos 12 años."
+      ],
+      "fuentes_primarias": ["MUL.APIN", "Enuma Elish, tablilla V, 6–7", "Informes astrológicos a los reyes asirios (SAA 8)"],
+      "bibliografia": [
+        { "titulo": "Mesopotamian Cosmic Geography", "autor": "Wayne Horowitz", "anio": 1998 },
+        { "titulo": "Astrological Reports to Assyrian Kings", "autor": "Hermann Hunger", "anio": 1992 }
+      ],
+      "relaciones": [
+        { "id": "enuma-elish", "tipo": "mencionado en" },
+        { "id": "marduk-inexistente", "tipo": "astro de" }
+      ]
+    },
+    {
+      "id": "enuma-elish",
+      "nombre": "Enuma Elish",
+      "nombre_original": "enūma eliš, «cuando en lo alto»",
+      "categoria": "mito",
+      "culturas": ["babilonia", "asiria"],
+      "periodo": "medio-babilonico",
+      "fecha_texto": "Compuesto probablemente c. 1100 a. C.; copias de los siglos VII–I a. C.",
+      "resumen": "Poema babilonio de la creación en siete tablillas. Marduk vence a Tiamat, forma el cielo y la tierra con su cuerpo y es proclamado rey de los dioses.",
+      "interpretacion": "Es un texto teológico y político: justifica la supremacía de Marduk y de Babilonia. Se recitaba en la fiesta de Año Nuevo (akītu). En Asiria se adaptó poniendo a Assur en lugar de Marduk.",
+      "detalles": [
+        "Tiamat (agua salada) y Apsu (agua dulce) son las aguas primordiales.",
+        "Marduk crea a la humanidad, con la ayuda de Ea, para liberar a los dioses del trabajo.",
+        "Termina con los cincuenta nombres de Marduk."
+      ],
+      "fuentes_primarias": ["Tablillas de la biblioteca de Asurbanipal, Nínive", "Copias de Assur, Kish y Sippar"],
+      "bibliografia": [
+        { "titulo": "Babylonian Creation Myths", "autor": "W. G. Lambert", "anio": 2013 },
+        { "titulo": "Mitos de Mesopotamia", "autor": "Stephanie Dalley (trad.)", "anio": 1989 }
+      ],
+      "relaciones": [
+        { "id": "anunnaki", "tipo": "personajes" },
+        { "id": "enki-ea", "tipo": "personaje" },
+        { "id": "nibiru", "tipo": "menciona" }
+      ]
+    },
+    {
+      "id": "enki-ea",
+      "nombre": "Enki / Ea",
+      "nombre_original": "den-ki (sum.) / Ea (acad.)",
+      "categoria": "deidad",
+      "culturas": ["sumeria", "acadia", "babilonia", "asiria"],
+      "periodo": "dinastico-arcaico",
+      "fecha_texto": "Culto atestiguado desde el Dinástico Arcaico, c. 2600 a. C.",
+      "resumen": "Dios del Apsu, las aguas dulces subterráneas, y de la sabiduría, la magia y los oficios. Su ciudad principal era Eridu.",
+      "interpretacion": "Es el dios astuto que resuelve crisis: salva a la humanidad del diluvio avisando a Atrahasis. Su papel de mediador lo convierte en patrono de exorcistas y artesanos.",
+      "detalles": [
+        "Se le representa con corrientes de agua y peces que brotan de sus hombros.",
+        "En Enki y Ninhursag y en Enki y el orden del mundo organiza la tierra y sus funciones.",
+        "Es padre de Marduk en la teología babilónica."
+      ],
+      "fuentes_primarias": ["Enki y el orden del mundo", "Atrahasis", "Sello de Adda (Museo Británico, BM 89115)"],
+      "bibliografia": [
+        { "titulo": "Gods, Demons and Symbols of Ancient Mesopotamia", "autor": "Jeremy Black y Anthony Green", "anio": 1992 }
+      ],
+      "relaciones": [
+        { "id": "anunnaki", "tipo": "pertenece a" },
+        { "id": "enuma-elish", "tipo": "aparece en" }
+      ]
+    },
+    {
+      "id": "sello-va243",
+      "nombre": "Sello VA 243",
+      "nombre_original": "Sello cilíndrico acadio, Vorderasiatisches Museum de Berlín",
+      "categoria": "concepto",
+      "culturas": ["acadia"],
+      "periodo": "acadio",
+      "fecha_texto": "c. 2300–2200 a. C.",
+      "resumen": "Sello cilíndrico de piedra con una escena de ofrenda ante un dios entronizado. Sobre la escena hay una estrella rodeada de puntos.",
+      "interpretacion": "La inscripción nombra al propietario: «Dubsiga; Ili-illat, tu siervo». La estrella de seis puntas es el signo habitual de una divinidad o astro, y los puntos son motivos de relleno o un cúmulo estelar.",
+      "detalles": [
+        "El Sol en la iconografía mesopotámica se representa como un disco con cuatro puntas y rayos ondulados, no como el símbolo de este sello.",
+        "Los astrónomos cuneiformes nunca enumeran más planetas que los cinco visibles."
+      ],
+      "fuentes_primarias": ["VA 243, Vorderasiatisches Museum, Berlín"],
+      "bibliografia": [
+        { "titulo": "The Myth of a Sumerian 12th Planet", "autor": "Michael S. Heiser", "anio": 2005 }
+      ],
+      "relaciones": [
+        { "id": "nibiru", "tipo": "asociado por Sitchin" },
+        { "id": "sello-va243", "tipo": "autorreferencia de prueba" }
+      ]
+    }
+  ],
+  "glosario": [
+    { "termino": "Apsu", "definicion": "Las aguas dulces subterráneas; morada de Enki/Ea." },
+    { "termino": "Cuneiforme", "definicion": "Escritura de signos en forma de cuña impresos con un cálamo sobre arcilla. Se usó para el sumerio, el acadio y otras lenguas." },
+    { "termino": "Dingir", "definicion": "Signo cuneiforme de estrella que se antepone a los nombres de dioses." },
+    { "termino": "Sello cilíndrico", "definicion": "Cilindro grabado que, rodado sobre arcilla, deja una impresión continua. Servía de firma y garantía." },
+    { "termino": "Ziggurat", "definicion": "Plataforma escalonada de adobe con un templo en la cima." }
+  ]
+}

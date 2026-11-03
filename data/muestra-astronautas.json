@@ -1,0 +1,120 @@
+{
+  "autores": [
+    {
+      "id": "sitchin",
+      "nombre": "Zecharia Sitchin",
+      "vida": "1920–2010",
+      "obras": [
+        { "titulo": "El duodécimo planeta", "anio": 1976 },
+        { "titulo": "La escalera al cielo", "anio": 1980 },
+        { "titulo": "El fin de los días", "anio": 2007 }
+      ],
+      "tesis": "Los Anunnaki serían astronautas del planeta Nibiru que llegaron a la Tierra hace 450 000 años y crearon al ser humano por ingeniería genética para extraer oro.",
+      "formacion": "Licenciado en Economía por la London School of Economics; trabajó como periodista. Sin formación acreditada en sumerio ni en acadio."
+    },
+    {
+      "id": "von-daniken",
+      "nombre": "Erich von Däniken",
+      "vida": "1935–",
+      "obras": [
+        { "titulo": "Recuerdos del futuro", "anio": 1968 },
+        { "titulo": "Regreso a las estrellas", "anio": 1969 }
+      ],
+      "tesis": "Los mitos antiguos recordarían visitas de extraterrestres a quienes se tomó por dioses.",
+      "formacion": "Formación en hostelería. Sin estudios de arqueología ni de lenguas antiguas."
+    }
+  ],
+  "entradas": [
+    {
+      "id": "anunnaki",
+      "titulo_alternativo": "Los que del cielo a la tierra vinieron",
+      "autores": ["sitchin"],
+      "interpretacion": "Para Sitchin, los Anunnaki son una especie extraterrestre de Nibiru que colonizó la Tierra.",
+      "afirmaciones": [
+        {
+          "afirmacion": "«Anunnaki» significa «los que del cielo a la tierra vinieron».",
+          "replica": "La traducción no se sostiene en la gramática sumeria; la lectura aceptada es «descendencia de An» o «descendencia del príncipe».",
+          "fuente_replica": "Michael S. Heiser, sitchiniswrong.com"
+        },
+        {
+          "afirmacion": "Los Anunnaki crearon al ser humano por ingeniería genética.",
+          "replica": "Atrahasis describe una creación con arcilla mezclada con la carne y la sangre de un dios sacrificado: un motivo mítico, no un procedimiento técnico.",
+          "fuente_replica": "W. G. Lambert y A. R. Millard, Atra-ḫasīs, 1969"
+        }
+      ],
+      "veredicto": "Interpretación sin base filológica."
+    },
+    {
+      "id": "nibiru",
+      "titulo_alternativo": "El duodécimo planeta",
+      "autores": ["sitchin"],
+      "interpretacion": "Nibiru sería un planeta con una órbita de 3600 años que se acerca periódicamente a la Tierra.",
+      "afirmaciones": [
+        {
+          "afirmacion": "Los sumerios conocían un planeta más allá de Plutón con órbita de 3600 años.",
+          "replica": "Ningún texto cuneiforme da esa órbita; el número 3600 (šar) es una unidad del sistema sexagesimal. Nēberu se identifica con Júpiter o Mercurio, visibles a simple vista.",
+          "fuente_replica": "Wayne Horowitz, Mesopotamian Cosmic Geography, 1998"
+        },
+        {
+          "afirmacion": "Nibiru chocará o pasará cerca de la Tierra.",
+          "replica": "Un cuerpo así sería visible y perturbaría las órbitas conocidas. La NASA desmintió las predicciones de 2003 y 2012.",
+          "fuente_replica": "NASA, «Nibiru and Doomsday 2012», 2011"
+        }
+      ],
+      "veredicto": "Sin respaldo astronómico ni textual."
+    },
+    {
+      "id": "enuma-elish",
+      "titulo_alternativo": "Una colisión planetaria",
+      "autores": ["sitchin"],
+      "interpretacion": "La batalla entre Marduk y Tiamat describiría el choque de Nibiru con un planeta del que surgieron la Tierra y el cinturón de asteroides.",
+      "afirmaciones": [
+        {
+          "afirmacion": "Tiamat es un planeta destruido por Nibiru.",
+          "replica": "En el texto Tiamat es el mar primordial personificado; la lectura planetaria exige reinterpretar cada término sin apoyo en el léxico acadio.",
+          "fuente_replica": "W. G. Lambert, Babylonian Creation Myths, 2013"
+        }
+      ],
+      "veredicto": "Lectura alegórica impuesta al texto."
+    },
+    {
+      "id": "sello-va243",
+      "titulo_alternativo": "Un mapa del sistema solar",
+      "autores": ["sitchin", "von-daniken"],
+      "interpretacion": "La estrella con once puntos sería el Sol rodeado de doce cuerpos, incluido Nibiru.",
+      "afirmaciones": [
+        {
+          "afirmacion": "El sello muestra el Sol y los planetas a escala.",
+          "replica": "El símbolo central no es el del Sol en la iconografía acadia, y la inscripción solo nombra al propietario. Los puntos no guardan proporción ni orden planetario.",
+          "fuente_replica": "Michael S. Heiser, The Myth of a Sumerian 12th Planet, 2005"
+        }
+      ],
+      "veredicto": "Lectura sin respaldo iconográfico. <script>prueba de escape</script>"
+    },
+    {
+      "id": "entrada-sin-cientifica",
+      "titulo_alternativo": "Entrada de prueba sin equivalente académico",
+      "autores": ["autor-inexistente"],
+      "interpretacion": "Debe ignorarse en el catálogo.",
+      "afirmaciones": []
+    }
+  ],
+  "cronologia": [
+    { "anio": 1968, "evento": "Von Däniken publica «Recuerdos del futuro»." },
+    { "anio": 1976, "evento": "Sitchin publica «El duodécimo planeta»." },
+    { "anio": 1995, "evento": "Nancy Lieder vincula Nibiru con un fin del mundo inminente." },
+    { "anio": 2003, "evento": "Primera fecha fallida del paso de Nibiru." },
+    { "anio": 2009, "evento": "Se estrena la serie «Ancient Aliens»." },
+    { "anio": 2010, "evento": "Muere Zecharia Sitchin." },
+    { "anio": 2012, "evento": "Nueva fecha fallida, unida al fin del calendario maya." }
+  ],
+  "metodo": {
+    "errores_frecuentes": [
+      "Traducciones propias que no siguen la gramática ni los diccionarios del sumerio y el acadio.",
+      "Citar imágenes sin su inscripción ni su contexto arqueológico.",
+      "Tomar el lenguaje mítico como descripción técnica.",
+      "Ignorar las réplicas de los especialistas."
+    ],
+    "por_que_atrae": "Ofrece una historia única y emocionante que conecta mitos dispersos, y presenta a los expertos como guardianes de un secreto."
+  }
+}

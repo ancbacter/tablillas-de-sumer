@@ -1,0 +1,974 @@
+{
+  "autores": [
+    {
+      "id": "sitchin",
+      "nombre": "Zecharia Sitchin",
+      "vida": "1920–2010",
+      "obras": [
+        {
+          "titulo": "The 12th Planet (El duodécimo planeta)",
+          "anio": 1976
+        },
+        {
+          "titulo": "The Stairway to Heaven (La escalera al cielo)",
+          "anio": 1980
+        },
+        {
+          "titulo": "The Wars of Gods and Men (Las guerras de los dioses y los hombres)",
+          "anio": 1985
+        },
+        {
+          "titulo": "The Lost Realms (Los reinos perdidos)",
+          "anio": 1990
+        },
+        {
+          "titulo": "Genesis Revisited (El Génesis revisado)",
+          "anio": 1990
+        },
+        {
+          "titulo": "When Time Began (Cuando comenzó el tiempo)",
+          "anio": 1993
+        },
+        {
+          "titulo": "The Cosmic Code (El código cósmico)",
+          "anio": 1998
+        },
+        {
+          "titulo": "The Lost Book of Enki (El libro perdido de Enki)",
+          "anio": 2001
+        },
+        {
+          "titulo": "The End of Days (El fin de los días)",
+          "anio": 2007
+        }
+      ],
+      "tesis": "Los Anunnaki serían astronautas del planeta Nibiru, de órbita de unos 3600 años, que llegaron a la Tierra hace unos 450 000 años para extraer oro y crearon al ser humano por ingeniería genética como mano de obra. Los textos sumerios serían crónicas literales de esos hechos.",
+      "formacion": "Nacido en Bakú y criado en la Palestina del Mandato británico; licenciado en Economía por la Universidad de Londres (London School of Economics), periodista y editor en Israel y después directivo de una naviera en Nueva York. Aprendió por su cuenta la escritura cuneiforme; no tenía formación académica en sumerio ni en acadio y no publicó en revistas especializadas."
+    },
+    {
+      "id": "von-daniken",
+      "nombre": "Erich von Däniken",
+      "vida": "1935–",
+      "obras": [
+        {
+          "titulo": "Erinnerungen an die Zukunft (Recuerdos del futuro; en inglés Chariots of the Gods?)",
+          "anio": 1968
+        },
+        {
+          "titulo": "Zurück zu den Sternen (Regreso a las estrellas)",
+          "anio": 1969
+        },
+        {
+          "titulo": "Aussaat und Kosmos (Siembra y cosmos)",
+          "anio": 1972
+        }
+      ],
+      "tesis": "Los mitos y monumentos antiguos conservarían el recuerdo de visitas de extraterrestres a quienes los pueblos antiguos tomaron por dioses. Sobre Mesopotamia cita la Epopeya de Gilgamesh como relato de un vuelo y de efectos de la aceleración.",
+      "formacion": "Suizo, sin estudios universitarios; trabajó como gerente de hotel en Davos. No leía lenguas antiguas y usó traducciones de segunda mano (Jason Colavito sospecha que una adaptación alemana libre de Gilgamesh)."
+    },
+    {
+      "id": "temple",
+      "nombre": "Robert K. G. Temple",
+      "vida": "1945–",
+      "obras": [
+        {
+          "titulo": "The Sirius Mystery (El misterio de Sirio)",
+          "anio": 1976
+        },
+        {
+          "titulo": "The Sirius Mystery, edición revisada (New Scientific Evidence of Alien Contact 5,000 Years Ago)",
+          "anio": 1998
+        }
+      ],
+      "tesis": "Seres anfibios procedentes del sistema de Sirio habrían visitado la Tierra hace unos 5000 años y transmitido la civilización; los recordarían el Oannes de Beroso, los Nommo de los dogón de Malí y otras figuras mitad pez.",
+      "formacion": "Escritor estadounidense afincado en Reino Unido con estudios de lenguas orientales y sánscrito (dato biográfico poco verificado en esta investigación). No es asiriólogo ni antropólogo; su base etnográfica sobre los dogón procede de los trabajos de Marcel Griaule y Germaine Dieterlen."
+    },
+    {
+      "id": "tsoukalos",
+      "nombre": "Giorgio A. Tsoukalos y la serie Ancient Aliens",
+      "vida": "1978– (serie: desde 2009)",
+      "obras": [
+        {
+          "titulo": "Ancient Aliens (History Channel), documental piloto",
+          "anio": 2009
+        },
+        {
+          "titulo": "Ancient Aliens (History Channel), serie",
+          "anio": 2010
+        }
+      ],
+      "tesis": "Divulga en televisión la hipótesis de los antiguos astronautas, combinando a Von Däniken y a Sitchin: los dioses de Mesopotamia (Anunnaki) serían extraterrestres con naves y tecnología avanzada. En la serie intervienen también Jason Martell, David Childress, William Henry, M. J. Evans y Philip Coppens.",
+      "formacion": "Tsoukalos, nacido en Suiza, es licenciado en Información y Comunicación Deportiva por el Ithaca College y fue promotor de culturismo; editor de la revista Legendary Times. Ni él ni la mayoría de los participantes de la serie tienen formación en asiriología."
+    },
+    {
+      "id": "alford",
+      "nombre": "Alan F. Alford",
+      "vida": "1961–",
+      "obras": [
+        {
+          "titulo": "Gods of the New Millennium (Los dioses del nuevo milenio)",
+          "anio": 1996
+        },
+        {
+          "titulo": "The Phoenix Solution",
+          "anio": 1998
+        },
+        {
+          "titulo": "When the Gods Came Down",
+          "anio": 2000
+        }
+      ],
+      "tesis": "En 1996 defendió, siguiendo a Sitchin, que los dioses eran astronautas de carne y hueso que modificaron genéticamente al Homo erectus. Después abandonó esa lectura y pasó a interpretar los mitos como recuerdo personificado de una catástrofe cósmica (un planeta que explotó), criticando a Sitchin.",
+      "formacion": "Británico, formado como contable y hombre de negocios; autor independiente sin formación académica en lenguas antiguas. Él mismo reconoció haber estado «encaprichado» con las hipótesis de Sitchin."
+    },
+    {
+      "id": "tellinger",
+      "nombre": "Michael Tellinger",
+      "vida": "1966–",
+      "obras": [
+        {
+          "titulo": "Slave Species of god (La especie esclava de los dioses)",
+          "anio": 2005
+        },
+        {
+          "titulo": "Temples of the African Gods / African Temples of the Anunnaki (con Johan Heine)",
+          "anio": 2009
+        }
+      ],
+      "tesis": "Los Anunnaki habrían creado al ser humano como especie esclava para extraer oro en el sur de África, y miles de círculos de piedra de Mpumalanga (Sudáfrica), incluido el llamado Calendario de Adán, serían restos de su civilización de hace más de 200 000 años.",
+      "formacion": "Sudafricano, músico y escritor, fundador del movimiento político Ubuntu. Sin formación en arqueología ni en asiriología; su lectura de los textos sumerios depende de Sitchin."
+    },
+    {
+      "id": "parks",
+      "nombre": "Anton Parks",
+      "vida": "1967–",
+      "obras": [
+        {
+          "titulo": "Le Secret des Étoiles Sombres (Chroniques du Gírkù, t. 1)",
+          "anio": 2005
+        },
+        {
+          "titulo": "Adam Genisis",
+          "anio": 2007
+        },
+        {
+          "titulo": "Eden, la vérité sur nos origines",
+          "anio": 2011
+        }
+      ],
+      "tesis": "Autor francoalemán que presenta una saga de razas extraterrestres (los Gina'abul, entre ellos los Anunna) y sostiene que el sumerio deriva de una lengua de esos seres, por lo que descompone las palabras sumerias en sílabas para extraer significados ocultos. Afirma haber recibido parte de la información por visiones.",
+      "formacion": "Sin formación académica en sumerio. Su método de descomposición silábica no se corresponde con la gramática sumeria estándar (datos biográficos poco verificados en esta investigación; fuentes mayoritariamente editoriales y de aficionados)."
+    },
+    {
+      "id": "lieder",
+      "nombre": "Nancy Lieder",
+      "vida": "1945–",
+      "obras": [
+        {
+          "titulo": "Sitio web ZetaTalk",
+          "anio": 1995
+        }
+      ],
+      "tesis": "Afirma recibir mensajes de extraterrestres del sistema Zeta Reticuli mediante un implante cerebral. Anunció que un Planeta X pasaría junto a la Tierra en mayo de 2003 provocando un cataclismo; sus seguidores lo identificaron con el Nibiru de Sitchin y trasladaron la fecha a 2012.",
+      "formacion": "Autodenominada contactada y médium; sin formación en astronomía. David Morrison (NASA) la describió como «una médium autoproclamada que dice canalizar a extraterrestres»."
+    }
+  ],
+  "entradas": [
+    {
+      "id": "anunnaki",
+      "titulo_alternativo": "Los Anunnaki, «los que del cielo a la tierra vinieron»",
+      "autores": [
+        "sitchin",
+        "tsoukalos",
+        "tellinger",
+        "parks",
+        "alford"
+      ],
+      "interpretacion": "Es el eje de toda la corriente. Sitchin, en The 12th Planet (1976) y el resto de las Earth Chronicles, sostiene que los Anunnaki eran una especie extraterrestre de aspecto humano originaria de Nibiru. Habrían llegado al golfo Pérsico hace unos 450 000 años, fundado Eridu como primera base y organizado una colonia con jerarquía militar: Anu como rey en Nibiru, Enlil como comandante en la Tierra y Enki como jefe científico. Su motivo habría sido el oro, que necesitaban para reparar la atmósfera de su planeta. Sitchin los identifica además con los nefilim del Génesis 6.\n\nLa serie Ancient Aliens popularizó esta versión desde 2009 y la amplió: Tsoukalos habla de «naves gigantes», Jason Martell de una raza esclava creada para extraer oro y David Childress de cráneos «cónicos». Tellinger y Parks construyeron sobre esa base sus propias sagas, y Alford la defendió en 1996 antes de abandonarla.",
+      "afirmaciones": [
+        {
+          "afirmacion": "Sitchin: «Anunnaki» significa «los que del cielo a la tierra vinieron».",
+          "replica": "El término se escribe a-nun-na y se interpreta como «descendencia principesca» o «descendencia de An» (el dios del cielo). La glosa de Sitchin no se corresponde con ningún léxico sumerio. Heiser contó unas 182 apariciones del término en la literatura sumeria, y en ninguna se relaciona a los Anunnaki con Nibiru ni con un duodécimo planeta.",
+          "fuente_replica": "Michael S. Heiser, sitchiniswrong.com («Zecharia Sitchin's Errors»); Electronic Text Corpus of Sumerian Literature (Oxford)"
+        },
+        {
+          "afirmacion": "Sitchin: los Anunnaki son los nefilim bíblicos, «los que bajaron de lo alto» o «el pueblo de los cohetes de fuego».",
+          "replica": "Nefilim deriva del hebreo naphal, «caer», y la forma solo admite «los caídos» (en combate o en sentido moral). Además Sitchin confunde formas hebreas y arameas.",
+          "fuente_replica": "Michael S. Heiser, sitchiniswrong.com"
+        },
+        {
+          "afirmacion": "Sitchin: el signo DINGIR (dios) significaría «los puros de los cohetes llameantes».",
+          "replica": "Fritze califica esta lectura de «tendenciosa y frecuentemente forzada». DINGIR es un signo en forma de estrella que funciona como determinativo de divinidad, con el valor «dios» o «cielo».",
+          "fuente_replica": "Ronald H. Fritze, Invented Knowledge, 2009"
+        },
+        {
+          "afirmacion": "Ancient Aliens (episodio «The Anunnaki Connection»): los textos cuneiformes describen «con gran detalle» a los Anunnaki como humanoides de larga vida, con naves gigantes y capaces de cambiar de forma.",
+          "replica": "Ningún texto cuneiforme dice nada de eso. En las fuentes los Anunnaki son un grupo de dioses poco definido (por ejemplo, los dioses del cielo y del inframundo en el Enuma Elish), no seres mortales de larga vida. Colavito señala también que la serie llama «sumerio» a todo lo mesopotámico, mezclando culturas separadas por milenios.",
+          "fuente_replica": "Jason Colavito, reseña de Ancient Aliens T6E03, jasoncolavito.com"
+        }
+      ],
+      "veredicto": "Los Anunnaki son un colectivo de dioses bien documentado en los textos; su lectura como astronautas se basa en etimologías que los especialistas no aceptan."
+    },
+    {
+      "id": "nibiru",
+      "titulo_alternativo": "Nibiru, el duodécimo planeta",
+      "autores": [
+        "sitchin",
+        "lieder",
+        "alford"
+      ],
+      "interpretacion": "Según Sitchin (The 12th Planet, 1976), los sumerios conocían un duodécimo miembro del sistema solar (contando el Sol, la Luna y los planetas conocidos), Nibiru, con una órbita muy elíptica de unos 3600 años, que lo lleva más allá de Neptuno y lo devuelve periódicamente entre Marte y Júpiter. Sería el hogar de los Anunnaki y el «planeta de Marduk» del Enuma Elish. Su paso habría provocado catástrofes como el Diluvio.\n\nA partir de 1995, Nancy Lieder anunció en ZetaTalk que un «Planeta X» pasaría junto a la Tierra en 2003; sus seguidores lo fundieron con el Nibiru de Sitchin y, tras el fracaso de esa fecha, lo ligaron al fin del calendario maya en 2012. Sitchin no respaldó esas predicciones. Alan Alford, antiguo seguidor, abandonó la idea al estudiar los datos astronómicos.",
+      "afirmaciones": [
+        {
+          "afirmacion": "Sitchin: Nibiru es un planeta más allá de Plutón donde viven los Anunnaki.",
+          "replica": "En acadio, nēberu significa «cruce» o «punto de paso» (de un río, por ejemplo). En astronomía designa un punto o astro asociado a Marduk: en MUL.APIN suele identificarse con Júpiter y a veces con Mercurio. Tras revisar las apariciones recogidas en el Chicago Assyrian Dictionary, Heiser concluye que ningún texto lo sitúa más allá de Plutón ni lo relaciona con los Anunnaki.",
+          "fuente_replica": "Michael S. Heiser, «The Myth of a Sumerian 12th Planet: Nibiru According to the Cuneiform Sources», sitchiniswrong.com; Chicago Assyrian Dictionary, s.v. nēberu"
+        },
+        {
+          "afirmacion": "Sitchin: Nibiru tiene una órbita de 3600 años.",
+          "replica": "Ningún texto da ese periodo. Sitchin lo toma del šar, la unidad de 3600 del sistema sexagesimal usada en la Lista Real. Según los astrónomos, una órbita así tendría un semieje mayor de unas 235 UA y sería inestable: el planeta acabaría expulsado o en otra órbita.",
+          "fuente_replica": "Resumen de críticas astronómicas en la entrada «Zecharia Sitchin», Wikipedia; C. Leroy Ellenberger, artículo de 1981"
+        },
+        {
+          "afirmacion": "Lieder y sus seguidores: Nibiru chocará con la Tierra o pasará junto a ella (mayo de 2003, diciembre de 2012).",
+          "replica": "Un planeta así sería visible a simple vista años antes de llegar y alteraría las órbitas conocidas. David Morrison, del NASA Astrobiology Institute, recibió cerca de mil preguntas sobre el tema y concluyó que el bulo de Nibiru no tiene «ningún núcleo factual». Ninguna de las fechas se cumplió.",
+          "fuente_replica": "David Morrison, NASA «Ask an Astrobiologist» y vídeo de 2011; NASA, «Beyond 2012: Why the World Won't End», 2012"
+        }
+      ],
+      "veredicto": "Nibiru es un término astronómico babilónico real, probablemente ligado a Júpiter y a Marduk; el planeta errante de Sitchin y los anuncios de catástrofe carecen de base textual y astronómica."
+    },
+    {
+      "id": "sello-va243",
+      "titulo_alternativo": "El sello VA 243, un mapa del sistema solar",
+      "autores": [
+        "sitchin",
+        "tsoukalos"
+      ],
+      "interpretacion": "En The 12th Planet, Sitchin reproduce un sello cilíndrico acadio del Vorderasiatisches Museum de Berlín (n.º de inventario VA 243). En la parte superior izquierda aparece un astro central rodeado de once puntos. Sitchin lo interpreta como el Sol rodeado de once cuerpos (planetas y Luna), es decir, doce miembros con Nibiru, y lo presenta como prueba de que los sumerios conocían Urano, Neptuno, Plutón y un planeta desconocido para la ciencia moderna, con tamaños relativos correctos. La imagen se convirtió en un emblema de la corriente y aparece con frecuencia en Ancient Aliens.",
+      "afirmaciones": [
+        {
+          "afirmacion": "Sitchin: el astro central del sello es el Sol.",
+          "replica": "En cientos de sellos y monumentos mesopotámicos el Sol se representa con cuatro brazos y líneas onduladas que salen de un disco, o como disco con rayos ondulados. El astro de VA 243 no tiene esas líneas onduladas y tiene seis puntas, como las estrellas de esta iconografía (que pueden tener 6, 7 u 8). Por tanto es una estrella, no el Sol.",
+          "fuente_replica": "Michael S. Heiser, «The Myth of a 12th Planet in Sumerian Texts: VA 243», sitchiniswrong.com (PDF)"
+        },
+        {
+          "afirmacion": "Sitchin: el sello prueba que los sumerios conocían doce cuerpos del sistema solar.",
+          "replica": "La inscripción del sello es una fórmula de propiedad, del tipo «Dubsiga; Ili-illat, tu siervo», y no menciona astros. Los textos astronómicos cuneiformes (como MUL.APIN) conocen solo cinco planetas visibles a simple vista, además del Sol y la Luna. Heiser sugiere que los puntos pueden representar un cúmulo estelar o un símbolo vinculado a una divinidad de la fertilidad.",
+          "fuente_replica": "Michael S. Heiser, sitchiniswrong.com; Hunger y Pingree, MUL.APIN, 1989"
+        }
+      ],
+      "veredicto": "Para los especialistas el sello muestra una escena de presentación ante una divinidad con un símbolo estelar; no hay base iconográfica ni textual para leerlo como un mapa del sistema solar."
+    },
+    {
+      "id": "apkallu-oannes",
+      "titulo_alternativo": "Oannes, el instructor anfibio venido de Sirio",
+      "autores": [
+        "temple",
+        "von-daniken",
+        "tsoukalos"
+      ],
+      "interpretacion": "Beroso, sacerdote babilonio del siglo III a. C., cuenta que un ser con cuerpo de pez y cabeza y pies humanos, Oannes, salió del golfo Pérsico y enseñó a los hombres la escritura, las artes y las leyes. En 1966, Shklovskii y Sagan (Intelligent Life in the Universe) propusieron con cautela estudiar este relato como posible recuerdo de un contacto, sin afirmar que lo fuera. Robert Temple (The Sirius Mystery, 1976) lo convirtió en pieza central: Oannes y los demás apkallu serían seres anfibios del sistema de Sirio, emparentados con los Nommo de los dogón de Malí, que según Griaule conocían a Sirio B, una enana blanca invisible a simple vista.\n\nAncient Aliens retomó la idea y añadió otras lecturas de los apkallu asirios: el cono y el cubo que sostienen serían un «bolso» tecnológico, y su tocado de pez, un cráneo alargado.",
+      "afirmaciones": [
+        {
+          "afirmacion": "Temple: los dogón tenían conocimientos sobre Sirio B que solo pudieron venir de visitantes de ese sistema, los mismos que Oannes.",
+          "replica": "En su trabajo de campo de 1991, el antropólogo Walter van Beek no encontró ningún informante dogón que conociera Sirio B ni que considerara a Sirio una estrella doble; además, la astronomía no ocupaba un lugar central en sus creencias. Los datos que Temple atribuye a los dogón se conocían en Occidente desde 1862 y pudieron llegarles por contacto cultural (explicación propuesta por Sagan, Ian Ridpath y los hermanos Pesch). Por otra parte, Oannes aparece en una fuente babilónica tardía y no tiene ninguna relación documentada con Sirio.",
+          "fuente_replica": "W. van Beek, Current Anthropology 32 (1991); Carl Sagan, Broca's Brain, 1979; Jason Colavito, «Robert Temple», jasoncolavito.com"
+        },
+        {
+          "afirmacion": "Ancient Aliens: el «bolso» de los apkallu asirios sería un dispositivo tecnológico o un símbolo del saber alienígena, y la «cabeza cónica» de Oannes probaría cráneos de los Anunnaki.",
+          "replica": "Los textos rituales asirios nombran ambos objetos: el cubo (banduddû) contenía agua o aceite, y el cono (mullilu), probablemente una piña o una espata de palmera, servía para asperjar como purificación. Los apkallu se colocaban en las puertas como protectores. La «cabeza cónica» es la cabeza del pez que forma la vestimenta del sabio, y los apkallu son los Siete Sabios de Ea, no Anunnaki.",
+          "fuente_replica": "F. A. M. Wiggermann, Mesopotamian Protective Spirits, 1992; Jason Colavito, reseña de Ancient Aliens T6E03"
+        }
+      ],
+      "veredicto": "Los apkallu son espíritus sabios y protectores bien documentados en los rituales mesopotámicos; su vínculo con Sirio procede de una etnografía dogón discutida y no tiene apoyo en las fuentes cuneiformes."
+    },
+    {
+      "id": "enuma-elish",
+      "titulo_alternativo": "La batalla celeste: Nibiru contra Tiamat",
+      "autores": [
+        "sitchin",
+        "alford"
+      ],
+      "interpretacion": "Para Sitchin, el Poema babilónico de la Creación no es una teogonía sino una cosmogonía científica codificada. Cada dios sería un cuerpo celeste: Apsu el Sol, Mummu Mercurio, Tiamat un planeta acuoso entre Marte y Júpiter y Marduk el planeta invasor Nibiru. Los «vientos» de Marduk serían sus satélites. En la batalla, uno de ellos partió a Tiamat: una mitad, empujada a otra órbita, se convirtió en la Tierra, y los restos del «cráneo» y de la «cola» formaron el cinturón de asteroides (el «brazalete martillado» del texto) y los cometas. Kingu, el general de Tiamat, sería la Luna.\n\nAlford también leyó el poema en clave astronómica, pero en su etapa posterior (When the Gods Came Down, 2000) lo interpretó como el recuerdo de un planeta que explotó, no como la llegada de Nibiru.",
+      "afirmaciones": [
+        {
+          "afirmacion": "Sitchin: Tiamat es un planeta que fue destruido y del que surgieron la Tierra y el cinturón de asteroides.",
+          "replica": "En el texto, Tiamat es el mar salado primordial personificado como diosa, y con su cuerpo Marduk construye el cielo y la tierra. Es un motivo cosmogónico de separación de las aguas, sin ningún término acadio de significado planetario. Hoy se considera que el cinturón de asteroides es material que nunca llegó a formar un planeta, por la influencia gravitatoria de Júpiter, y no restos de una colisión.",
+          "fuente_replica": "W. G. Lambert, Babylonian Creation Myths, 2013; Peter James (citado en la entrada «Zecharia Sitchin», Wikipedia)"
+        },
+        {
+          "afirmacion": "Sitchin: Apsu es el Sol.",
+          "replica": "Apsu es el océano subterráneo de agua dulce, que en el poema se personifica como dios. Peter James pone esta lectura como ejemplo de cómo Sitchin desfigura el significado de los textos babilónicos.",
+          "fuente_replica": "Peter James, crítica recogida en la entrada «Zecharia Sitchin», Wikipedia; W. Horowitz, Mesopotamian Cosmic Geography, 1998"
+        },
+        {
+          "afirmacion": "Sitchin: el texto describe a Marduk como un planeta (Nibiru).",
+          "replica": "La tablilla V asigna a Marduk la estrella Nēberu, «el Cruce», que regula los movimientos celestes. Langdon ya la interpretó en 1923 como un punto de intersección en el cielo, y los textos astronómicos la asocian con Júpiter. El mismo poema (tablilla VI) describe cómo los Anunnaki fabrican ladrillos y levantan el templo Esagila y su zigurat, una obra humana, no una nave.",
+          "fuente_replica": "Cuneiform Digital Library Bulletin 2015:3, «The Marduk Star Nēbiru»; Heiser, sitchiniswrong.com"
+        }
+      ],
+      "veredicto": "El Enuma Elish es un mito de creación y de exaltación de Marduk compuesto en el II milenio a. C.; su traducción a sucesos astronómicos depende de equivalencias entre dioses y planetas que no aparecen en las listas astronómicas mesopotámicas."
+    },
+    {
+      "id": "atrahasis",
+      "titulo_alternativo": "La huelga de los mineros y el trabajador primitivo",
+      "autores": [
+        "sitchin",
+        "tellinger",
+        "tsoukalos"
+      ],
+      "interpretacion": "El poema de Atrahasis empieza así: «cuando los dioses eran como hombres», soportaban el trabajo. Los dioses menores, cansados de cavar los canales, se rebelan contra Enlil; Enki propone entonces crear al ser humano (lullû) para que cargue con ese trabajo, y la diosa madre lo modela con arcilla mezclada con la carne y la sangre de un dios sacrificado. Sitchin (The 12th Planet; Genesis Revisited) lee el episodio literalmente: los Anunnaki destinados a las minas de oro del sur de África se amotinan, y Enki y Ninhursag crean un «trabajador primitivo» (Adamu) cruzando sus genes con los de un Homo erectus. La «arcilla» sería el óvulo de la hembra homínida, y la «sangre» y la «carne» (o el «espíritu») del dios sacrificado, su ADN.\n\nTellinger (Slave Species of god, 2005) desarrolla la idea de la humanidad como especie esclava, y Ancient Aliens la repite a menudo (Jason Martell, M. J. Evans).",
+      "afirmaciones": [
+        {
+          "afirmacion": "Sitchin: el texto describe una manipulación genética entre Anunnaki y Homo erectus.",
+          "replica": "El poema describe un acto ritual y mítico: modelar arcilla, mezclarla con la carne y la sangre de un dios sacrificado (We-ila) y dejar que las diosas del parto la gesten durante diez meses. Lambert y Millard lo interpretan como una explicación teológica de por qué el hombre tiene un «espíritu» divino y debe servir a los dioses. Ni el texto ni su vocabulario aluden a especies, a homínidos ni a hibridación.",
+          "fuente_replica": "W. G. Lambert y A. R. Millard, Atra-ḫasīs: The Babylonian Story of the Flood, 1969"
+        },
+        {
+          "afirmacion": "Sitchin y Ancient Aliens: los dioses trabajaban en minas de oro y crearon a los humanos para extraerlo.",
+          "replica": "En el poema el trabajo de los dioses consiste en excavar los cauces del Tigris y del Éufrates y mantener los canales, es decir, el regadío mesopotámico. El oro no aparece como motivo. La explicación del oro para la atmósfera de Nibiru es una invención de Sitchin; Colavito observa que una especie espacial lo obtendría con más facilidad de los asteroides.",
+          "fuente_replica": "Lambert y Millard, 1969; Jason Colavito, reseña de Ancient Aliens T6E03"
+        },
+        {
+          "afirmacion": "Tellinger: los círculos de piedra de Mpumalanga (Sudáfrica) son ciudades de los Anunnaki mineros con más de 200 000 años, incluido el «Calendario de Adán».",
+          "replica": "Los arqueólogos identifican la mayoría de esas estructuras con asentamientos agrícolas y ganaderos de piedra de los siglos XVI al XIX (los llamados bokoni), estudiados por Peter Delius, Tim Maggs y Alex Schoeman. La datación de 75 000 a 200 000 años no procede de ningún método arqueológico publicado.",
+          "fuente_replica": "P. Delius, T. Maggs y A. Schoeman, Forgotten World: The Stone-Walled Settlements of the Mpumalanga Escarpment, 2014"
+        }
+      ],
+      "veredicto": "Atrahasis es un mito sobre el origen del trabajo humano y el papel de los hombres al servicio de los dioses; la lectura genética y minera no tiene apoyo en el texto."
+    },
+    {
+      "id": "enki-ninhursag",
+      "titulo_alternativo": "Enki y Ninhursag, los genetistas de la colonia",
+      "autores": [
+        "sitchin",
+        "tellinger",
+        "parks"
+      ],
+      "interpretacion": "Sitchin presenta a Enki como jefe científico y a Ninhursag (también llamada Ninmah o Ninti) como jefa médica de los Anunnaki. Los relatos sumerios en que ambos dioses crean seres serían el diario de laboratorio de sus experimentos. En el mito de Enki y Ninmah, los dos dioses, ebrios, crean seres con defectos; Sitchin lo interpreta como híbridos fallidos antes de lograr al Adamu. En Enki y Ninhursag, el paraíso de Dilmun y las plantas que Enki come serían ensayos genéticos. Sitchin traduce además el nombre Ninti como «señora de la costilla» y «señora de la vida», y lo relaciona con Eva y la costilla de Adán.\n\nParks reescribe los mismos episodios como la creación de los humanos por una facción de los Gina'abul.",
+      "afirmaciones": [
+        {
+          "afirmacion": "Sitchin: los seres defectuosos de Enki y Ninmah son híbridos fallidos de un experimento genético.",
+          "replica": "El mito es una competición entre dioses que explica el origen de las personas con discapacidad y les asigna un lugar en la sociedad (cantor, servidor del rey). Es un relato etiológico, no un informe de laboratorio. Además, el episodio de la creación procede de Enki y Ninmah, un texto distinto de Enki y Ninhursag.",
+          "fuente_replica": "Electronic Text Corpus of Sumerian Literature (Oxford), «Enki and Ninmah», 1.1.2; Thorkild Jacobsen, The Harps that Once…, 1987"
+        },
+        {
+          "afirmacion": "Sitchin: el juego de palabras de Ninti (costilla y vida) prueba que el Génesis copia un relato de clonación.",
+          "replica": "El juego de palabras sumerio ti («costilla» y «vivir») es real y lo propuso S. N. Kramer como posible eco literario en el Génesis, pero es un recurso poético. Explica el nombre de una diosa sanadora en un mito de curación de las costillas de Enki y no describe ningún procedimiento.",
+          "fuente_replica": "S. N. Kramer, History Begins at Sumer, 1956 (cap. sobre el «primer paraíso»)"
+        }
+      ],
+      "veredicto": "Los mitos de Enki con Ninmah y con Ninhursag son relatos etiológicos y de fertilidad; la lectura de laboratorio es una reinterpretación moderna."
+    },
+    {
+      "id": "lista-reyes",
+      "titulo_alternativo": "La Lista Real: los reinados de los dioses astronautas",
+      "autores": [
+        "sitchin",
+        "tsoukalos"
+      ],
+      "interpretacion": "La Lista Real Sumeria afirma que la realeza «bajó del cielo» a Eridu y enumera a ocho reyes antediluvianos (diez en Beroso) con reinados de decenas de miles de años: Alulim reina 28 800 años, Enmenluana 43 200, y el total supera los 241 000 años. Sitchin entiende «bajó del cielo» de forma literal y convierte esas cifras en una cronología real: medidas en šar (3600 años), corresponderían a órbitas de Nibiru, y los 120 šar de Beroso (432 000 años) serían el tiempo de los Anunnaki en la Tierra antes del Diluvio. Ancient Aliens cita a menudo estas cifras como prueba de una longevidad extraterrestre.",
+      "afirmaciones": [
+        {
+          "afirmacion": "Sitchin: los reinados expresados en šar equivalen a órbitas de Nibiru de 3600 años.",
+          "replica": "El šar es solo el número 3600 del sistema sexagesimal (60 × 60), como «millar» en el decimal. Las cifras antediluvianas son múltiplos redondos de 3600 y 600 que expresan la distancia mítica de una edad primordial, igual que las edades de los patriarcas en el Génesis 5. Nada en la lista vincula el šar con un planeta.",
+          "fuente_replica": "Thorkild Jacobsen, The Sumerian King List, Assyriological Studies 11, Oriental Institute, 1939"
+        },
+        {
+          "afirmacion": "Ancient Aliens: reinados de decenas de miles de años solo se explican por seres extraterrestres de larga vida.",
+          "replica": "Las versiones de la lista no coinciden entre sí (WB 62 da 456 000 años; Beroso, 432 000). Es un documento ideológico, compuesto hacia la época de Isin y Larsa, que legitima la sucesión de ciudades hegemónicas. A partir de la I dinastía de Kish los reinados se reducen a cifras humanas y algunos reyes están atestiguados por inscripciones.",
+          "fuente_replica": "Jacobsen, 1939; J.-J. Glassner, Mesopotamian Chronicles, 2004"
+        }
+      ],
+      "veredicto": "La Lista Real es una construcción historiográfica y política con una sección mítica antediluviana; sus cifras siguen convenciones numéricas sexagesimales y no recogen duraciones reales."
+    },
+    {
+      "id": "etana",
+      "titulo_alternativo": "Etana, el primer astronauta",
+      "autores": [
+        "von-daniken",
+        "sitchin",
+        "tsoukalos"
+      ],
+      "interpretacion": "En el mito de Etana, el rey de Kish asciende al cielo a lomos de un águila para pedir la «planta del nacimiento». A medida que suben, el águila le pide que mire abajo, y la tierra se ve cada vez más pequeña: primero como una montaña rodeada por el mar, luego como un huerto y finalmente desaparece. Para la corriente de los antiguos astronautas, esas descripciones solo serían posibles desde una nave en vuelo: sería el testimonio de un viaje espacial o de un vuelo a gran altura. Von Däniken, en Recuerdos del futuro (1968), atribuyó una descripción similar a la Epopeya de Gilgamesh, y Sitchin incorpora a Etana a su relato de los viajes de los dioses en sus «cámaras celestes».",
+      "afirmaciones": [
+        {
+          "afirmacion": "La visión de la tierra cada vez más pequeña muestra un conocimiento real de cómo se ve la Tierra desde el espacio.",
+          "replica": "Lo que Etana ve es la imagen cosmológica mesopotámica: la tierra como una isla montañosa rodeada por el océano. No es la esfera que se ve desde el espacio. Encoger la tierra a medida que se gana altura solo requiere haber subido a una montaña o a un zigurat.",
+          "fuente_replica": "Jason Colavito, «Great moments in ancient astronautics: an imaginary ancient text», jasoncolavito.com; W. Horowitz, Mesopotamian Cosmic Geography, 1998"
+        },
+        {
+          "afirmacion": "Von Däniken: la Epopeya de Gilgamesh describe a Enkidu sintiendo el peso «como de plomo» y viendo cómo la tierra se encoge durante un vuelo.",
+          "replica": "Colavito no encuentra ese pasaje en la tablilla III que cita Von Däniken ni en ningún otro lugar de la epopeya. Cree que Von Däniken confunde Gilgamesh con el mito de Etana y que usa una adaptación alemana libre en lugar de una traducción filológica.",
+          "fuente_replica": "Jason Colavito, «Great moments in ancient astronautics», jasoncolavito.com"
+        }
+      ],
+      "veredicto": "El vuelo de Etana es un motivo mítico de ascensión al cielo, frecuente en el folclore (el águila, el héroe sin hijos); su imaginería sigue la cosmología mesopotámica y no la visión real desde el espacio."
+    },
+    {
+      "id": "erra-ishum",
+      "titulo_alternativo": "Las «armas del terror»: una guerra nuclear en el 2024 a. C.",
+      "autores": [
+        "sitchin"
+      ],
+      "interpretacion": "En The Wars of Gods and Men (1985), Sitchin lee el poema de Erra e Ishum y las lamentaciones por la destrucción de Ur y de Sumer como crónicas de una guerra entre facciones de los Anunnaki. Las «siete armas del terror» que Erra (Nergal) y Ishum (para Sitchin, Ninurta) desatan serían bombas nucleares. Con ellas se habría destruido el puerto espacial del Sinaí y las ciudades de Sodoma y Gomorra. El «viento malvado» de las lamentaciones sería la nube radiactiva que, arrastrada hacia el este por los vientos dominantes, despobló Sumer. Sitchin fecha el suceso en el 2024 a. C. y lo considera la causa del fin de la III dinastía de Ur.",
+      "afirmaciones": [
+        {
+          "afirmacion": "Sitchin: las «siete armas» de Erra son armas nucleares.",
+          "replica": "En el poema, los Siete (Sebettu) son demonios guerreros personificados al servicio de Erra, dios de la peste y de la guerra. La devastación que describe, con guerra civil, epidemias y ciudades abandonadas, coincide con calamidades conocidas en el I milenio a. C. El texto suele fecharse en los siglos IX u VIII a. C., más de mil años después de la fecha de Sitchin.",
+          "fuente_replica": "L. Cagni, The Poem of Erra, 1977; B. R. Foster, Before the Muses, 2005"
+        },
+        {
+          "afirmacion": "Sitchin: el «viento malvado» de las lamentaciones por Ur es la lluvia radiactiva de una explosión nuclear.",
+          "replica": "En las lamentaciones, la «tormenta» de Enlil es una metáfora de la ira divina que encarna la invasión de elamitas y de gentes de Shimashki y el hundimiento político de Ur III hacia el 2004 a. C. (cronología media). Las excavaciones de Ur no muestran ninguna capa de vitrificación ni de radiactividad.",
+          "fuente_replica": "P. Michalowski, The Lamentation over the Destruction of Sumer and Ur, 1989"
+        }
+      ],
+      "veredicto": "Erra e Ishum es un poema teológico sobre la ira divina y la restauración del orden; la lectura nuclear proyecta experiencias del siglo XX sobre un lenguaje metafórico."
+    },
+    {
+      "id": "gilgamesh",
+      "titulo_alternativo": "Gilgamesh, el semidiós que buscó el puerto espacial",
+      "autores": [
+        "von-daniken",
+        "sitchin",
+        "tsoukalos"
+      ],
+      "interpretacion": "Von Däniken (Recuerdos del futuro, 1968) vio en la Epopeya de Gilgamesh descripciones de vuelos y de efectos de la aceleración, y en el Diluvio de Utnapishtim un recuerdo de una intervención extraterrestre. Sitchin (The Stairway to Heaven, 1980) interpreta la búsqueda de la inmortalidad de Gilgamesh como un viaje hacia el «Lugar de Aterrizaje» de los Anunnaki en el Bosque de los Cedros, que él sitúa en Baalbek (Líbano), y hacia el puerto espacial del Sinaí. La condición de Gilgamesh, «dos tercios dios», sería la de un híbrido genético. Ancient Aliens retoma estas ideas, incluida la de que el arca era una nave.",
+      "afirmaciones": [
+        {
+          "afirmacion": "Sitchin: el Bosque de los Cedros de Gilgamesh es una plataforma de aterrizaje en Baalbek.",
+          "replica": "La epopeya no menciona plataformas ni lanzamientos. La gran plataforma de Baalbek y sus bloques (el mayor, de unas 800 toneladas) pertenecen al templo romano de Júpiter Heliopolitano. Colavito señala que la idea de Baalbek como puerto espacial no es original de Sitchin: la propuso antes el soviético Matest M. Agrest.",
+          "fuente_replica": "Jason Colavito, «Why ancient astronaut theorists think Gilgamesh visited a rocket launch pad at Baalbek», jasoncolavito.com; Skeptoid n.º 720 (Brian Dunning, 2020)"
+        },
+        {
+          "afirmacion": "Ancient Aliens: la naturaleza «dos tercios divina» de Gilgamesh demuestra un linaje híbrido con los Anunnaki.",
+          "replica": "La fórmula expresa la filiación mítica del rey, hijo de la diosa Ninsun y del héroe Lugalbanda, una ideología real habitual. Colavito subraya que no tiene ninguna relación con los Anunnaki ni con los vigilantes del libro de Enoc.",
+          "fuente_replica": "A. R. George, The Babylonian Gilgamesh Epic, 2003; Jason Colavito, reseña de Ancient Aliens T6E03"
+        }
+      ],
+      "veredicto": "La Epopeya de Gilgamesh es una obra literaria sobre la muerte y los límites humanos; los pasajes «técnicos» que se le atribuyen no aparecen en el texto o son imágenes poéticas."
+    },
+    {
+      "id": "diluvio-ziusudra",
+      "titulo_alternativo": "El Diluvio provocado por el paso de Nibiru",
+      "autores": [
+        "sitchin",
+        "tsoukalos"
+      ],
+      "interpretacion": "Sitchin (The 12th Planet) sostiene que hace unos 13 000 años el paso de Nibiru desestabilizó el casquete de hielo de la Antártida, que se deslizó al océano y provocó una ola gigantesca: el Diluvio de Ziusudra, Atrahasis y Utnapishtim. Los Anunnaki lo sabían y decidieron no advertir a los humanos, pero Enki rompió el juramento y avisó a su protegido para que construyera una nave sumergible. Los dioses habrían contemplado la catástrofe desde órbita, «encogidos como perros», en sus naves. Ancient Aliens añade que el arca pudo ser una nave espacial, idea que David Childress toma de Bruce Rux (1996).",
+      "afirmaciones": [
+        {
+          "afirmacion": "Sitchin: el Diluvio fue un deslizamiento del hielo antártico provocado por Nibiru hace unos 13 000 años.",
+          "replica": "No existe ninguna evidencia geológica de un colapso antártico ni de una inundación global en esa fecha, y Nibiru no existe como planeta. Los relatos mesopotámicos del Diluvio derivan de inundaciones fluviales locales del sur de Mesopotamia. Además, la tablilla del arca estudiada por Finkel describe una embarcación redonda de juncos, un coracle, no una nave técnica.",
+          "fuente_replica": "Irving Finkel, The Ark Before Noah, 2014; Lambert y Millard, 1969"
+        },
+        {
+          "afirmacion": "Sitchin: los dioses «encogidos como perros» observaban desde naves en órbita.",
+          "replica": "El verso de Gilgamesh XI dice que los dioses, aterrados, subieron al cielo de Anu y se acurrucaron como perros junto al muro. Es una imagen de cobardía divina coherente con la cosmología del cielo como lugar físico de los dioses, y no hay vocabulario técnico.",
+          "fuente_replica": "A. R. George, The Babylonian Gilgamesh Epic, 2003"
+        }
+      ],
+      "veredicto": "El Diluvio mesopotámico es una tradición literaria con varias versiones; la explicación por Nibiru y el hielo antártico no tiene base geológica ni textual."
+    },
+    {
+      "id": "adapa",
+      "titulo_alternativo": "Adapa, el humano llevado a la nave de Anu",
+      "autores": [
+        "sitchin"
+      ],
+      "interpretacion": "En el mito de Adapa, este sabio de Eridu rompe el ala del Viento del Sur y es convocado ante Anu en el cielo. Enki le aconseja rechazar el pan y el agua que le ofrezcan, porque serían «de muerte», pero en realidad eran «de vida» y Adapa pierde la inmortalidad. Sitchin lo interpreta como el viaje de un humano a Nibiru o a una nave de los Anunnaki, y el «pan y agua de vida» como alimentos o tratamientos que daban la longevidad de los dioses.",
+      "afirmaciones": [
+        {
+          "afirmacion": "Sitchin: la subida de Adapa al cielo de Anu es un viaje espacial a Nibiru.",
+          "replica": "El cielo de Anu es el nivel superior de la cosmología mesopotámica, al que se accede por su «puerta», custodiada por Dumuzi y Gishzida. El mito explica la mortalidad humana por un malentendido, un tema análogo al del Génesis 3, y no menciona ningún vehículo. En otras tradiciones, Adapa es uno de los apkallu.",
+          "fuente_replica": "S. Izre'el, Adapa and the South Wind, 2001"
+        }
+      ],
+      "veredicto": "Adapa es un mito sobre la pérdida de la inmortalidad; la lectura de viaje espacial no tiene apoyo en el texto."
+    },
+    {
+      "id": "anzu",
+      "titulo_alternativo": "Anzu y el robo de los datos de control de vuelo",
+      "autores": [
+        "sitchin"
+      ],
+      "interpretacion": "Sitchin interpreta el Duranki de Nippur, el «vínculo cielo-tierra», como el centro de control de misiones de Enlil. La Tablilla de los Destinos que roba el ave Anzu (Zu) contendría los datos orbitales y de comunicación de la colonia, y su robo habría paralizado las operaciones hasta que Ninurta la recuperó en un combate aéreo. Las alas de Anzu y su vuelo serían los de una nave.",
+      "afirmaciones": [
+        {
+          "afirmacion": "Sitchin: la Tablilla de los Destinos es un dispositivo de control y el Duranki un centro de control de misiones.",
+          "replica": "La Tablilla de los Destinos es un símbolo del poder supremo de decretar el destino (šīmtu), que también aparece en el Enuma Elish en manos de Kingu. Duranki es un nombre poético de Nippur como eje entre cielo y tierra. Anzu es un ave leontocéfala de la tormenta, bien representada en la iconografía.",
+          "fuente_replica": "Heiser, sitchiniswrong.com (sobre los equivalentes técnicos que inventa Sitchin); B. R. Foster, Before the Muses, 2005"
+        }
+      ],
+      "veredicto": "El mito de Anzu trata del orden cósmico y de la legitimidad de Ninurta; la lectura tecnológica no tiene base textual (lectura de Sitchin documentada sobre todo en fuentes secundarias)."
+    },
+    {
+      "id": "lugal-e",
+      "titulo_alternativo": "Lugal-e y las «guerras de las pirámides»",
+      "autores": [
+        "sitchin"
+      ],
+      "interpretacion": "En The Wars of Gods and Men (1985), Sitchin usa el poema sumerio Lugal-e, en el que Ninurta derrota al monstruo Asag y juzga una a una las piedras que lucharon a su lado o contra él, como crónica de una guerra entre facciones de los Anunnaki en Egipto. Ninurta habría asaltado la Gran Pirámide de Guiza, que sería una baliza de guía de los aterrizajes, y las «piedras» juzgadas serían cristales y equipos de su interior, retirados o destruidos.",
+      "afirmaciones": [
+        {
+          "afirmacion": "Sitchin: las piedras que juzga Ninurta son los equipos de la Gran Pirámide.",
+          "replica": "Lugal-e es un poema etiológico que explica las propiedades y los usos de las piedras que llegaban a Mesopotamia desde las montañas, por las que unas se emplean en estatuas y otras se pisan. Ningún pasaje menciona Egipto ni pirámides. La Gran Pirámide es una tumba real de la IV dinastía, sin relación con los textos sumerios.",
+          "fuente_replica": "J. van Dijk, LUGAL UD ME-LÁM-bi NIR-ĞÁL, 1983; ETCSL 1.6.2"
+        }
+      ],
+      "veredicto": "Lugal-e es un mito sobre el ordenamiento del mundo mineral; su traslado a Egipto es una construcción de Sitchin (lectura documentada sobre todo en resúmenes secundarios)."
+    },
+    {
+      "id": "inanna-enki-me",
+      "titulo_alternativo": "Inanna roba la tecnología de Enki",
+      "autores": [
+        "sitchin",
+        "parks"
+      ],
+      "interpretacion": "En el mito sumerio de Inanna y Enki, la diosa emborracha a Enki y se lleva a Uruk los me, más de cien «poderes» que fundamentan la civilización, en su «barca del cielo». Sitchin interpreta los me como objetos tecnológicos, discos o programas que contienen el saber de la civilización, y la barca del cielo como una aeronave, por lo que el mito sería una transferencia de tecnología de Eridu a Uruk.",
+      "afirmaciones": [
+        {
+          "afirmacion": "Sitchin: los me son equipos o programas tecnológicos, y la «barca del cielo» una nave.",
+          "replica": "La lista de los me del propio mito, de unas 94 entradas conservadas, incluye la realeza, el sacerdocio, la verdad, el descenso al inframundo, la prostitución sagrada, el arte de la madera, el engaño o la alegría: conceptos, oficios y normas culturales. Los especialistas los definen como normas o prerrogativas cósmicas y culturales. La «barca del cielo» (má-an-na) es el barco divino de Inanna, que en la narración navega por el río.",
+          "fuente_replica": "Michael S. Heiser, sitchiniswrong.com (citando a G. Farber y a The Context of Scripture, vol. 1); ETCSL 1.3.1"
+        }
+      ],
+      "veredicto": "El mito explica el prestigio de Uruk y de Inanna como depositaria de los fundamentos de la civilización; los me son conceptos, no aparatos."
+    },
+    {
+      "id": "me",
+      "titulo_alternativo": "Los me, la tecnología de los dioses",
+      "autores": [
+        "sitchin",
+        "parks",
+        "tsoukalos"
+      ],
+      "interpretacion": "Para Sitchin, los me eran objetos físicos que contenían el conocimiento de la civilización, algo parecido a dispositivos de memoria. En sus libros también los relaciona con el equipo de vuelo de los dioses: el tocado SHU.GAR.RA sería un casco espacial, y los me, accesorios de los pilotos de las «cámaras celestes». En la cultura de los antiguos astronautas los me se describen a menudo como «chips» o «programas» que los dioses entregaban a los reyes.",
+      "afirmaciones": [
+        {
+          "afirmacion": "Sitchin: SHU.GAR.RA es un casco espacial y los me son equipo de vuelo espacial.",
+          "replica": "Las estatuas que cita Sitchin muestran tocados ceremoniales, no cascos. En Inanna y Enki los me son ideas abstractas, actividades e insignias, y ninguno se vincula con el vuelo. La lectura del vuelo depende a su vez de que MU sea una nave, algo que las fuentes no respaldan.",
+          "fuente_replica": "Michael S. Heiser, «Zecharia Sitchin's Errors», sitchiniswrong.com; G. Farber, «me», Reallexikon der Assyriologie 7"
+        }
+      ],
+      "veredicto": "Los me son un concepto teológico sumerio, las normas y poderes que hacen posible la civilización; no hay indicios textuales de que fueran artefactos."
+    },
+    {
+      "id": "zigurat",
+      "titulo_alternativo": "Zigurats: torres de control y plataformas de aterrizaje",
+      "autores": [
+        "sitchin",
+        "tsoukalos",
+        "von-daniken"
+      ],
+      "interpretacion": "Sitchin interpreta las torres escalonadas mesopotámicas como instalaciones de los Anunnaki: balizas, torres de comunicación o plataformas de aterrizaje para sus «cámaras celestes». En The 12th Planet lee el shem de la Torre de Babel (Génesis 11) y el sumerio MU como un objeto cónico «que se eleva recto», un cohete, de modo que la torre de Babel sería una plataforma de lanzamiento. Ancient Aliens y otros autores presentan los zigurats como réplicas de antiguas instalaciones de vuelo.",
+      "afirmaciones": [
+        {
+          "afirmacion": "Sitchin: MU y el hebreo shem significan «cohete» u «objeto que se eleva», y la Torre de Babel era una rampa de lanzamiento.",
+          "replica": "Sitchin no cita ningún diccionario. Las listas léxicas definen šamû como «cielo» y «lluvia»; el acadio šumu y el hebreo shem significan «nombre» o «fama» (Chicago Assyrian Dictionary). En Génesis 11, los constructores levantan una ciudad y una torre de ladrillo y betún para «hacerse un nombre».",
+          "fuente_replica": "Michael S. Heiser, sitchiniswrong.com (citando a W. Horowitz y a J. L. Hayes, A Manual of Sumerian Grammar)"
+        },
+        {
+          "afirmacion": "Ancient Aliens: los zigurats son plataformas de aterrizaje de los dioses.",
+          "replica": "Los zigurats son terrazas de adobe macizo con un templo en la cima, de finales del III milenio a. C. en adelante (el de Ur fue construido por Ur-Nammu). Las inscripciones de fundación nombran a sus constructores humanos, y el propio Enuma Elish (VI) describe cómo se fabrican los ladrillos de Esagila y su zigurat Etemenanki. Su forma deriva de templos sobre plataformas cada vez más altas, como en Eridu y Uruk.",
+          "fuente_replica": "Heiser, sitchiniswrong.com; Jason Colavito, «Damn those lying ancient texts», jasoncolavito.com"
+        }
+      ],
+      "veredicto": "Los zigurats son templos-montaña bien documentados en la arqueología y en los textos de construcción; su lectura como instalaciones aeroespaciales se apoya en etimologías erróneas."
+    },
+    {
+      "id": "disco-alado",
+      "titulo_alternativo": "El disco alado, símbolo de Nibiru o de una nave",
+      "autores": [
+        "sitchin",
+        "tsoukalos"
+      ],
+      "interpretacion": "Sitchin identifica el disco solar alado, presente en Egipto, en Asiria (con el dios Ashur o Shamash dentro) y en Persia (el faravahar), como el emblema de Nibiru, el «planeta del cruce», que se representa con alas porque viaja por el cielo. En la televisión de antiguos astronautas, el disco alado con una figura humana se presenta también como una nave o como un piloto en su vehículo.",
+      "afirmaciones": [
+        {
+          "afirmacion": "Sitchin: el disco alado representa el planeta Nibiru.",
+          "replica": "El disco alado es un motivo solar de origen egipcio (Behdety, Horus de Edfu) difundido por todo el Próximo Oriente en el II milenio a. C. En Asiria se asocia a Shamash o a Ashur como símbolo de protección divina de la realeza. Ningún texto lo vincula con Nibiru, y en los kudurru el símbolo de Shamash es el disco estrellado, mientras que Marduk se representa con la azada (marru).",
+          "fuente_replica": "J. Black y A. Green, Gods, Demons and Symbols of Ancient Mesopotamia, 1992; Heiser, sitchiniswrong.com"
+        },
+        {
+          "afirmacion": "Ancient Aliens: la figura humana dentro del disco es un piloto en su nave.",
+          "replica": "En el arte neoasirio la figura del disco imita la postura y las armas del rey (el arco) y simboliza al dios protector que acompaña al monarca en la batalla. Es una convención iconográfica que evolucionó durante siglos, no la representación de un vehículo.",
+          "fuente_replica": "Black y Green, 1992"
+        }
+      ],
+      "veredicto": "El disco alado es un símbolo solar y de protección real con una historia iconográfica bien estudiada; su identificación con Nibiru o con una nave no tiene apoyo en las fuentes."
+    },
+    {
+      "id": "lamassu",
+      "titulo_alternativo": "Los seres alados: Anunnaki o híbridos",
+      "autores": [
+        "tsoukalos"
+      ],
+      "interpretacion": "Ancient Aliens presenta los relieves asirios de seres alados (lamassu, genios alados y figuras con cabeza de ave) como representaciones de los Anunnaki o de híbridos creados por ellos, y como prueba de que los mesopotámicos convivieron con seres no humanos.",
+      "afirmaciones": [
+        {
+          "afirmacion": "Ancient Aliens: los hombres alados babilónicos y asirios son Anunnaki, y la figura con cabeza de ave, otro Anunnaki.",
+          "replica": "Los hombres alados son espíritus protectores neoasirios (lamassu y apkallu), y la figura con cabeza de ave es un genio grifo. Ninguno está vinculado a los Anunnaki. Los toros androcéfalos alados guardaban las puertas de los palacios y su función protectora aparece en los propios rituales asirios.",
+          "fuente_replica": "Jason Colavito, reseña de Ancient Aliens T6E03; F. A. M. Wiggermann, Mesopotamian Protective Spirits, 1992"
+        }
+      ],
+      "veredicto": "Los lamassu y genios alados son figuras apotropaicas del arte asirio; la serie las desvincula de su contexto ritual."
+    },
+    {
+      "id": "astronomia-babilonica",
+      "titulo_alternativo": "Un saber astronómico imposible",
+      "autores": [
+        "sitchin",
+        "temple",
+        "tsoukalos"
+      ],
+      "interpretacion": "Sitchin sostiene que los sumerios conocían planetas invisibles a simple vista (Urano, Neptuno y Plutón), sus colores y tamaños, la precesión de los equinoccios y un sistema de doce cuerpos, y que ese saber solo pudo transmitirlo una civilización espacial. Sitchin (Genesis Revisited, 1990) presentó la llegada de la sonda Voyager 2 a Urano y Neptuno como confirmación de las descripciones sumerias. Temple atribuye a la misma fuente el conocimiento sobre Sirio.",
+      "afirmaciones": [
+        {
+          "afirmacion": "Sitchin: los sumerios conocían doce cuerpos del sistema solar, incluidos Urano, Neptuno y Plutón.",
+          "replica": "Los textos astronómicos cuneiformes, como MUL.APIN y los Diarios astronómicos, mencionan solo cinco planetas (Mercurio, Venus, Marte, Júpiter y Saturno), además del Sol y la Luna. La astronomía matemática babilónica, muy refinada, es en su mayor parte del I milenio a. C. y se desarrolló a partir de siglos de observación sistemática a simple vista. Heiser señala que las equivalencias entre dioses y planetas de Sitchin no coinciden con las listas astronómicas de los escribas.",
+          "fuente_replica": "H. Hunger y D. Pingree, MUL.APIN: An Astronomical Compendium in Cuneiform, 1989; Heiser, sitchiniswrong.com"
+        },
+        {
+          "afirmacion": "Sitchin: el tiempo de 3600 años y el uso del número 12 reflejan un saber cósmico recibido.",
+          "replica": "El 3600 y el 12 son números naturales en un sistema sexagesimal (60², divisores de 60) que también sirvieron para el calendario lunisolar de doce meses. Su importancia es aritmética y calendárica, no la huella de un planeta desconocido.",
+          "fuente_replica": "O. Neugebauer, The Exact Sciences in Antiquity, 1957"
+        }
+      ],
+      "veredicto": "La astronomía babilónica es un logro humano extraordinario y bien documentado; los conocimientos que se le atribuyen sobre planetas exteriores no aparecen en sus textos."
+    },
+    {
+      "id": "an-anu",
+      "titulo_alternativo": "Anu, el rey de Nibiru",
+      "autores": [
+        "sitchin"
+      ],
+      "interpretacion": "Sitchin hace de Anu el soberano que reina en Nibiru y visita la Tierra en contadas ocasiones; su «cielo» sería el propio planeta. La Lista Real y los mitos que lo sitúan en la cima del panteón reflejarían la jerarquía política de la colonia, y la fórmula «la realeza bajó del cielo» significaría que vino de Nibiru.",
+      "afirmaciones": [
+        {
+          "afirmacion": "Sitchin: el cielo de Anu es el planeta Nibiru.",
+          "replica": "An significa «cielo» y es tanto el dios como la bóveda celeste, el nivel más alto de la cosmología mesopotámica. Nibiru se asocia en los textos con Marduk y Júpiter, no con Anu, y ningún texto identifica el cielo de Anu con un planeta.",
+          "fuente_replica": "W. Horowitz, Mesopotamian Cosmic Geography, 1998; Heiser, sitchiniswrong.com"
+        }
+      ],
+      "veredicto": "Anu es el dios del cielo y padre de los dioses; su conversión en monarca planetario es una lectura de Sitchin sin apoyo textual."
+    },
+    {
+      "id": "enlil",
+      "titulo_alternativo": "Enlil, el comandante de la misión",
+      "autores": [
+        "sitchin"
+      ],
+      "interpretacion": "Para Sitchin, Enlil es el comandante en jefe de los Anunnaki en la Tierra, hermano y rival de Enki, que dirige las operaciones desde el centro de control de Nippur (Duranki). Su hostilidad hacia los humanos, por ejemplo al decretar el Diluvio, sería una decisión política dentro de una disputa dinástica entre las ramas de Enlil y de Enki.",
+      "afirmaciones": [
+        {
+          "afirmacion": "Sitchin: Enlil y Enki son medio hermanos de una dinastía extraterrestre enfrentados por la sucesión.",
+          "replica": "En la teología mesopotámica Enlil es el dios del aire y de la autoridad, rey de los dioses con sede en Nippur, y su relación con Enki varía según el texto. Las rivalidades entre dioses son recursos narrativos y teológicos comunes, y el centro de control y las leyes de sucesión que Sitchin describe no aparecen en ninguna fuente.",
+          "fuente_replica": "Black y Green, Gods, Demons and Symbols of Ancient Mesopotamia, 1992"
+        }
+      ],
+      "veredicto": "Enlil es el gran dios de Nippur; el papel de comandante de la misión es una creación narrativa de Sitchin."
+    },
+    {
+      "id": "enki-ea",
+      "titulo_alternativo": "Enki, el jefe científico y señor de las minas",
+      "autores": [
+        "sitchin",
+        "tellinger",
+        "parks"
+      ],
+      "interpretacion": "Enki es el héroe de la saga de Sitchin: el primer Anunnaki en amerizar en el golfo Pérsico, fundador de Eridu, ingeniero de las minas de oro africanas, creador del ser humano junto a Ninhursag y protector de la humanidad frente a Enlil. En The Lost Book of Enki (2001), Sitchin escribe en primera persona las supuestas memorias de Enki. Para Tellinger, el sur de África fue el dominio minero de Enki, y en Parks Enki es una figura protagonista de los Gina'abul.",
+      "afirmaciones": [
+        {
+          "afirmacion": "Sitchin: Enki era un Anunnaki que dirigía las minas de oro del sur de África (el Abzu).",
+          "replica": "El Abzu es el océano subterráneo de agua dulce y la sede del templo de Enki en Eridu, no una región minera de África. Colavito considera que la pertenencia de Ea a los Anunnaki es una invención de Sitchin. The Lost Book of Enki no traduce ninguna tablilla: es una novela del propio Sitchin.",
+          "fuente_replica": "Jason Colavito, reseña de Ancient Aliens T6E03; Black y Green, 1992"
+        }
+      ],
+      "veredicto": "Enki/Ea es el dios de las aguas dulces, la sabiduría y la magia; su papel de ingeniero genético y minero procede de Sitchin, no de los textos."
+    },
+    {
+      "id": "inanna-ishtar",
+      "titulo_alternativo": "Inanna, la piloto",
+      "autores": [
+        "sitchin"
+      ],
+      "interpretacion": "Sitchin presenta a Inanna/Ishtar como una aviadora que viaja por los cielos en su «cámara celeste» (MU). Cree verla representada con casco, gafas y auriculares en una estatuilla de Mari y en relieves donde lleva tocados y objetos colgados del pecho. Su ambición política y sus desplazamientos entre ciudades serían los de una Anunnaki influyente.",
+      "afirmaciones": [
+        {
+          "afirmacion": "Sitchin: la iconografía de Inanna muestra un casco de piloto y equipo de vuelo.",
+          "replica": "Heiser comprueba que las imágenes que cita Sitchin muestran tocados con cuernos, el distintivo de la divinidad, y collares o contrapesos ceremoniales. MU no significa «nave», y la «cámara celeste» depende de esa traducción errónea.",
+          "fuente_replica": "Michael S. Heiser, sitchiniswrong.com"
+        }
+      ],
+      "veredicto": "Inanna es la diosa del amor, la guerra y el planeta Venus; su caracterización como piloto procede de una lectura literal de imágenes rituales."
+    },
+    {
+      "id": "ninhursag",
+      "titulo_alternativo": "Ninhursag, la jefa médica",
+      "autores": [
+        "sitchin",
+        "tellinger"
+      ],
+      "interpretacion": "Para Sitchin, Ninhursag (Ninmah, Ninti, Mammi) es la oficial médica de los Anunnaki y la «madre» biológica del primer ser humano: habría gestado o implantado los embriones del Adamu. Su título de «madre de los dioses» y de partera de la humanidad describiría una función técnica.",
+      "afirmaciones": [
+        {
+          "afirmacion": "Sitchin: Ninhursag gestó al primer humano mediante una técnica de implantación de embriones.",
+          "replica": "Ninhursag es la diosa madre y de las montañas. En Atrahasis, como Mami/Nintu, preside el parto mítico con las catorce diosas del vientre, un reflejo de las prácticas de la partería y no de procedimientos de laboratorio. Su símbolo es el omega, que posiblemente representa un útero o un instrumento de partería.",
+          "fuente_replica": "Lambert y Millard, 1969; Black y Green, 1992"
+        }
+      ],
+      "veredicto": "Ninhursag es una diosa madre con funciones de fertilidad y parto; su papel de científica médica es una reinterpretación moderna."
+    },
+    {
+      "id": "utu-shamash",
+      "titulo_alternativo": "Utu, comandante del puerto espacial",
+      "autores": [
+        "sitchin"
+      ],
+      "interpretacion": "En The Stairway to Heaven (1980), Sitchin hace de Utu/Shamash el responsable del puerto espacial de los Anunnaki tras el Diluvio, situado en la península del Sinaí, y de la plataforma de aterrizaje de Baalbek. Sus «águilas» serían los astronautas a su mando, y las representaciones de seres con cabeza de águila, pilotos con casco.",
+      "afirmaciones": [
+        {
+          "afirmacion": "Sitchin: Shamash dirigía un puerto espacial en el Sinaí.",
+          "replica": "Shamash es el dios del Sol y de la justicia, venerado en Sippar y Larsa. Ningún texto mesopotámico menciona un puerto espacial ni lo sitúa en el Sinaí. Las figuras con cabeza de ave son genios grifo protectores del arte asirio.",
+          "fuente_replica": "Black y Green, 1992; Wiggermann, 1992"
+        }
+      ],
+      "veredicto": "Utu/Shamash es el dios solar y juez; el puerto espacial del Sinaí es una construcción de Sitchin."
+    },
+    {
+      "id": "nanna-sin",
+      "titulo_alternativo": "Nanna y la caída nuclear de Ur",
+      "autores": [
+        "sitchin"
+      ],
+      "interpretacion": "Sitchin (The Wars of Gods and Men, 1985) interpreta las lamentaciones en que Nanna/Sin, dios lunar y patrón de Ur, llora la destrucción de su ciudad como el testimonio de un dios ante la nube radiactiva de la guerra nuclear entre Anunnaki del 2024 a. C.",
+      "afirmaciones": [
+        {
+          "afirmacion": "Sitchin: el dolor de Nanna por Ur describe la contaminación radiactiva de la ciudad.",
+          "replica": "La Lamentación por la destrucción de Ur pertenece a un género litúrgico que atribuye la ruina política, la invasión elamita del final de Ur III, a la decisión de los dioses. El «viento» es una metáfora de la ira divina. Ur fue reconstruida y siguió habitada durante siglos, algo incompatible con una contaminación radiactiva.",
+          "fuente_replica": "P. Michalowski, The Lamentation over the Destruction of Sumer and Ur, 1989"
+        }
+      ],
+      "veredicto": "Nanna/Sin es el dios de la Luna; la lectura nuclear de las lamentaciones no tiene apoyo arqueológico ni filológico."
+    },
+    {
+      "id": "marduk",
+      "titulo_alternativo": "Marduk, el planeta y el dios",
+      "autores": [
+        "sitchin"
+      ],
+      "interpretacion": "Sitchin tiene a Marduk por dos cosas a la vez: el nombre babilonio del planeta Nibiru en el Enuma Elish y un Anunnaki concreto, hijo de Enki, que habría disputado el poder a la rama de Enlil y se habría proclamado dios supremo en Babilonia. Lo identifica además con el egipcio Ra. Su ascenso en el II milenio a. C. sería el desenlace de las guerras de los dioses.",
+      "afirmaciones": [
+        {
+          "afirmacion": "Sitchin: Marduk es el planeta Nibiru y a la vez el Anunnaki Ra de Egipto.",
+          "replica": "El ascenso de Marduk refleja la importancia política de Babilonia desde Hammurabi y, sobre todo, en época casita y de Nabucodonosor I. Su estrella es Nēberu/Júpiter en la astronomía babilónica. Colavito recuerda que en el Enuma Elish Marduk no es un Anunnaki. La identificación con Ra no tiene base en los textos egipcios ni mesopotámicos.",
+          "fuente_replica": "Jason Colavito, reseña de Ancient Aliens T6E03; W. G. Lambert, Babylonian Creation Myths, 2013"
+        }
+      ],
+      "veredicto": "Marduk es el dios de Babilonia cuya exaltación tiene causas políticas documentadas; su identificación con un planeta errante procede de Sitchin."
+    },
+    {
+      "id": "tiamat",
+      "titulo_alternativo": "Tiamat, el planeta acuoso destruido",
+      "autores": [
+        "sitchin",
+        "alford"
+      ],
+      "interpretacion": "Para Sitchin, Tiamat era un planeta acuoso situado entre Marte y Júpiter. Uno de los «satélites-vientos» de Nibiru lo partió: una mitad formó la Tierra, que heredó sus océanos, y la otra el cinturón de asteroides. Así explica también la abundancia de agua en la Tierra. Alford (When the Gods Came Down, 2000) propuso a su vez que los mitos recuerdan la explosión de un planeta.",
+      "afirmaciones": [
+        {
+          "afirmacion": "Sitchin: Tiamat era un planeta cuyos restos forman la Tierra y el cinturón de asteroides.",
+          "replica": "Tiamat significa en acadio «mar» (tâmtu), el mar salado primordial. La masa total del cinturón de asteroides equivale a un pequeño porcentaje de la masa de la Luna, muy lejos de la de un planeta del tamaño de la Tierra. El agua terrestre se explica por la formación del planeta y por el aporte de cuerpos helados.",
+          "fuente_replica": "W. G. Lambert, Babylonian Creation Myths, 2013; Peter James (citado en «Zecharia Sitchin», Wikipedia)"
+        }
+      ],
+      "veredicto": "Tiamat es la personificación del mar primordial; su lectura planetaria contradice tanto el texto como la astronomía."
+    },
+    {
+      "id": "apsu",
+      "titulo_alternativo": "Apsu, el Sol",
+      "autores": [
+        "sitchin"
+      ],
+      "interpretacion": "En la cosmogonía de Sitchin, Apsu, «el que existía desde el principio», es el Sol, y su unión con Tiamat describe la formación del sistema solar. Mummu, su consejero, sería Mercurio.",
+      "afirmaciones": [
+        {
+          "afirmacion": "Sitchin: Apsu es el Sol.",
+          "replica": "Apsu (sumerio abzu) es el depósito subterráneo de agua dulce, el dominio de Enki, y su templo en Eridu se llamaba é-abzu. Peter James usa esta identificación como ejemplo de cómo Sitchin desfigura los textos.",
+          "fuente_replica": "Peter James (citado en «Zecharia Sitchin», Wikipedia); W. Horowitz, Mesopotamian Cosmic Geography, 1998"
+        }
+      ],
+      "veredicto": "Apsu es el océano de agua dulce subterráneo; la equivalencia con el Sol carece de apoyo textual."
+    },
+    {
+      "id": "nergal",
+      "titulo_alternativo": "Nergal/Erra, el que desató las armas nucleares",
+      "autores": [
+        "sitchin"
+      ],
+      "interpretacion": "En The Wars of Gods and Men (1985), Sitchin identifica a Erra con Nergal y lo presenta como el Anunnaki que, junto a Ninurta, usó las «armas del terror» contra el puerto espacial del Sinaí y las ciudades de la llanura en el 2024 a. C.",
+      "afirmaciones": [
+        {
+          "afirmacion": "Sitchin: Nergal/Erra lanzó armas nucleares.",
+          "replica": "Nergal es el dios del inframundo, la peste y la guerra, y Erra comparte con él esos rasgos. El poema de Erra e Ishum es del I milenio a. C. y sus «armas» son los Siete demonios y la peste personificada.",
+          "fuente_replica": "L. Cagni, The Poem of Erra, 1977; Black y Green, 1992"
+        }
+      ],
+      "veredicto": "Nergal es el señor del inframundo y de la peste; su papel nuclear es una lectura moderna de un poema metafórico."
+    },
+    {
+      "id": "ninurta",
+      "titulo_alternativo": "Ninurta, el guerrero de las máquinas voladoras",
+      "autores": [
+        "sitchin"
+      ],
+      "interpretacion": "Sitchin presenta a Ninurta, hijo de Enlil, como el comandante militar de los Anunnaki: el que recupera la Tablilla de los Destinos robada por Anzu en un combate aéreo, el que asalta la Gran Pirámide en las «guerras de las pirámides» (Lugal-e) y el que acompaña a Nergal en el ataque nuclear de 2024 a. C. Su «pájaro divino» sería una aeronave.",
+      "afirmaciones": [
+        {
+          "afirmacion": "Sitchin: el «pájaro negro divino» de Ninurta era una aeronave.",
+          "replica": "Ninurta es el dios guerrero y agrícola de Nippur, y su arma Sharur es un arma personificada que habla con él en Lugal-e. El pájaro de la tormenta (el Anzu vencido) es un emblema mítico. Las fuentes no relacionan a Ninurta con Egipto ni con pirámides.",
+          "fuente_replica": "J. van Dijk, LUGAL UD ME-LÁM-bi NIR-ĞÁL, 1983; Black y Green, 1992"
+        }
+      ],
+      "veredicto": "Ninurta es un dios guerrero y de la fertilidad agrícola; su conversión en piloto de combate es una lectura de Sitchin."
+    },
+    {
+      "id": "igigi",
+      "titulo_alternativo": "Los Igigi, los astronautas en órbita",
+      "autores": [
+        "sitchin"
+      ],
+      "interpretacion": "Sitchin distingue entre los Anunnaki destinados en la Tierra y los Igigi, unos 300 astronautas que permanecían en órbita o en una estación en Marte encargados del transporte del oro hacia Nibiru. En su relato, los Igigi se casan con mujeres humanas (un eco de los «hijos de Dios» del Génesis 6) y se rebelan por sus condiciones de trabajo.",
+      "afirmaciones": [
+        {
+          "afirmacion": "Sitchin: los Igigi eran 300 astronautas en órbita o en Marte.",
+          "replica": "Igigi es un término acadio para los grandes dioses del cielo, a menudo usado en pareja con Anunnaki para referirse a la totalidad de los dioses. En Atrahasis los Igigi son los dioses que trabajan y se rebelan. En algunos textos tardíos se cuentan 300 dioses del cielo y 600 de la tierra, pero son cifras cosmológicas, sin relación con Marte ni con órbitas.",
+          "fuente_replica": "Lambert y Millard, 1969; Black y Green, 1992; Colavito, reseña de Ancient Aliens T6E03 (sobre la ficción de Ancient Aliens de los Anunnaki en Marte)"
+        }
+      ],
+      "veredicto": "Los Igigi son una categoría de dioses en la teología mesopotámica; su papel de tripulación orbital es una invención narrativa."
+    },
+    {
+      "id": "dilmun",
+      "titulo_alternativo": "Dilmun/Tilmun, la tierra de los cohetes",
+      "autores": [
+        "sitchin"
+      ],
+      "interpretacion": "En The Stairway to Heaven (1980), Sitchin distingue entre Dilmun, el paraíso de Enki y Ninhursag, y Tilmun, «la tierra de los misiles», que sitúa en la península del Sinaí como emplazamiento del puerto espacial post-diluviano de los Anunnaki. Gilgamesh habría viajado allí en busca de la inmortalidad.",
+      "afirmaciones": [
+        {
+          "afirmacion": "Sitchin: Tilmun es el Sinaí, «la tierra de los misiles».",
+          "replica": "Dilmun (escrito también Tilmun) es una región comercial del golfo Pérsico identificada con Baréin y la costa oriental de Arabia gracias a inscripciones, sellos y excavaciones (la Qal'at al-Bahrain, en la lista de Patrimonio de la UNESCO). La etimología «misiles» depende de la lectura errónea de MU y shem como cohete.",
+          "fuente_replica": "H. Crawford, Dilmun and its Gulf Neighbours, 1998; Heiser, sitchiniswrong.com"
+        }
+      ],
+      "veredicto": "Dilmun es un lugar real del golfo Pérsico, bien documentado por la arqueología; su traslado al Sinaí como puerto espacial no tiene base."
+    },
+    {
+      "id": "tablilla-perdida-enlil",
+      "titulo_alternativo": "El testimonio perdido de Enlil: el comandante anunnaki que votó por exterminar a la humanidad",
+      "autores": [
+        "sitchin"
+      ],
+      "interpretacion": "En la divulgación alternativa, sobre todo en vídeos de YouTube de 2025 de canales anónimos como «The Lost Vault» y «The Obsidian Vault», la «Tablilla Perdida de Enlil» se presenta como un documento «por fin recuperado» o «por fin traducido». En él Enlil, entendido como comandante de unos Anunnaki extraterrestres, explicaría por qué votó en el consejo de los dioses destruir a la humanidad mediante el diluvio. Su hermano Enki/Ea sería el creador y protector de los humanos. Este planteamiento procede directamente de Zecharia Sitchin, sobre todo de «The 12th Planet» (1976) y «The Lost Book of Enki» (2002). En esos libros Enlil y Enki son dos hermanos anunnaki de Nibiru enfrentados por el destino de la humanidad, y el diluvio es una catástrofe que Enlil permite deliberadamente. Los vídeos presentan la tablilla como la «versión de Enlil», el complemento del supuesto libro de Enki.",
+      "afirmaciones": [
+        {
+          "afirmacion": "Existe una tablilla de Enlil, perdida y recuperada o traducida recientemente, en la que el dios explica su decisión de exterminar a la humanidad.",
+          "replica": "Ningún museo, catálogo (CDLI, ORACC, ETCSL) ni publicación académica registra esa tablilla. La única tablilla «olvidada» relacionada con Enlil que se publicó en esos años es Ni 12501 (Matuszak, Iraq 2024/2025), y no trata de destruir a la humanidad: cuenta el rescate del dios Iškur, atrapado en el inframundo, por un zorro.",
+          "fuente_replica": "J. Matuszak, Iraq 86 (2024), pp. 79–108; UChicago News, 15 de agosto de 2025"
+        },
+        {
+          "afirmacion": "Esa tablilla revela por primera vez que Enlil votó en contra de la humanidad.",
+          "replica": "La decisión de Enlil de aniquilar a los humanos con plagas y con el diluvio se conoce desde hace mucho por el Atrahasis (paleobabilónico) y la tablilla XI del Gilgamesh, publicada por George Smith en 1872. No es ninguna revelación nueva, y en esos textos Enlil es un dios, no un jefe extraterrestre.",
+          "fuente_replica": "W. G. Lambert y A. R. Millard, Atra-ḫasīs (1969); A. R. George, The Babylonian Gilgamesh Epic (2003)"
+        },
+        {
+          "afirmacion": "Enlil y Enki eran astronautas anunnaki llegados de Nibiru, y sus tablillas son crónicas históricas.",
+          "replica": "Esta lectura procede de Sitchin, cuyas traducciones rechaza la asiriología. «The Lost Book of Enki» (2002) es una obra original de Sitchin que se presenta como una tablilla dictada por Enki, pero no corresponde a ningún texto cuneiforme. En las fuentes, «Anunnaki» designa a los grandes dioses y Nibiru es un punto astronómico asociado a Marduk, no un planeta habitado.",
+          "fuente_replica": "M. S. Heiser, críticas a Sitchin (sitchiniswrong.com); W. Horowitz, Mesopotamian Cosmic Geography (1998)"
+        },
+        {
+          "afirmacion": "La «tablilla» es la misma Tablilla de los Destinos que guardaba Enlil: un dispositivo tecnológico robado.",
+          "replica": "La Tablilla de los Destinos es un objeto mítico que simboliza la autoridad sobre el cosmos. Aparece en el mito de Anzu y en el Enuma Elish, y en ningún texto se describe como una máquina. No es un objeto arqueológico que pueda «perderse» ni «recuperarse».",
+          "fuente_replica": "A. Annus, The Standard Babylonian Epic of Anzu (SAACT 3, 2001)"
+        }
+      ],
+      "veredicto": "La «Tablilla Perdida de Enlil» no está documentada en ninguna fuente antigua ni académica. Es un título moderno de divulgación alternativa que recicla el Atrahasis, el mito de Anzu y las tesis de Sitchin, aprovechando la noticia real de la tablilla Ni 12501 en 2025."
+    }
+  ],
+  "cronologia": [
+    {
+      "anio": 1919,
+      "evento": "Charles Fort publica The Book of the Damned, recopilación de anomalías que sugiere visitas de seres de otros mundos."
+    },
+    {
+      "anio": 1928,
+      "evento": "H. P. Lovecraft publica «La llamada de Cthulhu», con dioses alienígenas que llegaron a la Tierra en el pasado remoto; Jason Colavito sitúa aquí una de las raíces de la teoría de los antiguos astronautas."
+    },
+    {
+      "anio": 1960,
+      "evento": "Louis Pauwels y Jacques Bergier publican Le Matin des magiciens, que populariza en Europa la idea de saberes antiguos perdidos y de visitantes de otros mundos."
+    },
+    {
+      "anio": 1966,
+      "evento": "I. S. Shklovskii y Carl Sagan publican Intelligent Life in the Universe, donde proponen con cautela estudiar el mito de Oannes como posible recuerdo de un contacto."
+    },
+    {
+      "anio": 1968,
+      "evento": "Erich von Däniken publica Erinnerungen an die Zukunft (Recuerdos del futuro), éxito mundial que convierte la hipótesis en un fenómeno de masas."
+    },
+    {
+      "anio": 1976,
+      "evento": "Zecharia Sitchin publica The 12th Planet y Robert K. G. Temple The Sirius Mystery: Mesopotamia se convierte en el centro de la corriente (Nibiru, Anunnaki, Oannes)."
+    },
+    {
+      "anio": 1985,
+      "evento": "Sitchin publica The Wars of Gods and Men, con la tesis de una guerra nuclear entre Anunnaki hacia el 2024 a. C."
+    },
+    {
+      "anio": 1991,
+      "evento": "El antropólogo Walter van Beek publica en Current Anthropology su restudio de los dogón: no encuentra conocimientos sobre Sirio B, base de la tesis de Temple."
+    },
+    {
+      "anio": 1995,
+      "evento": "Nancy Lieder abre ZetaTalk y anuncia el paso catastrófico de un «Planeta X» para mayo de 2003; sus seguidores lo identifican con el Nibiru de Sitchin."
+    },
+    {
+      "anio": 1996,
+      "evento": "Alan F. Alford publica Gods of the New Millennium, éxito de ventas en Reino Unido basado en Sitchin, que él mismo revisará y criticará más tarde."
+    },
+    {
+      "anio": 2003,
+      "evento": "Pasa la fecha anunciada por Lieder sin ningún suceso; la predicción se traslada a 2012 y se une al fin del calendario maya. Por esos años Michael S. Heiser publica en sitchiniswrong.com sus análisis del sello VA 243 y de Nibiru."
+    },
+    {
+      "anio": 2005,
+      "evento": "Michael Tellinger publica Slave Species of god, Anton Parks Le Secret des Étoiles Sombres y Jason Colavito The Cult of Alien Gods, primer estudio crítico sobre los orígenes literarios de la corriente."
+    },
+    {
+      "anio": 2009,
+      "evento": "History Channel emite el documental Ancient Aliens, con Giorgio A. Tsoukalos, que se convierte en serie en 2010. Ese año Ronald H. Fritze publica Invented Knowledge, con una crítica detallada de Sitchin."
+    },
+    {
+      "anio": 2010,
+      "evento": "Muere Zecharia Sitchin en Nueva York, a los 90 años."
+    },
+    {
+      "anio": 2012,
+      "evento": "La NASA y David Morrison desmienten públicamente el bulo de Nibiru y el fin del mundo de diciembre de 2012 (campaña «Beyond 2012»); la fecha pasa sin incidentes."
+    }
+  ],
+  "metodo": {
+    "errores_frecuentes": [
+      "Traducciones y etimologías propias que no siguen los diccionarios de referencia (Chicago Assyrian Dictionary, léxico sumerio de Pensilvania) ni la gramática; por ejemplo, Anunnaki como «los que del cielo a la tierra vinieron», o MU y shem como «cohete» (Heiser; Fritze).",
+      "Iconografía fuera de contexto: imágenes de sellos y relieves sin su inscripción ni su comparación con el corpus. Así el sello VA 243 se lee como el Sol y sus planetas, y el cubo ritual de los apkallu como un «bolso» tecnológico (Heiser; Colavito).",
+      "Literalismo selectivo: se toma el lenguaje mítico y poético como descripción técnica (alas como naves, armas personificadas como bombas, el cielo como planeta), mientras se ignoran los pasajes que no encajan, como la construcción humana de los zigurats en el Enuma Elish (W. I. Thompson; Colavito).",
+      "Mezcla de épocas y culturas: se habla de «los sumerios» para referirse a textos acadios, babilonios y asirios separados por más de dos milenios, y se combinan con la Biblia, Egipto o los dogón como si fueran una sola fuente (Colavito; Peter James).",
+      "Citas truncadas o descontextualizadas y uso de traducciones de segunda mano, a veces adaptaciones literarias libres, en lugar de ediciones filológicas (Fritze; Colavito sobre Von Däniken).",
+      "Infalsabilidad y ausencia de revisión por especialistas: las obras no se publican en revistas académicas, las críticas se atribuyen a la ortodoxia o a la ocultación, y los fracasos predictivos (Nibiru en 2003 y 2012) se reinterpretan en lugar de refutar la tesis (Morrison; Feder, Frauds, Myths, and Mysteries)."
+    ],
+    "por_que_atrae": "Los críticos coinciden en que esta corriente responde a necesidades que la academia no satisface por sí sola. Ofrece un gran relato unificado que conecta mitos dispersos, la Biblia y la ciencia espacial; da un sentido trascendente al origen humano sin recurrir a la religión tradicional; y halaga al lector, que accede a una «verdad oculta» frente a unos expertos presentados como guardianes de un secreto. Colavito muestra que sus raíces están en la ciencia ficción (Lovecraft y las revistas pulp) y en la cultura OVNI de la Guerra Fría y la carrera espacial, que hicieron verosímil la imagen de astronautas visitando otros mundos. Desde 2009, el formato televisivo de Ancient Aliens, con preguntas retóricas («¿y si…?»), montaje sugerente y entrevistados presentados como investigadores, junto con YouTube y las redes sociales, ha multiplicado su alcance. Kenneth Feder y Ronald Fritze añaden que en estas teorías subyace a menudo la idea de que los pueblos antiguos no pudieron lograr por sí mismos sus obras, una premisa que resta mérito a las culturas reales de Mesopotamia."
+  }
+}

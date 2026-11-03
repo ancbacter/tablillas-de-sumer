@@ -1,0 +1,658 @@
+{
+  "autores": [
+    {
+      "id": "rawlinson",
+      "nombre": "Henry Creswicke Rawlinson",
+      "vida": "1810–1895",
+      "pais": "Reino Unido",
+      "institucion": "Compañía Británica de las Indias Orientales; colaborador del Museo Británico",
+      "etapa": "desciframiento",
+      "especialidad": "Oficial y diplomático británico que copió la inscripción trilingüe de Behistún y fue figura central del desciframiento del cuneiforme.",
+      "aportaciones": [
+        "Copió entre 1835 y 1847 la inscripción de Darío I en la roca de Behistún (persa antiguo, elamita y babilonio), la «piedra de Rosetta» del cuneiforme.",
+        "Publicó la traducción de la versión en persa antiguo (1846–1847) y avanzó en la lectura de la versión babilonia.",
+        "Dirigió la edición The Cuneiform Inscriptions of Western Asia, que puso a disposición de los investigadores miles de textos del Museo Británico.",
+        "Participó en la prueba de la Royal Asiatic Society de 1857, que demostró que el acadio se podía leer de forma fiable."
+      ],
+      "obras": [
+        {"titulo": "The Persian Cuneiform Inscription at Behistun", "anio": 1846},
+        {"titulo": "The Cuneiform Inscriptions of Western Asia (5 vols.)", "anio": 1861}
+      ],
+      "postura": "Su interés era sobre todo histórico y lingüístico: buscaba en las inscripciones reales datos sobre los imperios asirio y babilonio, más que una interpretación de los mitos.",
+      "entradas": ["biblioteca-asurbanipal", "ashur"]
+    },
+    {
+      "id": "hincks",
+      "nombre": "Edward Hincks",
+      "vida": "1792–1866",
+      "pais": "Irlanda",
+      "institucion": "Rector anglicano de Killyleagh (Iglesia de Irlanda); investigador independiente",
+      "etapa": "desciframiento",
+      "especialidad": "Clérigo y filólogo irlandés, considerado por muchos el verdadero descifrador del sistema de escritura acadio.",
+      "aportaciones": [
+        "Demostró que los signos cuneiformes acadios representan sílabas y no letras sueltas, y que un mismo signo puede tener varias lecturas (polifonía).",
+        "Identificó el uso de determinativos e ideogramas dentro de la escritura silábica.",
+        "Intuyó que la escritura cuneiforme no había sido inventada por hablantes de una lengua semítica, idea que preparó el reconocimiento del sumerio.",
+        "Fue uno de los cuatro participantes en la prueba de la Royal Asiatic Society de 1857."
+      ],
+      "obras": [
+        {"titulo": "On the Assyrio-Babylonian Phonetic Characters", "anio": 1852}
+      ],
+      "postura": "Trabajó como lingüista: su meta era fijar los valores de los signos con método, condición previa para cualquier lectura seria de los mitos.",
+      "entradas": []
+    },
+    {
+      "id": "oppert",
+      "nombre": "Jules (Julius) Oppert",
+      "vida": "1825–1905",
+      "pais": "Francia (nacido en Hamburgo, Alemania)",
+      "institucion": "Collège de France",
+      "etapa": "desciframiento",
+      "especialidad": "Orientalista franco-alemán, uno de los fundadores de la asiriología y defensor temprano de la existencia del sumerio.",
+      "aportaciones": [
+        "Participó en la expedición científica francesa a Mesopotamia (1851–1854) y publicó sus resultados.",
+        "Fue uno de los cuatro traductores de la prueba de 1857 de la Royal Asiatic Society.",
+        "Propuso el nombre de «sumerio» para la lengua no semítica que subyace a la escritura cuneiforme y defendió su existencia frente a quienes la negaban.",
+        "Impulsó la enseñanza de la asiriología en Francia desde el Collège de France."
+      ],
+      "obras": [
+        {"titulo": "Expédition scientifique en Mésopotamie", "anio": 1859}
+      ],
+      "postura": "Sostuvo que detrás de la cultura babilonia había un pueblo anterior y de lengua distinta, los sumerios, lo que cambió el modo de entender el origen de los mitos mesopotámicos.",
+      "entradas": []
+    },
+    {
+      "id": "george-smith",
+      "nombre": "George Smith",
+      "vida": "1840–1876",
+      "pais": "Reino Unido",
+      "institucion": "Museo Británico",
+      "etapa": "desciframiento",
+      "especialidad": "Grabador autodidacta convertido en asiriólogo del Museo Británico; identificó el relato babilonio del diluvio.",
+      "aportaciones": [
+        "En 1872 identificó en una tablilla de la biblioteca de Asurbanipal (la tablilla XI de la epopeya de Gilgamesh) un relato del diluvio muy parecido al del Génesis, y lo presentó el 3 de diciembre de 1872 ante la Society of Biblical Archaeology.",
+        "Viajó a Nínive patrocinado por el Daily Telegraph (1873) y halló nuevos fragmentos de la epopeya.",
+        "Publicó la primera reconstrucción de conjunto de los relatos babilonios de la creación y del diluvio.",
+        "Murió en Alepo en 1876 durante su tercera expedición."
+      ],
+      "obras": [
+        {"titulo": "Assyrian Discoveries", "anio": 1875},
+        {"titulo": "The Chaldean Account of Genesis", "anio": 1876}
+      ],
+      "postura": "Leyó los textos en clave comparativa con la Biblia, como era habitual en su época; su hallazgo mostró que el relato del diluvio tenía antecedentes mesopotámicos.",
+      "entradas": ["gilgamesh", "diluvio-ziusudra", "biblioteca-asurbanipal", "enuma-elish"]
+    },
+    {
+      "id": "layard",
+      "nombre": "Austen Henry Layard",
+      "vida": "1817–1894",
+      "pais": "Reino Unido",
+      "institucion": "Excavaciones patrocinadas por el Museo Británico; luego diplomático y político",
+      "etapa": "desciframiento",
+      "especialidad": "Arqueólogo pionero que excavó Nimrud y Nínive y llevó al Museo Británico los grandes relieves y toros alados asirios.",
+      "aportaciones": [
+        "Excavó Nimrud (antigua Kalhu) desde 1845 y sacó a la luz palacios asirios con relieves y lamassu.",
+        "En Kuyunjik (Nínive) descubrió el palacio de Senaquerib y las primeras salas con tablillas de la llamada biblioteca de Asurbanipal.",
+        "Sus libros, muy populares, despertaron en Europa el interés por Asiria."
+      ],
+      "obras": [
+        {"titulo": "Nineveh and Its Remains", "anio": 1849},
+        {"titulo": "Discoveries in the Ruins of Nineveh and Babylon", "anio": 1853}
+      ],
+      "postura": "Excavador más que filólogo; sus métodos eran los de su época, centrados en recuperar piezas espectaculares.",
+      "entradas": ["lamassu", "biblioteca-asurbanipal", "ashur", "disco-alado"]
+    },
+    {
+      "id": "rassam",
+      "nombre": "Hormuzd Rassam",
+      "vida": "1826–1910",
+      "pais": "Imperio otomano (Mosul); nacionalidad británica",
+      "institucion": "Museo Británico",
+      "etapa": "desciframiento",
+      "especialidad": "Arqueólogo asirio-cristiano nacido en Mosul, colaborador de Layard y descubridor de la mayor parte de la biblioteca de Asurbanipal.",
+      "aportaciones": [
+        "En 1853 descubrió en Nínive el palacio norte de Asurbanipal, con miles de tablillas, entre ellas las de la epopeya de Gilgamesh.",
+        "Halló las puertas de bronce de Balawat (1878).",
+        "Descubrió en Babilonia el Cilindro de Ciro (1879)."
+      ],
+      "obras": [
+        {"titulo": "Asshur and the Land of Nimrod", "anio": 1897}
+      ],
+      "postura": "Su labor fue de campo; durante mucho tiempo su papel quedó eclipsado por el de colegas británicos.",
+      "entradas": ["biblioteca-asurbanipal", "gilgamesh", "ashur"]
+    },
+    {
+      "id": "kramer",
+      "nombre": "Samuel Noah Kramer",
+      "vida": "1897–1990",
+      "pais": "Estados Unidos (nacido en el Imperio ruso)",
+      "institucion": "Universidad de Pensilvania",
+      "etapa": "clasica",
+      "especialidad": "Sumerólogo que reconstruyó y divulgó la literatura sumeria a partir de miles de fragmentos de Nippur.",
+      "aportaciones": [
+        "Identificó, unió y tradujo fragmentos de tablillas de Nippur dispersos entre Filadelfia y Estambul, recuperando mitos como el Descenso de Inanna o Enki y Ninhursag.",
+        "Ofreció la primera síntesis de la mitología sumeria (1944).",
+        "Divulgó la cultura sumeria con History Begins at Sumer, donde enumeró numerosos «primeros» de la civilización.",
+        "Colaboró con Jean Bottéro en una gran antología de mitos mesopotámicos."
+      ],
+      "obras": [
+        {"titulo": "Sumerian Mythology", "anio": 1944},
+        {"titulo": "History Begins at Sumer", "anio": 1956},
+        {"titulo": "Inanna, Queen of Heaven and Earth (con Diane Wolkstein)", "anio": 1983},
+        {"titulo": "Lorsque les dieux faisaient l'homme (con Jean Bottéro)", "anio": 1989}
+      ],
+      "postura": "Veía los mitos sumerios como la expresión más antigua conocida de ideas religiosas y cosmológicas, y los leía en su contexto literario y cultural, no como crónicas literales.",
+      "entradas": ["descenso-inanna", "enki-ninhursag", "enki-orden-mundo", "inanna-enki-me", "diluvio-ziusudra", "dilmun", "kur-inframundo", "me", "inanna-ishtar", "enki-ea", "enlil", "an-anu", "dumuzi-tammuz"]
+    },
+    {
+      "id": "jacobsen",
+      "nombre": "Thorkild Jacobsen",
+      "vida": "1904–1993",
+      "pais": "Dinamarca / Estados Unidos",
+      "institucion": "Instituto Oriental de la Universidad de Chicago; Universidad de Harvard",
+      "etapa": "clasica",
+      "especialidad": "Sumerólogo e historiador de la religión mesopotámica.",
+      "aportaciones": [
+        "Publicó el estudio de referencia sobre la Lista Real Sumeria (1939).",
+        "Propuso el modelo de la «democracia primitiva» en las asambleas de las ciudades sumerias.",
+        "Trazó una historia de la religión mesopotámica por etapas en The Treasures of Darkness.",
+        "Tradujo una amplia selección de poesía sumeria (The Harps that Once…)."
+      ],
+      "obras": [
+        {"titulo": "The Sumerian King List", "anio": 1939},
+        {"titulo": "The Treasures of Darkness: A History of Mesopotamian Religion", "anio": 1976},
+        {"titulo": "The Harps that Once… Sumerian Poetry in Translation", "anio": 1987}
+      ],
+      "postura": "Interpretaba a los dioses como expresiones de lo «numinoso» percibido en fenómenos naturales y sociales, con una religión que evolucionó de dioses de la naturaleza a dioses gobernantes y personales.",
+      "entradas": ["lista-reyes", "anunnaki", "enlil", "an-anu", "dumuzi-tammuz", "enuma-elish", "tiamat"]
+    },
+    {
+      "id": "landsberger",
+      "nombre": "Benno Landsberger",
+      "vida": "1890–1968",
+      "pais": "Alemania / Turquía / Estados Unidos",
+      "institucion": "Universidad de Leipzig; Universidad de Ankara; Instituto Oriental de Chicago",
+      "etapa": "clasica",
+      "especialidad": "Asiriólogo y lexicógrafo, maestro de varias generaciones de especialistas.",
+      "aportaciones": [
+        "Fundó la serie Materialien zum sumerischen Lexikon (MSL), edición de las listas léxicas mesopotámicas.",
+        "Defendió estudiar la cultura babilonia «desde sus propios conceptos» (Eigenbegrifflichkeit).",
+        "Tras ser expulsado de Leipzig por el régimen nazi, enseñó en Ankara y después en Chicago, donde contribuyó al Chicago Assyrian Dictionary."
+      ],
+      "obras": [
+        {"titulo": "Die Eigenbegrifflichkeit der babylonischen Welt", "anio": 1926},
+        {"titulo": "Materialien zum sumerischen Lexikon (serie, desde 1937)", "anio": 1937}
+      ],
+      "postura": "Insistía en no proyectar categorías modernas sobre los textos: había que entender a los babilonios con sus propias categorías.",
+      "entradas": []
+    },
+    {
+      "id": "lambert",
+      "nombre": "Wilfred G. Lambert",
+      "vida": "1926–2011",
+      "pais": "Reino Unido",
+      "institucion": "Universidad de Birmingham",
+      "etapa": "clasica",
+      "especialidad": "Editor de referencia de la literatura religiosa y sapiencial babilonia.",
+      "aportaciones": [
+        "Editó la literatura sapiencial babilonia en una obra todavía básica (1960).",
+        "Con Alan Millard publicó la edición de Atrahasis (1969), el relato babilonio de la creación del hombre y el diluvio.",
+        "Su edición póstuma de los mitos babilonios de creación (2013) incluye el Enuma elish.",
+        "Criticó la idea de que el Génesis dependa directamente de los mitos babilonios, señalando diferencias además de paralelos."
+      ],
+      "obras": [
+        {"titulo": "Babylonian Wisdom Literature", "anio": 1960},
+        {"titulo": "Atra-ḫasīs: The Babylonian Story of the Flood (con A. R. Millard)", "anio": 1969},
+        {"titulo": "Babylonian Creation Myths", "anio": 2013}
+      ],
+      "postura": "Filólogo riguroso, desconfiaba de las grandes teorías; subrayó que el Enuma elish es una composición relativamente tardía al servicio de Marduk y Babilonia.",
+      "entradas": ["atrahasis", "enuma-elish", "marduk", "tiamat", "apsu", "diluvio-ziusudra", "igigi", "anunnaki"]
+    },
+    {
+      "id": "millard",
+      "nombre": "Alan R. Millard",
+      "vida": "n. 1937",
+      "pais": "Reino Unido",
+      "institucion": "Universidad de Liverpool",
+      "etapa": "clasica",
+      "especialidad": "Asiriólogo y semitista especializado en las relaciones entre Mesopotamia y el mundo bíblico.",
+      "aportaciones": [
+        "Coeditó con W. G. Lambert la epopeya de Atrahasis (1969).",
+        "Estudió los epónimos (limmu) asirios, base de la cronología del Imperio neoasirio.",
+        "Ha escrito sobre la alfabetización y la escritura en el antiguo Oriente Próximo."
+      ],
+      "obras": [
+        {"titulo": "Atra-ḫasīs: The Babylonian Story of the Flood (con W. G. Lambert)", "anio": 1969},
+        {"titulo": "The Eponyms of the Assyrian Empire 910–612 BC", "anio": 1994}
+      ],
+      "postura": "Compara los textos mesopotámicos con la Biblia desde una posición conservadora, destacando tanto paralelos como diferencias de fondo.",
+      "entradas": ["atrahasis", "diluvio-ziusudra", "ashur"]
+    },
+    {
+      "id": "bottero",
+      "nombre": "Jean Bottéro",
+      "vida": "1914–2007",
+      "pais": "Francia",
+      "institucion": "École pratique des hautes études (París)",
+      "etapa": "clasica",
+      "especialidad": "Asiriólogo e historiador de la religión y del pensamiento mesopotámico, gran divulgador en lengua francesa.",
+      "aportaciones": [
+        "Con S. N. Kramer reunió y comentó los principales mitos sumerios y acadios en Lorsque les dieux faisaient l'homme (1989).",
+        "Tradujo la epopeya de Gilgamesh al francés (1992).",
+        "Estudió la adivinación mesopotámica como forma de pensamiento racional y sistemático.",
+        "Divulgó aspectos de la vida cotidiana, como la cocina mesopotámica a partir de recetas en tablillas."
+      ],
+      "obras": [
+        {"titulo": "Mésopotamie. L'écriture, la raison et les dieux", "anio": 1987},
+        {"titulo": "Lorsque les dieux faisaient l'homme (con S. N. Kramer)", "anio": 1989},
+        {"titulo": "L'Épopée de Gilgameš", "anio": 1992}
+      ],
+      "postura": "Entendía los mitos como «imaginación calculada»: respuestas razonadas, en forma narrativa, a preguntas sobre el origen del mundo y del ser humano.",
+      "entradas": ["gilgamesh", "atrahasis", "enuma-elish", "nergal-ereshkigal", "adapa", "etana"]
+    },
+    {
+      "id": "oppenheim",
+      "nombre": "A. Leo Oppenheim",
+      "vida": "1904–1974",
+      "pais": "Austria / Estados Unidos",
+      "institucion": "Instituto Oriental de la Universidad de Chicago",
+      "etapa": "clasica",
+      "especialidad": "Asiriólogo, editor del Chicago Assyrian Dictionary y autor de una influyente visión de conjunto de Mesopotamia.",
+      "aportaciones": [
+        "Fue editor responsable del Chicago Assyrian Dictionary durante su fase decisiva.",
+        "Estudió los sueños y su interpretación en el antiguo Oriente Próximo.",
+        "Escribió Ancient Mesopotamia: Portrait of a Dead Civilization, síntesis clásica de la disciplina."
+      ],
+      "obras": [
+        {"titulo": "The Interpretation of Dreams in the Ancient Near East", "anio": 1956},
+        {"titulo": "Ancient Mesopotamia: Portrait of a Dead Civilization", "anio": 1964}
+      ],
+      "postura": "Defendió, en un célebre apartado, que no se podía escribir una «religión mesopotámica» coherente: los mitos nos llegan filtrados por escribas y élites y no reflejan necesariamente la religión vivida.",
+      "entradas": ["biblioteca-asurbanipal", "astronomia-babilonica"]
+    },
+    {
+      "id": "reiner",
+      "nombre": "Erica Reiner",
+      "vida": "1924–2005",
+      "pais": "Hungría / Estados Unidos",
+      "institucion": "Instituto Oriental de la Universidad de Chicago",
+      "etapa": "clasica",
+      "especialidad": "Asirióloga especializada en magia, presagios y astrología babilonia; editora del Chicago Assyrian Dictionary.",
+      "aportaciones": [
+        "Dirigió el Chicago Assyrian Dictionary durante más de dos décadas (1973–1996).",
+        "Editó la serie de conjuros Šurpu (1958).",
+        "Con David Pingree editó los presagios planetarios babilonios (Enuma Anu Enlil).",
+        "Estudió la relación entre astros, magia y medicina en Astral Magic in Babylonia."
+      ],
+      "obras": [
+        {"titulo": "Šurpu: A Collection of Sumerian and Akkadian Incantations", "anio": 1958},
+        {"titulo": "Babylonian Planetary Omens (con D. Pingree, vol. 1)", "anio": 1975},
+        {"titulo": "Astral Magic in Babylonia", "anio": 1995}
+      ],
+      "postura": "Leía la astrología y la magia babilonias como sistemas de conocimiento internamente coherentes, sin anacronismos.",
+      "entradas": ["astronomia-babilonica", "nibiru", "utu-shamash", "nanna-sin"]
+    },
+    {
+      "id": "civil",
+      "nombre": "Miguel Civil",
+      "vida": "1926–2019",
+      "pais": "España (Sabadell) / Estados Unidos",
+      "institucion": "Instituto Oriental de la Universidad de Chicago",
+      "etapa": "clasica",
+      "especialidad": "Sumerólogo catalán, uno de los mayores especialistas en la lengua y las listas léxicas sumerias.",
+      "aportaciones": [
+        "Editó durante décadas la serie Materialien zum sumerischen Lexikon (MSL).",
+        "Editó y estudió las «Instrucciones del agricultor», manual sumerio de agricultura.",
+        "Tradujo el Himno a Ninkasi, con su célebre receta de cerveza (1964).",
+        "Contribuyó al Chicago Assyrian Dictionary y a la gramática del sumerio."
+      ],
+      "obras": [
+        {"titulo": "The Farmer's Instructions: A Sumerian Agricultural Manual", "anio": 1994},
+        {"titulo": "The Lexical Texts in the Schøyen Collection", "anio": 2010}
+      ],
+      "postura": "Insistía en la base filológica: la interpretación de un mito depende de entender con precisión su léxico y su gramática.",
+      "entradas": ["me"]
+    },
+    {
+      "id": "jeremy-black",
+      "nombre": "Jeremy Black",
+      "vida": "1951–2004",
+      "pais": "Reino Unido",
+      "institucion": "Universidad de Oxford",
+      "etapa": "clasica",
+      "especialidad": "Sumerólogo, impulsor del Electronic Text Corpus of Sumerian Literature (ETCSL).",
+      "aportaciones": [
+        "Creó y dirigió en Oxford el ETCSL, que puso en línea, gratis, unos 400 textos literarios sumerios con traducción inglesa.",
+        "Con Anthony Green escribió el diccionario ilustrado de dioses, demonios y símbolos mesopotámicos (1992).",
+        "Estudió la poética sumeria con métodos de la teoría literaria."
+      ],
+      "obras": [
+        {"titulo": "Gods, Demons and Symbols of Ancient Mesopotamia (con A. Green)", "anio": 1992},
+        {"titulo": "Reading Sumerian Poetry", "anio": 1998},
+        {"titulo": "The Literature of Ancient Sumer (con G. Cunningham, E. Robson y G. Zólyomi)", "anio": 2004}
+      ],
+      "postura": "Leía los mitos sumerios como literatura, atendiendo a la forma poética, las metáforas y el público al que iban dirigidos.",
+      "entradas": ["descenso-inanna", "lugal-e", "inanna-enki-me", "enki-orden-mundo", "ninurta", "inanna-ishtar", "anzu"],
+      "url": "https://etcsl.orinst.ox.ac.uk/"
+    },
+    {
+      "id": "anthony-green",
+      "nombre": "Anthony Green",
+      "vida": "",
+      "pais": "Reino Unido",
+      "institucion": "",
+      "etapa": "clasica",
+      "especialidad": "Arqueólogo e historiador del arte mesopotámico, especialista en iconografía religiosa.",
+      "aportaciones": [
+        "Coautor con Jeremy Black del diccionario ilustrado Gods, Demons and Symbols of Ancient Mesopotamia (1992), referencia básica sobre la iconografía de dioses, demonios y símbolos.",
+        "Ha estudiado la iconografía de figuras protectoras y demoníacas en el arte mesopotámico."
+      ],
+      "obras": [
+        {"titulo": "Gods, Demons and Symbols of Ancient Mesopotamia (con J. Black)", "anio": 1992}
+      ],
+      "postura": "Relaciona imagen y texto: muchos símbolos (como el disco alado o los genios con cubo y piña) solo se entienden cotejándolos con los textos rituales.",
+      "entradas": ["disco-alado", "apkallu-oannes", "lamassu", "sello-va243"]
+    },
+    {
+      "id": "wiggermann",
+      "nombre": "Frans A. M. Wiggermann",
+      "vida": "",
+      "pais": "Países Bajos",
+      "institucion": "Vrije Universiteit Amsterdam",
+      "etapa": "clasica",
+      "especialidad": "Asiriólogo especializado en espíritus protectores, demonios y seres híbridos mesopotámicos.",
+      "aportaciones": [
+        "Editó los rituales babilonios de figurillas protectoras y los relacionó con las imágenes de genios del arte (1986/1992).",
+        "Identificó en ellos a los apkallu, sabios primordiales, como figuras rituales de protección, no como visitantes del cielo.",
+        "Escribió estudios de referencia sobre seres híbridos (Mischwesen) y sobre Nergal y el inframundo."
+      ],
+      "obras": [
+        {"titulo": "Mesopotamian Protective Spirits: The Ritual Texts", "anio": 1992}
+      ],
+      "postura": "Interpreta demonios y figuras híbridas dentro del sistema religioso y ritual mesopotámico, como agentes de protección o de castigo al servicio de los dioses.",
+      "entradas": ["apkallu-oannes", "lamassu", "nergal", "kur-inframundo", "sello-va243"]
+    },
+    {
+      "id": "andrew-george",
+      "nombre": "Andrew R. George",
+      "vida": "n. 1955",
+      "pais": "Reino Unido",
+      "institucion": "SOAS, Universidad de Londres",
+      "etapa": "actual",
+      "especialidad": "Asiriólogo, autor de la edición crítica de referencia de la epopeya de Gilgamesh.",
+      "aportaciones": [
+        "Publicó la traducción de Gilgamesh para Penguin Classics (1999), muy difundida.",
+        "Publicó la edición crítica completa de la versión babilonia de Gilgamesh, con todas las tablillas conocidas (2003).",
+        "Editó los textos topográficos babilonios, que describen la ciudad de Babilonia y sus templos.",
+        "Ha publicado textos inéditos de la colección Schøyen, entre ellos nuevos fragmentos literarios."
+      ],
+      "obras": [
+        {"titulo": "Babylonian Topographical Texts", "anio": 1992},
+        {"titulo": "The Epic of Gilgamesh (Penguin Classics)", "anio": 1999},
+        {"titulo": "The Babylonian Gilgamesh Epic: Introduction, Critical Edition and Cuneiform Texts", "anio": 2003}
+      ],
+      "postura": "Lee Gilgamesh como obra literaria sobre la muerte, la fama y los límites humanos, transmitida y reelaborada a lo largo de más de mil años.",
+      "entradas": ["gilgamesh", "diluvio-ziusudra", "zigurat", "marduk", "biblioteca-asurbanipal"]
+    },
+    {
+      "id": "dalley",
+      "nombre": "Stephanie Dalley",
+      "vida": "n. 1943",
+      "pais": "Reino Unido",
+      "institucion": "Universidad de Oxford",
+      "etapa": "actual",
+      "especialidad": "Asirióloga, autora de la antología inglesa más usada de mitos acadios.",
+      "aportaciones": [
+        "Tradujo en un solo volumen los principales mitos acadios: Atrahasis, Gilgamesh, Enuma elish, Anzu, Erra, Etana, Adapa y el Descenso de Ishtar.",
+        "Defendió que los Jardines Colgantes estaban en Nínive y no en Babilonia.",
+        "Ha estudiado la presencia de las culturas mesopotámicas en el mundo bíblico y helenístico."
+      ],
+      "obras": [
+        {"titulo": "Myths from Mesopotamia: Creation, the Flood, Gilgamesh, and Others", "anio": 1989},
+        {"titulo": "The Mystery of the Hanging Garden of Babylon", "anio": 2013}
+      ],
+      "postura": "Presenta los mitos en traducciones fieles con notas que señalan lagunas y lecturas dudosas, para que el lector no confunda la reconstrucción con el texto original.",
+      "entradas": ["atrahasis", "gilgamesh", "enuma-elish", "anzu", "erra-ishum", "etana", "adapa", "nergal-ereshkigal", "descenso-inanna"]
+    },
+    {
+      "id": "finkel",
+      "nombre": "Irving Finkel",
+      "vida": "n. 1951",
+      "pais": "Reino Unido",
+      "institucion": "Museo Británico",
+      "etapa": "actual",
+      "especialidad": "Conservador de las tablillas cuneiformes del Museo Británico y gran divulgador.",
+      "aportaciones": [
+        "Publicó una tablilla paleobabilónica del diluvio que describe un arca circular (The Ark Before Noah, 2014).",
+        "Reconstruyó las reglas del Juego Real de Ur a partir de una tablilla tardía.",
+        "Ha trabajado sobre el Cilindro de Ciro y sobre la medicina y la magia mesopotámicas."
+      ],
+      "obras": [
+        {"titulo": "The Ark Before Noah: Decoding the Story of the Flood", "anio": 2014},
+        {"titulo": "The Cyrus Cylinder (ed.)", "anio": 2013}
+      ],
+      "postura": "Muestra cómo los relatos del diluvio se transmitieron y modificaron por escrito de una época a otra, hasta llegar a la tradición bíblica.",
+      "entradas": ["atrahasis", "diluvio-ziusudra", "gilgamesh", "biblioteca-asurbanipal"]
+    },
+    {
+      "id": "michalowski",
+      "nombre": "Piotr Michalowski",
+      "vida": "n. 1948",
+      "pais": "Estados Unidos (nacido en Polonia)",
+      "institucion": "Universidad de Míchigan",
+      "etapa": "actual",
+      "especialidad": "Sumerólogo especializado en literatura sumeria, historia política y el uso ideológico de los textos.",
+      "aportaciones": [
+        "Editó la Lamentación por la destrucción de Sumer y Ur (1989).",
+        "Editó la correspondencia literaria de los reyes de Ur III (2011).",
+        "Ha estudiado la Lista Real Sumeria como texto ideológico y no como crónica fiable."
+      ],
+      "obras": [
+        {"titulo": "The Lamentation over the Destruction of Sumer and Ur", "anio": 1989},
+        {"titulo": "The Correspondence of the Kings of Ur", "anio": 2011}
+      ],
+      "postura": "Insiste en que muchos textos «históricos» y míticos son construcciones de propaganda real y escolar, compuestas o copiadas con fines políticos.",
+      "entradas": ["lista-reyes", "enlil", "nanna-sin"]
+    },
+    {
+      "id": "ossendrijver",
+      "nombre": "Mathieu Ossendrijver",
+      "vida": "",
+      "pais": "Países Bajos / Alemania",
+      "institucion": "Freie Universität Berlin (antes Humboldt-Universität zu Berlin)",
+      "etapa": "actual",
+      "especialidad": "Historiador de la ciencia antigua, asiriólogo y astrofísico, especialista en astronomía matemática babilonia.",
+      "aportaciones": [
+        "Editó los textos de procedimiento de la astronomía matemática babilonia (2012).",
+        "Demostró en Science (2016) que los astrónomos babilonios calculaban el movimiento de Júpiter mediante el área de un trapecio, un método geométrico que se creía muy posterior.",
+        "Dirige el proyecto ERC ZODIAC sobre el nacimiento del zodiaco y su difusión."
+      ],
+      "obras": [
+        {"titulo": "Babylonian Mathematical Astronomy: Procedure Texts", "anio": 2012},
+        {"titulo": "Ancient Babylonian astronomers calculated Jupiter's position from the area under a time-velocity graph (Science 351)", "anio": 2016}
+      ],
+      "postura": "Muestra que la astronomía babilonia fue una ciencia de cálculo sofisticada sobre los planetas visibles, sin rastro de un planeta «Nibiru» como el de la pseudoarqueología.",
+      "entradas": ["astronomia-babilonica", "nibiru", "marduk"],
+      "url": "https://www.geschkult.fu-berlin.de/en/e/zodiac/team/ossendrijver/index.html"
+    },
+    {
+      "id": "matuszak",
+      "nombre": "Jana Matuszak",
+      "vida": "",
+      "pais": "Alemania / Estados Unidos",
+      "institucion": "Universidad de Chicago (Institute for the Study of Ancient Cultures)",
+      "etapa": "actual",
+      "especialidad": "Sumeróloga especializada en literatura sumeria, en especial textos satíricos, disputas y mitos poco conocidos.",
+      "aportaciones": [
+        "Editó por primera vez una composición sumeria de invectiva contra una mujer, procedente de la tradición escolar.",
+        "En 2025 publicó y tradujo un mito sumerio desconocido de hace unos 4.400 años, conservado en una tablilla de Nippur, en el que el zorro actúa como embaucador.",
+        "Ha enseñado en Tubinga, SOAS (Londres) y Chicago."
+      ],
+      "obras": [
+        {"titulo": "»Und du, du bist eine Frau?!« Editio princeps und Analyse einer sumerischen Schulsatire", "anio": 2021}
+      ],
+      "postura": "Atiende al humor, la parodia y la sátira en la literatura sumeria, aspectos que muestran que no todos los textos eran solemnes ni religiosos.",
+      "entradas": [],
+      "url": "https://news.uchicago.edu/story/uchicago-sumerologist-translates-forgotten-4400-year-old-myth"
+    },
+    {
+      "id": "enrique-jimenez",
+      "nombre": "Enrique Jiménez",
+      "vida": "",
+      "pais": "España / Alemania",
+      "institucion": "Universidad Ludwig-Maximilian de Múnich (LMU)",
+      "etapa": "actual",
+      "especialidad": "Asiriólogo español, catedrático de Literaturas del Antiguo Oriente Próximo y director del proyecto Electronic Babylonian Library (eBL).",
+      "aportaciones": [
+        "Dirige desde 2018 el proyecto eBL, que digitaliza y reconstruye la literatura babilonia a partir de miles de fragmentos, sobre todo del Museo Británico.",
+        "El Fragmentarium del eBL, abierto al público en 2023, usa técnicas computacionales para unir fragmentos y ha permitido identificar nuevos trozos de Gilgamesh y otras obras.",
+        "Editó los poemas de disputa babilonios (2017)."
+      ],
+      "obras": [
+        {"titulo": "The Babylonian Disputation Poems", "anio": 2017}
+      ],
+      "postura": "Considera que buena parte de la literatura babilonia sigue fragmentaria y que su reconstrucción, ahora asistida por ordenador, está lejos de haber terminado.",
+      "entradas": ["gilgamesh", "erra-ishum", "biblioteca-asurbanipal", "tablilla-perdida-enlil"],
+      "url": "https://www.ebl.lmu.de/"
+    },
+    {
+      "id": "konstantopoulos",
+      "nombre": "Gina Konstantopoulos",
+      "vida": "",
+      "pais": "Estados Unidos",
+      "institucion": "Universidad de California en Los Ángeles (UCLA)",
+      "etapa": "actual",
+      "especialidad": "Asirióloga especializada en religión, magia y literatura mesopotámicas, con atención a demonios y monstruos.",
+      "aportaciones": [
+        "Estudió a los Sebettu («los Siete»), grupo a la vez divino y demoníaco, en una monografía de 2023.",
+        "Ha investigado cómo demonios y monstruos mesopotámicos se difundieron hacia el oeste con las campañas asirias.",
+        "Trabaja sobre tierras imaginadas y espacio mítico, y sobre Enheduana y los mitos de Inanna."
+      ],
+      "obras": [
+        {"titulo": "The Divine/Demonic Seven and the Place of Demons in Mesopotamia", "anio": 2023}
+      ],
+      "postura": "Analiza demonios y seres liminales como parte del orden religioso mesopotámico, con funciones que cambian según el contexto ritual o literario.",
+      "entradas": ["erra-ishum", "inanna-ishtar", "kur-inframundo", "ashur"],
+      "url": "https://globalantiquity.ucla.edu/person/gina-konstantopoulos"
+    },
+    {
+      "id": "lara-peinado",
+      "nombre": "Federico Lara Peinado",
+      "vida": "n. 1940",
+      "pais": "España",
+      "institucion": "Universidad Complutense de Madrid",
+      "etapa": "espana",
+      "especialidad": "Historiador del antiguo Oriente Próximo y traductor al castellano de buena parte de la literatura mesopotámica.",
+      "aportaciones": [
+        "Tradujo al castellano el Poema de Gilgamesh, el Enuma elish, himnos sumerios y el Código de Hammurabi, entre otros textos.",
+        "Reunió en antologías los mitos sumerios y acadios para el lector hispanohablante.",
+        "Fue profesor de Historia Antigua en la Complutense desde 1976 y recibió volúmenes de homenaje (UNED, 2011–2012; revista Isimu, 2020)."
+      ],
+      "obras": [
+        {"titulo": "Mitos sumerios y acadios", "anio": 1984},
+        {"titulo": "Poema de Gilgamesh", "anio": 1988},
+        {"titulo": "Himnos sumerios", "anio": 1988},
+        {"titulo": "Enuma Elish. Poema babilónico de la Creación", "anio": 1994}
+      ],
+      "postura": "Su labor fue sobre todo de divulgación y traducción, poniendo los textos mesopotámicos al alcance del público en español.",
+      "entradas": ["gilgamesh", "enuma-elish", "descenso-inanna", "marduk"]
+    },
+    {
+      "id": "sanmartin",
+      "nombre": "Joaquín Sanmartín",
+      "vida": "",
+      "pais": "España",
+      "institucion": "Universitat de Barcelona (Departamento de Filología Semítica; IPOA)",
+      "etapa": "espana",
+      "especialidad": "Filólogo semitista y asiriólogo, autor de la traducción castellana de referencia de Gilgamesh.",
+      "aportaciones": [
+        "Tradujo directamente del acadio y comentó la epopeya de Gilgamesh (Trotta, 2005; edición revisada 2018), considerada la versión canónica en español.",
+        "Coautor con Gregorio del Olmo Lete del diccionario de referencia de la lengua ugarítica.",
+        "Ha dirigido la sección de asiriología del Instituto Universitario de Estudios del Próximo Oriente Antiguo (IPOA)."
+      ],
+      "obras": [
+        {"titulo": "A Dictionary of the Ugaritic Language in the Alphabetic Tradition (con G. del Olmo Lete)", "anio": 2003},
+        {"titulo": "Epopeya de Gilgameš, rey de Uruk", "anio": 2005}
+      ],
+      "postura": "Ofrece traducciones filológicas que distinguen con claridad lo conservado en las tablillas de lo restituido por el editor.",
+      "entradas": ["gilgamesh", "diluvio-ziusudra"]
+    },
+    {
+      "id": "jordi-vidal",
+      "nombre": "Jordi Vidal",
+      "vida": "n. 1974",
+      "pais": "España",
+      "institucion": "Universitat Autònoma de Barcelona",
+      "etapa": "espana",
+      "especialidad": "Historiador del antiguo Oriente Próximo (Ugarit, guerra antigua) y de la historiografía orientalista en España.",
+      "aportaciones": [
+        "Ha estudiado la sociedad y la guerra en Ugarit y en el Próximo Oriente antiguo.",
+        "Dirigió un diccionario biográfico de los orientalistas españoles (2013).",
+        "Investiga la historia de la asiriología y la arqueología bíblica en España, incluida la época franquista, y fundó la revista Historiae."
+      ],
+      "obras": [
+        {"titulo": "Las aldeas de Ugarit según los textos hititas y ugaríticos", "anio": 2005},
+        {"titulo": "Studies on War in the Ancient Near East (ed.)", "anio": 2010},
+        {"titulo": "Diccionario biográfico del orientalismo antiguo en España (dir.)", "anio": 2013}
+      ],
+      "postura": "Analiza críticamente cómo los contextos políticos y religiosos modernos han condicionado la interpretación del antiguo Oriente.",
+      "entradas": []
+    },
+    {
+      "id": "millet-alba",
+      "nombre": "Adelina Millet Albà",
+      "vida": "",
+      "pais": "España",
+      "institucion": "Universitat de Barcelona (Departamento de Filología Semítica; IPOA)",
+      "etapa": "espana",
+      "especialidad": "Asirióloga especializada en onomástica amorrea, literatura acadia y literatura comparada.",
+      "aportaciones": [
+        "Con Lluís Feliu tradujo al catalán el Poema de Gilgamesh, edición que recibió el Premio Crítica Serra d'Or de traducción (2023).",
+        "Dirige la misión arqueológica de la Universitat de Barcelona en Tell Amarna (Siria).",
+        "Enseña lengua acadia en el máster de asiriología y es secretaria de redacción de la revista Aula Orientalis."
+      ],
+      "obras": [
+        {"titulo": "Poema de Gilgamesh (trad. catalana, con Lluís Feliu)", "anio": 2022}
+      ],
+      "postura": "Combina filología acadia y literatura comparada para situar Gilgamesh y otros textos en la tradición literaria universal.",
+      "entradas": ["gilgamesh"]
+    },
+    {
+      "id": "heiser",
+      "nombre": "Michael S. Heiser",
+      "vida": "1963–2023",
+      "pais": "Estados Unidos",
+      "institucion": "Logos Bible Software (doctorado por la Universidad de Wisconsin-Madison)",
+      "etapa": "critica",
+      "especialidad": "Biblista con formación en lenguas semíticas antiguas (incluido el acadio), no asiriólogo; crítico de Zecharia Sitchin.",
+      "aportaciones": [
+        "Mantuvo el sitio web Sitchin Is Wrong, donde contrastó las afirmaciones de Sitchin con los textos cuneiformes y diccionarios académicos.",
+        "Mostró que los textos mesopotámicos no describen un planeta Nibiru con un ciclo de 3.600 años ni a los Anunnaki como extraterrestres.",
+        "Criticó la lectura del sello VA 243 como un mapa del sistema solar."
+      ],
+      "obras": [
+        {"titulo": "The Unseen Realm: Recovering the Supernatural Worldview of the Bible", "anio": 2015}
+      ],
+      "postura": "Su crítica era filológica, aunque su propia interpretación partía de una perspectiva teológica cristiana sobre lo sobrenatural en la Biblia, algo que conviene tener presente.",
+      "entradas": ["nibiru", "anunnaki", "sello-va243", "igigi", "apkallu-oannes"],
+      "url": "https://sitchiniswrong.com/"
+    }
+  ],
+  "hitos": [
+    {"anio": 1802, "evento": "Georg Friedrich Grotefend propone las primeras lecturas correctas de signos del cuneiforme persa antiguo"},
+    {"anio": 1835, "evento": "Henry Rawlinson empieza a copiar la inscripción trilingüe de Behistún (trabajo que completa hacia 1847)"},
+    {"anio": 1845, "evento": "Austen Henry Layard inicia las excavaciones de Nimrud; poco después excava Nínive (Kuyunjik)"},
+    {"anio": 1853, "evento": "Hormuzd Rassam descubre en Nínive el palacio norte de Asurbanipal, con miles de tablillas de su biblioteca"},
+    {"anio": 1857, "evento": "Prueba de la Royal Asiatic Society: Rawlinson, Hincks, Oppert y Talbot traducen por separado la misma inscripción y sus versiones coinciden en lo esencial"},
+    {"anio": 1872, "evento": "George Smith presenta el relato babilonio del diluvio de la tablilla XI de Gilgamesh ante la Society of Biblical Archaeology"},
+    {"anio": 1877, "evento": "Ernest de Sarzec comienza a excavar Tello (Girsu): los hallazgos confirman la existencia de los sumerios"},
+    {"anio": 1889, "evento": "La Universidad de Pensilvania inicia las excavaciones de Nippur, fuente de gran parte de la literatura sumeria conocida"},
+    {"anio": 1921, "evento": "Se pone en marcha en Chicago el Chicago Assyrian Dictionary, completado en 26 volúmenes en 2010"},
+    {"anio": 1944, "evento": "Samuel Noah Kramer publica Sumerian Mythology, primera síntesis de los mitos sumerios"},
+    {"anio": 1969, "evento": "W. G. Lambert y A. R. Millard publican la edición de Atrahasis"},
+    {"anio": 1997, "evento": "Comienza en Oxford el Electronic Text Corpus of Sumerian Literature (ETCSL), dirigido por Jeremy Black"},
+    {"anio": 2003, "evento": "Andrew George publica la edición crítica completa de la epopeya babilonia de Gilgamesh"},
+    {"anio": 2016, "evento": "Mathieu Ossendrijver demuestra en Science el uso de métodos geométricos en la astronomía babilonia para calcular el movimiento de Júpiter"},
+    {"anio": 2018, "evento": "Enrique Jiménez inicia en la LMU de Múnich el proyecto Electronic Babylonian Library; su Fragmentarium se abre al público en 2023"}
+  ]
+}

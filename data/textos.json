@@ -1,0 +1,840 @@
+{
+  "textos": [
+    {
+      "id": "enuma-elish",
+      "titulo": "Enuma Elish",
+      "version": "Versión estándar babilónica, 7 tablillas (unos 1100 versos), compuesta probablemente hacia finales del II milenio a. C.; copias neoasirias de Nínive y Asur y copias neobabilónicas y tardías de Babilonia, Uruk, Kish y Sippar",
+      "lengua": "acadio (babilonio literario)",
+      "ediciones": [
+        {"titulo": "Babylonian Creation Myths", "autor": "W. G. Lambert", "anio": 2013},
+        {"titulo": "Enūma Eliš. The Standard Babylonian Creation Myth (SAACT 4)", "autor": "Philippe Talon", "anio": 2005},
+        {"titulo": "Das babylonische Weltschöpfungsepos Enūma elîš", "autor": "Thomas R. Kämmerer y Kai A. Metzler", "anio": 2012},
+        {"titulo": "The Seven Tablets of Creation (dominio público)", "autor": "L. W. King", "anio": 1902},
+        {"titulo": "Enuma Elish. Poema babilónico de la Creación (versión española)", "autor": "Federico Lara Peinado", "anio": 1994}
+      ],
+      "estructura": [
+        {"seccion": "Tablilla I", "sinopsis": "Antes de que cielo y tierra tuvieran nombre, Apsu (agua dulce) y Tiamat (agua salada, el mar) mezclan sus aguas y de ellas nacen generaciones de dioses: Lahmu y Lahamu, Anshar y Kishar, Anu y Ea (Nudimmud). El alboroto de los dioses jóvenes perturba a Apsu, que con su visir Mummu planea destruirlos. Ea lo duerme con un conjuro, lo mata y funda su morada sobre él; allí nace Marduk. Tiamat, instigada por otros dioses, crea once monstruos y eleva a Qingu (Kingu) como esposo y jefe, entregándole la Tablilla de los Destinos."},
+        {"seccion": "Tablilla II", "sinopsis": "Ea se entera de los preparativos de Tiamat y lo comunica a Anshar. Ea y después Anu son enviados contra ella, pero regresan sin atreverse a afrontarla. Anshar propone entonces a Marduk, que acepta combatir a cambio de que la asamblea le conceda el poder supremo de decretar los destinos."},
+        {"seccion": "Tablilla III", "sinopsis": "Anshar envía a su visir Kakka a Lahmu y Lahamu para convocar a los dioses; el mensajero repite íntegramente el relato de los preparativos de Tiamat (largas repeticiones formulares). Los dioses se reúnen en banquete, beben y, alegres, aceptan la condición de Marduk."},
+        {"seccion": "Tablilla IV", "sinopsis": "Los dioses entronizan a Marduk y prueban su poder haciendo desaparecer y reaparecer una constelación con su palabra. Marduk se arma con arco, maza, red y los siete vientos, monta su carro de tormenta y vence a Tiamat; captura a sus aliados y arrebata a Qingu la Tablilla de los Destinos. Parte el cuerpo de Tiamat en dos: con una mitad hace el cielo y fija el Esharra como morada de Anu, Enlil y Ea."},
+        {"seccion": "Tablilla V", "sinopsis": "Marduk organiza el cielo: estaciones de los grandes dioses en las estrellas, el año y los doce meses, la estación de Nēberu (su propia estrella), el curso de la Luna y del Sol. Del cuerpo de Tiamat hace brotar el Tigris y el Éufrates de sus ojos y forma montañas. Los dioses le rinden homenaje y él anuncia la fundación de Babilonia."},
+        {"seccion": "Tablilla VI", "sinopsis": "Marduk decide crear al ser humano (lullû) para que cargue con el trabajo de los dioses. Ea ejecuta el plan con la sangre de Qingu, declarado culpable de la rebelión. Marduk divide a los dioses en Anunnaki del cielo y del mundo inferior; estos, agradecidos, construyen Babilonia y el templo Esagila. Banquete y primera enumeración de los nombres de Marduk."},
+        {"seccion": "Tablilla VII", "sinopsis": "Continúa y concluye la proclamación de los cincuenta nombres de Marduk, cada uno con su explicación teológica y etimológica. El epílogo ordena que el poema sea conservado, enseñado por los sabios y recitado, y que los padres lo transmitan a sus hijos."}
+      ],
+      "pasajes": [
+        {
+          "ref": "Tablilla I, 1–21",
+          "tipo": "traduccion-dominio-publico",
+          "texto": "Cuando en lo alto el cielo no había sido nombrado,\ny la tierra abajo no tenía aún nombre,\ny el primordial Apsu, que los engendró,\ny el caos, Tiamat, la madre de ambos,\nmezclaban juntas sus aguas,\ny ningún campo estaba formado, ningún pantano se veía;\ncuando ninguno de los dioses había sido llamado a la existencia,\nni ninguno llevaba nombre, ni los destinos [estaban fijados];\nentonces fueron creados los dioses en medio de [el cielo],\nLahmu y Lahamu fueron llamados a la existencia […].\nCrecieron las edades […];\nentonces fueron creados Anshar y Kishar, y sobre ellos […].\nLargos fueron los días; entonces surgió […]\nAnu, su hijo, […]\n[…]\nNudimmud, a quien sus padres, [sus] progenitores […],\nabundante en toda sabiduría […],\nera sumamente fuerte […],\nno tenía rival […].\nAsí fueron establecidos y [… los grandes dioses (?)].",
+          "fuente": "Versión española a partir de L. W. King, The Seven Tablets of Creation (1902), vol. I, pp. 3–5 (traducción de dominio público; se han omitido los vv. 15–16, muy fragmentarios)",
+          "nota_academica": "El título antiguo del poema son sus dos primeras palabras, enūma eliš, «cuando en lo alto». Apsu es el agua dulce subterránea y Tiamat (de tâmtu, «mar») el agua salada; la palabra «caos» es una glosa de King: el acadio dice mummu Tiāmat, donde mummu es un epíteto de sentido discutido («creadora», «madre»). King trabajaba con copias muy rotas de Nínive; hoy el texto está prácticamente completo (Lambert 2013; Talon 2005). Su restitución del v. 9 «en medio de [el cielo]» está superada: el verso dice que los dioses fueron creados «dentro de ellos», es decir, en el seno de las aguas mezcladas. Los huecos de los vv. 10–21 se rellenan hoy con seguridad: Anu nace «a semejanza» de Anshar y engendra a Nudimmud (Ea). El v. 6 habla de cabañas o lechos de juncos y marismas, el paisaje del sur de Mesopotamia: el mundo antes de la creación se imagina como un delta sin forma.",
+          "lectura_astronauta": {
+            "autor": "sitchin",
+            "lectura": "En The Twelfth Planet (1976), Sitchin lee los primeros versos como una cosmogonía planetaria: Apsu sería el Sol, Mummu Mercurio y Tiamat un planeta acuoso entre Marte y Júpiter; las parejas divinas serían los planetas que se fueron formando y la teogonía, el nacimiento del sistema solar.",
+            "replica": "El texto no identifica a ninguno de estos dioses con planetas: Apsu y Tiamat son masas de agua (dulce y salada) personificadas, y el verso 5 lo dice expresamente («mezclaban sus aguas»). Las identificaciones astrales de los dioses mesopotámicos (Venus con Ishtar, Júpiter con Marduk, etc.) están bien documentadas en textos astronómicos como MUL.APIN, y no coinciden con las de Sitchin. Los babilonios solo conocían cinco planetas visibles a simple vista; no hay rastro en los textos de Urano, Neptuno ni de un «planeta» Tiamat."
+          },
+          "lectura_actual": {
+            "enfoque": "teología feminista / ecocrítica",
+            "lectura": "Catherine Keller lee el enfrentamiento de Marduk con Tiamat como el modelo antiguo de una «tehomofobia» (de tehom, el abismo de Génesis 1,2): el miedo al fondo acuoso, femenino e indiferenciado, que la cultura occidental ha querido dominar. Propone recuperar lo primordial como matriz y no como enemigo.",
+            "referencia": "Catherine Keller, Face of the Deep: A Theology of Becoming, 2003"
+          }
+        },
+        {
+          "ref": "Tablilla I, 110–128",
+          "tipo": "traduccion-dominio-publico",
+          "texto": "[Se enfurecían, tramaban el mal sin descanso] noche y [día].\n[Se prepararon para la batalla], echando humo y rabiando;\n[unieron sus fuerzas] e hicieron la guerra.\n[Ummu-Hubu]r, que formó todas las cosas,\n[hizo además] armas invencibles; engendró serpientes monstruosas,\n[afiladas de] diente, despiadadas de colmillo;\n[con veneno en lugar de] sangre llenó [sus] cuerpos.\nA feroces [víboras monstruosas] las vistió de terror,\n[de esplendor] las adornó, [las hizo] de alta estatura.\n[Quien] las contemplaba, el terror lo vencía;\nsus cuerpos se erguían y nadie podía resistir [su ataque].\n[Levantó] víboras, y dragones, y el (monstruo) [Lahamu],\n[y huracanes], y perros rabiosos, y hombres-escorpión,\ny poderosas [tempestades], y hombres-pez, y [carneros];\n[llevaban] armas crueles, sin temor [al combate].\nSus órdenes [eran poderosas], [nadie] podía resistirlas;\nde esta manera, enormes de estatura, [hizo] once (monstruos).\nEntre los dioses, sus hijos, porque le había [dado apoyo],\nexaltó a Kingu; en medio de ellos [lo elevó] al poder.",
+          "fuente": "Versión española a partir de L. W. King, The Seven Tablets of Creation (1902), vol. I, pp. 17–19",
+          "nota_academica": "Ummu-Hubur («Madre Hubur», nombre del río del mundo inferior) es aquí un epíteto de Tiamat. Este pasaje se repite literalmente tres veces más en las tablillas II y III, rasgo típico de la épica acadia. King rellenó entre corchetes muchas palabras y varias de sus identificaciones de los once monstruos están superadas: la lista se lee hoy mušmaḫḫu (serpiente suprema), ušumgallu (gran dragón), bašmu (serpiente cornuda), mušḫuššu (dragón-serpiente, el animal de Marduk en la Puerta de Ishtar), laḫmu («el peludo», no la diosa Lahamu), ugallu (gran demonio-león), uridimmu (perro rabioso o león-hombre), girtablullû (hombre-escorpión), ūmū dabrūtu (tormentas feroces), kulullû (hombre-pez) y kusarikku (hombre-toro, no «carnero»). Todos ellos aparecen después como guardianes vencidos en la iconografía de templos y amuletos.",
+          "lectura_astronauta": {
+            "autor": "sitchin",
+            "lectura": "Sitchin interpreta las once criaturas de Tiamat como sus once satélites y a Kingu como el mayor de ellos, que tras la colisión cósmica habría quedado convertido en la Luna de la Tierra.",
+            "replica": "El poema describe animales compuestos con colmillos, veneno y armas, que tienen una larga historia iconográfica independiente (el mušḫuššu, el hombre-escorpión, el hombre-pez) en sellos, relieves y figurillas protectoras. Ningún texto mesopotámico identifica a Kingu con la Luna, que es el dios Sin/Nanna, con culto propio en Ur y Harrán. El número once es simbólico y en otras tradiciones la lista de enemigos vencidos varía."
+          },
+          "lectura_actual": null
+        },
+        {
+          "ref": "Tablilla IV, 93–104 y 135–146",
+          "tipo": "traduccion-dominio-publico",
+          "texto": "Entonces avanzaron Tiamat y Marduk, el consejero de los dioses;\nal combate se lanzaron, a la batalla se acercaron.\nEl señor extendió su red y la atrapó,\ny el viento malo que (iba) tras él lo soltó contra su rostro.\nCuando Tiamat abrió la boca cuanto podía,\nél metió dentro el viento malo, antes de que ella cerrara los labios.\nLos terribles vientos le llenaron el vientre,\ny le fue arrebatado el valor, y abrió de par en par la boca.\nÉl tomó la lanza y le reventó el vientre,\nle cortó las entrañas, (le) atravesó el corazón.\nLa venció y le quitó la vida;\narrojó su cuerpo y se puso en pie sobre él.\n[…]\nEntonces el señor descansó, contemplando su cadáver,\nmientras dividía la carne del […] e ideaba un plan astuto.\nLa partió como a un pez plano en dos mitades;\ncon una mitad de ella hizo una cubierta para el cielo.\nFijó un cerrojo, apostó un guardián,\ny les mandó que no dejaran salir sus aguas.\nRecorrió los cielos, inspeccionó sus regiones,\ny frente al Abismo estableció la morada de Nudimmud.\nY el señor midió la estructura del Abismo,\ny fundó el Esharra, una mansión semejante a él.\nLa mansión Esharra, que creó como cielo,\nhizo que Anu, Bel y Ea la habitaran en sus distritos.",
+          "fuente": "Versión española a partir de L. W. King, The Seven Tablets of Creation (1902), vol. I, pp. 71–77",
+          "nota_academica": "Es el núcleo del llamado Chaoskampf (lucha contra el caos), motivo que H. Gunkel (Schöpfung und Chaos, 1895) relacionó con los textos bíblicos sobre el dragón y el mar. La comparación del v. 137 se entiende hoy como «como un pez puesto a secar» (nūn mašṭê): imagen doméstica del pescado abierto en dos. El cosmos nace del cadáver de la vencida: la mitad superior de Tiamat es el cielo, con un cerrojo que impide que caigan sus aguas (compárese con las «aguas sobre el firmamento» de Génesis 1,7). «Bel» es Enlil. El Esharra es un nivel cósmico entre el cielo y el Apsu. La victoria de Marduk se ha leído como mito político: el ascenso del dios de Babilonia a la cabeza del panteón, probablemente reforzado tras la recuperación de su estatua por Nabucodonosor I (c. 1100 a. C.).",
+          "lectura_astronauta": {
+            "autor": "sitchin",
+            "lectura": "Para Sitchin la «batalla celeste» es una colisión: Marduk sería un planeta errante (Nibiru) que, al cruzar el sistema solar, chocó con Tiamat; una mitad formó la Tierra y la otra, triturada, el cinturón de asteroides (el «brazalete martillado» del cielo).",
+            "replica": "El texto describe un combate con armas (red, viento, lanza, maza) entre dos personajes con boca, vientre, corazón y labios, y luego la construcción de una bóveda celeste: la mitad de Tiamat se convierte en el cielo, no en la Tierra. Una colisión planetaria del tipo que imagina Sitchin no dejaría la Tierra en su órbita actual ni produciría un cinturón de asteroides, cuya masa total es mínima (menos del 5 % de la Luna). El «brazalete» procede de una lectura de Sitchin de otro pasaje, no de este texto."
+          },
+          "lectura_actual": {
+            "enfoque": "estudios de género",
+            "lectura": "Tikva Frymer-Kensky ve en el Enuma Elish una etapa del desplazamiento de las diosas en la religión mesopotámica: la gran madre primordial se convierte en monstruo y su cuerpo en materia prima de un orden cósmico dirigido por un dios guerrero masculino.",
+            "referencia": "Tikva Frymer-Kensky, In the Wake of the Goddesses, 1992"
+          }
+        },
+        {
+          "ref": "Tablilla V, 1–12",
+          "tipo": "traduccion-dominio-publico",
+          "texto": "Él (Marduk) hizo las estaciones para los grandes dioses;\nlas estrellas, sus imágenes, como las estrellas del Zodíaco, fijó.\nOrdenó el año y en secciones lo dividió;\npara los doce meses fijó tres estrellas.\nDespués de haber […] los días del año […] imágenes,\nfundó la estación de Nibir para determinar sus límites,\npara que ninguno errara ni se extraviara.\nEstableció la estación de Bel y de Ea junto a él.\nAbrió grandes puertas a ambos lados,\nreforzó el cerrojo a la izquierda y a la derecha.\nEn medio de ello fijó el cenit;\nal dios Luna hizo brillar, la noche le encomendó.",
+          "fuente": "Versión española a partir de L. W. King, The Seven Tablets of Creation (1902), vol. I, pp. 79–81",
+          "nota_academica": "Pasaje astronómico clave. «Tres estrellas para cada mes» remite a los llamados astrolabios babilónicos, listas de 36 estrellas (tres por mes en los «caminos» de Anu, Enlil y Ea). King dice «Zodíaco», pero el zodíaco de doce signos iguales solo se formaliza en Babilonia hacia el siglo V a. C.; hoy se traduce más bien «las constelaciones». Nēberu (King: «Nibir») significa en acadio «paso, vado, punto de cruce»; en astronomía designa una posición celeste ligada a Marduk, normalmente identificada con el planeta Júpiter o con un punto de su trayecto (así en MUL.APIN y en el propio Enuma Elish VII, donde Nēberu es uno de los nombres de Marduk). Las «grandes puertas» son las puertas del horizonte por las que salen y se ponen los astros.",
+          "lectura_astronauta": {
+            "autor": "sitchin",
+            "lectura": "Sitchin hace de Nibiru (Nēberu) el «duodécimo planeta», hogar de los Anunnaki, con una órbita muy excéntrica de 3600 años que lo trae periódicamente cerca de la Tierra. Nancy Lieder (ZetaTalk) popularizó a partir de 1995 la idea de que Nibiru chocaría o pasaría junto a la Tierra en 2003, y luego se trasladó la fecha a 2012.",
+            "replica": "En este verso Nēberu es una «estación» fijada por Marduk dentro del cielo ya ordenado, para servir de referencia a los demás astros; no un cuerpo que llega de fuera. Los textos astronómicos babilónicos, que registran durante siglos las posiciones de los planetas visibles, identifican a Nēberu con Júpiter o con una estrella de la región de Marduk, y nunca le atribuyen un periodo de 3600 años (el sar es solo el número 3600 del sistema sexagesimal). Un planeta así sería visible y alteraría las órbitas de los demás; las fechas anunciadas pasaron sin que ocurriera nada."
+          },
+          "lectura_actual": null
+        },
+        {
+          "ref": "Tablilla VI, 1–10",
+          "tipo": "traduccion-dominio-publico",
+          "texto": "Cuando Marduk oyó la palabra de los dioses,\nsu corazón lo impulsó y concibió [un plan astuto].\nAbrió la boca y a Ea [le habló],\nlo que había concebido en su corazón [le] comunicó:\n«Mi sangre tomaré y hueso [formaré],\nharé al hombre, para que el hombre […].\nCrearé al hombre, que habitará [la tierra],\npara que se establezca el servicio de los dioses y se construyan [sus] santuarios.\nPero alteraré los caminos de los dioses y cambiaré [sus sendas];\njuntos serán oprimidos y al mal [ellos …]».",
+          "fuente": "Versión española a partir de L. W. King, The Seven Tablets of Creation (1902), vol. I, pp. 87–89",
+          "nota_academica": "Aquí la traducción de King está superada. En el v. 5, dāmī se entiende hoy como plural, «sangre», no como «mi sangre»: «reuniré sangre y haré existir hueso» (dāmī luksur-ma eṣemtam lušabši), y unos versos después (VI, 31–33) se aclara que la sangre es la de Qingu, ejecutado como instigador de la rebelión. El ser creado se llama lullû, «hombre primordial», y su función es cargar con el trabajo de los dioses para que estos descansen, tema heredado del Atrahasis. Los vv. 9–10 no hablan de oprimir a los dioses: anuncian la división de los dioses en dos grupos (Anunnaki del cielo y del mundo inferior).",
+          "lectura_astronauta": {
+            "autor": "tellinger",
+            "lectura": "Michael Tellinger (Slave Species of god, 2005), siguiendo a Sitchin, lee la creación del hombre con sangre divina como ingeniería genética: los Anunnaki habrían mezclado su ADN con el de un homínido terrestre para fabricar una especie esclava.",
+            "replica": "El texto sitúa el nacimiento del hombre en un esquema teológico de culpa y castigo (la sangre de un dios rebelde ejecutado) y de servicio en el templo. La mezcla de barro, sangre o saliva divina es un motivo común a muchas cosmogonías y responde a la artesanía del alfarero y al nacimiento, no a la biología molecular. La genética de poblaciones y el registro fósil muestran una evolución continua del género Homo en África durante millones de años, sin ningún aporte externo."
+          },
+          "lectura_actual": {
+            "enfoque": "política / trabajo",
+            "lectura": "Las lecturas actuales subrayan que el mito define a la humanidad por su función laboral: los hombres existen para que los dioses no trabajen, lo que refleja la economía de los grandes templos que vivían del trabajo de dependientes. Es un mito de legitimación del orden social.",
+            "referencia": "Síntesis de lecturas socioeconómicas; véase también Tikva Frymer-Kensky, In the Wake of the Goddesses, 1992"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gilgamesh",
+      "titulo": "Epopeya de Gilgamesh",
+      "version": "Versión estándar babilónica («El que vio lo profundo»), 12 tablillas, atribuida a Sin-leqi-unninni (finales del II milenio a. C.); copias de la biblioteca de Asurbanipal en Nínive (s. VII a. C.). Existe una versión paleobabilónica anterior («Superior a los demás reyes», c. 1800 a. C.) y cinco poemas sumerios independientes sobre Bilgames",
+      "lengua": "acadio (con fuentes sumerias)",
+      "ediciones": [
+        {"titulo": "The Babylonian Gilgamesh Epic: Introduction, Critical Edition and Cuneiform Texts", "autor": "A. R. George", "anio": 2003},
+        {"titulo": "The Epic of Gilgamesh (Penguin Classics)", "autor": "A. R. George", "anio": 1999},
+        {"titulo": "The Epic of Gilgamish (dominio público)", "autor": "R. Campbell Thompson", "anio": 1928},
+        {"titulo": "An Old Babylonian Version of the Gilgamesh Epic (dominio público)", "autor": "Morris Jastrow y Albert T. Clay", "anio": 1920},
+        {"titulo": "Gilgamesh o la angustia por la muerte (versión española)", "autor": "Jorge Silva Castillo", "anio": 2006}
+      ],
+      "estructura": [
+        {"seccion": "Tablilla I", "sinopsis": "Prólogo: elogio de Gilgamesh, rey de Uruk, que vio lo profundo y grabó sus penas en una estela; invitación a recorrer las murallas. Gilgamesh, dos tercios dios y un tercio hombre, oprime a su ciudad. Los dioses crean a Enkidu en la estepa; un cazador lo descubre y la mujer Shamhat lo seduce y lo aparta de los animales. Gilgamesh sueña con su llegada."},
+        {"seccion": "Tablilla II", "sinopsis": "Shamhat lleva a Enkidu a los pastores, donde aprende a comer pan y beber cerveza. Al saber que Gilgamesh ejerce un derecho sobre las novias, Enkidu le cierra el paso; luchan y se hacen amigos. Gilgamesh propone ir al Bosque de los Cedros a matar a Humbaba; Enkidu y los ancianos intentan disuadirlo."},
+        {"seccion": "Tablilla III", "sinopsis": "Preparativos de la expedición. La madre de Gilgamesh, la diosa Ninsun, ruega a Shamash por su hijo y adopta a Enkidu. Los ancianos de Uruk dan consejos a los viajeros."},
+        {"seccion": "Tablilla IV", "sinopsis": "Viaje hacia el bosque: en cada etapa Gilgamesh pide un sueño en la montaña y tiene pesadillas que Enkidu interpreta favorablemente. Llegan a la puerta del bosque y vacilan."},
+        {"seccion": "Tablilla V", "sinopsis": "Entrada en el Bosque de los Cedros, morada de dioses. Combate con Humbaba, con ayuda de los vientos de Shamash. Humbaba suplica por su vida; Enkidu insiste en matarlo y Humbaba los maldice. Talan cedros y hacen con ellos una puerta para el templo de Enlil en Nippur."},
+        {"seccion": "Tablilla VI", "sinopsis": "Ishtar propone matrimonio a Gilgamesh, que la rechaza recordando el destino de sus amantes anteriores. Ishtar consigue de Anu el Toro del Cielo, que devasta Uruk; los héroes lo matan y Enkidu insulta a la diosa lanzándole una pata del toro."},
+        {"seccion": "Tablilla VII", "sinopsis": "Los dioses deciden que Enkidu debe morir. Enkidu maldice la puerta de cedro, al cazador y a Shamhat, y luego bendice a esta por consejo de Shamash. Sueña con el mundo inferior, enferma y muere."},
+        {"seccion": "Tablilla VIII", "sinopsis": "Lamento de Gilgamesh por Enkidu y funerales: prepara una estatua y ofrendas para los dioses del mundo inferior."},
+        {"seccion": "Tablilla IX", "sinopsis": "Aterrado por la muerte, Gilgamesh vaga por la estepa en busca de Utnapishtim, el superviviente del diluvio que obtuvo la vida eterna. Atraviesa el camino del Sol bajo los montes Mashu, guardado por hombres-escorpión, y llega a un jardín de piedras preciosas."},
+        {"seccion": "Tablilla X", "sinopsis": "Encuentra a la tabernera Siduri a orillas del mar y al barquero Urshanabi, con quien cruza las Aguas de la Muerte. Utnapishtim le responde con una reflexión sobre la condición mortal."},
+        {"seccion": "Tablilla XI", "sinopsis": "Utnapishtim relata el diluvio. Gilgamesh no supera la prueba de no dormir durante seis días y siete noches. Recibe la noticia de una planta de rejuvenecimiento en el fondo del Apsu, la obtiene y una serpiente se la roba. Regresa a Uruk y muestra sus murallas a Urshanabi, cerrando el círculo del prólogo."},
+        {"seccion": "Tablilla XII", "sinopsis": "Apéndice traducido casi literalmente de un poema sumerio (Bilgames, Enkidu y el mundo inferior): Enkidu baja al mundo de los muertos a recuperar unos objetos de Gilgamesh, queda atrapado y su espíritu describe la suerte de los muertos."}
+      ],
+      "pasajes": [
+        {
+          "ref": "Tablilla I, 1–10 (prólogo)",
+          "tipo": "traduccion-dominio-publico",
+          "texto": "El que ha probado (el corazón de) todas las cosas, que lo [enseñe] a la nación;\n[el que] posee todo conocimiento, que con él [instruya] a todo el pueblo;\n[impartirá su sabiduría (?)] y (así) la [compartirán] juntos.\n[Gilgamesh (?)], él fue [maestro] de sabiduría, con [conocimiento de todas las cosas];\nfue él quien descubrió el secreto oculto […],\n(sí), transmitió la tradición sobre (las cosas) de antes del diluvio;\nemprendió un largo viaje, (agotado) y [gastado por su esfuerzo (?)],\n[grabó] en una tabla de piedra toda su fatiga.\nDe Uruk, la de altas murallas,\nél construyó los baluartes, (y) él afianzó el cimiento.",
+          "fuente": "Versión española a partir de R. Campbell Thompson, The Epic of Gilgamish (1928), p. 9",
+          "nota_academica": "Thompson tradujo en hexámetros ingleses, añadiendo entre paréntesis palabras para el metro, y muchas restituciones entre corchetes se han corregido. El primer verso (ša naqba īmuru) se entiende hoy como «el que vio lo profundo»; A. R. George traduce: «He who saw the Deep, the country's foundation» (George, The Epic of Gilgamesh, 1999, I, 1). «Lo profundo» alude a la vez al Apsu de Ea y a la totalidad del saber. El nombre de Gilgamesh, que Thompson añade con interrogante, aparece seguro en el v. 26 de la edición de George, donde también hay más versos sobre una caja de cedro con la tablilla de lapislázuli que el lector debe abrir. La versión paleobabilónica empezaba de otro modo: «Superior a los demás reyes».",
+          "lectura_astronauta": null,
+          "lectura_actual": {
+            "enfoque": "recepción contemporánea",
+            "lectura": "Gilgamesh se ha convertido en emblema de la «primera literatura» de la humanidad. En el episodio «Darmok» de Star Trek: The Next Generation, el capitán Picard narra la historia de Gilgamesh y Enkidu a un alienígena que solo se comunica mediante alusiones a mitos: la epopeya aparece como relato universal de amistad.",
+            "referencia": "Star Trek: The Next Generation, «Darmok», temporada 5, 1991"
+          }
+        },
+        {
+          "ref": "Tablilla I, col. II (vv. 1 y 29–41 de Thompson)",
+          "tipo": "traduccion-dominio-publico",
+          "texto": "Dos tercios de él son divinos, y [un tercio de él humano] […]\n[…]\n(Y así), al (clamor de) sus lamentos, [Anu] prestó oído, llamó a la señora Aruru:\n«Fuiste tú, oh Aruru, quien hiciste [(la simiente primera de) la humanidad (?)]: haz ahora su compañero,\npara que [se encuentre con Gilgamesh], sí, en el día de su placer,\npara que luchen entre sí y él dé [descanso] a Uruk».\nCuando la diosa Aruru oyó esto, en su mente concibió\n(al instante este) designio de Anu y, lavándose las manos, (entonces) Aruru\npellizcó algo de arcilla, en la estepa la modeló: [(así) en la estepa]\nhizo a Enkidu, un guerrero, (como si fuera) nacido (y) engendrado,\n(sí), doble de Ninurta, [y le cubrió] todo el cuerpo\nde vello; a la manera de una mujer recogía sus cabellos en una cinta;\nle brotaba el pelo exuberante como (las aristas de) la cebada.\nNo conocía ni gente ni país; iba vestido como Sumuqan.\nIncluso con las gacelas pacía la hierba, junto con el ganado\nbebía hasta saciarse; con las bestias su corazón se deleitaba en el agua.",
+          "fuente": "Versión española a partir de R. Campbell Thompson, The Epic of Gilgamish (1928), pp. 9–11",
+          "nota_academica": "«Dos tercios dios, un tercio hombre» es aritmética teológica: su madre es la diosa Ninsun y su padre el rey divinizado Lugalbanda; algunos textos sobre la creación de Gilgamesh por Belet-ili explican el reparto. El gesto de Aruru (diosa madre) se lee hoy «pellizcó arcilla y la arrojó en la estepa», un acto de alfarería y de nacimiento. George traduce el epíteto de Enkidu como «hijo del silencio, reforzado por Ninurta». Sumuqan (Shakkan) es el dios de los animales salvajes: Enkidu va desnudo o vestido como las bestias. El pasaje fija la oposición entre estepa y ciudad que recorre la obra.",
+          "lectura_astronauta": {
+            "autor": "sitchin",
+            "lectura": "Sitchin y, en televisión, Giorgio Tsoukalos (Ancient Aliens) presentan el «dos tercios dios» como prueba de un híbrido genético entre Anunnaki y humanos, y la creación de Enkidu como otra manipulación biológica.",
+            "replica": "La fórmula pertenece a la ideología real mesopotámica, donde los reyes se presentan como hijos o protegidos de dioses; las proporciones no tienen sentido genético (un descendiente directo de diosa y hombre sería «mitad y mitad»), y los propios escribas discutían cómo encajaban. Enkidu es modelado en arcilla, como el primer hombre en otros mitos, para encarnar al hombre salvaje anterior a la civilización."
+          },
+          "lectura_actual": null
+        },
+        {
+          "ref": "Tablilla II (Thompson), cols. II–III = versión paleobabilónica de Pensilvania, cols. ii–iii",
+          "tipo": "traduccion-dominio-publico",
+          "texto": "Mientras Gilgamesh (así) revela su sueño, Enkidu está sentado ante la hetera […]\n(Y así) Enkidu se solazó seis días y siete noches con la cortesana en su unión.\nRompió a hablar entonces la ninfa y (así) a Enkidu le dijo:\n«(Sí, cuando) te miro, (incluso) como un dios, oh Enkidu, serás;\n¿por qué con las bestias (del campo) vagas (siempre) por la estepa?\nArriba, que te llevaré a [Uruk], la de amplios mercados, (sí), al Templo Sagrado, morada de Anu.\nOh Enkidu, ven, que te guíe a Eanna, morada de Anu, donde [Gilgamesh] (vive),\n(él), el supremo de la creación; y tú, sí, tú [lo abrazarás]\ncomo [a una mujer] y (aun) [como] a ti mismo [lo amarás]».\n[…]\nÉl (antes) estaba acostumbrado a mamar la leche de las fieras.\nEl pan que ella le puso delante lo partió, pero miraba y se quedaba atónito:\nEnkidu no sabía comer pan, ni tenía conocimiento de cómo beber la cerveza.\n(Entonces) la mujer respondió, hablando a Enkidu:\n«Enkidu, prueba el pan, (pues) es la esencia de la vida;\nbebe también la cerveza, es la costumbre del país».\nEnkidu comió del pan hasta hartarse,\nbebió siete copas de cerveza; su ánimo se elevó y, exultante,\nalegre estaba su corazón y radiante su rostro […];\ncon aceite se ungió el vello del cuerpo, y (así) se volvió humano.",
+          "fuente": "Versión española a partir de R. Campbell Thompson, The Epic of Gilgamish (1928), pp. 16–17",
+          "nota_academica": "Thompson integra aquí la tablilla paleobabilónica de Pensilvania (c. 1800 a. C.), no la versión estándar. Traduce el término ḫarimtu como «hetera» o «cortesana»; el nombre de la mujer es Shamhat («la exuberante»). El sentido de ḫarimtu se discute: no siempre designa una prostituta, y J. Assante (1998) propuso «mujer soltera fuera de la autoridad de un varón». Thompson traduce «mead» (hidromiel): se trata de cerveza (šikaru). Comer pan, beber cerveza, ungirse y vestirse son los rasgos que definen la civilización en Mesopotamia. La comparación «como a una mujer lo amarás» reaparece en los sueños de Gilgamesh.",
+          "lectura_astronauta": null,
+          "lectura_actual": {
+            "enfoque": "estudios de género / lecturas queer",
+            "lectura": "Susan Ackerman analiza el vocabulario del amor entre Gilgamesh y Enkidu («como a una mujer»), junto con los sueños y el lamento de la tablilla VIII, y lo compara con David y Jonatán. Concluye que el texto juega deliberadamente con lo erótico sin encajar en las categorías modernas de homosexualidad.",
+            "referencia": "Susan Ackerman, When Heroes Love: The Ambiguity of Eros in the Stories of Gilgamesh and David, 2005"
+          }
+        },
+        {
+          "ref": "Tablilla V (Bosque de los Cedros)",
+          "tipo": "parafrasis",
+          "texto": "Paráfrasis. Gilgamesh y Enkidu se detienen al borde del bosque y contemplan la altura de los cedros y el sendero bien trazado por donde camina Humbaba. El monte de los cedros es morada de los dioses y trono de Irnini; los cedros desprenden una sombra agradable y un aroma intenso. En el fragmento descubierto en 2011, el bosque está lleno de ruidos: cantan los pájaros, chillan los monos, zumban las cigarras, como una orquesta para su guardián. Humbaba se enfrenta a los héroes; Shamash desata trece vientos que lo inmovilizan. Vencido, Humbaba suplica a Gilgamesh, le ofrece ser su siervo y talar para él los árboles; Enkidu insiste en matarlo antes de que Enlil se entere. Humbaba los maldice y le cortan la cabeza. Después talan los cedros, y Enkidu fabrica con el mayor una puerta para el templo de Enlil en Nippur. Bajan el río en balsa llevando la cabeza de Humbaba.",
+          "fuente": "Paráfrasis a partir de las ediciones de George (2003) y de F. N. H. Al-Rawi y A. R. George, «Back to the Cedar Forest: The Beginning and End of Tablet V of the Standard Babylonian Epic of Gilgameš», Journal of Cuneiform Studies 66 (2014)",
+          "nota_academica": "La tablilla V era muy fragmentaria en tiempos de Thompson. En 2011 el Museo de Sulaymaniyah (Kurdistán iraquí) adquirió una tablilla neobabilónica que añade unos 20 versos, publicada por Al-Rawi y George (2014): describe el bosque como un espacio vivo y sonoro y presenta a Humbaba casi como un rey extranjero. Humbaba (sumerio Huwawa) fue puesto por Enlil como guardián, protegido por siete «auras» o resplandores terribles (melammū). En los poemas sumerios el bosque está al este (Zagros); en la versión estándar se sitúa en el Líbano.",
+          "lectura_astronauta": {
+            "autor": "sitchin",
+            "lectura": "En The Stairway to Heaven (1980) Sitchin identifica el Bosque de los Cedros con un «lugar de aterrizaje» de los Anunnaki en Baalbek (Líbano) y presenta a Humbaba como un guardián mecánico o robótico dotado de rayos.",
+            "replica": "El texto describe un bosque natural (árboles, aroma, animales) cuya madera era muy codiciada en una Mesopotamia sin bosques; las expediciones reales por cedro del Líbano están documentadas desde Sargón de Akad. Las «auras» de Humbaba son el melammu, el resplandor terrible que caracteriza a dioses y monstruos en toda la literatura acadia. Las grandes piedras de Baalbek pertenecen a un templo romano del siglo I d. C."
+          },
+          "lectura_actual": {
+            "enfoque": "ecocrítica",
+            "lectura": "Robert Pogue Harrison abre su historia cultural de los bosques con Gilgamesh: la tala del bosque sagrado y la muerte de su guardián marcan la ruptura entre la ciudad y lo salvaje, y la civilización se define por la conquista de la naturaleza. El fragmento de 2011, con su bosque sonoro, ha reforzado estas lecturas.",
+            "referencia": "Robert Pogue Harrison, Forests: The Shadow of Civilization, 1992"
+          }
+        },
+        {
+          "ref": "Tablilla VI, 1–21",
+          "tipo": "traduccion-dominio-publico",
+          "texto": "(Ahora) él lava sus manchas, limpia sus ropas hechas jirones,\ntrenza (?) (los rizos de) su cabello (para que caigan sueltos) sobre sus hombros,\ndeja a un lado sus ropas sucias (y) se pone las limpias,\nse pone brazaletes (?) y se ciñe el cuerpo con un tahalí;\nGilgamesh se ata la cinta y se ciñe con un tahalí.\n(Entonces) la señora Ishtar contempla la belleza de Gilgamesh: (dice ella):\n«Gilgamesh, ven, sé mi esposo; del fruto (de tu cuerpo) concédeme largueza:\n(pues) serás mi marido y yo seré tu consorte.\nOh, te proporcionaré un carro (todo) de lapislázuli y oro,\nde oro su rueda y de piedras preciosas su yugo, para uncirlo cada día\na grandes mulas: (oh), entra en nuestra casa con la fragancia del cedro.\n(Así), cuando entres en nuestra casa, umbral y estrado\nbesarán tus pies, (y) a tus pies se postrarán reyes, príncipes y señores,\ntrayéndote como tributo el producto de montes y llanuras: tus cabras\nparirán en abundancia, tus ovejas tendrán gemelos, tus asnos llegarán\n(cada uno) al tamaño de una mula, (y) tus corceles en tu carro ganarán\nfama por su galope: [tus mulas] en el yugo nunca tendrán rival».",
+          "fuente": "Versión española a partir de R. Campbell Thompson, The Epic of Gilgamish (1928), p. 32",
+          "nota_academica": "La propuesta de Ishtar (inbu, «fruto», tiene connotación sexual) sigue el lenguaje de los contratos matrimoniales y de los rituales de matrimonio sagrado. Gilgamesh responde con una serie de comparaciones insultantes que Thompson restituyó en parte de forma conjetural (George: «un brasero que se apaga en el frío, una puerta trasera que no detiene el viento…») y con el catálogo de los amantes de Ishtar convertidos en animales o enviados al mundo inferior (Dumuzi entre ellos). T. Abusch (1986) interpretó la oferta como una invitación a convertirse en dios del mundo inferior, es decir, a morir.",
+          "lectura_astronauta": null,
+          "lectura_actual": {
+            "enfoque": "estudios de género",
+            "lectura": "Rivkah Harris muestra que Ishtar encarna en la literatura mesopotámica la paradoja y la inversión de los papeles de género: es ella quien propone matrimonio y regala, como haría un hombre. El rechazo del héroe y la burla de Enkidu dramatizan la ansiedad masculina ante una sexualidad femenina activa.",
+            "referencia": "Rivkah Harris, Gender and Aging in Mesopotamia: The Gilgamesh Epic and Other Ancient Literature, 2000"
+          }
+        },
+        {
+          "ref": "Tablilla X, col. III (Thompson) = versión paleobabilónica de Sippar, col. iii",
+          "tipo": "traduccion-dominio-publico",
+          "texto": "«Gilgamesh, ¿por qué corres (si) la vida que buscas\nno puedes encontrar? (Pues) los dioses, en su (primera) creación de los mortales,\nasignaron la muerte al hombre, (pero) la vida la retuvieron en su poder.\nGilgamesh, llena tu vientre,\nde día y de noche sé feliz, (y) celebra fiesta a diario;\nde día y de noche baila y alégrate; (y) que tus ropas estén limpias,\n(sí), que tu cabeza esté lavada, (y) báñate en el agua;\ncuida al pequeño que te toma de la mano; que tu esposa en tu seno\nsea feliz: (pues) esta es la dote [del hombre] […]».",
+          "fuente": "Versión española a partir de R. Campbell Thompson, The Epic of Gilgamish (1928), p. 46",
+          "nota_academica": "Este consejo de la tabernera Siduri solo se conserva en la tablilla paleobabilónica de Sippar publicada por B. Meissner en 1902 (la «tablilla Meissner»); en la versión estándar la escena se reescribió y el discurso sobre la muerte pasó a Utnapishtim. Thompson la insertó en su tablilla X. Hoy se traduce en lo esencial igual. Su parecido con Eclesiastés 9,7–9 («come con alegría tu pan… goza de la vida con la mujer que amas») es uno de los paralelos más citados entre la literatura mesopotámica y la bíblica.",
+          "lectura_astronauta": null,
+          "lectura_actual": null
+        },
+        {
+          "ref": "Tablilla XI, 9–31",
+          "tipo": "traduccion-dominio-publico",
+          "texto": "Utnapishtim (dirigiéndose así) a Gilgamesh respondió:\n«Gilgamesh, te revelaré la historia (entera) oculta,\nsí, y el designio de los dioses te diré. La ciudad de Shuruppak\n—(oh, es) una ciudad que conoces— está situada [a la orilla] del Éufrates;\nantigua es esta ciudad, con dioses en su interior. (Entonces) los grandes dioses decidieron\ntraer un diluvio: […] estaba Anu, su padre; su consejero,\nel guerrero Enlil; Ninurta, su heraldo; su jefe (?), Ennugi;\nNinigiku —es Ea—, (aunque) conjurado con ellos,\na una cabaña de cañas reveló su consejo:\n“¡Oh cabaña de cañas, cabaña de cañas! ¡Pared, pared!\n¡Escucha, cabaña de cañas; reflexiona, pared! Oh tú, mortal,\ntú de Shuruppak, hijo de Ubara-Tutu, derriba\nuna casa (y) construye (con ella) una nave; abandona las riquezas,\nbusca la vida (y) desprecia tu tesoro, y salva la vida; haz subir\na la nave (la simiente de) toda criatura. La nave que has de construir,\nque sus medidas sean justas; que su anchura y su longitud se correspondan.\n(Luego) bótala [sobre] el océano”».",
+          "fuente": "Versión española a partir de R. Campbell Thompson, The Epic of Gilgamish (1928), p. 50",
+          "nota_academica": "El relato del diluvio de la tablilla XI fue identificado por George Smith en 1872 en tablillas de Nínive y adapta el poema paleobabilónico de Atrahasis (en el v. 196 el héroe es llamado Atrahasis, «el sumamente sabio»). Ea no viola el juramento de los dioses hablando directamente con un hombre: habla a la pared de cañas detrás de la cual está Utnapishtim. La nave es un cubo perfecto (unos 60 m de lado), con siete cubiertas. La orden «derriba la casa, construye una barca» puede entenderse también como un juego de palabras para la cabaña de cañas, cuyo material sirve para la nave. En el v. 140 Thompson lee «monte Nisir»; la lectura actual es monte Nimush (en el Kurdistán iraquí).",
+          "lectura_astronauta": {
+            "autor": "sitchin",
+            "lectura": "Sitchin atribuye el diluvio al paso de Nibiru, que hace unos 13 000 años habría provocado el deslizamiento de la capa de hielo antártica y una ola gigantesca; los Anunnaki habrían contemplado la catástrofe desde sus naves en órbita, y la nave de Utnapishtim sería una especie de sumergible diseñado por Enki.",
+            "replica": "Los relatos mesopotámicos del diluvio (sumerio de Ziusudra, Atrahasis, Gilgamesh) se desarrollan entre c. 1800 y 700 a. C. y reflejan la experiencia de las crecidas del Tigris y el Éufrates; en Shuruppak, Kish y Ur hay capas de inundaciones locales de comienzos del III milenio. No hay pruebas geológicas de un diluvio universal ni de un colapso antártico hace 13 000 años, y la nave se describe con materiales de la época: madera, juncos, betún, cuerdas."
+          },
+          "lectura_actual": {
+            "enfoque": "recepción contemporánea",
+            "lectura": "La lectura del diluvio de Gilgamesh por George Smith ante la Society of Biblical Archaeology (Londres, 3 de diciembre de 1872) causó sensación porque parecía confirmar y a la vez relativizar el Génesis. El Daily Telegraph financió su viaje a Nínive, donde halló más fragmentos. Es el momento fundacional de la asiriología popular.",
+            "referencia": "David Damrosch, The Buried Book: The Loss and Rediscovery of the Great Epic of Gilgamesh, 2007"
+          }
+        },
+        {
+          "ref": "Tablilla XI, 127–155",
+          "tipo": "traduccion-dominio-publico",
+          "texto": "Seis días y siete noches el huracán, el diluvio (y) la tempestad siguieron\nbarriendo la tierra; cuando llegó el séptimo día, cesó la guerra:\ntempestad (y) diluvio, que habían luchado como un ejército en orden de batalla.\nSe calmó el mar, se agotó el vendaval, se apaciguó el diluvio.\nMiré el día: (he aquí), todo sonido se había acallado, y toda la humanidad\nhabía vuelto a (su) arcilla, y la marisma estaba a ras del tejado.\nAbrí una escotilla y la luz del sol cayó sobre mi mejilla;\ninclinándome, me senté a llorar, las lágrimas me corrían por las mejillas.\nMiré a lo lejos, hasta los últimos confines del océano:\nla tierra emergía en doce (puntos), y el arca encalló en el monte Nisir;\nel monte Nisir la sujetó firme y no la dejó moverse.\n[…]\n(Entonces), cuando amaneció el séptimo día, saqué una paloma y la solté;\nla paloma fue y volvió, (pues) no había lugar de reposo.\nSaqué una golondrina y la solté; la golondrina fue y volvió,\n(pues) no había lugar de reposo. Saqué un cuervo,\ny lo solté (también); el cuervo se fue, vio el descenso de las aguas;\ncomió, chapoteó, (y) no volvió (a mí).\nSolté (a todos los animales) a los cuatro vientos e hice una ofrenda.",
+          "fuente": "Versión española a partir de R. Campbell Thompson, The Epic of Gilgamish (1928), pp. 51–52",
+          "nota_academica": "El paralelo con Génesis 8,6–12 (cuervo y paloma) es casi exacto en la estructura. A continuación los dioses, hambrientos tras el diluvio, «se reúnen como moscas» sobre el sacrificio, e Ishtar (Belet-ili) jura por su collar de lapislázuli no olvidar esos días. Thompson traduce que la humanidad «había vuelto a la arcilla», lectura que se mantiene. El monte de la varada se lee hoy Nimush (no Nisir). En 2014 Irving Finkel (The Ark Before Noah) publicó una tablilla paleobabilónica donde el arca es un enorme coracle redondo, lo que muestra que la forma de la nave variaba entre versiones.",
+          "lectura_astronauta": null,
+          "lectura_actual": null
+        },
+        {
+          "ref": "Tablilla XI, 284–300",
+          "tipo": "traduccion-dominio-publico",
+          "texto": "Rompieron el ayuno a la hora cuarenta: a la sexagésima descansaron.\nGilgamesh divisó un estanque de agua fresca (y), bajando a él,\nse bañó en el agua. (Pero había allí) una serpiente que olfateó la fragancia de la planta,\nsalió [del agua (?)] y arrebató la planta […]\nal retirarse. Entonces Gilgamesh se sentó (y) rompió a llorar.\nSobre sus mejillas corrían sus lágrimas; al barquero Urshanabi [le habló]:\n«(Dime), ¿[por] quién se han fatigado mis brazos, oh Urshanabi?\n¿por quién se ha gastado la sangre de mi corazón? (Sí), no para mí mismo\nhe obtenido la recompensa; (no), es para un león de la tierra (solamente)\nque he logrado el premio».",
+          "fuente": "Versión española a partir de R. Campbell Thompson, The Epic of Gilgamish (1928), p. 56",
+          "nota_academica": "La planta se llama «el viejo se vuelve joven» (šību iṣṣaḫir amēlu). Thompson confunde las medidas: los números son leguas dobles (bēru), no horas («a las veinte leguas comieron, a las treinta acamparon»). Donde Thompson pone «lanzando una maldición», el texto dice que la serpiente, al marcharse, mudó la piel (ittadi qulipta): es una etiología de por qué la serpiente se rejuvenece y el hombre no. «León de la tierra» (nēš qaqqari) es una expresión para la serpiente. El episodio cierra la búsqueda de la inmortalidad: a Gilgamesh solo le queda la fama de su obra, las murallas de Uruk.",
+          "lectura_astronauta": null,
+          "lectura_actual": null
+        }
+      ]
+    },
+    {
+      "id": "atrahasis",
+      "titulo": "Atrahasis",
+      "version": "Versión paleobabilónica en 3 tablillas (unos 1245 versos), copiada por el escriba Ipiq-Aya hacia 1635 a. C. (reinado de Ammi-saduqa); hay recensiones posteriores asirias y babilónicas (s. VII a. C.)",
+      "lengua": "acadio",
+      "ediciones": [
+        {"titulo": "Atra-ḫasīs: The Babylonian Story of the Flood", "autor": "W. G. Lambert y A. R. Millard", "anio": 1969},
+        {"titulo": "Cuneiform Parallels to the Old Testament (fragmentos asirios; dominio público)", "autor": "R. W. Rogers", "anio": 1912},
+        {"titulo": "A Hebrew Deluge Story in Cuneiform (dominio público)", "autor": "Albert T. Clay", "anio": 1922},
+        {"titulo": "Babylonian Creation Myths (complementos)", "autor": "W. G. Lambert", "anio": 2013}
+      ],
+      "estructura": [
+        {"seccion": "Tablilla I", "sinopsis": "Cuando los dioses trabajaban como hombres, los grandes dioses (Anunnaki) se reparten el universo y los dioses menores (Igigi) excavan los ríos y canales. Tras 3600 años se rebelan, queman sus herramientas y rodean de noche el templo de Enlil. Enki propone crear al hombre: la diosa madre Nintu-Mami lo modela con arcilla mezclada con la carne y la sangre del dios sacrificado We-ila, que tenía inteligencia. Nacen los primeros seres humanos."},
+        {"seccion": "Tablilla II", "sinopsis": "Al cabo de 1200 años la humanidad se multiplica y su «ruido» (rigmu) impide dormir a Enlil. Este envía sucesivamente una epidemia, una sequía y una hambruna; cada vez el sabio Atrahasis consulta a Enki, que le enseña a desviar el castigo con ofrendas al dios responsable. Enlil, furioso, decide el diluvio y hace jurar a los dioses que no lo revelarán."},
+        {"seccion": "Tablilla III", "sinopsis": "Enki avisa a Atrahasis hablando a la pared de cañas. Construcción de la nave, embarque de la familia y los animales; el diluvio dura siete días y siete noches. Los dioses, privados de ofrendas, pasan hambre y sed; Nintu llora por sus criaturas. Tras el sacrificio, Enlil se enfurece al ver supervivientes. Enki propone controlar la población: mujeres estériles, el demonio Pashittu que roba niños y sacerdotisas que no deben tener hijos."}
+      ],
+      "pasajes": [
+        {
+          "ref": "Tablilla I, 1–4",
+          "tipo": "cita-breve",
+          "texto": "«Cuando los dioses, en lugar del hombre, / hacían el trabajo, llevaban las cargas, / la carga de los dioses era demasiado grande».",
+          "fuente": "Traducido al español de W. G. Lambert y A. R. Millard, Atra-ḫasīs: The Babylonian Story of the Flood (1969), I, 1–3 (cita breve)",
+          "nota_academica": "El primer verso, inūma ilū awīlum, es célebre por su ambigüedad: literalmente «cuando los dioses (eran) hombre», es decir, cuando los dioses cumplían el papel que luego tendrá el hombre, el trabajo. Sigue un largo pasaje en que los Igigi cavan el Tigris y el Éufrates durante 3600 años, se declaran en huelga, queman sus azadas y cestos, rodean el Ekur de Enlil por la noche y dicen que todos ellos han declarado la guerra. Enlil quiere castigar al cabecilla, pero Enki (Ea) dice que su queja es justa y propone una solución: crear un ser que cargue con el trabajo.",
+          "lectura_astronauta": {
+            "autor": "sitchin",
+            "lectura": "Para Sitchin, y después para Alan Alford (Gods of the New Millennium, 1996) y Michael Tellinger, la rebelión de los Igigi es un motín de los astronautas-mineros Anunnaki que extraían oro en África del sur (el Abzu). Para sustituirlos, Enki habría creado al Homo sapiens por ingeniería genética.",
+            "replica": "Los Igigi cavan ríos y canales, la obra básica de la agricultura de regadío mesopotámica; el texto no menciona minas ni oro. El Apsu/Abzu es el océano subterráneo de agua dulce, con su templo en Eridu, no una región de África. El mito proyecta en los dioses la estructura social del trabajo forzado (corvea) y justifica el servicio humano en los templos. Las «ruinas» de Mpumalanga que Tellinger atribuye a los Anunnaki son granjas bokoni de los siglos XVI–XIX d. C."
+          },
+          "lectura_actual": {
+            "enfoque": "política / trabajo",
+            "lectura": "La huelga de los Igigi se presenta a menudo como el primer relato de una huelga laboral: los trabajadores queman sus herramientas y se plantan ante la casa del jefe. Las lecturas actuales subrayan que el conflicto no se resuelve con justicia para los trabajadores sino transfiriendo el trabajo a otro grupo, los hombres.",
+            "referencia": "Síntesis de lecturas socioeconómicas; véase Tikva Frymer-Kensky, «The Atrahasis Epic and Its Significance for Our Understanding of Genesis 1–9», Biblical Archaeologist 40, 1977"
+          }
+        },
+        {
+          "ref": "Tablilla I, 189–260 (creación del hombre)",
+          "tipo": "parafrasis",
+          "texto": "Paráfrasis. Los dioses llaman a la diosa del parto, Nintu (también Mami, Belet-ili), «comadrona de los dioses», y le piden que cree al hombre para que cargue con el yugo. Ella responde que no puede hacerlo sola: necesita a Enki, que tiene la arcilla. Enki establece un rito de purificación los días 1, 7 y 15 del mes: un dios, We-ila, que «tenía inteligencia» (ṭēmu), será sacrificado, y con su carne y su sangre Nintu mezclará la arcilla, para que dios y hombre queden mezclados. De la carne del dios queda un espíritu (eṭemmu), para que se recuerde siempre. Los Igigi escupen sobre la arcilla. Mami amasa, recita el conjuro, y catorce diosas-matrices forman siete varones y siete mujeres. Al cabo de diez meses, la diosa abre la matriz y nacen los hombres. Se instituyen ritos de parto, como poner un ladrillo para la parturienta durante nueve días.",
+          "fuente": "Paráfrasis a partir de Lambert y Millard (1969) y de la edición revisada de B. R. Foster, Before the Muses (3.ª ed., 2005)",
+          "nota_academica": "El pasaje juega con palabras: ṭēmu («inteligencia, plan») y eṭemmu («espíritu del muerto»), awīlum («hombre») e ilu («dios»), de modo que el hombre lleva en sí la razón del dios sacrificado y un alma que sobrevive como espectro. Es el modelo de Enuma Elish VI y presenta la creación como un parto con comadrona, catorce matrices y diez meses de gestación. Las recensiones asirias amplían la escena.",
+          "lectura_astronauta": {
+            "autor": "alford",
+            "lectura": "Alan Alford lee las catorce diosas-matrices como madres de alquiler que gestan embriones modificados, y la mezcla de sangre divina con arcilla como la combinación de ADN extraterrestre con el de un homínido (la «arcilla» sería el material genético terrestre).",
+            "replica": "El pasaje sigue paso a paso la práctica del parto en Mesopotamia (comadrona, ladrillo del parto, diez meses lunares, conjuros) y la del alfarero que trabaja la arcilla. Leerlo como genética exige suponer que los escribas no entendían su propio texto. Las mismas imágenes de barro y sangre aparecen en mitos de pueblos sin relación entre sí."
+          },
+          "lectura_actual": {
+            "enfoque": "estudios de género",
+            "lectura": "Frente al Enuma Elish, donde un dios varón crea al hombre, el Atrahasis da el protagonismo a una diosa madre con comadronas y matrices: las lecturas de género subrayan cómo el mito sacraliza el saber femenino del parto antes de su desplazamiento por teologías masculinas.",
+            "referencia": "Tikva Frymer-Kensky, In the Wake of the Goddesses, 1992"
+          }
+        },
+        {
+          "ref": "Recensión asiria, cols. I–II (= Tablilla II, iv–vi de la edición moderna)",
+          "tipo": "traduccion-dominio-publico",
+          "texto": "Cuando llegó el cuarto año, sus ciudades se vieron en apuros,\nsus amplias […] se volvieron estrechas (?);\nla gente vagaba abatida por las calles.\nCuando llegó el quinto año, la hija aguardaba la entrada de la madre;\nla madre no abre la puerta a su hija;\nla hija vigila la balanza de la madre,\nla madre vigila la balanza de la hija.\nCuando llegó el sexto año, prepararon a la [hija] para una comida,\nprepararon al niño como alimento (?); lleno estaba […].\nUna casa devoraba a otra;\ncomo (?) […] sus rostros estaban velados;\nla gente vivía con el aliento contenido.\n[…]\nArriba Adad redujo su lluvia,\nabajo fue retenida [para que la corriente no subiera de las fuentes].\nEl campo redujo su producto;\nel seno de Nisaba cambió: por la noche los campos estaban blancos;\nla amplia llanura produjo sal;\nla planta no brotó, los corderos no engordaron.\nSe puso calamidad sobre los hombres;\nla matriz se cerró, ningún niño salió.",
+          "fuente": "Versión española a partir de R. W. Rogers, Cuneiform Parallels to the Old Testament (1912), pp. 114–116",
+          "nota_academica": "Rogers conocía solo fragmentos de la biblioteca de Asurbanipal y no podía situarlos en el conjunto; hoy se sabe que pertenecen a la plaga de sequía y hambre de la tablilla II, la tercera tentativa de Enlil antes del diluvio. Su observación de que los campos blancos son sal es correcta: el texto refleja la salinización de los suelos regados, un problema real del sur de Mesopotamia. «Nisaba» es la diosa del grano. La escena de canibalismo es una fórmula de hambruna extrema que reaparece en maldiciones de tratados neoasirios.",
+          "lectura_astronauta": null,
+          "lectura_actual": {
+            "enfoque": "ecocrítica",
+            "lectura": "La sucesión de castigos (epidemia, sequía, salinización, hambre) se lee hoy como un catálogo de los riesgos ambientales de una civilización de regadío: el mito vincula el crecimiento de la población, el agotamiento del suelo y la catástrofe. Anne Draffkorn Kilmer propuso que el tema central del poema es la superpoblación.",
+            "referencia": "Anne D. Kilmer, «The Mesopotamian Concept of Overpopulation and Its Solution as Reflected in the Mythology», Orientalia 41, 1972"
+          }
+        },
+        {
+          "ref": "Tablilla III (diluvio y final)",
+          "tipo": "parafrasis",
+          "texto": "Paráfrasis. Enki habla a la pared de la cabaña de Atrahasis: «Pared, escúchame; cabaña de juncos, atiende a mis palabras». Le manda derribar la casa y construir una barca techada, como el Apsu, con betún espeso, y abandonar las posesiones para salvar la vida. Atrahasis reúne a los ancianos y les explica que su dios Enki está enfrentado con Enlil y que él no puede vivir más en su ciudad. Embarca a su familia y a los animales, pero no puede sentarse ni comer: su corazón está roto. Adad ruge en las nubes, los vientos se desatan, el diluvio avanza como un ejército y la gente no se ve entre sí. Durante siete días y siete noches cae la lluvia. Nintu llora por los hombres, que llenan el río como libélulas; los dioses sedientos se encogen como ovejas. Cuando Atrahasis hace un sacrificio, los dioses se reúnen como moscas. Enlil se enfurece al ver la barca; Enki asume la responsabilidad. Se acuerda limitar a los hombres: habrá mujeres que den a luz y mujeres que no, el demonio Pashittu arrebatará al niño del regazo de su madre y ciertas sacerdotisas serán tabú para el parto.",
+          "fuente": "Paráfrasis a partir de Lambert y Millard (1969), tablilla III, i–viii",
+          "nota_academica": "La tablilla III es la fuente directa de Gilgamesh XI, que la reescribe en primera persona. En el poema paleobabilónico no hay concesión de inmortalidad (el final está dañado), pero sí una solución estructural al problema que causó el diluvio: la mortalidad infantil, la esterilidad y el celibato de ciertas sacerdotisas (ugbabtu, entu, igiṣītu) se presentan como instituciones divinas. El poema se usaba también como texto ritual en torno al parto.",
+          "lectura_astronauta": null,
+          "lectura_actual": {
+            "enfoque": "demografía / ecocrítica",
+            "lectura": "Frymer-Kensky ve en el final del Atrahasis una reflexión sobre los límites del crecimiento: los dioses no castigan un pecado moral, sino el exceso de población, y la solución es el control de la natalidad. Compara este enfoque con Génesis 9, donde el pacto con Noé gira en cambio en torno a la sangre y la violencia.",
+            "referencia": "Tikva Frymer-Kensky, «The Atrahasis Epic and Its Significance for Our Understanding of Genesis 1–9», Biblical Archaeologist 40, 1977"
+          }
+        }
+      ]
+    },
+    {
+      "id": "diluvio-ziusudra",
+      "titulo": "El diluvio sumerio (Ziusudra)",
+      "version": "Versión paleobabilónica en sumerio, conservada en una sola tablilla muy dañada de Nippur (CBS 10673, c. 1600 a. C.), con un fragmento bilingüe de Nínive",
+      "lengua": "sumerio",
+      "ediciones": [
+        {"titulo": "Historical and Grammatical Texts (Publications of the Babylonian Section V; dominio público)", "autor": "Arno Poebel", "anio": 1914},
+        {"titulo": "«The Sumerian Flood Story», en Lambert y Millard, Atra-ḫasīs", "autor": "Miguel Civil", "anio": 1969},
+        {"titulo": "ETCSL 1.7.4: The Flood story", "autor": "J. A. Black et al.", "anio": 1998}
+      ],
+      "estructura": [
+        {"seccion": "Segmento A", "sinopsis": "Un dios (probablemente Nintur o Enki) decide salvar a la humanidad de su dispersión y que construya ciudades y templos. An, Enlil, Enki y Ninhursag crean a los «cabezas negras» y a los animales."},
+        {"seccion": "Segmento B", "sinopsis": "Desciende la realeza del cielo y se fundan las cinco ciudades antediluvianas (Eridu, Bad-tibira, Larak, Sippar, Shuruppak), cada una entregada a un dios."},
+        {"seccion": "Segmento C", "sinopsis": "Los dioses deciden el diluvio; Inanna se lamenta. El rey sacerdote Ziusudra, piadoso, recibe junto a un muro el aviso de que la asamblea divina ha decidido destruir la simiente humana."},
+        {"seccion": "Segmentos D–E", "sinopsis": "Siete días y siete noches de diluvio sacuden la enorme barca. Utu, el Sol, entra por una abertura; Ziusudra sacrifica bueyes y ovejas. An y Enlil le conceden una vida como la de un dios y lo instalan en Dilmun, donde sale el sol."}
+      ],
+      "pasajes": [
+        {
+          "ref": "Segmentos D–E (vv. 201–260 de la numeración continua)",
+          "tipo": "parafrasis",
+          "texto": "Paráfrasis. Todos los vientos y tempestades se levantan a la vez y el diluvio barre los centros de culto. Durante siete días y siete noches el diluvio cubre la tierra y las olas y vendavales sacuden la enorme barca. Entonces sale Utu, el dios Sol, iluminando cielo y tierra. Ziusudra abre una ventana en la barca y el héroe Utu entra con sus rayos. El rey Ziusudra se postra ante Utu y sacrifica bueyes y un sinnúmero de ovejas. Más tarde, mientras los animales desembarcan, Ziusudra se postra ante An y Enlil, que lo tratan con benevolencia: le conceden una vida como la de un dios y le otorgan aliento eterno. Por haber protegido la simiente de la humanidad y de los animales, lo hacen vivir en el país de Dilmun, «donde sale el sol».",
+          "fuente": "Paráfrasis a partir de ETCSL 1.7.4 (Black et al.) y de Civil (1969)",
+          "nota_academica": "Es la versión más antigua conocida del diluvio en forma narrativa, aunque la tablilla conserva solo un tercio del texto. Ziusudra significa «vida de días largos». Su nombre aparece en algunas copias de la Lista de reyes como rey de Shuruppak, hijo de Ubara-Tutu, y en griego (Beroso) como Xisutros. El Sol que entra por la ventana sustituye a las aves de las versiones acadias. Arno Poebel publicó la tablilla en 1914; las traducciones en dominio público son hoy poco fiables por el avance del sumerio.",
+          "lectura_astronauta": null,
+          "lectura_actual": null
+        }
+      ]
+    },
+    {
+      "id": "descenso-inanna",
+      "titulo": "El descenso de Inanna al mundo inferior",
+      "version": "Poema sumerio de unos 410 versos, conocido por copias paleobabilónicas (c. 1900–1600 a. C.), sobre todo de Nippur y Ur. Existe además una versión acadia mucho más breve, El descenso de Ishtar (unos 140 versos), en copias medioasirias y neoasirias de Asur y Nínive",
+      "lengua": "sumerio (versión acadia aparte)",
+      "ediciones": [
+        {"titulo": "Inanna's Descent to the Netherworld (tesis doctoral)", "autor": "William R. Sladek", "anio": 1974},
+        {"titulo": "ETCSL 1.4.1: Inana's descent to the nether world", "autor": "J. A. Black et al.", "anio": 1998},
+        {"titulo": "The Neo-Assyrian Myth of Ištar's Descent and Resurrection (SAACT 6)", "autor": "Pirjo Lapinkivi", "anio": 2010},
+        {"titulo": "Cuneiform Parallels to the Old Testament (versión acadia; dominio público)", "autor": "R. W. Rogers", "anio": 1912}
+      ],
+      "estructura": [
+        {"seccion": "Partida (vv. 1–72)", "sinopsis": "Inanna «pone su mente» en el mundo inferior. Abandona sus siete templos (Uruk, Bad-tibira, Zabalam, Adab, Nippur, Kish, Akad) y se viste con siete atributos de poder (me). Instruye a su visir Ninshubur: si no vuelve en tres días, deberá lamentarse y pedir ayuda a Enlil, Nanna y Enki."},
+        {"seccion": "Las siete puertas (vv. 73–164)", "sinopsis": "En la puerta del Ganzer, el portero Neti informa a Ereshkigal, hermana de Inanna, que ordena abrir las siete puertas una a una. En cada una se despoja a Inanna de un atributo; ante sus protestas se le responde que los ritos del mundo inferior son perfectos y no deben discutirse. Llega desnuda e inclinada."},
+        {"seccion": "Muerte (vv. 164–172)", "sinopsis": "Inanna hace levantarse a Ereshkigal y se sienta en su trono. Los siete Anunna, jueces del mundo inferior, la miran con la mirada de la muerte; queda convertida en cadáver, colgado de un gancho."},
+        {"seccion": "Rescate (vv. 173–281)", "sinopsis": "Tras tres días, Ninshubur se lamenta. Enlil y Nanna se niegan a ayudar, pero Enki crea de la suciedad de sus uñas a dos seres, el kurgarra y el gala-tura, con el alimento y el agua de la vida. Se ganan a Ereshkigal compadeciéndose de sus dolores y obtienen el cadáver. Inanna revive, pero los Anunna exigen un sustituto."},
+        {"seccion": "El sustituto y Dumuzi (vv. 282–410)", "sinopsis": "Inanna sale escoltada por demonios galla. Perdona a Ninshubur y a sus hijos Shara y Lulal, que la lloran vestidos de luto, pero encuentra a su esposo Dumuzi lujosamente vestido y sin luto y lo entrega. Dumuzi huye con ayuda de Utu, pero es capturado. Finalmente, Dumuzi y su hermana Geshtinanna se turnarán, medio año cada uno, en el mundo inferior."}
+      ],
+      "pasajes": [
+        {
+          "ref": "Vv. 1–13",
+          "tipo": "cita-breve",
+          "texto": "«Desde el gran cielo puso su mente en el gran abajo». Paráfrasis de los versos siguientes: la misma frase se repite cambiando el sujeto («la diosa», «Inanna»). Mi señora abandonó el cielo, abandonó la tierra y descendió al mundo inferior. Abandonó su cargo de en y de lagar y descendió. Abandonó el Eanna de Uruk, el Emush-kalama de Bad-tibira, el Giguna de Zabalam, el Esharra de Adab, el Barag-dur-ĝara de Nippur, el Hursaĝ-kalama de Kish y el Eulmash de Akad.",
+          "fuente": "Cita breve traducida al español de ETCSL 1.4.1 (Black et al., 1998–2006), vv. 1–3; el resto, paráfrasis",
+          "nota_academica": "La repetición en tres tiempos (la diosa, Inanna) es típica de la poesía sumeria. El «gran abajo» (kur gal o ki-gal) es a la vez la montaña, el extranjero y el mundo de los muertos. La lista de templos que abandona dibuja la geografía de su culto y equivale a renunciar a su poder terrestre. Nadie explica en el texto por qué baja: Inanna dice a los porteros que viene al funeral de Gugalanna, esposo de Ereshkigal, pero muchos estudiosos ven una tentativa de ampliar su dominio al mundo inferior.",
+          "lectura_astronauta": null,
+          "lectura_actual": {
+            "enfoque": "psicología (junguiana)",
+            "lectura": "Sylvia Brinton Perera interpreta el descenso como modelo de un proceso de iniciación psicológica femenina: despojarse de las máscaras sociales (los siete atributos), afrontar a la «hermana oscura» (Ereshkigal) y renacer. El libro tuvo gran influencia en la espiritualidad feminista.",
+            "referencia": "Sylvia Brinton Perera, Descent to the Goddess: A Way of Initiation for Women, 1981"
+          }
+        },
+        {
+          "ref": "Vv. 14–25 y 129–164 (los siete atributos y las siete puertas)",
+          "tipo": "parafrasis",
+          "texto": "Paráfrasis. Inanna toma los siete me y los sostiene en la mano. Se pone en la cabeza la corona šugurra, «turbante de la estepa»; se coloca en la frente un mechón de pelo; toma en la mano la vara y la cuerda de medir de lapislázuli; se pone en el cuello cuentas pequeñas de lapislázuli y sobre el pecho cuentas dobles en forma de huevo; se cubre con el manto pala, el vestido de la señoría; se pinta los ojos con el kohl llamado «que venga el hombre, que venga»; se pone el pectoral llamado «ven, hombre, ven» y un anillo de oro en la mano. En cada una de las siete puertas el portero le quita una de estas cosas. Ella pregunta: «¿Qué es esto?». Le responden: «Calla, Inanna, los ritos del mundo inferior son perfectos. Inanna, no abras la boca contra los ritos del mundo inferior». En la última puerta le quitan el manto, y entra desnuda y encorvada.",
+          "fuente": "Paráfrasis a partir de ETCSL 1.4.1 y Sladek (1974)",
+          "nota_academica": "El orden de los objetos varía entre las copias. Son a la vez joyas, ropa y emblemas de poder: la vara y la cuerda de medir son atributos de realeza y de justicia (aparecen en la estela de Ur-Namma). Los nombres del kohl y del pectoral aluden a la atracción sexual, una de las esferas de Inanna. El despojamiento progresivo invierte la investidura real y prepara su muerte: en el mundo inferior nadie conserva sus distinciones.",
+          "lectura_astronauta": {
+            "autor": "sitchin",
+            "lectura": "Sitchin interpreta los atributos de Inanna (el tocado, las «cuentas dobles» sobre el pecho, la vara y la cuerda) como equipo de vuelo: casco, auriculares, instrumentos de navegación. Para ello compara con figuras que lleva un casco o gafas, como la estatua de la «diosa del vaso manante» de Mari, que él presenta como Inanna en traje de piloto.",
+            "replica": "El poema nombra y describe los objetos: una corona o turbante, un peinado, collares de lapislázuli, un vestido, kohl, un pectoral, un anillo, la vara y la cuerda de agrimensor. Todos están documentados en el arte y en inventarios de templos. La estatua de Mari (c. 1800 a. C.) es una diosa del agua con tiara de cuernos y un vaso del que mana agua; sus «gafas» son los grandes ojos incrustados habituales en la escultura mesopotámica."
+          },
+          "lectura_actual": null
+        },
+        {
+          "ref": "Vv. 164–172 y 222–281 (muerte y rescate)",
+          "tipo": "parafrasis",
+          "texto": "Paráfrasis. Inanna hace que su hermana se levante del trono y se sienta en él. Los Anunna, los siete jueces, deliberan ante ella. La miran: es la mirada de la muerte. Le hablan: es la palabra de la ira. Le gritan: es el grito de la culpa. La mujer enferma se convierte en cadáver y el cadáver es colgado de un gancho. Pasados tres días, Ninshubur llora por ella ante Enlil y Nanna, que la rechazan diciendo que quien desea los ritos del mundo inferior debe quedarse allí. Enki se aflige, saca la suciedad de debajo de sus uñas y crea al kurgarra; de la suciedad de otra uña crea al gala-tura. Les da el alimento y el agua de la vida. Entran como moscas por las rendijas de las puertas y encuentran a Ereshkigal, la madre que da a luz, tendida, desnuda y doliente. Cuando ella gime «¡Ay, mi interior!», ellos gimen «¡Ay, tu interior!»; cuando gime «¡Ay, mi exterior!», ellos repiten. Agradecida, les ofrece el río lleno de agua y el campo lleno de grano, pero ellos solo piden «el cadáver que cuelga del gancho». Lo rocían con el alimento y el agua de la vida, e Inanna se levanta.",
+          "fuente": "Paráfrasis a partir de ETCSL 1.4.1 y Sladek (1974)",
+          "nota_academica": "El kurgarra y el gala son figuras del culto de Inanna, personal ritual con identidad de género ambigua; el gala era el cantor de lamentaciones. Que Enki los cree de la suciedad de las uñas subraya su ingenio frente a la ley de Enlil. La escena de los lamentos compartidos es un ejemplo temprano de la eficacia ritual de la empatía. El mito no dice por qué Ereshkigal sufre: algunas lecturas proponen un parto o el duelo por su esposo.",
+          "lectura_astronauta": null,
+          "lectura_actual": {
+            "enfoque": "recepción feminista",
+            "lectura": "La versión de Diane Wolkstein y Samuel Noah Kramer convirtió los himnos y mitos de Inanna en un libro de culto para el movimiento de espiritualidad de las diosas. Presenta el descenso como viaje de una mujer poderosa a lo profundo de sí misma y tuvo adaptaciones teatrales y musicales.",
+            "referencia": "Diane Wolkstein y Samuel Noah Kramer, Inanna, Queen of Heaven and Earth: Her Stories and Hymns from Sumer, 1983"
+          }
+        },
+        {
+          "ref": "Vv. 282–410 (Dumuzi como sustituto)",
+          "tipo": "parafrasis",
+          "texto": "Paráfrasis. Inanna sube rodeada de demonios galla, que no conocen la comida ni la bebida, no aceptan ofrendas y arrancan a la esposa del regazo del marido y al niño del pecho de la nodriza. Ninshubur se arroja a sus pies vestida de saco, y Inanna se niega a entregarla. Tampoco entrega a Shara de Umma ni a Lulal de Bad-tibira, que la esperan de luto. En Kulaba, bajo el gran manzano, Dumuzi está sentado en su trono, vestido con un manto magnífico. Inanna lo mira con la mirada de la muerte y dice: «¡Lleváoslo!». Dumuzi llora y pide a Utu, su cuñado, que lo convierta en serpiente para escapar; Utu lo ayuda, pero los demonios lo atrapan. Al final del poema, Inanna decreta que Dumuzi pasará medio año en el mundo inferior y su hermana Geshtinanna la otra mitad. El poema concluye con una alabanza a Ereshkigal.",
+          "fuente": "Paráfrasis a partir de ETCSL 1.4.1 y Sladek (1974); el final se completa con «La muerte de Dumuzi» y otros textos",
+          "nota_academica": "La lectura antigua (Frazer, Langdon) que hacía de Dumuzi un dios que muere y resucita cada año fue matizada cuando Kramer publicó el final del poema en los años cincuenta: Inanna no baja a rescatarlo, sino que lo entrega. La alternancia con Geshtinanna se ha relacionado con ciclos agrícolas (el grano y la vid) o pastorales, pero el texto no lo explicita.",
+          "lectura_astronauta": null,
+          "lectura_actual": null
+        },
+        {
+          "ref": "Versión acadia: El descenso de Ishtar, vv. 1–20",
+          "tipo": "traduccion-dominio-publico",
+          "texto": "A la tierra sin retorno, la región […],\nIshtar, la hija de Sin, dirigió su pensamiento;\nla hija de Sin dirigió su pensamiento\na la casa de las tinieblas, morada de Irkalla,\na la casa de la que quien entra nunca sale,\nal camino cuya senda no tiene vuelta,\na la casa donde quien entra es privado de luz,\ndonde el polvo es su sustento, su alimento la arcilla;\nluz no ven, en la oscuridad se sientan;\nvisten como un pájaro, con alas por vestido;\nsobre la puerta y el cerrojo se extiende el polvo.\nIshtar, cuando llegó a la puerta de la tierra sin retorno,\ndirigió la palabra al portero de la puerta:\n«¡Oh guardián, abre tu puerta,\nabre la puerta para que yo entre!\nSi no abres la puerta para que yo entre,\nromperé la puerta, quebraré el cerrojo,\nromperé el umbral, derribaré las hojas;\nharé subir a los muertos para que coman a los vivos;\nlos muertos serán más numerosos que los vivos».",
+          "fuente": "Versión española a partir de R. W. Rogers, Cuneiform Parallels to the Old Testament (1912), pp. 121–122",
+          "nota_academica": "La versión acadia no es una traducción de la sumeria, sino una reelaboración breve, quizá vinculada a ritos funerarios y de lamentación por Dumuzi (Tammuz). En el v. 19 Rogers dudaba de su propia traducción («harán subir a los muertos que comerán a los vivos»), pero hoy se acepta (Lapinkivi 2010). La descripción del mundo inferior (polvo y arcilla como alimento, muertos vestidos de plumas) se repite casi idéntica en el sueño de Enkidu en Gilgamesh VII. Ishtar aparece aquí como hija de Sin (el dios Luna), equivalente acadio de Nanna.",
+          "lectura_astronauta": null,
+          "lectura_actual": null
+        }
+      ]
+    },
+    {
+      "id": "enki-ninhursag",
+      "titulo": "Enki y Ninhursag",
+      "version": "Poema sumerio de unos 280 versos, conocido por copias paleobabilónicas de Nippur (la principal, en el Museo de Pensilvania) y una de Ur con variantes",
+      "lengua": "sumerio",
+      "ediciones": [
+        {"titulo": "«Enki und Ninḫursaĝa», Zeitschrift für Assyriologie 74", "autor": "Pascal Attinger", "anio": 1984},
+        {"titulo": "Enki and Ninhursag: A Sumerian «Paradise» Myth (BASOR Supplementary Studies 1)", "autor": "Samuel Noah Kramer", "anio": 1945},
+        {"titulo": "ETCSL 1.1.1: Enki and Ninḫursaĝa", "autor": "J. A. Black et al.", "anio": 1998}
+      ],
+      "estructura": [
+        {"seccion": "Dilmun primordial (vv. 1–64)", "sinopsis": "Elogio de Dilmun, tierra pura y virginal donde aún no hay enfermedad ni vejez, ni animales que maten; pero tampoco hay agua dulce. A petición de Ninsikila, Enki hace brotar agua y Dilmun se convierte en puerto y centro comercial."},
+        {"seccion": "Las hijas de Enki (vv. 65–185)", "sinopsis": "Enki fecunda a Ninhursag (Nintur), que tras nueve días da a luz a Ninnisig; Enki se une a su hija, que pare a Ninkura; y de esta nace Uttu, la diosa del tejido. Ninhursag aconseja a Uttu que exija regalos de frutas; Enki la seduce con ellos, y del semen que Ninhursag recoge del cuerpo de Uttu brotan ocho plantas."},
+        {"seccion": "Las plantas y la maldición (vv. 186–253)", "sinopsis": "Enki, guiado por su visir Isimud, prueba y come las ocho plantas, «conociendo su corazón» y determinando su destino. Ninhursag lo maldice y se retira; Enki enferma en ocho partes del cuerpo. Un zorro consigue traer a Ninhursag de vuelta."},
+        {"seccion": "La curación (vv. 254–280)", "sinopsis": "Ninhursag sienta a Enki en su vulva y hace nacer ocho divinidades, una por cada parte enferma, a las que se asignan destinos y funciones. Alabanza final de Enki."}
+      ],
+      "pasajes": [
+        {
+          "ref": "Vv. 1–30 y 219–280",
+          "tipo": "parafrasis",
+          "texto": "Paráfrasis. «Pura es la tierra de Dilmun». Es un país limpio, luminoso y virginal, donde el cuervo no grazna, el león no mata, el lobo no arrebata al cordero, nadie dice «me duelen los ojos» ni «me duele la cabeza», ninguna anciana dice «soy vieja». […] Tras haber comido las plantas nacidas de su propio semen, Enki queda maldito por Ninhursag, que jura no volver a mirarlo «con el ojo de la vida» hasta que muera, y desaparece. Los dioses se sientan en el polvo. Un zorro se ofrece a Enlil para traerla a cambio de una recompensa, se acicala y la encuentra. Ninhursag vuelve y pregunta a Enki: «Hermano, ¿qué te duele?». «Me duele la coronilla»: y ella hace nacer a Abu. «Me duele el pelo»: nace Nintulla. «Me duele la nariz»: nace Ninsutu. «Me duele la boca»: nace Ninkasi, la diosa de la cerveza. «Me duele la garganta»: nace Nanshe. «Me duele el brazo»: nace Azimua. «Me duelen las costillas (ti)»: nace Ninti, «señora de la costilla». «Me duele el costado»: nace Enshag, que será señor de Dilmun.",
+          "fuente": "Paráfrasis a partir de ETCSL 1.1.1 y Attinger (1984); «Pura es la tierra de Dilmun» es cita breve traducida de ETCSL 1.1.1, v. 1",
+          "nota_academica": "Dilmun es la isla de Bahréin y la costa vecina del golfo Pérsico, centro de comercio con Mesopotamia. Kramer (1945) leyó Dilmun como un «paraíso» comparable al Edén y relacionó a Ninti, «señora de la costilla» y a la vez «señora que da la vida» (ti significa ambas cosas en sumerio), con Eva formada de una costilla y llamada «madre de los vivientes». El paralelo es todavía discutido, pero muestra un juego de palabras real. Hoy se tiende a leer el comienzo no como paraíso sino como mundo aún no puesto en marcha. Los nacimientos asociados a cada parte del cuerpo son juegos de palabras etiológicos.",
+          "lectura_astronauta": {
+            "autor": "sitchin",
+            "lectura": "Sitchin presenta a Ninhursag como la «jefa médica» de los Anunnaki y a Enki como científico. Las uniones sucesivas de Enki con sus descendientes serían experimentos genéticos para obtener un heredero, y la curación de los órganos, una práctica médica avanzada.",
+            "replica": "El texto es un mito de fertilidad y de origen escrito con juegos de palabras: cada diosa nace para sanar una parte del cuerpo cuyo nombre suena como el suyo. Ninhursag es la diosa madre, venerada como «madre de los dioses», no un cargo científico. La secuencia de uniones repite fórmulas rituales y no tiene contenido biológico."
+          },
+          "lectura_actual": {
+            "enfoque": "estudios de género",
+            "lectura": "Las lecturas feministas subrayan que el mito narra abusos sucesivos de un dios sobre su hija, nieta y bisnieta, y la respuesta de la diosa madre, que convierte la violencia en enfermedad del dios y luego lo cura dando a luz: la diosa conserva el poder sobre la vida y la generación.",
+            "referencia": "Tikva Frymer-Kensky, In the Wake of the Goddesses, 1992"
+          }
+        }
+      ]
+    },
+    {
+      "id": "enki-orden-mundo",
+      "titulo": "Enki y el orden del mundo",
+      "version": "Poema sumerio de unos 470 versos, conocido por copias paleobabilónicas de Nippur y Ur",
+      "lengua": "sumerio",
+      "ediciones": [
+        {"titulo": "«Enki and Ninmah» and «Enki and the World Order» (tesis doctoral, Universidad de Pensilvania)", "autor": "Carlos A. Benito", "anio": 1969},
+        {"titulo": "ETCSL 1.1.3: Enki and the world order", "autor": "J. A. Black et al.", "anio": 1998}
+      ],
+      "estructura": [
+        {"seccion": "Himno a Enki (vv. 1–60)", "sinopsis": "Alabanza de Enki como señor del Apsu, de la sabiduría y de la fertilidad, que fija los destinos de los países y cuenta los días y los meses."},
+        {"seccion": "Autoelogio de Enki (vv. 61–139)", "sinopsis": "Enki proclama dos veces su grandeza y la confianza que le han dado An y Enlil; los dioses y los sacerdotes del Apsu le responden con alabanzas."},
+        {"seccion": "Viaje y destinos de los países (vv. 140–249)", "sinopsis": "Enki recorre el mundo en su barca y decreta el destino de Sumer, Ur, Meluhha (el valle del Indo), Dilmun, Elam y Marhashi, y de los pueblos nómadas."},
+        {"seccion": "Organización del mundo (vv. 250–386)", "sinopsis": "Enki llena el Tigris de agua viva, como su semen, organiza canales, pantanos, mar, lluvia, campos, arado, grano, ladrillos, construcción, estepa, rebaños, límites y tejido, y encarga cada esfera a una divinidad."},
+        {"seccion": "La queja de Inanna (vv. 387–471)", "sinopsis": "Inanna protesta porque no ha recibido ninguna función como sus hermanas divinas. Enki le recuerda los poderes que ya tiene (la guerra, el cayado del pastor, la palabra, la ambigüedad) y la alaba."}
+      ],
+      "pasajes": [
+        {
+          "ref": "Vv. 250–386",
+          "tipo": "parafrasis",
+          "texto": "Paráfrasis. Enki se levanta como un toro y llena el Tigris de agua chispeante, como semen. El Tigris se alegra como un toro salvaje y da grano y vino. Enki encarga los canales a Enbilulu, el inspector de los canales. Organiza los cañaverales y los peces del pantano, y entrega el mar a Nanshe. Llama a la lluvia y pone a Ishkur sobre ella. Dirige el arado y el yugo, abre los surcos y entrega estas cosas a Enkimdu, el campesino; hace crecer el grano y lo confía a Ezina-Ashnan. Fija el molde de ladrillos y la azada para Kulla; pone los cimientos y la plomada para Mushdama, el constructor. Llena la estepa de vida animal y la entrega a Shakkan. Construye los rediles y pone al frente al pastor Dumuzi. Fija los límites y los confía a Utu. Encarga el tejido, la obra de las mujeres, a Uttu.",
+          "fuente": "Paráfrasis a partir de ETCSL 1.1.3 y Benito (1969)",
+          "nota_academica": "Es el gran texto sumerio sobre la distribución de las funciones divinas (me) y una especie de enciclopedia de la economía de Sumer: regadío, pesca, agricultura, construcción, pastoreo, artesanía. El agua dulce se presenta a la vez como semen de Enki, una metáfora sexual de la fertilidad agrícola frecuente en la literatura sumeria. La lista de países (Meluhha, Magan, Dilmun) refleja las redes reales de comercio del III milenio.",
+          "lectura_astronauta": null,
+          "lectura_actual": {
+            "enfoque": "ecocrítica",
+            "lectura": "El poema se lee hoy como una visión del mundo en que la naturaleza ya está organizada para el trabajo humano: el río, la estepa y el pantano solo cobran sentido cuando un dios les asigna administradores. Es un ideal de paisaje gestionado típico de una civilización de regadío.",
+            "referencia": "Síntesis de lecturas ecocríticas; véase también Thorkild Jacobsen, The Treasures of Darkness, 1976"
+          }
+        }
+      ]
+    },
+    {
+      "id": "lista-reyes",
+      "titulo": "Lista real sumeria",
+      "version": "Composición sumeria conocida por unos 20 manuscritos, desde uno de época de Ur III (c. 2100 a. C.) hasta copias paleobabilónicas de Isin y Larsa (c. 1800 a. C.); el más completo es el prisma Weld-Blundell (WB 444, Ashmolean Museum)",
+      "lengua": "sumerio",
+      "ediciones": [
+        {"titulo": "The Sumerian King List (Assyriological Studies 11)", "autor": "Thorkild Jacobsen", "anio": 1939},
+        {"titulo": "Historical Inscriptions, containing principally the chronological prism W-B 444 (OECT 2; dominio público)", "autor": "Stephen Langdon", "anio": 1923},
+        {"titulo": "Mesopotamian Chronicles", "autor": "Jean-Jacques Glassner", "anio": 2004},
+        {"titulo": "ETCSL 2.1.1: The Sumerian king list", "autor": "J. A. Black et al.", "anio": 1998}
+      ],
+      "estructura": [
+        {"seccion": "Reyes antediluvianos (vv. 1–39)", "sinopsis": "La realeza desciende del cielo a Eridu. Ocho reyes en cinco ciudades (Eridu, Bad-tibira, Larak, Sippar, Shuruppak) gobiernan 241 200 años en total. Luego llega el diluvio. Esta sección falta en algunos manuscritos y probablemente es un añadido."},
+        {"seccion": "Primera dinastía de Kish y Uruk I (vv. 40–133)", "sinopsis": "Tras el diluvio, la realeza vuelve a bajar del cielo a Kish, con reinados de cientos de años; entre los reyes figuran Etana, «el pastor que subió al cielo», y Enmebaragesi. Pasa a Eanna (Uruk), con Meskiaggasher, Enmerkar, Lugalbanda, Dumuzi el pescador y Gilgamesh (126 años)."},
+        {"seccion": "Dinastías del III milenio (vv. 134–380)", "sinopsis": "La realeza pasa sucesivamente entre Ur, Awan, Kish, Hamazi, Uruk, Adab, Mari, Kish (con la reina Kug-Bau), Akshak, Akad (Sargón, Naram-Sin), el periodo guti, Uruk y Ur III. Los reinados se vuelven gradualmente de duración humana."},
+        {"seccion": "Isin y colofón (vv. 381–431)", "sinopsis": "La lista termina con la dinastía de Isin (algunas copias, con Larsa) y un total que suma todas las dinastías. La dinastía de Lagash, conocida por inscripciones, está ausente: aparece en una «Lista real de Lagash» paródica aparte."}
+      ],
+      "pasajes": [
+        {
+          "ref": "Vv. 1–39 (reyes antediluvianos)",
+          "tipo": "cita-breve",
+          "texto": "«Después de que la realeza descendiera del cielo, la realeza estuvo en Eridu». Paráfrasis del resto: en Eridu, Alulim fue rey y gobernó 28 800 años; Alalgar gobernó 36 000 años. Luego Eridu cayó y la realeza fue llevada a Bad-tibira, donde gobernaron En-men-lu-ana (43 200 años), En-men-gal-ana (28 800) y Dumuzi el pastor (36 000). Después vinieron Larak (En-sipad-zid-ana, 28 800), Sippar (En-men-dur-ana, 21 000) y Shuruppak (Ubara-Tutu, 18 600). «En cinco ciudades, ocho reyes gobernaron 241 200 años. Después el diluvio lo barrió todo».",
+          "fuente": "Cita breve traducida al español de ETCSL 2.1.1 (Black et al.), v. 1; el resto, paráfrasis fiel con las cifras del prisma WB 444",
+          "nota_academica": "Las cifras están en el sistema sexagesimal y son múltiplos de 3600 (el sar) y 600: 28 800 son 8 sar, 36 000 son 10 sar. Varían de un manuscrito a otro, y algunos dan otros reyes (por ejemplo, Ziusudra como décimo). La lista es un texto ideológico, compuesto probablemente en época de Ur III y reelaborado en Isin: sostiene que en Sumer solo hubo una realeza legítima que pasaba de ciudad en ciudad, cuando en realidad muchas dinastías fueron contemporáneas. Beroso (s. III a. C.) da una versión griega con diez reyes antediluvianos y 120 sar (432 000 años). P. Steinkeller publicó en 2003 el manuscrito de Ur III.",
+          "lectura_astronauta": {
+            "autor": "sitchin",
+            "lectura": "Sitchin interpreta los reinados múltiplos de 3600 años como «años de Nibiru»: cada sar sería una órbita del planeta, y los reyes antediluvianos serían comandantes Anunnaki que gobernaron la Tierra durante 120 sar (432 000 años) antes del diluvio.",
+            "replica": "El sar es un número (3600 = 60 × 60), no una unidad de tiempo astronómica; en la propia lista hay cifras que no son múltiplos de 3600 (21 000, 18 600, 43 200 son múltiplos de 600). Los reinados disminuyen progresivamente hasta duraciones humanas, recurso común en genealogías míticas como la de Génesis 5. El total varía según el manuscrito (241 200 en WB 444, otras cifras en otros) y los 120 sar proceden de Beroso, dos mil años después."
+          },
+          "lectura_actual": null
+        },
+        {
+          "ref": "Vv. 40–133 (Kish y Uruk) y entrada de Kug-Bau",
+          "tipo": "parafrasis",
+          "texto": "Paráfrasis. «Después de que el diluvio lo barriera todo y la realeza descendiera del cielo, la realeza estuvo en Kish». Siguen veintitrés reyes con reinados de 1200 a 300 años. Entre ellos: «Etana, el pastor, el que subió al cielo y consolidó todos los países extranjeros, fue rey; gobernó 1500 años». Luego la realeza pasa a Eanna (Uruk): Meskiaggasher, hijo de Utu, que entró en el mar y salió a las montañas; Enmerkar, que construyó Uruk; Lugalbanda el pastor; Dumuzi el pescador; y el divino Gilgamesh, cuyo padre era un fantasma (lil), señor de Kulaba, que gobernó 126 años; después su hijo Ur-Nungal, 30 años. Más adelante se lee: «En Kish, Kug-Bau, la tabernera, que consolidó los cimientos de Kish, se hizo rey; gobernó 100 años».",
+          "fuente": "Paráfrasis a partir de ETCSL 2.1.1 y Jacobsen (1939)",
+          "nota_academica": "La lista mezcla personajes históricos (Enmebaragesi de Kish está atestiguado en inscripciones del Dinástico Antiguo, c. 2600 a. C.) con héroes legendarios. Las breves notas añadidas a algunos nombres resumen leyendas: Etana y su vuelo, Meskiaggasher y el mar, Gilgamesh y su padre-fantasma. Kug-Bau (Ku-Baba) es la única mujer que figura como rey (lugal), no como reina consorte; se la recordaba como antigua tabernera, y la tradición posterior (Crónica Weidner) explica su ascenso por un favor a Marduk.",
+          "lectura_astronauta": null,
+          "lectura_actual": {
+            "enfoque": "estudios de género",
+            "lectura": "Kug-Bau, tabernera convertida en rey, es un caso excepcional en la ideología real masculina de Mesopotamia; los estudios de género la usan para mostrar cómo los textos oficiales hacen visible y a la vez marginal el poder femenino, asociándolo con oficios populares y con la transgresión.",
+            "referencia": "Zainab Bahrani, Women of Babylon: Gender and Representation in Mesopotamia, 2001"
+          }
+        }
+      ]
+    },
+    {
+      "id": "anzu",
+      "titulo": "Anzu (el mito de Zu)",
+      "version": "Versión estándar babilónica en 3 tablillas (copias neoasirias de Nínive, Asur y Sultantepe, s. VIII–VII a. C.); existe una versión paleobabilónica más breve (Susa), en la que el héroe es Ningirsu",
+      "lengua": "acadio",
+      "ediciones": [
+        {"titulo": "The Standard Babylonian Myth of Anzu (SAACT 3)", "autor": "Amar Annus", "anio": 2001},
+        {"titulo": "Bin šar dadmē: Edition and Analysis of the Akkadian Anzu Poem", "autor": "Marianna E. Vogelzang", "anio": 1988},
+        {"titulo": "«First Tablet of the SB Recension of the Anzu-Myth», Journal of Cuneiform Studies 31", "autor": "W. W. Hallo y W. L. Moran", "anio": 1979}
+      ],
+      "estructura": [
+        {"seccion": "Tablilla I", "sinopsis": "Proemio en alabanza de Ninurta. Nacimiento de Anzu, ave monstruosa (águila con cabeza de león), en el monte Hehe. Enlil lo pone como guardián de la entrada de su santuario. Al ver a Enlil bañándose sin sus insignias, Anzu le roba la Tablilla de los Destinos y huye a la montaña; el orden del mundo queda paralizado. Los dioses buscan un campeón; Adad, Girra y Shara rehúsan."},
+        {"seccion": "Tablilla II", "sinopsis": "Ea propone que la diosa madre (Belet-ili, Mami) envíe a su hijo Ninurta. Ella acepta y le da instrucciones de combate. Primer enfrentamiento: las flechas de Ninurta se deshacen porque Anzu, con la Tablilla, ordena a las cañas volver a su cañaveral. Ninurta envía a su arma Sharur a consultar a Ea, que aconseja agotar a Anzu y cortarle las alas."},
+        {"seccion": "Tablilla III", "sinopsis": "Ninurta sigue el consejo, corta las plumas de Anzu, lo atraviesa con flechas y lo mata. Recupera la Tablilla de los Destinos. Los dioses lo celebran y le conceden templos y numerosos nombres, en una letanía final de exaltación."}
+      ],
+      "pasajes": [
+        {
+          "ref": "Tablilla I, 61–83 (el robo)",
+          "tipo": "parafrasis",
+          "texto": "Paráfrasis. Anzu, apostado ante la puerta del santuario de Enlil, contempla a menudo al padre de los dioses, su corona de señorío, su vestimenta divina y la Tablilla de los Destinos que tiene en las manos. Concibe en su corazón el deseo de quitarle el poder: «Tomaré la Tablilla de los Destinos de los dioses y dominaré los decretos de todos los dioses; ocuparé el trono y seré dueño de los ritos». Al amanecer, mientras Enlil se lava con agua pura y deja la corona sobre el trono, Anzu se apodera de la Tablilla y vuela a la montaña. Se extiende el silencio, cesan los ritos, el brillo del santuario se apaga. Enlil queda mudo; los dioses se reúnen desconcertados.",
+          "fuente": "Paráfrasis a partir de Annus (2001) y Vogelzang (1988)",
+          "nota_academica": "La Tablilla de los Destinos (ṭuppi šīmāti) es un objeto que garantiza el poder de decretar el orden del mundo; aparece también en el Enuma Elish (en manos de Qingu) y, en la iconografía, puede imaginarse como un sello o documento legal de la asamblea divina. Anzu (sumerio Anzud) es un ave de la tormenta representada con cuerpo de águila y cabeza de león desde el III milenio (emblema de Ningirsu en Lagash, en la «estela de los buitres» de Eannatum). En el poema sumerio Lugalbanda y el pájaro Anzud aparece como ave favorable.",
+          "lectura_astronauta": {
+            "autor": "sitchin",
+            "lectura": "En The Wars of Gods and Men (1985), Sitchin convierte la Tablilla de los Destinos en el equipo de control del «centro de mando» de los Anunnaki en Nippur (el Duranki, «vínculo del cielo y la tierra»), y a Anzu en un astronauta rebelde que se apodera de él. El combate con Ninurta sería un duelo entre aeronaves.",
+            "replica": "El poema presenta un combate mítico con arco, flechas, vientos y tormentas entre un dios guerrero y un ave monstruosa, con detalles de cetrería (cortar las alas). Duranki es un nombre poético de Nippur como centro cósmico. La Tablilla funciona como símbolo de autoridad legal y religiosa, igual que los sellos en la administración real; nada en el texto describe una máquina."
+          },
+          "lectura_actual": null
+        },
+        {
+          "ref": "Tablillas II–III (combate y consejo de Ea)",
+          "tipo": "parafrasis",
+          "texto": "Paráfrasis. Ninurta reúne los siete vientos de la tormenta, avanza contra la montaña y Anzu lo desafía: «He robado todos los ritos; ¿quién eres tú que vienes a luchar conmigo?». Ninurta dispara, pero Anzu grita a la flecha: «¡Caña que te acercas, vuelve a tu cañaveral; madera del arco, vuelve a tu bosque; cuerda, vuelve a la oveja; plumas, volved al pájaro!». Gracias a la Tablilla, su orden se cumple y las flechas no lo alcanzan. Ninurta envía a Sharur, su maza, a contárselo a Ea. Ea responde: lucha sin cesar hasta que Anzu se canse, haz que el viento le arranque las plumas de las alas y, cuando grite a sus plumas «¡alas a las alas!», dispara. Ninurta lo hace así, corta sus plumas, atraviesa su corazón y lo mata. El viento lleva sus plumas como noticia de la victoria.",
+          "fuente": "Paráfrasis a partir de Annus (2001) y Vogelzang (1988)",
+          "nota_academica": "La escena muestra el poder performativo de la palabra unida a la Tablilla: Anzu deshace cada flecha en sus materiales de origen. La victoria de Ninurta reproduce el esquema del Enuma Elish (y quizá le sirvió de modelo): un dios joven, campeón de la asamblea, vence al rebelde y recibe la exaltación. A. Annus estudió la relación de Ninurta con la ideología real asiria, en la que el rey es el guerrero que restablece el orden.",
+          "lectura_astronauta": null,
+          "lectura_actual": {
+            "enfoque": "política",
+            "lectura": "El mito se interpreta como alegoría del poder real: el orden depende de quién posee los símbolos de la autoridad, y el robo de estos detiene el mundo. Los reyes asirios, que se presentaban como Ninurta, usaban el relato para legitimar sus campañas como restauración del orden cósmico.",
+            "referencia": "Amar Annus, The God Ninurta in the Mythology and Royal Ideology of Ancient Mesopotamia (SAAS 14), 2002"
+          }
+        }
+      ]
+    },
+    {
+      "id": "etana",
+      "titulo": "Etana",
+      "version": "Poema acadio conocido en tres versiones: paleobabilónica (Susa, c. 1800 a. C.), medioasiria (Asur) y estándar babilónica (Nínive, s. VII a. C., probablemente 4 tablillas); el final está perdido",
+      "lengua": "acadio",
+      "ediciones": [
+        {"titulo": "The Legend of Etana: A New Edition", "autor": "J. V. Kinnier Wilson", "anio": 1985},
+        {"titulo": "Das Etana-Epos", "autor": "Michael Haul", "anio": 2000},
+        {"titulo": "Myths from Mesopotamia", "autor": "Stephanie Dalley", "anio": 1989}
+      ],
+      "estructura": [
+        {"seccion": "Tablilla I", "sinopsis": "Los dioses fundan la ciudad de Kish, pero aún no hay rey; Ishtar busca un pastor e Enlil elige a Etana. La realeza desciende del cielo. Etana es piadoso, pero no tiene hijo."},
+        {"seccion": "Tablilla II", "sinopsis": "Un águila y una serpiente que viven en un álamo junto al templo de Adad juran ante Shamash ser aliados y cazar juntos. El águila rompe el pacto y devora a las crías de la serpiente. Por consejo de Shamash, la serpiente se esconde en el cadáver de un toro salvaje, atrapa al águila, le corta las alas y la arroja a un pozo para que muera."},
+        {"seccion": "Tablilla III", "sinopsis": "Etana pide a Shamash la «planta del nacimiento». Shamash lo envía al pozo, donde Etana alimenta y cura al águila durante meses. A cambio, el águila lo llevará al cielo de Anu en busca de la planta. Sueños premonitorios de Etana y de su esposa."},
+        {"seccion": "Tablilla IV", "sinopsis": "El vuelo: el águila sube con Etana etapa tras etapa y le pide que mire la tierra, cada vez más pequeña. En una versión Etana tiene miedo y caen; en otra llegan a la puerta de los dioses. El final se ha perdido, pero la Lista real dice que su hijo Balih le sucedió, lo que sugiere un final feliz."}
+      ],
+      "pasajes": [
+        {
+          "ref": "Tablilla II (el águila y la serpiente)",
+          "tipo": "parafrasis",
+          "texto": "Paráfrasis. En la copa de un álamo anida el águila; en su raíz, la serpiente. Juran ante Shamash: «Quien traspase los límites de Shamash, que Shamash lo entregue al verdugo». Durante un tiempo cazan juntos y comparten la presa con sus crías. Cuando las crías del águila crecen, esta planea devorar a las crías de la serpiente. Un aguilucho muy sabio le advierte que no lo haga, porque la red de Shamash la atrapará, pero el águila no escucha y las devora. La serpiente llora ante Shamash, que le aconseja: esconderse en el vientre de un toro salvaje muerto en la montaña, esperar a que el águila baje a comer y atraparla. Así lo hace: agarra al águila por las alas, le arranca las plumas y la arroja a un pozo para que muera de hambre y sed.",
+          "fuente": "Paráfrasis a partir de Kinnier Wilson (1985) y Haul (2000)",
+          "nota_academica": "La historia del águila y la serpiente es una fábula sobre el juramento y la justicia de Shamash (dios Sol y de la justicia) insertada en el relato real. El motivo se ha comparado con fábulas posteriores (Esopo, el Panchatantra). El «pozo» es una trampa en la montaña.",
+          "lectura_astronauta": null,
+          "lectura_actual": {
+            "enfoque": "ecocrítica / animal studies",
+            "lectura": "Los animales hablan, juran y son sujetos de justicia ante el dios Sol: las lecturas actuales subrayan que la fábula no separa humanos y animales en la comunidad moral, y que el pacto roto entre especies precede y hace posible la historia humana de Etana.",
+            "referencia": "Síntesis de lecturas desde los animal studies; véase la introducción de Haul, Das Etana-Epos, 2000"
+          }
+        },
+        {
+          "ref": "Tablilla III (la súplica de Etana)",
+          "tipo": "parafrasis",
+          "texto": "Paráfrasis. Cada día Etana ora a Shamash y le ofrece corderos: «Oh Señor, que salga de tu boca: dame la planta del nacimiento, muéstrame la planta del nacimiento, quítame mi vergüenza y dame un hijo». Shamash le responde que vaya a la montaña y encuentre el pozo; dentro hay un águila que le mostrará la planta. Etana encuentra al águila, que le promete lo que quiera si la saca de allí. Durante siete u ocho meses Etana la alimenta y le enseña a volar de nuevo, hasta que recupera sus fuerzas.",
+          "fuente": "Paráfrasis a partir de Kinnier Wilson (1985) y Dalley (1989)",
+          "nota_academica": "La falta de heredero es una amenaza dinástica, y la «planta del nacimiento» (šammu ša alādi) recuerda los remedios contra la esterilidad documentados en textos médicos y rituales. El salvamento del águila une los dos hilos del relato: la fábula animal y la leyenda real.",
+          "lectura_astronauta": null,
+          "lectura_actual": {
+            "enfoque": "estudios de género / historia de la medicina",
+            "lectura": "La súplica de Etana se lee junto con los textos médicos sobre esterilidad y parto: la «vergüenza» de no tener hijos se atribuye aquí al rey, no a la mujer, lo que contrasta con la tendencia de las fuentes médicas a localizar el problema en el cuerpo femenino.",
+            "referencia": "Síntesis; véase Rivkah Harris, Gender and Aging in Mesopotamia, 2000"
+          }
+        },
+        {
+          "ref": "Tablilla IV (el vuelo)",
+          "tipo": "parafrasis",
+          "texto": "Paráfrasis. El águila dice a Etana: «Pon tu pecho contra mi pecho, agárrate a las plumas de mis alas y pon tus brazos en mis costados». Lo lleva hacia lo alto. Al cabo de una legua doble le dice: «Mira, amigo, cómo está la tierra», y Etana ve que la tierra parece un monte y el mar una corriente de agua. Más arriba, la tierra parece un huerto y el mar un cubo de agua o una acequia de riego. Más arriba aún, Etana ya no ve la tierra ni el mar. Asustado, le pide al águila que vuelva. En la versión ninivita el águila lo lleva hasta las puertas de Anu, Enlil y Ea, donde se postran; en otro pasaje caen hacia la tierra. El final se ha perdido.",
+          "fuente": "Paráfrasis a partir de Kinnier Wilson (1985), Haul (2000) y Dalley (1989)",
+          "nota_academica": "El orden y la cantidad de etapas difieren entre versiones, y algunas imágenes (el mar como «cubo» o «redil») se leen de distinto modo. La leyenda era conocida mucho antes que el poema escrito: sellos cilíndricos acadios (c. 2300 a. C.) muestran a un hombre llevado por un águila, mientras pastores y perros miran hacia arriba. La Lista real sumeria resume a Etana como «el que subió al cielo».",
+          "lectura_astronauta": {
+            "autor": "von-daniken",
+            "lectura": "En Chariots of the Gods? (Recuerdos del futuro, 1968), Erich von Däniken cita el vuelo de Etana como prueba de que los antiguos describieron la Tierra vista desde gran altura con una exactitud imposible sin máquinas voladoras; Sitchin repite la lectura.",
+            "replica": "Que las cosas se ven más pequeñas desde lo alto es una experiencia al alcance de cualquiera que suba a una montaña o a un zigurat. Las comparaciones del texto son agrícolas (huerto, acequia, cubo), no muestran la curvatura ni ningún rasgo que exija vuelo. Los vuelos sobre aves son un motivo mítico universal, y la propia narración incluye una caída y el miedo del héroe, lo que encaja mal con un vuelo técnico."
+          },
+          "lectura_actual": {
+            "enfoque": "recepción contemporánea",
+            "lectura": "El vuelo de Etana se cita a menudo en historias de la aviación y de la imaginación espacial como el relato de vuelo más antiguo conservado, precedente de Ícaro y de la literatura de viajes celestes.",
+            "referencia": "Síntesis de recepción; véase Stephanie Dalley, Myths from Mesopotamia, 1989 (introducción a Etana)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "adapa",
+      "titulo": "Adapa",
+      "version": "Fragmentos de cuatro manuscritos: uno medio-babilónico hallado en El-Amarna (Egipto, s. XIV a. C., usado en la enseñanza del acadio) y tres neoasirios de la biblioteca de Asurbanipal (s. VII a. C.)",
+      "lengua": "acadio",
+      "ediciones": [
+        {"titulo": "Adapa and the South Wind: Language Has the Power of Life and Death", "autor": "Shlomo Izre'el", "anio": 2001},
+        {"titulo": "Cuneiform Parallels to the Old Testament (dominio público)", "autor": "R. W. Rogers", "anio": 1912},
+        {"titulo": "Myths from Mesopotamia", "autor": "Stephanie Dalley", "anio": 1989}
+      ],
+      "estructura": [
+        {"seccion": "Fragmento A (Nínive)", "sinopsis": "Presentación de Adapa, sabio de Eridu, creado por Ea como modelo de hombres, dotado de sabiduría pero no de vida eterna. Sirve diariamente en el templo, prepara el pan y el agua de Ea y pesca para su mesa."},
+        {"seccion": "Fragmento B (El-Amarna)", "sinopsis": "Mientras pesca, el viento del sur vuelca su barca; Adapa le rompe el ala con una maldición y el viento deja de soplar siete días. Anu lo cita. Ea le aconseja vestirse de luto, ganarse a Tammuz y Gizzida en la puerta y no tomar el pan ni el agua de la muerte. Anu, calmado, le ofrece en cambio el pan y el agua de la vida, que Adapa rechaza; es devuelto a la tierra."},
+        {"seccion": "Fragmentos C y D (Nínive)", "sinopsis": "Versiones paralelas del final: Anu se ríe de Ea y se pregunta por qué un hombre ha conocido los secretos del cielo; se fijan privilegios para Eridu y el texto termina con un conjuro contra la enfermedad que el viento del sur trae a los hombres."}
+      ],
+      "pasajes": [
+        {
+          "ref": "Fragmento B (El-Amarna), vv. 1–12",
+          "tipo": "traduccion-dominio-publico",
+          "texto": "El viento del sur […] cuando\nme había (empujado) a la casa de mi señor, dije:\n«Oh viento del sur, en el camino te […] todo lo que\ntu ala romperé». Mientras hablaba con su boca,\nel ala del viento del sur se rompió; siete días\nel viento del sur no sopló sobre la tierra. Anu\nllamó a su mensajero Ilabrat:\n«¿Por qué el viento del sur no ha soplado sobre la tierra\nen siete días?». Su mensajero Ilabrat le respondió: «Mi señor,\nAdapa, el hijo de Ea, el ala del viento del sur\nha roto».",
+          "fuente": "Versión española a partir de R. W. Rogers, Cuneiform Parallels to the Old Testament (1912), pp. 70–71",
+          "nota_academica": "El fragmento de El-Amarna tiene puntos rojos que marcan las palabras, prueba de que lo usaban escribas egipcios para aprender acadio. Rogers reconstruye el principio en primera persona; hoy se entiende como narración en tercera persona con un discurso directo de Adapa. «Romper el ala» del viento es una maldición eficaz: Izre'el ha mostrado que todo el relato gira en torno al poder de la palabra. El viento del sur (šūtu) traía las tormentas del golfo Pérsico.",
+          "lectura_astronauta": {
+            "autor": "temple",
+            "lectura": "Robert Temple (The Sirius Mystery, 1976) identifica a Adapa con Oannes, el ser anfibio que según Beroso salió del mar para enseñar la civilización, y lo considera un visitante extraterrestre de Sirio, relacionándolo con supuestos conocimientos astronómicos del pueblo dogón de Mali. Sitchin, por su parte, ve en el viaje de Adapa al cielo una subida a una nave de los Anunnaki.",
+            "replica": "En las listas de sabios (apkallū), Adapa aparece como sabio humano de Eridu y, en algunas, se lo asocia con U-an (Oannes) como el primero de los siete apkallū antediluvianos; los relieves que los muestran con «traje de pez» representan a sacerdotes o genios protectores vestidos con piel de pez, una figura ritual. El trabajo de campo de Walter van Beek (1991) entre los dogones no encontró los conocimientos sobre Sirio que Temple les atribuía, que procedían de la etnografía de Griaule. El viaje de Adapa es una citación ante el tribunal de Anu, contada con el lenguaje de la corte."
+          },
+          "lectura_actual": null
+        },
+        {
+          "ref": "Fragmento B, vv. 27–34 y 57–70",
+          "tipo": "traduccion-dominio-publico",
+          "texto": "«[…] Cuando estés ante Anu,\npan de muerte te pondrán delante:\nno comas. Agua de muerte te pondrán delante:\nno bebas. Vestidos te pondrán delante:\npóntelos. Aceite te pondrán delante: úngete.\nEl consejo que te he dado, no lo olvides. Las palabras\nque te he dicho, retenlas».\n[…]\n«¿Por qué Ea ha revelado a la humanidad impura\nel corazón del cielo y de la tierra? Un corazón […]\nha creado en él, le ha hecho un nombre.\n¿Qué podemos hacer con él? Pan de vida\ntraedle, para que coma». Pan de vida\nle trajeron, pero no comió. Agua de vida\nle trajeron, pero no bebió. Vestidos\nle trajeron; se vistió. Aceite\nle trajeron; se ungió.\nAnu lo miró; se asombró (?) de él.\n«Ven, Adapa, ¿por qué no has comido, no has bebido?\n(Ahora) no vivirás. […] los hombres […]». «Ea, mi señor,\ndijo: “No comas, no bebas”».\n«Tomadlo y devolvedlo a su tierra».",
+          "fuente": "Versión española a partir de R. W. Rogers, Cuneiform Parallels to the Old Testament (1912), pp. 74–76",
+          "nota_academica": "Pasaje central y muy discutido: ¿engañó Ea a Adapa para que no obtuviera la inmortalidad, o se equivocó al prever la reacción de Anu? ¿O el «pan de vida» habría sido mortal para un hombre? Rogers ya comparaba con el árbol de la vida de Génesis 3. Hoy se traduce «¿por qué Ea ha revelado a un hombre inútil (o impuro) los secretos del cielo y la tierra?». El verso «no vivirás» se entiende a veces como «¡ay de la humanidad débil!». La comida y el agua de la vida aparecen también en el Descenso de Inanna.",
+          "lectura_astronauta": {
+            "autor": "sitchin",
+            "lectura": "Para Sitchin, el «pan y el agua de la vida» son un tratamiento de longevidad propio de los Anunnaki, que Enki habría querido negar a su hijo humano para que los humanos no alcanzaran la vida larga de sus creadores.",
+            "replica": "El relato pertenece a una serie de mitos mesopotámicos sobre la inmortalidad perdida (Gilgamesh y la planta, Etana y la planta del nacimiento) que explican por qué el hombre, aunque sabio, es mortal. Pan, agua, vestido y aceite son los dones de hospitalidad habituales en la corte; ofrecer comida a un huésped en el cielo de Anu lo integraba en el mundo divino."
+          },
+          "lectura_actual": {
+            "enfoque": "filosofía del lenguaje",
+            "lectura": "Shlomo Izre'el lee el mito como una reflexión sobre el lenguaje: Adapa rompe el ala del viento con una palabra y pierde la vida eterna por obedecer otra palabra. El texto, usado para enseñar acadio, mostraría que la lengua tiene poder sobre la vida y la muerte.",
+            "referencia": "Shlomo Izre'el, Adapa and the South Wind: Language Has the Power of Life and Death, 2001"
+          }
+        }
+      ]
+    },
+    {
+      "id": "erra-ishum",
+      "titulo": "Erra e Ishum",
+      "version": "Poema acadio en 5 tablillas (unos 750 versos), compuesto por Kabti-ilani-Marduk probablemente en el s. VIII a. C. (otras propuestas: s. XI–IX); copias neoasirias y neobabilónicas de Asur, Nínive, Sultantepe, Babilonia y Ur",
+      "lengua": "acadio",
+      "ediciones": [
+        {"titulo": "L'epopea di Erra", "autor": "Luigi Cagni", "anio": 1969},
+        {"titulo": "The Poem of Erra (Sources from the Ancient Near East 1/3)", "autor": "Luigi Cagni", "anio": 1977},
+        {"titulo": "Before the Muses", "autor": "Benjamin R. Foster", "anio": 2005}
+      ],
+      "estructura": [
+        {"seccion": "Tablilla I", "sinopsis": "Invocación a Marduk e Ishum. Erra, dios de la guerra y la peste, está aletargado en su lecho. Los Sebettu (Siete), sus armas divinas, lo incitan a la guerra. Ishum, su consejero, intenta calmarlo. Erra va a Babilonia y convence a Marduk de que abandone su trono para renovar su imagen y sus insignias, prometiendo cuidar el mundo en su ausencia."},
+        {"seccion": "Tablilla II", "sinopsis": "Marduk desciende al mundo inferior y se producen presagios funestos. Erra toma el poder y decide destruir; los dioses temen. Ishum intenta disuadirlo."},
+        {"seccion": "Tablilla III", "sinopsis": "Erra desata la destrucción: anuncia que aniquilará la tierra, al justo y al malvado. Ishum lamenta la catástrofe."},
+        {"seccion": "Tablilla IV", "sinopsis": "Ishum relata a Erra lo que ha provocado: guerra civil en Babilonia, saqueo de Uruk, Sippar, Der; el padre entierra al hijo. Ishum ataca el monte Sharshar y destruye a sus enemigos, lo que apacigua a Erra."},
+        {"seccion": "Tablilla V", "sinopsis": "Erra, calmado, reconoce su furia y bendice a Ishum. Se anuncia la recuperación de Babilonia y la sumisión de los suteos. Colofón: el poema fue revelado en sueño a Kabti-ilani-Marduk y sirve como amuleto contra la peste en las casas donde se conserve."}
+      ],
+      "pasajes": [
+        {
+          "ref": "Tablilla IV, 1–150 (selección) y V, 40–61",
+          "tipo": "parafrasis",
+          "texto": "Paráfrasis. Ishum reprocha a Erra: «Guerrero Erra, has matado al justo y al injusto, al que pecó contra ti y al que no pecó». Describe cómo los habitantes de Babilonia, que eran como pájaros en su nido, se armaron y se volvieron unos contra otros; el gobernador furioso ordenó saquear la ciudad; el enemigo profanó los templos de Uruk, la ciudad de las prostitutas de Ishtar; Der quedó desolada. En el país, el hijo odia a su padre y la madre cierra la puerta a su hija; el que no murió en la batalla muere de peste, y el que no murió de peste lo despoja el enemigo. Erra, al oírlo, se apacigua y dice que, cuando él se enfurece, destruye como si fuera un dios cualquiera. Al final, el poema afirma que fue revelado en un sueño a Kabti-ilani-Marduk, que lo escribió sin añadir ni quitar una sola línea, y que en la casa donde se guarde esta tablilla Erra no causará daño.",
+          "fuente": "Paráfrasis a partir de Cagni (1977) y Foster (2005)",
+          "nota_academica": "Erra e Ishum es una teodicea poco habitual: el caos histórico (invasiones de suteos y arameos, guerras civiles y peste en la Babilonia de comienzos del I milenio) se explica por la ausencia del dios supremo y la libertad de un dios violento. P. Machinist (1983) analizó la tensión entre reposo y violencia como clave del poema. Las tablillas se usaban como amuletos: se han hallado extractos en tablillas perforadas para colgar.",
+          "lectura_astronauta": {
+            "autor": "sitchin",
+            "lectura": "En The Wars of Gods and Men (1985) y The End of Days (2007), Sitchin interpreta las «siete armas» de Erra como armas nucleares con las que Nergal (Erra) y Ninurta (Ishum) habrían destruido el cosmódromo del Sinaí y las ciudades de Sodoma y Gomorra hacia 2024 a. C.; el «viento malo» radiactivo habría acabado después con Sumer.",
+            "replica": "Los Sebettu («los Siete») son un grupo de divinidades guerreras, identificadas con las Pléyades y presentes en conjuros y relieves neoasirios como figuras protectoras. El poema describe espadas, saqueo, guerra civil y peste, y nombra ciudades mesopotámicas (Babilonia, Uruk, Sippar, Der), no el Sinaí. El fin de Ur III se produjo hacia 2004 a. C. por la conquista elamita y una crisis económica documentada en cartas de Ibbi-Sin y en las lamentaciones sumerias; no hay rastro de radiactividad en los sedimentos."
+          },
+          "lectura_actual": {
+            "enfoque": "violencia política / trauma",
+            "lectura": "El poema se lee hoy como reflexión sobre la violencia colectiva y el trauma: describe la guerra civil desde las víctimas (el padre que entierra al hijo) y reconoce, por boca del propio dios, la irracionalidad de la violencia, algo raro en la literatura religiosa antigua.",
+            "referencia": "Peter Machinist, «Rest and Violence in the Poem of Erra», Journal of the American Oriental Society 103, 1983"
+          }
+        }
+      ]
+    },
+    {
+      "id": "nergal-ereshkigal",
+      "titulo": "Nergal y Ereshkigal",
+      "version": "Dos versiones acadias: una breve, medio-babilónica, hallada en El-Amarna (s. XIV a. C., unos 90 versos), y otra mucho más larga, estándar babilónica, de Sultantepe (Huzirina, s. VII a. C.) y Uruk",
+      "lengua": "acadio",
+      "ediciones": [
+        {"titulo": "«The Myth of Nergal and Ereshkigal», Anatolian Studies 10", "autor": "O. R. Gurney", "anio": 1960},
+        {"titulo": "The Standard Babylonian Myth of Nergal and Ereškigal (SAACT 8)", "autor": "Simonetta Ponchia y Mikko Luukko", "anio": 2013},
+        {"titulo": "Cuneiform Parallels to the Old Testament (versión de El-Amarna; dominio público)", "autor": "R. W. Rogers", "anio": 1912}
+      ],
+      "estructura": [
+        {"seccion": "El banquete de los dioses", "sinopsis": "Los dioses celebran un banquete y, como Ereshkigal no puede subir, la invitan a enviar a buscar su parte. Su visir Namtar sube al cielo; todos los dioses se levantan ante él menos Nergal."},
+        {"seccion": "El descenso de Nergal", "sinopsis": "Ereshkigal exige que le entreguen al dios irrespetuoso. Ea aconseja a Nergal: en la versión de Amarna le da catorce demonios para apostar en las puertas; en la de Sultantepe le recomienda no aceptar asiento, comida, bebida ni baño en el mundo inferior y, sobre todo, no ceder al deseo."},
+        {"seccion": "Encuentro y unión", "sinopsis": "En Amarna, Nergal derriba a Ereshkigal agarrándola por el pelo; ella le ofrece casarse y compartir el poder. En Sultantepe, Nergal se une a ella durante seis días, escapa, y Ereshkigal amenaza con hacer subir a los muertos si no vuelve. Nergal regresa y se queda como esposo y rey del mundo inferior."}
+      ],
+      "pasajes": [
+        {
+          "ref": "Versión de El-Amarna, vv. 1–7 y 80–88",
+          "tipo": "traduccion-dominio-publico",
+          "texto": "Cuando los dioses prepararon un banquete,\na su hermana Ereshkigal\nenviaron un mensajero:\n«Aunque nosotros bajáramos a ti,\ntú no podrías subir a nosotros;\npor eso envía (aquí) y toma tu porción».\nEreshkigal envió a Namtar, su mensajero.\n[…]\n«No me mates, hermano mío. Déjame decirte una palabra».\nNergal la escuchó; sus manos se aflojaron. Ella lloraba y sollozaba:\n«Tú serás mi marido; yo seré tu esposa. Te daré\nel dominio sobre la ancha tierra. Pondré la tablilla\nde la sabiduría en tu mano. Tú serás señor,\nyo seré señora». Cuando Nergal oyó estas palabras,\nla tomó, la besó y enjugó sus lágrimas:\n«¿Qué es lo que deseabas de mí desde hace meses,\nhasta ahora?».",
+          "fuente": "Versión española a partir de R. W. Rogers, Cuneiform Parallels to the Old Testament (1912), pp. 131–135",
+          "nota_academica": "La versión de El-Amarna, como el Adapa, se conserva en Egipto, donde sirvió para enseñar acadio. Rogers no conocía la versión de Sultantepe (publicada por Gurney en 1960), mucho más extensa y con un tono erótico y humorístico. La «tablilla de la sabiduría» se lee hoy como la tablilla del poder o de los destinos del mundo inferior. El mito explica cómo Nergal, dios de la peste y la guerra, se convirtió en rey de los muertos junto a Ereshkigal.",
+          "lectura_astronauta": null,
+          "lectura_actual": {
+            "enfoque": "estudios de género",
+            "lectura": "La versión de Sultantepe da voz a Ereshkigal: soledad, deseo sexual y la queja de no haber conocido nunca los juegos de las muchachas. Las lecturas de género la ven como una de las pocas expresiones del deseo femenino en la literatura acadia, aunque el final reintegra a la diosa en un esquema de poder compartido con un rey masculino.",
+            "referencia": "Síntesis; véase Rivkah Harris, Gender and Aging in Mesopotamia, 2000, y la introducción de Ponchia y Luukko, SAACT 8, 2013"
+          }
+        }
+      ]
+    },
+    {
+      "id": "lugal-e",
+      "titulo": "Lugal-e (Las hazañas de Ninurta)",
+      "version": "Poema sumerio de unos 730 versos, conocido por copias paleobabilónicas y por versiones bilingües sumerio-acadias medioasirias, neoasirias y tardías; composición probablemente de época neosumeria (c. 2100 a. C.)",
+      "lengua": "sumerio (con traducción acadia interlineal en las copias tardías)",
+      "ediciones": [
+        {"titulo": "LUGAL UD ME-LÁM-bi NIR-ĜÁL: Le récit épique et didactique des Travaux de Ninurta", "autor": "J. J. A. van Dijk", "anio": 1983},
+        {"titulo": "La versione accadica del Lugal-e", "autor": "Stefano Seminara", "anio": 2001},
+        {"titulo": "ETCSL 1.6.2: Ninurta's exploits", "autor": "J. A. Black et al.", "anio": 1998}
+      ],
+      "estructura": [
+        {"seccion": "Himno y amenaza (vv. 1–70)", "sinopsis": "Alabanza de Ninurta. Su arma parlante, Sharur, le informa de que Asag, hijo de An y Ki, ha nacido en las montañas, ha sido elegido rey por las plantas y las piedras y ataca las fronteras de Sumer."},
+        {"seccion": "La guerra contra Asag (vv. 71–333)", "sinopsis": "Ninurta parte a la guerra. En el primer ataque Asag levanta una tormenta de polvo y Ninurta retrocede; Sharur pide consejo a Enlil. En el segundo enfrentamiento Ninurta vence a Asag y a su ejército de piedras."},
+        {"seccion": "La ordenación de las aguas (vv. 334–410)", "sinopsis": "Ninurta amontona piedras y forma una barrera, el hursag, que retiene las aguas de las montañas y las dirige al Tigris, que riega los campos y hace crecer el grano. Su madre Ninmah lo visita, y él le da el nombre de Ninhursag, «señora de la montaña»."},
+        {"seccion": "El juicio de las piedras (vv. 411–647)", "sinopsis": "Ninurta pasa revista a las piedras que lucharon con Asag o contra él: maldice a las enemigas (como el pedernal y la piedra-šu) con destinos humildes y bendice a las aliadas (diorita, alabastro, cornalina, lapislázuli…) con destinos honrosos."},
+        {"seccion": "Regreso y alabanza (vv. 648–729)", "sinopsis": "Ninurta vuelve a Nippur, celebrado por los dioses; el poema se cierra con su glorificación y la de Nisaba, diosa de la escritura."}
+      ],
+      "pasajes": [
+        {
+          "ref": "Vv. 334–367 y 411–470 (selección)",
+          "tipo": "parafrasis",
+          "texto": "Paráfrasis. En aquel tiempo las buenas aguas que salían de la tierra no llegaban a los campos: el agua helada de las montañas no corría por el Tigris, y el hambre era grande. Ninurta, señor, apila piedras y construye una montaña de piedras como una pared contra el país enemigo, y hace que las aguas que se dispersaban se reúnan y corran hacia el Tigris. Ahora las aguas suben a los campos, crecen la cebada moteada, los huertos y los frutales, y en los graneros se amontona el grano. Luego Ninurta juzga a las piedras: a la piedra-šu, que se alzó contra él, le decreta que su cuerpo sea despedazado y que se convierta en polvo; a la diorita, que lo apoyó, le dice que la traerán de las montañas de Magan y la tallarán como estatua del rey para el templo.",
+          "fuente": "Paráfrasis a partir de ETCSL 1.6.2 y van Dijk (1983)",
+          "nota_academica": "El poema combina épica, cosmogonía local (el origen del sistema de regadío del Tigris y de las montañas) y una lista didáctica de minerales con sus usos. La diorita traída de Magan (Omán) es la piedra de las estatuas de Gudea de Lagash, contemporáneo del poema. Asag (Asakku) pasó a ser en acadio el nombre de un demonio de la enfermedad. El texto se copió durante más de 1500 años y era uno de los clásicos de la escuela de escribas.",
+          "lectura_astronauta": {
+            "autor": "sitchin",
+            "lectura": "En The Wars of Gods and Men (1985), Sitchin relaciona el juicio de las piedras con unas supuestas «Guerras de las Pirámides»: Ninurta habría entrado en la Gran Pirámide de Guiza, entendida como faro y centro de control, y habría retirado o destruido los cristales y piedras que formaban su equipo.",
+            "replica": "El poema sitúa la acción en las montañas del este de Sumer (el Kur) y en el Tigris; no menciona Egipto ni ninguna construcción. Las piedras son minerales concretos con los usos que les daban los artesanos mesopotámicos (estatuas, sellos, pesas, joyas), y el juicio explica en forma mítica por qué unas son preciosas y otras se usan para moler o pulir. La Gran Pirámide es una tumba real de la IV dinastía egipcia (c. 2560 a. C.)."
+          },
+          "lectura_actual": {
+            "enfoque": "ecocrítica",
+            "lectura": "La escena de la barrera de piedras se lee hoy como un mito de la ingeniería hidráulica: el héroe domestica las aguas de la montaña para la agricultura y se convierte en el arquetipo del poder que transforma el paisaje. Las piedras, que hablan y tienen destino, son un caso de animación de la materia que interesa a los nuevos materialismos.",
+            "referencia": "Síntesis de lecturas ecocríticas; véase la introducción de van Dijk (1983)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "inanna-enki-me",
+      "titulo": "Inanna y Enki (Inanna y los me)",
+      "version": "Poema sumerio de unos 470 versos (en parte fragmentario), conocido por copias paleobabilónicas de Nippur",
+      "lengua": "sumerio",
+      "ediciones": [
+        {"titulo": "Der Mythos «Inanna und Enki» unter besonderer Berücksichtigung der Liste der me (Studia Pohl 10)", "autor": "Gertrud Farber-Flügge", "anio": 1973},
+        {"titulo": "ETCSL 1.3.1: Inana and Enki", "autor": "J. A. Black et al.", "anio": 1998}
+      ],
+      "estructura": [
+        {"seccion": "Viaje a Eridu", "sinopsis": "Inanna decide visitar a Enki en el Apsu de Eridu. Enki ordena a su visir Isimud recibirla con mantequilla, agua fresca, cerveza y un banquete."},
+        {"seccion": "La donación de los me", "sinopsis": "Entre copas de cerveza, Enki, ebrio, entrega a Inanna en sucesivos lotes los me, los poderes divinos de la civilización (unos cien), jurando cada vez por su poder. Inanna los acepta uno a uno."},
+        {"seccion": "La persecución", "sinopsis": "Inanna carga los me en la Barca del Cielo y parte. Enki, ya sobrio, descubre que los ha dado y envía a Isimud con diversos monstruos para recuperarlos en siete etapas del viaje. Cada vez, Ninshubur, la visir de Inanna, rechaza a los perseguidores."},
+        {"seccion": "Llegada a Uruk", "sinopsis": "Inanna llega a Uruk y descarga los me en el muelle blanco entre la alegría de la ciudad; aparecen incluso más me de los que Enki le dio. Enki acaba aceptando la situación y se establecen relaciones entre Uruk y Eridu."}
+      ],
+      "pasajes": [
+        {
+          "ref": "Lista de los me (segmento I, vv. 1–70 de la edición de Farber-Flügge, selección)",
+          "tipo": "parafrasis",
+          "texto": "Paráfrasis. Enki, alegrado por la cerveza, dice a Inanna: «¡Por mi poder, por mi Apsu! A la santa Inanna, mi hija, le daré...». Y le entrega, en lotes de varios me, el cargo de en, la realeza, la divinidad, la corona augusta y el trono de la realeza; el cetro noble, el cayado y el báculo; el descenso al mundo inferior y el ascenso desde él; la espada y la maza; la sacerdotisa y el sacerdote de lamentaciones; la verdad; el acto sexual y la prostitución; la lengua franca y la calumnia; el arte del héroe, el poder, la perfidia y la rectitud; el saqueo de ciudades y la lamentación; la alegría del corazón; el engaño; el país rebelde; la bondad; el arte del carpintero, del herrero, del escriba, del alfarero, del curtidor y del tejedor; la sabiduría y la atención; los ritos de purificación; el temor reverente y el grito de guerra; el juicio y la decisión. Inanna responde cada vez: «Los acepto».",
+          "fuente": "Paráfrasis a partir de ETCSL 1.3.1 y Farber-Flügge (1973)",
+          "nota_academica": "Los me (sumerio; acadio parṣū) son los principios, funciones y poderes que hacen posible la civilización: cargos, ritos, oficios, emociones, incluso los vicios y las desgracias. El poema los presenta como objetos que se pueden dar, cargar en un barco y transportar, lo que ha alimentado la discusión sobre su naturaleza: ¿cosas, fórmulas, insignias? La mayoría de los especialistas los entiende como arquetipos culturales que existen en la esfera divina. El mito justifica la importancia de Uruk frente a Eridu.",
+          "lectura_astronauta": {
+            "autor": "sitchin",
+            "lectura": "Sitchin entiende los me como objetos físicos portátiles que contenían conocimiento técnico, comparables a programas o «chips» de datos, que Inanna robó a Enki para transferir tecnología a su ciudad.",
+            "replica": "La lista mezcla oficios, cargos y ritos con realidades abstractas o morales como la verdad, la calumnia, la alegría o el engaño, que no pueden ser dispositivos técnicos. Que los me se transporten en una barca es una forma poética de expresar la transferencia de prestigio religioso de una ciudad a otra, como en los mitos de viajes divinos (por ejemplo, el viaje de Nanna a Nippur)."
+          },
+          "lectura_actual": {
+            "enfoque": "estudios de género",
+            "lectura": "Inanna, la diosa joven, obtiene con astucia del dios sabio y borracho los fundamentos de la civilización y los lleva a su ciudad: la recepción feminista la ha presentado como figura de una mujer que conquista el saber y el poder, aunque el texto lo enmarca en una rivalidad entre ciudades.",
+            "referencia": "Diane Wolkstein y Samuel Noah Kramer, Inanna, Queen of Heaven and Earth, 1983"
+          }
+        }
+      ]
+    }
+  ]
+}

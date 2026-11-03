@@ -1,0 +1,4 @@
+﻿dist/
+tests/capturas/
+node_modules/
+*.log

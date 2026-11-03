@@ -1,0 +1,149 @@
+{
+  "cientifico": {
+    "id": "tablilla-perdida-enlil",
+    "nombre": "Tablilla Perdida de Enlil",
+    "nombre_original": "No existe forma original antigua. «Tablilla Perdida de Enlil» («Lost Tablet of Enlil») es una denominación moderna y popular, que se difunde sobre todo en vídeos de YouTube de 2025 y no aparece en catálogos de museos ni en los corpus ETCSL, ORACC o CDLI. El objeto antiguo más cercano es la «Tablilla de los Destinos» (acadio ṭuppi šīmāti; sumerio dub nam-tar-ra), que en los mitos custodia Enlil.",
+    "categoria": "concepto",
+    "culturas": [
+      "sumeria",
+      "babilonia",
+      "asiria"
+    ],
+    "periodo": "paleobabilonico",
+    "fecha_texto": "No hay un texto antiguo con este nombre. Los materiales en que se apoya el título son: la tablilla Ni 12501 (Dinástico Arcaico IIIb, c. 2400 a. C.), el Atrahasis (paleobabilónico, c. 1700–1640 a. C.) y el mito de Anzu (versiones paleobabilónica y estándar del I milenio a. C.).",
+    "resumen": "La «Tablilla Perdida de Enlil» no es un objeto ni un texto antiguo identificado: no hay ninguna tablilla con ese nombre en museos ni en ediciones académicas. Es un título sensacionalista de vídeos de divulgación alternativa que circulan desde 2025. Mezclan la noticia real de la tablilla Ni 12501 (un mito sumerio «olvidado» en el que Enlil convoca a los dioses) con el relato del Atrahasis, donde Enlil decide exterminar a la humanidad, y con la lectura de Zecharia Sitchin sobre los Anunnaki.",
+    "interpretacion": "En la asiriología no existe ninguna «Tablilla Perdida de Enlil». Lo más probable es que el nombre sea un reclamo popular formado a partir de varios elementos reales. (1) En julio y agosto de 2025 la prensa difundió el trabajo de Jana Matuszak (Universidad de Chicago) en la revista Iraq: la primera edición completa de Ni 12501, una tablilla fragmentaria de Nippur (c. 2400 a. C.) que se conserva en los Museos Arqueológicos de Estambul. Samuel Noah Kramer la había reproducido en la sobrecubierta de su libro de 1956 y la describió como «otro mito de Enlil, aún inédito». En ella el dios de la tormenta Iškur queda atrapado en el Kur (el inframundo), lo que provoca una sequía; Enlil reúne a los dioses para buscar a alguien que lo rescate y solo se ofrece un zorro. Los titulares hablaron de un mito «perdido» u «olvidado». (2) Al mismo tiempo aparecieron vídeos titulados «The Lost Tablet of Enlil Finally Recovered — It Describes His Vote Against Humanity» y «The Lost Tablet of Enlil Finally Translated — It Describes Why He Wanted Humans Destroyed». Su argumento, que Enlil votó en la asamblea divina destruir a la humanidad, no procede de Ni 12501. Es el relato del Atrahasis y de la tablilla XI del Gilgamesh, que se conocen y se publican desde el siglo XIX.\n\nUna tercera fuente del nombre es la Tablilla de los Destinos, el único objeto mítico que se asocia de forma explícita con Enlil y que de verdad se «pierde» en un relato. En el mito de Anzu el pájaro Anzu la roba de Enlil mientras este se baña, y Ninurta la recupera. En el Enuma Elish la tiene Qingu y Marduk se la arrebata. Tampoco hay que confundir el título con los textos reales que llevan Enlil en el nombre, como «Enlil en el Ekur» (ETCSL 4.05.1), «Enlil y Ninlil» (ETCSL 1.2.1), «Enlil y Sud» (ETCSL 1.2.2) o la serie astrológica Enuma Anu Enlil, ni con «The Lost Book of Enki» de Sitchin (2002), del que el título copia la fórmula. También existe una novela con un título parecido, «The Book of Enlil» de Stephen C. Norton, una ficción de historia alternativa sobre unas tablillas olvidadas en el British Museum.",
+    "detalles": [
+      "En el CDLI, el ETCSL, el ORACC y las colecciones del British Museum y del Penn Museum no hay ningún texto ni objeto llamado «Tablilla Perdida de Enlil».",
+      "Ni 12501 (CDLI P221771) es una tablilla del Dinástico Arcaico IIIb (c. 2400 a. C.) procedente de Nippur, conservada en los Museos Arqueológicos de Estambul. La editó J. Matuszak en Iraq 86 (2024), pp. 79–108, doi:10.1017/irq.2024.19. Se conserva aproximadamente un tercio del texto.",
+      "Kramer usó Ni 12501 en la sobrecubierta de «From the Tablets of Sumer» (1956) con el pie «another Enlil myth, still unpublished». Esa es la conexión documentada más directa entre una tablilla «inédita» o «perdida» y Enlil.",
+      "En el Atrahasis (paleobabilónico, c. 1700–1640 a. C.), Enlil, molesto por el ruido de los humanos, les envía plagas y después el diluvio. Enki/Ea lo frustra avisando a Atrahasis. Este es el contenido que los vídeos de 2025 atribuyen a la supuesta «tablilla perdida».",
+      "La Tablilla de los Destinos (ṭuppi šīmāti) aparece en el mito de Anzu como posesión de Enlil que roba Anzu y recupera Ninurta. En el Enuma Elish pasa de Qingu a Marduk.",
+      "Los vídeos que popularizan el título en 2025 son de canales como «The Lost Vault» y «The Obsidian Vault». Sus títulos usan el formato «Finally Recovered/Translated», típico de la divulgación sensacionalista."
+    ],
+    "fuentes_primarias": [
+      "Ni 12501 (Museos Arqueológicos de Estambul; CDLI P221771): mito sumerio de Iškur cautivo en el Kur y la asamblea convocada por Enlil",
+      "Atrahasis (versión paleobabilónica de Nippur/Sippar; ed. Lambert y Millard 1969)",
+      "Mito de Anzu (versiones paleobabilónica y estándar; robo de la Tablilla de los Destinos de Enlil)",
+      "Enuma Elish, tablillas I, IV y V (la Tablilla de los Destinos de Qingu pasa a Marduk)",
+      "Enlil en el Ekur (ETCSL 4.05.1); Enlil y Ninlil (ETCSL 1.2.1); Enlil y Sud (ETCSL 1.2.2); La maldición de Agadé (ETCSL 2.1.5)",
+      "Epopeya de Gilgamesh, tablilla XI (versión estándar): el diluvio decidido por Enlil"
+    ],
+    "bibliografia": [
+      {
+        "titulo": "Of captive storm gods and cunning foxes: new insights into early Sumerian mythology, with an edition of Ni 12501",
+        "autor": "Jana Matuszak",
+        "anio": 2024,
+        "url": "https://www.cambridge.org/core/product/391CFC6A9361C23A0E7AF159F565A911"
+      },
+      {
+        "titulo": "UChicago Sumerologist translates forgotten 4,400-year-old myth",
+        "autor": "Tori Lee (UChicago News)",
+        "anio": 2025,
+        "url": "https://news.uchicago.edu/story/uchicago-sumerologist-translates-forgotten-4400-year-old-myth"
+      },
+      {
+        "titulo": "Newly Deciphered Cuneiform Tablet Contains Unknown Sumerian Myth",
+        "autor": "Archaeology Magazine",
+        "anio": 2025,
+        "url": "https://archaeology.org/news/2025/07/28/newly-deciphered-cuneiform-tablet-contains-unknown-sumerian-myth/"
+      },
+      {
+        "titulo": "From the Tablets of Sumer: Twenty-Five Firsts in Man's Recorded History",
+        "autor": "Samuel Noah Kramer",
+        "anio": 1956
+      },
+      {
+        "titulo": "Atra-ḫasīs: The Babylonian Story of the Flood",
+        "autor": "W. G. Lambert y A. R. Millard",
+        "anio": 1969
+      },
+      {
+        "titulo": "The Standard Babylonian Epic of Anzu (SAACT 3)",
+        "autor": "Amar Annus",
+        "anio": 2001
+      },
+      {
+        "titulo": "The Electronic Text Corpus of Sumerian Literature (ETCSL)",
+        "autor": "J. A. Black, G. Cunningham, E. Robson, G. Zólyomi et al.",
+        "anio": 2006,
+        "url": "https://etcsl.orinst.ox.ac.uk/"
+      }
+    ],
+    "relaciones": [
+      {
+        "id": "enlil",
+        "tipo": "asociado a"
+      },
+      {
+        "id": "anzu",
+        "tipo": "confundido con (Tablilla de los Destinos)"
+      },
+      {
+        "id": "enuma-elish",
+        "tipo": "confundido con (Tablilla de los Destinos)"
+      },
+      {
+        "id": "atrahasis",
+        "tipo": "fuente real del argumento atribuido"
+      },
+      {
+        "id": "diluvio-ziusudra",
+        "tipo": "fuente real del argumento atribuido"
+      },
+      {
+        "id": "gilgamesh",
+        "tipo": "fuente real del argumento atribuido"
+      },
+      {
+        "id": "kur-inframundo",
+        "tipo": "escenario de Ni 12501"
+      },
+      {
+        "id": "anunnaki",
+        "tipo": "asociado a"
+      },
+      {
+        "id": "enki-ea",
+        "tipo": "asociado a"
+      },
+      {
+        "id": "ninurta",
+        "tipo": "asociado a"
+      }
+    ]
+  },
+  "astronautas": {
+    "id": "tablilla-perdida-enlil",
+    "titulo_alternativo": "El testimonio perdido de Enlil: el comandante anunnaki que votó por exterminar a la humanidad",
+    "autores": [
+      "sitchin"
+    ],
+    "autores_nuevos": [],
+    "interpretacion": "En la divulgación alternativa, sobre todo en vídeos de YouTube de 2025 de canales anónimos como «The Lost Vault» y «The Obsidian Vault», la «Tablilla Perdida de Enlil» se presenta como un documento «por fin recuperado» o «por fin traducido». En él Enlil, entendido como comandante de unos Anunnaki extraterrestres, explicaría por qué votó en el consejo de los dioses destruir a la humanidad mediante el diluvio. Su hermano Enki/Ea sería el creador y protector de los humanos. Este planteamiento procede directamente de Zecharia Sitchin, sobre todo de «The 12th Planet» (1976) y «The Lost Book of Enki» (2002). En esos libros Enlil y Enki son dos hermanos anunnaki de Nibiru enfrentados por el destino de la humanidad, y el diluvio es una catástrofe que Enlil permite deliberadamente. Los vídeos presentan la tablilla como la «versión de Enlil», el complemento del supuesto libro de Enki.",
+    "afirmaciones": [
+      {
+        "afirmacion": "Existe una tablilla de Enlil, perdida y recuperada o traducida recientemente, en la que el dios explica su decisión de exterminar a la humanidad.",
+        "replica": "Ningún museo, catálogo (CDLI, ORACC, ETCSL) ni publicación académica registra esa tablilla. La única tablilla «olvidada» relacionada con Enlil que se publicó en esos años es Ni 12501 (Matuszak, Iraq 2024/2025), y no trata de destruir a la humanidad: cuenta el rescate del dios Iškur, atrapado en el inframundo, por un zorro.",
+        "fuente_replica": "J. Matuszak, Iraq 86 (2024), pp. 79–108; UChicago News, 15 de agosto de 2025"
+      },
+      {
+        "afirmacion": "Esa tablilla revela por primera vez que Enlil votó en contra de la humanidad.",
+        "replica": "La decisión de Enlil de aniquilar a los humanos con plagas y con el diluvio se conoce desde hace mucho por el Atrahasis (paleobabilónico) y la tablilla XI del Gilgamesh, publicada por George Smith en 1872. No es ninguna revelación nueva, y en esos textos Enlil es un dios, no un jefe extraterrestre.",
+        "fuente_replica": "W. G. Lambert y A. R. Millard, Atra-ḫasīs (1969); A. R. George, The Babylonian Gilgamesh Epic (2003)"
+      },
+      {
+        "afirmacion": "Enlil y Enki eran astronautas anunnaki llegados de Nibiru, y sus tablillas son crónicas históricas.",
+        "replica": "Esta lectura procede de Sitchin, cuyas traducciones rechaza la asiriología. «The Lost Book of Enki» (2002) es una obra original de Sitchin que se presenta como una tablilla dictada por Enki, pero no corresponde a ningún texto cuneiforme. En las fuentes, «Anunnaki» designa a los grandes dioses y Nibiru es un punto astronómico asociado a Marduk, no un planeta habitado.",
+        "fuente_replica": "M. S. Heiser, críticas a Sitchin (sitchiniswrong.com); W. Horowitz, Mesopotamian Cosmic Geography (1998)"
+      },
+      {
+        "afirmacion": "La «tablilla» es la misma Tablilla de los Destinos que guardaba Enlil: un dispositivo tecnológico robado.",
+        "replica": "La Tablilla de los Destinos es un objeto mítico que simboliza la autoridad sobre el cosmos. Aparece en el mito de Anzu y en el Enuma Elish, y en ningún texto se describe como una máquina. No es un objeto arqueológico que pueda «perderse» ni «recuperarse».",
+        "fuente_replica": "A. Annus, The Standard Babylonian Epic of Anzu (SAACT 3, 2001)"
+      }
+    ],
+    "veredicto": "La «Tablilla Perdida de Enlil» no está documentada en ninguna fuente antigua ni académica. Es un título moderno de divulgación alternativa que recicla el Atrahasis, el mito de Anzu y las tesis de Sitchin, aprovechando la noticia real de la tablilla Ni 12501 en 2025."
+  },
+  "notas_verificacion": "No he podido acceder al texto completo del artículo de Matuszak (Cambridge devolvió el error 403). Los datos de Iraq 86 (2024), pp. 79–108, doi:10.1017/irq.2024.19, y el pie de foto de Kramer proceden de resúmenes de búsqueda y de la prensa (UChicago News, Archaeology Magazine). De los vídeos de YouTube solo he verificado el título y el canal, mediante oEmbed («The Lost Vault», ID BG2A2OcOD1c; «The Obsidian Vault», ID JqWBkrN5EvY). No he podido ver la fecha exacta de publicación, el número de visitas ni el contenido. Que reciclen el Atrahasis y la narrativa de Sitchin es una deducción a partir de sus títulos. No he encontrado ningún TikTok, documental ni libro con el título exacto. La novela «The Book of Enlil» (Stephen C. Norton) aparece en Barnes & Noble, pero no figura la fecha. No he buscado el término en Anton Parks ni en creepypastas, y no he encontrado relación con la Tablilla del Sueño de Gilgamesh (devuelta a Irak en 2021). Las referencias de Lambert y Millard, Annus, George, Horowitz y Heiser proceden de mi conocimiento previo y no las he comprobado en línea durante esta tarea."
+}

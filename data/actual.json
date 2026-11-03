@@ -1,0 +1,439 @@
+{
+  "corrientes": [
+    {
+      "id": "genero",
+      "nombre": "Estudios de género y queer",
+      "descripcion": "Desde finales de los años ochenta, la asiriología se pregunta cómo construían los textos cuneiformes lo masculino, lo femenino y lo que quedaba entre ambos. Inanna/Ištar, diosa de la sexualidad y de la guerra que puede «convertir al hombre en mujer y a la mujer en hombre», es el punto de partida. Al estudiarla han salido a primer plano los especialistas de su culto (gala/kalû, assinnu, kurgarrû), a los que hoy se describe como una alteridad de género institucionalizada en lugar de «eunucos» o «prostitutos sagrados». También se ha leído de nuevo la relación entre Gilgamesh y Enkidu. Esta corriente pide prudencia: no conviene trasladar sin más al pasado categorías modernas como «homosexual» o «trans».",
+      "autores_clave": [
+        "Rivkah Harris (1991, «Inanna-Ishtar as Paradox and a Coincidence of Opposites», History of Religions 30)",
+        "Gwendolyn Leick (1994, Sex and Eroticism in Mesopotamian Literature)",
+        "Martti Nissinen (1998, Homoeroticism in the Biblical World)",
+        "Rivkah Harris (2000, Gender and Aging in Mesopotamia)",
+        "Zainab Bahrani (2001, Women of Babylon)",
+        "Susan Ackerman (2005, When Heroes Love)",
+        "Tzvi Abusch (2015, Male and Female in the Epic of Gilgamesh)",
+        "Ilan Peled (2016, Masculinities and Third Gender)"
+      ]
+    },
+    {
+      "id": "ecocritica",
+      "nombre": "Ecocrítica y humanidades ambientales",
+      "descripcion": "La ecocrítica lee los mitos mesopotámicos como los primeros textos que cuentan una relación conflictiva entre la ciudad y su entorno. La tala del Bosque de los Cedros y la muerte de su guardián Humbaba se interpretan como una transgresión, e incluso como un ecocidio, del que la propia epopeya parece arrepentirse. Atrahasis y los relatos del diluvio se han leído en relación con la sobrepoblación, la salinización y los cambios del clima. Los fragmentos nuevos de la Tablilla V, que describen un bosque lleno de vida, han reforzado este enfoque.",
+      "autores_clave": [
+        "Anne D. Kilmer (1972, «The Mesopotamian Concept of Overpopulation and Its Solution as Reflected in the Mythology», Orientalia 41)",
+        "Robert Pogue Harrison (1992, Forests: The Shadow of Civilization)",
+        "Farouk Al-Rawi y Andrew George (2014, «Back to the Cedar Forest», Journal of Cuneiform Studies 66)"
+      ]
+    },
+    {
+      "id": "ideologia",
+      "nombre": "Política e ideología imperial",
+      "descripcion": "Este enfoque trata los mitos como instrumentos de poder. El Enuma Elish legitima la supremacía de Marduk y, con ella, la de Babilonia. En Asiria hubo versiones en las que Ashur ocupa el lugar de Marduk, y el poema provocó «contratextos» y comentarios con intención política. Los investigadores estudian también cómo los reyes neoasirios usaron los relieves, las inscripciones y los rituales (como el Akitu) como propaganda, y cómo la Lista Real Sumeria construye una monarquía única y continua.",
+      "autores_clave": [
+        "Eckart Frahm (2010, «Counter-texts, Commentaries, and Adaptations», Orient 45)",
+        "W. G. Lambert (2013, Babylonian Creation Myths)",
+        "Eckart Frahm (2023, Assyria: The Rise and Fall of the World's First Empire)"
+      ]
+    },
+    {
+      "id": "mortalidad",
+      "nombre": "Psicología, duelo y mortalidad",
+      "descripcion": "Las lecturas psicológicas y existenciales hacen de Gilgamesh el primer gran relato sobre el miedo a la muerte, el duelo por un amigo y la madurez. El héroe que pierde la planta de la juventud acaba aceptando su condición mortal y su obra, las murallas de Uruk. Algunos estudios unen este eje con el género y la edad: la Epopeya contaría cómo un joven llega a la edad adulta. Se suman también los relatos de Adapa y Etana, en los que la inmortalidad se ofrece y se pierde.",
+      "autores_clave": [
+        "Tzvi Abusch (1986, «Ishtar's Proposal and Gilgamesh's Refusal», History of Religions 26)",
+        "Rivkah Harris (2000, Gender and Aging in Mesopotamia)",
+        "Andrew R. George (2003, The Babylonian Gilgamesh Epic)",
+        "Sophus Helle (2021, Gilgamesh: A New Translation of the Ancient Epic)"
+      ]
+    },
+    {
+      "id": "trauma",
+      "nombre": "Trauma y lamentos de ciudades",
+      "descripcion": "Los lamentos sumerios por la destrucción de Ur, de Sumer y Ur, de Nippur o de Uruk se leen hoy como respuestas culturales a una catástrofe colectiva: la caída de la III dinastía de Ur hacia 2000 a. C. En ellos la diosa de la ciudad llora su ciudad en ruinas, y se comparan a menudo con las Lamentaciones bíblicas. En una línea cercana, el poema de Erra e Išum se interpreta como una reflexión sobre la violencia que Babilonia sufrió en el primer milenio. La aplicación explícita de la «teoría del trauma» a estos textos es todavía reciente y está poco sistematizada.",
+      "autores_clave": [
+        "Piotr Michalowski (1989, The Lamentation over the Destruction of Sumer and Ur)",
+        "F. W. Dobbs-Allsopp (1993, Weep, O Daughter of Zion)",
+        "Nili Samet (2014, The Lamentation over the Destruction of Ur)"
+      ]
+    },
+    {
+      "id": "poscolonial",
+      "nombre": "Estudios poscoloniales y patrimonio",
+      "descripcion": "Este enfoque pregunta a quién pertenecen Mesopotamia y sus tablillas. Revisa cómo la arqueología europea del siglo XIX convirtió Asiria y Babilonia en antesala de la Biblia y de «Occidente» y dejó de lado al Irak moderno. Analiza también el saqueo del Museo de Irak en 2003, el expolio de yacimientos, el mercado ilegal de antigüedades (con el caso de Hobby Lobby y la Tablilla del Sueño de Gilgamesh, devuelta en 2021) y la destrucción de Nimrud y Nínive por el Estado Islámico en 2015. Zainab Bahrani, entre otros, ha defendido que Irak sea protagonista de su propio pasado.",
+      "autores_clave": [
+        "Zainab Bahrani (2003, The Graven Image)",
+        "Matthew Bogdanos (2005, Thieves of Baghdad)"
+      ]
+    },
+    {
+      "id": "digital",
+      "nombre": "Humanidades digitales",
+      "descripcion": "La digitalización masiva de tablillas, las bases de datos abiertas y la inteligencia artificial están cambiando la manera de reconstruir los textos. El proyecto Electronic Babylonian Library (eBL) de la LMU de Múnich une miles de fragmentos con algoritmos de coincidencia. Ya existen modelos neuronales que hacen un primer borrador de traducción del acadio al inglés. Gracias a estas herramientas aparecen pasajes nuevos de Gilgamesh, himnos desconocidos y uniones entre fragmentos dispersos por museos de todo el mundo.",
+      "autores_clave": [
+        "Enrique Jiménez (desde 2018, Electronic Babylonian Library, LMU Múnich)",
+        "Gai Gutherz, Shai Gordin et al. (2023, «Translating Akkadian to English with neural machine translation», PNAS Nexus)"
+      ]
+    }
+  ],
+  "entradas": [
+    {
+      "id": "inanna-ishtar",
+      "titulo_actual": "La diosa de la paradoja",
+      "lectura": "Para los estudios de género, Inanna/Ištar es la figura central de la mitología mesopotámica. Rivkah Harris (1991) la presentó como «paradoja y coincidencia de opuestos»: es femenina y guerrera, amante y destructora, y no es esposa ni madre. Es una diosa que rompe las fronteras que la sociedad trazaba. Su capacidad de alterar el género de sus devotos, mencionada en varios himnos, ha convertido a Ištar en un referente de las lecturas queer.\n\nLa crítica actual también rebaja algunas ideas: la «prostitución sagrada» asociada a su culto se pone hoy muy en duda por falta de pruebas sólidas. Zainab Bahrani y otras autoras han analizado cómo los estudiosos occidentales proyectaron sobre Ištar sus propias fantasías sobre la sexualidad «oriental».",
+      "corrientes": ["genero", "poscolonial"],
+      "referencias": [
+        {"titulo": "Inanna-Ishtar as Paradox and a Coincidence of Opposites", "autor": "Rivkah Harris", "anio": 1991},
+        {"titulo": "Women of Babylon: Gender and Representation in Mesopotamia", "autor": "Zainab Bahrani", "anio": 2001},
+        {"titulo": "Sex and Eroticism in Mesopotamian Literature", "autor": "Gwendolyn Leick", "anio": 1994}
+      ]
+    },
+    {
+      "id": "gilgamesh",
+      "titulo_actual": "Amistad, duelo y finitud",
+      "lectura": "Gilgamesh es hoy el texto mesopotámico que más lecturas recibe. Los estudios de género discuten si la relación con Enkidu es erótica. Susan Ackerman (2005) sostiene que el lenguaje amoroso del poema (Gilgamesh «abraza a Enkidu como a una esposa» y lo llora como a una novia) sirve para marcar a los héroes como figuras liminales; no lo lee como un «matrimonio» en el sentido moderno. Tzvi Abusch ha estudiado la tensión entre lo masculino y lo femenino en la obra y el rechazo de Gilgamesh a Ištar.\n\nLas lecturas existenciales hacen de la búsqueda de la inmortalidad el primer gran relato sobre el duelo y la aceptación de la muerte. La ecocrítica relee la tala del Bosque de los Cedros como una transgresión contra la naturaleza. Las ediciones de Andrew George (2003) y Sophus Helle (2021) ya incorporan fragmentos descubiertos después de 2000.",
+      "corrientes": ["genero", "mortalidad", "ecocritica", "digital"],
+      "referencias": [
+        {"titulo": "When Heroes Love: The Ambiguity of Eros in the Stories of Gilgamesh and David", "autor": "Susan Ackerman", "anio": 2005},
+        {"titulo": "Male and Female in the Epic of Gilgamesh", "autor": "Tzvi Abusch", "anio": 2015},
+        {"titulo": "The Babylonian Gilgamesh Epic", "autor": "Andrew R. George", "anio": 2003},
+        {"titulo": "Gilgamesh: A New Translation of the Ancient Epic", "autor": "Sophus Helle", "anio": 2021}
+      ]
+    },
+    {
+      "id": "enuma-elish",
+      "titulo_actual": "Un mito al servicio del imperio",
+      "lectura": "Hoy el Enuma Elish no se lee como un «Génesis babilónico» intemporal, sino como un texto político. Su función es explicar por qué Marduk y su ciudad, Babilonia, encabezan el panteón y el mundo. Se recitaba en el festival de Akitu. Eckart Frahm (2010) ha estudiado cómo, entre el 900 a. C. y el 500 d. C., el poema fue revisado, comentado y contestado. Hubo una versión asiria con Ashur como protagonista, y textos como Erra e Išum o partes del Génesis bíblico funcionarían como «contratextos».\n\nLas lecturas de género, por su parte, se fijan en que el orden cósmico nace de matar a una madre primordial, Tiamat.",
+      "corrientes": ["ideologia", "genero"],
+      "referencias": [
+        {"titulo": "Counter-texts, Commentaries, and Adaptations: Politically Motivated Responses to the Babylonian Epic of Creation in Mesopotamia, the Biblical World, and Elsewhere", "autor": "Eckart Frahm", "anio": 2010, "url": "https://www.jstage.jst.go.jp/article/orient/45/0/45_3/_article"},
+        {"titulo": "Babylonian Creation Myths", "autor": "W. G. Lambert", "anio": 2013}
+      ]
+    },
+    {
+      "id": "marduk",
+      "titulo_actual": "El dios como programa político",
+      "lectura": "La figura de Marduk se estudia como ejemplo de cómo una divinidad local se vuelve dios supremo al mismo tiempo que su ciudad asciende. La exaltación de Marduk en el Enuma Elish, con sus cincuenta nombres, se interpreta como una forma de teología política babilónica que tiende al henoteísmo. Las deportaciones de su estatua por los asirios, los elamitas y los hititas se leen como golpes simbólicos contra Babilonia.",
+      "corrientes": ["ideologia"],
+      "referencias": [
+        {"titulo": "Counter-texts, Commentaries, and Adaptations", "autor": "Eckart Frahm", "anio": 2010},
+        {"titulo": "Babylonian Creation Myths", "autor": "W. G. Lambert", "anio": 2013}
+      ]
+    },
+    {
+      "id": "ashur",
+      "titulo_actual": "Un dios para un imperio",
+      "lectura": "Ashur, dios y ciudad a la vez, sirve hoy para analizar la ideología neoasiria. El rey actuaba como su vicario, y la expansión militar se presentaba como un encargo divino. Entre las investigaciones más citadas están la «asirianización» del Enuma Elish, que pone a Ashur en el lugar de Marduk, y la propaganda de los relieves palaciegos. W. G. Lambert, sin embargo, advierte que el cambio de nombres fue una reelaboración incompleta y no una edición nueva del poema.",
+      "corrientes": ["ideologia"],
+      "referencias": [
+        {"titulo": "Assyria: The Rise and Fall of the World's First Empire", "autor": "Eckart Frahm", "anio": 2023},
+        {"titulo": "Counter-texts, Commentaries, and Adaptations", "autor": "Eckart Frahm", "anio": 2010}
+      ]
+    },
+    {
+      "id": "tiamat",
+      "titulo_actual": "La madre vencida",
+      "lectura": "Las lecturas feministas ven en la muerte de Tiamat a manos de Marduk el paso de un principio primordial femenino a un orden masculino y urbano. La asiriología matiza que el texto no presenta a Tiamat como una «Diosa Madre» prehistórica derrocada, que es un mito moderno. Ecocrítica y cultura pop la han convertido en el símbolo del caos acuático y del océano, y aparece como monstruo o como diosa en videojuegos como Smite o Fate/Grand Order.",
+      "corrientes": ["genero", "ideologia"],
+      "referencias": [
+        {"titulo": "Babylonian Creation Myths", "autor": "W. G. Lambert", "anio": 2013}
+      ]
+    },
+    {
+      "id": "descenso-inanna",
+      "titulo_actual": "Un viaje de muerte y renacimiento",
+      "lectura": "El Descenso de Inanna es uno de los textos preferidos de la espiritualidad feminista y de la psicología junguiana. Se lee como un viaje de despojamiento y renacimiento: en cada puerta la diosa entrega una insignia de poder. Desde la asiriología, las lecturas de género estudian la rivalidad entre las dos hermanas, Inanna y Ereškigal, y el papel de los seres sin género (kurgarra y galatura) que Enki crea para rescatarla. Esos seres se relacionan con los especialistas del culto de Inanna.",
+      "corrientes": ["genero", "mortalidad"],
+      "referencias": [
+        {"titulo": "Masculinities and Third Gender", "autor": "Ilan Peled", "anio": 2016, "url": "https://library.oapen.org/handle/20.500.12657/51193"}
+      ]
+    },
+    {
+      "id": "dumuzi-tammuz",
+      "titulo_actual": "El amado que muere",
+      "lectura": "Los cantos de amor entre Inanna y Dumuzi se estudian hoy como poesía erótica que celebra el deseo femenino. Ya no se aceptan sin crítica como guiones de un supuesto «matrimonio sagrado» ritual. La muerte de Dumuzi y el lamento por él se leen como un ciclo de duelo colectivo, emparentado con el llanto por Tammuz que recoge la Biblia (Ezequiel 8,14).",
+      "corrientes": ["genero", "trauma"],
+      "referencias": [
+        {"titulo": "Sex and Eroticism in Mesopotamian Literature", "autor": "Gwendolyn Leick", "anio": 1994}
+      ]
+    },
+    {
+      "id": "ereshkigal",
+      "titulo_actual": "La reina del inframundo",
+      "lectura": "Ereškigal se ha vuelto a leer como la «sombra» de Inanna en la psicología junguiana. Los estudios de género se interesan por su soberanía femenina y por su soledad. El mito de Nergal y Ereškigal se interpreta como una negociación del poder y del deseo dentro de la pareja divina. En la cultura pop (por ejemplo Fate/Grand Order) ha pasado de figura temible a personaje simpático.",
+      "corrientes": ["genero", "mortalidad"],
+      "referencias": [
+        {"titulo": "Sex and Eroticism in Mesopotamian Literature", "autor": "Gwendolyn Leick", "anio": 1994}
+      ]
+    },
+    {
+      "id": "nergal-ereshkigal",
+      "titulo_actual": "Poder y deseo en el inframundo",
+      "lectura": "Este mito se lee hoy desde el género y el poder. En la versión tardía, Ereškigal exige a Nergal como esposo y amenaza con resucitar a los muertos si no se lo envían. Es un raro ejemplo de deseo femenino que se impone en el panteón. Otras lecturas lo ven como un relato de cómo un dios de la guerra y la peste se integra en el mundo de los muertos.",
+      "corrientes": ["genero"],
+      "referencias": [
+        {"titulo": "Sex and Eroticism in Mesopotamian Literature", "autor": "Gwendolyn Leick", "anio": 1994}
+      ]
+    },
+    {
+      "id": "atrahasis",
+      "titulo_actual": "Sobrepoblación, ruido y crisis",
+      "lectura": "Anne D. Kilmer (1972) leyó Atrahasis como un mito sobre la sobrepoblación. El «ruido» de los humanos que no deja dormir a Enlil sería su exceso de número, y el poema termina con mecanismos de control: la mortalidad infantil y las sacerdotisas que no tienen hijos. La ecocrítica actual retoma esta idea para hablar de límites ecológicos, sequías y hambrunas, que en el poema llegan antes que el diluvio. Las lecturas políticas se fijan en el origen del trabajo: los dioses menores se rebelan contra la carga de las corveas.",
+      "corrientes": ["ecocritica", "ideologia"],
+      "referencias": [
+        {"titulo": "The Mesopotamian Concept of Overpopulation and Its Solution as Reflected in the Mythology", "autor": "Anne D. Kilmer", "anio": 1972}
+      ]
+    },
+    {
+      "id": "diluvio-ziusudra",
+      "titulo_actual": "El diluvio en tiempos de crisis climática",
+      "lectura": "En tiempos de emergencia climática, el diluvio mesopotámico se lee como la memoria cultural de las inundaciones catastróficas de la llanura aluvial y como un aviso sobre la fragilidad de la civilización. Las humanidades ambientales lo comparan con los relatos actuales sobre la subida del nivel del mar. Irving Finkel, del British Museum, presentó en 2014 la «Tablilla del Arca», que describe un arca redonda (una especie de coracle gigante). Con ella reavivó el interés del público por la relación entre este relato y el de Noé.",
+      "corrientes": ["ecocritica"],
+      "referencias": [
+        {"titulo": "The Ark Before Noah: Decoding the Story of the Flood", "autor": "Irving Finkel", "anio": 2014}
+      ]
+    },
+    {
+      "id": "erra-ishum",
+      "titulo_actual": "La violencia y el trauma de Babilonia",
+      "lectura": "Erra e Išum se interpreta como una reflexión poética sobre la violencia indiscriminada y la guerra civil. Babilonia sufrió esa violencia en los primeros siglos del primer milenio a. C. Eckart Frahm lo considera además un «contratexto» del Enuma Elish: mientras Marduk está ausente de su trono, se desata el caos. Su uso como amuleto contra la peste interesa a quienes estudian cómo las sociedades elaboran la catástrofe.",
+      "corrientes": ["trauma", "ideologia"],
+      "referencias": [
+        {"titulo": "Counter-texts, Commentaries, and Adaptations", "autor": "Eckart Frahm", "anio": 2010}
+      ]
+    },
+    {
+      "id": "lista-reyes",
+      "titulo_actual": "La historia como ideología",
+      "lectura": "La Lista Real Sumeria ya no se considera una crónica, sino una construcción ideológica. Presenta una única realeza que «baja del cielo» y pasa de ciudad en ciudad, cuando en realidad muchas dinastías gobernaron a la vez. Así legitimaba a los reyes de Isin y de otras dinastías posteriores. Sus reinados de miles de años antes del diluvio, que los defensores de la teoría de los antiguos astronautas leen de forma literal, se explican hoy como una cronología simbólica.",
+      "corrientes": ["ideologia"],
+      "referencias": [
+        {"titulo": "Assyria: The Rise and Fall of the World's First Empire", "autor": "Eckart Frahm", "anio": 2023}
+      ]
+    },
+    {
+      "id": "enki-ninhursag",
+      "titulo_actual": "Cuerpos, agua y fertilidad",
+      "lectura": "Enki y Ninhursag se lee hoy desde el cuerpo y el género: un dios masculino del agua dulce fecunda una y otra vez a generaciones de diosas, y la diosa madre interviene para castigarlo y después para curarlo. Las lecturas feministas discuten si el relato muestra la violencia sexual o la critica. Las lecturas ambientales se fijan en el agua que hace fértil Dilmun, una tierra que antes era estéril.",
+      "corrientes": ["genero", "ecocritica"],
+      "referencias": [
+        {"titulo": "Sex and Eroticism in Mesopotamian Literature", "autor": "Gwendolyn Leick", "anio": 1994}
+      ]
+    },
+    {
+      "id": "inanna-enki-me",
+      "titulo_actual": "Una diosa que se lleva la civilización",
+      "lectura": "El relato de Inanna, que emborracha a Enki y se lleva los me (los poderes de la civilización) de Eridu a Uruk, se lee como mito político. Explicaría cómo Uruk se convirtió en el centro religioso. También se lee como un relato de astucia femenina. Entre los me figuran oficios del culto de Inanna con género ambiguo, lo que los estudios de género aprovechan.",
+      "corrientes": ["ideologia", "genero"],
+      "referencias": [
+        {"titulo": "Masculinities and Third Gender", "autor": "Ilan Peled", "anio": 2016}
+      ]
+    },
+    {
+      "id": "lugal-e",
+      "titulo_actual": "Las piedras, el agua y el paisaje",
+      "lectura": "En Lugal-e, el dios Ninurta vence al demonio Asag y a su ejército de piedras, dicta sentencia sobre cada piedra y encauza las aguas hacia el Tigris. Las humanidades ambientales lo leen como un mito sobre cómo se hace habitable un paisaje: el control de las montañas, los minerales y el riego. Las lecturas políticas ven en Ninurta un modelo del rey guerrero.",
+      "corrientes": ["ecocritica", "ideologia"],
+      "referencias": []
+    },
+    {
+      "id": "enlil",
+      "titulo_actual": "Un dios con mitos todavía por descubrir",
+      "lectura": "Enlil, el dios que manda el diluvio porque los humanos hacen demasiado ruido, aparece en las lecturas ecocríticas de Atrahasis y en las de género del mito de Enlil y Ninlil. Este último se discute hoy como un relato de violencia sexual castigada por la asamblea de los dioses. La publicación en 2024 de la tablilla Ni 12501 por Jana Matuszak dio a conocer un mito desconocido de Enlil. En él, el dios de la tormenta Iškur, hijo de Enlil, queda atrapado en el inframundo y solo el zorro se ofrece para rescatarlo.",
+      "corrientes": ["ecocritica", "genero", "digital"],
+      "referencias": [
+        {"titulo": "Of captive storm gods and cunning foxes: new insights into early Sumerian mythology with an edition of Ni 12501", "autor": "Jana Matuszak", "anio": 2024, "url": "https://www.cambridge.org/core/journals/iraq/article/of-captive-storm-gods-and-cunning-foxes-new-insights-into-early-sumerian-mythology-with-an-edition-of-ni-12501/391CFC6A9361C23A0E7AF159F565A911"}
+      ]
+    },
+    {
+      "id": "tablilla-perdida-enlil",
+      "titulo_actual": "Ni 12501: un mito que tardó un siglo en publicarse",
+      "lectura": "La tablilla Ni 12501 se excavó en Nippur en el siglo XIX y se guarda en los Museos Arqueológicos de Estambul. Samuel Noah Kramer la mencionó en los años cincuenta como «otro mito de Enlil, todavía sin publicar». Jana Matuszak la editó por completo en la revista Iraq (vol. 86, 2024). Data del periodo Dinástico Arcaico IIIb (hacia 2400 a. C.) y cuenta cómo Enlil reúne a los dioses para rescatar a Iškur del inframundo. La tablilla se rompe antes del final. Es un buen ejemplo de cuántos textos esperan todavía en los almacenes de los museos.",
+      "corrientes": ["digital"],
+      "referencias": [
+        {"titulo": "Of captive storm gods and cunning foxes", "autor": "Jana Matuszak", "anio": 2024, "url": "https://www.cambridge.org/core/journals/iraq/article/of-captive-storm-gods-and-cunning-foxes-new-insights-into-early-sumerian-mythology-with-an-edition-of-ni-12501/391CFC6A9361C23A0E7AF159F565A911"}
+      ]
+    },
+    {
+      "id": "adapa",
+      "titulo_actual": "La inmortalidad rechazada",
+      "lectura": "Adapa sigue el consejo de Enki y rechaza el «pan y el agua de la vida». Las lecturas existenciales lo emparejan con Gilgamesh: los dos relatos explican por qué el ser humano, aunque sea sabio, sigue siendo mortal. También se compara a Adapa con el Adán del Génesis, aunque hoy se descarta que uno derive directamente del otro.",
+      "corrientes": ["mortalidad"],
+      "referencias": []
+    },
+    {
+      "id": "etana",
+      "titulo_actual": "Infertilidad y vuelo al cielo",
+      "lectura": "El rey Etana sube al cielo a lomos de un águila para conseguir la «planta del parto». Las lecturas actuales prestan atención a un tema poco estudiado durante mucho tiempo: la infertilidad y la ansiedad por tener un heredero que asegure la dinastía. En el relato se cruzan lo íntimo y lo político.",
+      "corrientes": ["mortalidad", "ideologia"],
+      "referencias": []
+    },
+    {
+      "id": "akitu",
+      "titulo_actual": "Un ritual de legitimación",
+      "lectura": "El festival babilónico de Año Nuevo se estudia como un escenario de poder. En él, el rey era humillado y reinvestido ante Marduk y se recitaba el Enuma Elish. Los historiadores discuten cuánto de esa ceremonia es reconstrucción moderna. También se ha estudiado cómo los reyes asirios, desde Senaquerib, trasladaron el Akitu a Ashur para apropiarse de su prestigio.",
+      "corrientes": ["ideologia"],
+      "referencias": [
+        {"titulo": "Counter-texts, Commentaries, and Adaptations", "autor": "Eckart Frahm", "anio": 2010}
+      ]
+    },
+    {
+      "id": "biblioteca-asurbanipal",
+      "titulo_actual": "De la biblioteca real a la biblioteca digital",
+      "lectura": "Los miles de fragmentos de Nínive que guarda el British Museum son el material principal de la Electronic Babylonian Library, el proyecto de Enrique Jiménez en la LMU de Múnich. Su Fragmentarium, abierto al público en febrero de 2023, usa algoritmos para unir piezas sueltas. Al mismo tiempo, la biblioteca se lee como un proyecto de poder: Asurbanipal reunió el saber de Babilonia, a menudo por la fuerza, para controlarlo.",
+      "corrientes": ["digital", "ideologia", "poscolonial"],
+      "referencias": [
+        {"titulo": "Beginnings of world literature: LMU uses AI to digitize largest collection of cuneiform writing", "autor": "LMU Múnich (nota de prensa)", "anio": 2023, "url": "https://www.lmu.de/en/about-lmu/structure/central-university-administration/communications-and-media-relations/press-room/press-release/beginnings-of-world-literature-lmu-uses-ai-to-digitize-largest-collection-of-cuneiform-writing.html"}
+      ]
+    },
+    {
+      "id": "astronomia-babilonica",
+      "titulo_actual": "Geometría para seguir a Júpiter",
+      "lectura": "En 2016, Mathieu Ossendrijver demostró en la revista Science que algunos astrónomos babilonios calculaban el desplazamiento de Júpiter como el área de un trapecio en un gráfico de velocidad y tiempo. Es un procedimiento abstracto que anticipa ideas del cálculo integral. Júpiter era el astro de Marduk. El hallazgo muestra la astronomía babilónica como una ciencia matemática, muy alejada de las fantasías sobre «planetas ocultos» como Nibiru.",
+      "corrientes": ["digital"],
+      "referencias": [
+        {"titulo": "Ancient Babylonian astronomers calculated Jupiter's position from the area under a time-velocity graph", "autor": "Mathieu Ossendrijver", "anio": 2016, "url": "https://www.sciencenews.org/article/babylonians-used-geometry-track-jupiters-movements"}
+      ]
+    },
+    {
+      "id": "nibiru",
+      "titulo_actual": "De punto astronómico a mito apocalíptico",
+      "lectura": "En los textos cuneiformes, Nibiru es un «punto de cruce» astronómico ligado a Marduk, identificado sobre todo con Júpiter. Los estudios actuales sobre la recepción se interesan por cómo Zecharia Sitchin lo convirtió en un planeta errante y por cómo, ya en el siglo XXI, dio lugar a profecías apocalípticas que se difunden por internet (2003, 2012, 2017). Es un caso de manual de cómo se crea y circula un mito moderno, y los astrónomos lo rechazan.",
+      "corrientes": ["poscolonial", "digital"],
+      "referencias": [
+        {"titulo": "Ancient Babylonian astronomers calculated Jupiter's position from the area under a time-velocity graph", "autor": "Mathieu Ossendrijver", "anio": 2016}
+      ]
+    },
+    {
+      "id": "anunnaki",
+      "titulo_actual": "Dioses antiguos, alienígenas modernos",
+      "lectura": "Para la asiriología, los Anunnaki son un colectivo de dioses, cuyo papel cambia según la época. Hoy su principal vida pública está en la cultura popular, que se basa en Sitchin y en series como Ancient Aliens. Los estudios culturales analizan este fenómeno como una apropiación que deja a los sumerios sin la autoría de su propia civilización, y algunos críticos relacionan ese razonamiento con prejuicios coloniales.",
+      "corrientes": ["poscolonial"],
+      "referencias": []
+    },
+    {
+      "id": "lamassu",
+      "titulo_actual": "Guardianes destruidos y reconstruidos",
+      "lectura": "Los toros alados de los palacios asirios son hoy un símbolo del patrimonio en peligro. En 2015 el Estado Islámico difundió vídeos en los que destruía lamassu en Nínive y Nimrud. El artista estadounidense de origen iraquí Michael Rakowitz respondió con una réplica hecha de latas de sirope de dátiles, instalada en el Cuarto Pedestal de Trafalgar Square (Londres, 2018). La crítica poscolonial también pregunta por qué los lamassu más famosos están en Londres, París o Chicago y no en Irak.",
+      "corrientes": ["poscolonial"],
+      "referencias": []
+    },
+    {
+      "id": "kur-inframundo",
+      "titulo_actual": "La tierra sin retorno",
+      "lectura": "El inframundo mesopotámico, oscuro e igual para todos, donde los muertos comen polvo, aparece en los estudios sobre la muerte como una visión radicalmente no consoladora. Por eso se compara con el Hades griego y el Sheol bíblico. El hallazgo de Ni 12501, con un dios de la tormenta atrapado en el inframundo, amplía el repertorio de descensos más allá del de Inanna.",
+      "corrientes": ["mortalidad"],
+      "referencias": [
+        {"titulo": "Of captive storm gods and cunning foxes", "autor": "Jana Matuszak", "anio": 2024}
+      ]
+    },
+    {
+      "id": "zigurat",
+      "titulo_actual": "Monumento, ruina e identidad nacional",
+      "lectura": "Los zigurats, en especial el de Ur, restaurado parcialmente bajo Sadam Husein, son ejemplos de cómo el Irak moderno ha usado el pasado mesopotámico para construir una identidad nacional. Los estudios poscoloniales analizan estos usos políticos y los daños militares en yacimientos como Ur o Babilonia durante las guerras de 1991 y 2003.",
+      "corrientes": ["poscolonial", "ideologia"],
+      "referencias": []
+    },
+    {
+      "id": "apkallu-oannes",
+      "titulo_actual": "Sabios civilizadores",
+      "lectura": "Los apkallu, sabios mitad hombre y mitad pez que enseñaron las artes a la humanidad, se estudian hoy como una figura de la ideología de los escribas: el saber escrito tendría un origen divino y una transmisión continua hasta los eruditos de cada época. Su uso frecuente en la literatura de los antiguos astronautas es en sí un objeto de estudio para quienes analizan la recepción.",
+      "corrientes": ["ideologia", "poscolonial"],
+      "referencias": []
+    }
+  ],
+  "hallazgos": [
+    {
+      "anio": 2003,
+      "titulo": "Saqueo del Museo de Irak",
+      "descripcion": "En abril de 2003, tras la caída de Bagdad, el Museo Nacional de Irak fue saqueado. Al principio se habló de 170.000 piezas; después las cifras bajaron a varios miles, y Zainab Bahrani estimó más de 20.000. La investigación del coronel Matthew Bogdanos recuperó una parte, y el episodio se convirtió en un caso central de los debates sobre patrimonio y guerra.",
+      "entradas": ["biblioteca-asurbanipal", "zigurat", "lamassu"]
+    },
+    {
+      "anio": 2014,
+      "titulo": "La Tablilla del Arca (Finkel)",
+      "descripcion": "Irving Finkel, del British Museum, publicó The Ark Before Noah. En el libro estudia una tablilla paleobabilónica en la que el héroe del diluvio, Atrahasis, recibe instrucciones para construir un arca redonda, una especie de coracle gigante. El hallazgo despertó un gran interés en los medios por la relación entre este relato y el de Noé.",
+      "entradas": ["diluvio-ziusudra", "atrahasis"]
+    },
+    {
+      "anio": 2014,
+      "titulo": "Nueva Tablilla V de Gilgamesh (Sulaymaniyah)",
+      "descripcion": "El museo de Sulaymaniyah (Kurdistán iraquí) compró en 2011 una tablilla, la T.1447, en la que Farouk Al-Rawi y Andrew George identificaron unas 20 líneas nuevas de la Tablilla V. Lo publicaron en el Journal of Cuneiform Studies 66 (2014), y la noticia se difundió en 2015. El Bosque de los Cedros aparece lleno de pájaros, cigarras y monos, y Enkidu parece lamentar su destrucción.",
+      "entradas": ["gilgamesh"],
+      "url": "https://www.livescience.com/52372-new-tablet-gilgamesh-epic.html"
+    },
+    {
+      "anio": 2015,
+      "titulo": "Destrucción de Nimrud y Nínive",
+      "descripcion": "El Estado Islámico difundió vídeos en los que destruía relieves y lamassu asirios en el Museo de Mosul, en Nínive y en Nimrud. Estos hechos impulsaron proyectos de documentación digital y de reconstrucción, y convirtieron el patrimonio mesopotámico en un tema de debate mundial.",
+      "entradas": ["lamassu", "ashur"]
+    },
+    {
+      "anio": 2016,
+      "titulo": "Júpiter y el trapecio (Ossendrijver)",
+      "descripcion": "Mathieu Ossendrijver publicó en Science (vol. 351) que cuatro tablillas del British Museum calculan el desplazamiento de Júpiter como el área bajo un gráfico de velocidad y tiempo. Son las primeras pruebas de métodos geométricos en la astronomía matemática babilónica, que hasta entonces se consideraba solo aritmética.",
+      "entradas": ["astronomia-babilonica", "marduk", "nibiru"],
+      "url": "https://www.sciencenews.org/article/babylonians-used-geometry-track-jupiters-movements"
+    },
+    {
+      "anio": 2021,
+      "titulo": "Devolución de la Tablilla del Sueño de Gilgamesh",
+      "descripcion": "La tablilla había sido saqueada en Irak, se vendió con una procedencia falsa y la compró Hobby Lobby en 2014 por 1,67 millones de dólares para el Museo de la Biblia. Fue incautada en 2019, decomisada en julio de 2021 y entregada a Irak en una ceremonia celebrada en Washington en septiembre de 2021. Es un símbolo de la lucha contra el tráfico de antigüedades.",
+      "entradas": ["gilgamesh"],
+      "url": "https://www.nbcnews.com/news/world/ancient-gilgamesh-tablet-showcasing-earliest-form-literature-returned-rcna8001"
+    },
+    {
+      "anio": 2023,
+      "titulo": "Se abre el Fragmentarium de la Electronic Babylonian Library",
+      "descripcion": "El 3 de febrero de 2023, el equipo de Enrique Jiménez (LMU Múnich) abrió al público la base de datos eBL. Contiene miles de fragmentos fotografiados y transliterados y una herramienta automática para encontrar uniones entre ellos.",
+      "entradas": ["biblioteca-asurbanipal", "gilgamesh", "enuma-elish"],
+      "url": "https://www.lmu.de/en/about-lmu/structure/central-university-administration/communications-and-media-relations/press-room/press-release/beginnings-of-world-literature-lmu-uses-ai-to-digitize-largest-collection-of-cuneiform-writing.html"
+    },
+    {
+      "anio": 2023,
+      "titulo": "Traducción automática del acadio (Gutherz et al.)",
+      "descripcion": "Gai Gutherz, Shai Gordin, Luis Sáenz, Omer Levy y Jonathan Berant presentaron en PNAS Nexus un modelo neuronal que traduce acadio al inglés, tanto desde los signos cuneiformes como desde la transliteración. Alcanza puntuaciones BLEU4 de unos 37 y funciona mejor con frases cortas. Los autores lo plantean como una ayuda para los especialistas, no como un sustituto.",
+      "entradas": ["biblioteca-asurbanipal"],
+      "url": "https://academic.oup.com/pnasnexus/article/2/5/pgad096/7147349"
+    },
+    {
+      "anio": 2024,
+      "titulo": "Fragmentos de Gilgamesh unidos con ayuda de IA",
+      "descripcion": "Según informó la prensa en 2024, el equipo de la eBL había unido más de 1.500 fragmentos. Entre ellos hay unos 20 de Gilgamesh, que completan o mejoran más de 100 versos, y piezas de un himno desconocido a la ciudad de Babilonia. Parte de estos hallazgos ya aparece en las traducciones de Andrew George (2020) y Sophus Helle (2021).",
+      "entradas": ["gilgamesh", "marduk"]
+    },
+    {
+      "anio": 2024,
+      "titulo": "El mito de Enlil e Iškur (Ni 12501)",
+      "descripcion": "Jana Matuszak publicó en Iraq 86 (2024) la primera edición completa de Ni 12501. Es una tablilla sumeria de hacia 2400 a. C. en la que Enlil busca a alguien que rescate a su hijo Iškur del inframundo, y solo se ofrece el zorro. La noticia llegó a la prensa general en julio de 2025.",
+      "entradas": ["enlil", "tablilla-perdida-enlil", "kur-inframundo"],
+      "url": "https://archaeology.org/news/2025/07/28/newly-deciphered-cuneiform-tablet-contains-unknown-sumerian-myth/"
+    },
+    {
+      "anio": 2024,
+      "titulo": "El Mapa del mundo babilonio y el «arca»",
+      "descripcion": "Irving Finkel volvió a interpretar en público el Mapa del mundo babilonio (British Museum, encontrado en Sippar en 1882). Lo relacionó con la ruta hacia Urartu (Ararat) y con un término para la embarcación del diluvio que solo aparece en otra tablilla. Es una lectura personal de Finkel que no comparten todos los especialistas.",
+      "entradas": ["diluvio-ziusudra", "kur-inframundo"]
+    }
+  ],
+  "recepcion": [
+    {"obra": "Gilgamesh: A New English Version", "tipo": "literatura", "anio": 2004, "autor": "Stephen Mitchell", "descripcion": "Es una versión poética muy libre, hecha a partir de otras traducciones porque el autor no lee acadio. Ofrece un Gilgamesh accesible, más explícito en lo sexual y con un Humbaba que despierta compasión. Fue un éxito de ventas y la critican por ser más una adaptación que una traducción.", "entradas": ["gilgamesh"], "influencia_sitchin": false},
+    {"obra": "Gilgamesh the King", "tipo": "literatura", "anio": 1984, "autor": "Robert Silverberg", "descripcion": "Novela histórica narrada en primera persona por Gilgamesh. Trata a los dioses como creencias de los personajes y no como seres reales, y desarrolla el duelo por Enkidu.", "entradas": ["gilgamesh"], "influencia_sitchin": false},
+    {"obra": "Gilgamesh", "tipo": "literatura", "anio": 2001, "autor": "Joan London", "descripcion": "Novela australiana en la que una joven de los años treinta viaja hasta Armenia. La epopeya sirve de eco a la búsqueda, la pérdida y el viaje, no como relato que se vuelve a contar.", "entradas": ["gilgamesh"], "influencia_sitchin": false},
+    {"obra": "Trilogía de Gilgamesh (Gilgamesh the King; The Revenge of Ishtar; The Last Quest of Gilgamesh)", "tipo": "literatura", "anio": 1992, "autor": "Ludmila Zeman", "descripcion": "Álbumes ilustrados para niños, publicados entre 1992 y 1995, con una estética inspirada en los sellos cilíndricos. Suavizan la violencia y el erotismo y destacan la amistad y la aceptación de la muerte.", "entradas": ["gilgamesh", "inanna-ishtar"], "influencia_sitchin": false},
+    {"obra": "The Epic of Gilgamesh (oratorio, H 351)", "tipo": "musica", "anio": 1955, "autor": "Bohuslav Martinů", "descripcion": "Oratorio compuesto en 1954–1955 y estrenado en Basilea en 1958, con libreto en inglés basado en la traducción de Campbell Thompson. Se centra en la muerte de Enkidu y en la evocación de su espíritu, una meditación existencial sobre la muerte.", "entradas": ["gilgamesh"], "influencia_sitchin": false},
+    {"obra": "Star Trek: The Next Generation — «Darmok»", "tipo": "serie", "anio": 1991, "autor": "Joe Menosky y Philip LaZebnik (guion)", "descripcion": "Picard le cuenta la historia de Gilgamesh y Enkidu al capitán tamariano Dathon mientras este muere. El mito se convierte en una metáfora de la comunicación entre culturas: dos enemigos que se hacen amigos frente a un peligro común.", "entradas": ["gilgamesh"], "influencia_sitchin": false},
+    {"obra": "Gilgamesh (manga)", "tipo": "comic", "anio": 1976, "autor": "Shōtarō Ishinomori", "descripcion": "Manga de ciencia ficción publicado entre 1976 y 1978 que usa el nombre de Gilgamesh para una historia apocalíptica. La versión original incluía extraterrestres, que se eliminaron en el anime de 2003 de Group TAC. Ese elemento remite al imaginario del paleocontacto, pero no consta que venga de Sitchin.", "entradas": ["gilgamesh"], "influencia_sitchin": false},
+    {"obra": "Gilgamesh II", "tipo": "comic", "anio": 1989, "autor": "Jim Starlin (DC Comics)", "descripcion": "Miniserie de ciencia ficción que traslada el arquetipo del rey semidiós y su amistad con un «salvaje» a un futuro galáctico. Sin verificar en fuentes en línea.", "entradas": ["gilgamesh"], "influencia_sitchin": false},
+    {"obra": "Eternals (película)", "tipo": "cine", "anio": 2021, "autor": "Chloé Zhao (Marvel Studios)", "descripcion": "Gilgamesh, interpretado por Ma Dong-seok, es uno de los Eternos, seres creados por los cósmicos Celestiales que inspiraron los mitos humanos. El concepto de Jack Kirby (1976) bebe del paleocontacto de los años setenta, más de von Däniken que de Sitchin.", "entradas": ["gilgamesh", "anunnaki"], "influencia_sitchin": true},
+    {"obra": "Final Fantasy V (y saga)", "tipo": "videojuego", "anio": 1992, "autor": "Square", "descripcion": "Gilgamesh es un espadachín errante y cómico, coleccionista de armas, acompañado de Enkidu, y su combate en el Gran Puente es famoso. Del mito solo quedan los nombres y la idea de una búsqueda sin fin. Reaparece en muchas entregas posteriores.", "entradas": ["gilgamesh"], "influencia_sitchin": false},
+    {"obra": "Fate/stay night", "tipo": "videojuego", "anio": 2004, "autor": "Type-Moon (Kinoko Nasu)", "descripcion": "Gilgamesh, el «Rey de los Héroes», es un servidor arrogante que posee todos los tesoros del mundo. Representa al tirano previo a la amistad con Enkidu, que en la saga aparece como un ser andrógino.", "entradas": ["gilgamesh"], "influencia_sitchin": false},
+    {"obra": "Fate/Grand Order – Absolute Demonic Front: Babylonia (anime)", "tipo": "serie", "anio": 2019, "autor": "CloverWorks (historia de Kinoko Nasu)", "descripcion": "Serie de 21 episodios (2019–2020) ambientada en una Uruk mítica, con un Gilgamesh más sabio y ya rey administrador, además de Ishtar, Ereshkigal y una Tiamat monstruosa como madre primordial.", "entradas": ["gilgamesh", "inanna-ishtar", "ereshkigal", "tiamat"], "influencia_sitchin": false},
+    {"obra": "Smite (panteón babilonio)", "tipo": "videojuego", "anio": 2021, "autor": "Hi-Rez Studios", "descripcion": "Juego de combate entre dioses. Su panteón «babilonio» incluye a Tiamat, a Gilgamesh (añadido en abril de 2021, que se enfrenta a Tiamat) y a Ishtar (agosto de 2022, diosa del amor y de la guerra con arco). Mezcla figuras sumerias y babilonias sin distinguir épocas.", "entradas": ["gilgamesh", "inanna-ishtar", "tiamat"], "influencia_sitchin": false},
+    {"obra": "Civilization VI", "tipo": "videojuego", "anio": 2016, "autor": "Firaxis / 2K", "descripcion": "Gilgamesh dirige Sumeria, y su habilidad «Aventuras con Enkidu» convierte la amistad de la epopeya en alianzas militares. Es una imagen del rey histórico-legendario como estratega y constructor.", "entradas": ["gilgamesh", "zigurat"], "influencia_sitchin": false},
+    {"obra": "Stargate SG-1 — «The Tomb»", "tipo": "serie", "anio": 2001, "autor": "MGM Television", "descripcion": "En la serie, los dioses antiguos son alienígenas parásitos (los Goa'uld). En este episodio el equipo encuentra en un zigurat la tumba de Marduk. Es un ejemplo claro del esquema de los antiguos astronautas; la saga Stargate se ha relacionado con las ideas de Sitchin. Detalles del episodio sin verificar.", "entradas": ["marduk", "zigurat", "anunnaki"], "influencia_sitchin": true},
+    {"obra": "Ancient Aliens", "tipo": "serie", "anio": 2009, "autor": "History Channel", "descripcion": "Serie documental de divulgación pseudocientífica que repite las tesis de Sitchin: los Anunnaki como astronautas de Nibiru que crearon a la humanidad por ingeniería genética. Es la principal vía por la que estas ideas llegan hoy al público.", "entradas": ["anunnaki", "nibiru", "apkallu-oannes"], "influencia_sitchin": true},
+    {"obra": "Prometheus", "tipo": "cine", "anio": 2012, "autor": "Ridley Scott", "descripcion": "Unos «Ingenieros» alienígenas habrían creado a la humanidad y dejado mapas estelares en culturas antiguas, incluida la mesopotámica. Recoge el esquema de los dioses creadores venidos del espacio que difundieron Sitchin y otros.", "entradas": ["anunnaki"], "influencia_sitchin": true},
+    {"obra": "The Conduit", "tipo": "videojuego", "anio": 2009, "autor": "High Voltage Software", "descripcion": "Shooter de conspiraciones alienígenas. Según Skeptoid, tomó parte de su concepto de las ideas de Sitchin.", "entradas": ["anunnaki"], "influencia_sitchin": true},
+    {"obra": "The Invisible Enemy Should Not Exist (Lamassu)", "tipo": "otro", "anio": 2018, "autor": "Michael Rakowitz", "descripcion": "Escultura instalada en el Cuarto Pedestal de Trafalgar Square: un lamassu de Nínive destruido en 2015, reconstruido con unas 10.500 latas de sirope de dátiles iraquí. Es una reinterpretación poscolonial que habla de destrucción, diáspora y patrimonio.", "entradas": ["lamassu"], "influencia_sitchin": false}
+  ]
+}

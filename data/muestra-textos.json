@@ -1,0 +1,108 @@
+{
+  "textos": [
+    {
+      "id": "enuma-elish",
+      "titulo": "Enuma elish (muestra)",
+      "version": "Versión babilonia estándar, siete tablillas",
+      "lengua": "Acadio",
+      "ediciones": [
+        { "titulo": "The Seven Tablets of Creation", "autor": "L. W. King", "anio": 1902 },
+        { "titulo": "Babylonian Creation Myths", "autor": "W. G. Lambert", "anio": 2013 }
+      ],
+      "estructura": [
+        { "seccion": "Tablilla I", "sinopsis": "Antes de los nombres: Apsu y Tiamat mezclan sus aguas y nacen las primeras generaciones de dioses." },
+        { "seccion": "Tablillas II–III", "sinopsis": "Tiamat prepara la guerra y los dioses buscan un campeón; Marduk acepta a cambio del poder supremo." },
+        { "seccion": "Tablilla IV", "sinopsis": "Combate entre Marduk y Tiamat; con el cuerpo de la vencida se construye el cosmos." },
+        { "seccion": "Tablillas V–VII", "sinopsis": "Ordenación de los astros, creación del ser humano, fundación de Babilonia y los cincuenta nombres de Marduk." }
+      ],
+      "pasajes": [
+        {
+          "ref": "Tablilla I, 1–9",
+          "tipo": "traduccion-dominio-publico",
+          "texto": "Cuando en lo alto el cielo no había sido nombrado\ny abajo la tierra firme no tenía nombre,\ny el primordial Apsu, que los engendró,\ny Tiamat, la madre de todos ellos,\nmezclaban sus aguas en una sola,\nsin que se hubiera formado campo ni se viera marisma;\ncuando ninguno de los dioses había sido llamado a la existencia,\nni nadie llevaba nombre, ni estaban fijados los destinos…",
+          "fuente": "Versión castellana de la traducción inglesa de L. W. King, The Seven Tablets of Creation (Londres, 1902), tablilla I, vv. 1–9 (dominio público).",
+          "nota_academica": "El poema empieza por lo que aún no existe: nombrar es crear. Apsu (el agua dulce) y Tiamat (el mar) son principios cósmicos, no lugares. El íncipit, «Enūma eliš» («Cuando en lo alto»), da título a la obra, como era costumbre en Mesopotamia.",
+          "lectura_astronauta": {
+            "autor": "Zecharia Sitchin",
+            "lectura": "Tiamat sería un planeta del sistema solar primitivo y Apsu el Sol; la mezcla de las aguas describiría la formación del sistema planetario.",
+            "replica": "En el poema Tiamat es un ser con cuerpo, madre y luego enemiga de los dioses; el texto nunca la llama astro. La lectura planetaria exige atribuir al poema un saber astronómico que no contiene."
+          },
+          "lectura_actual": {
+            "enfoque": "Ecocrítica",
+            "lectura": "La cosmogonía parte de la mezcla de agua dulce y salada, la imagen del delta del sur de Mesopotamia, donde la tierra firme se gana al agua. Las lecturas ecocríticas ven aquí el control del agua como fundamento del orden y del poder.",
+            "referencia": "Datos de muestra: referencia pendiente."
+          }
+        },
+        {
+          "ref": "Tablilla IV, 135–140",
+          "tipo": "parafrasis",
+          "texto": "Marduk abre en dos el cuerpo de Tiamat. Con una mitad levanta la bóveda del cielo, le echa un cerrojo y pone guardianes para que sus aguas no escapen; con la otra mitad afirma la tierra.",
+          "fuente": "Paráfrasis a partir de King (1902) y de la traducción de B. R. Foster, Before the Muses (2005).",
+          "nota_academica": "El cosmos se hace con el cuerpo del enemigo vencido. La creación es también un acto político: justifica la supremacía de Marduk y, con ella, la de Babilonia.",
+          "lectura_astronauta": {
+            "autor": "Zecharia Sitchin",
+            "lectura": "La batalla sería la colisión de Nibiru con Tiamat; de sus restos saldrían la Tierra y el cinturón de asteroides.",
+            "replica": "El pasaje narra un combate entre dioses con armas (red, vientos, flechas), no una órbita. El nombre Nibiru no aparece aquí; en la tablilla V designa un astro asociado a Marduk, que los especialistas suelen identificar con Júpiter."
+          },
+          "lectura_actual": {
+            "enfoque": "Historia de las ideologías",
+            "lectura": "El poema se recitaba en la fiesta del año nuevo y se reescribió en Asiria con Assur en el lugar de Marduk: el mito sirve para legitimar a la ciudad y al rey que lo patrocinan.",
+            "referencia": "Datos de muestra: referencia pendiente."
+          }
+        },
+        {
+          "ref": "Tablilla VI, 5–7",
+          "tipo": "cita-breve",
+          "texto": "Amasaré sangre y haré que haya huesos. Crearé un salvaje: «hombre» será su nombre.",
+          "fuente": "L. W. King (1902), tablilla VI, vv. 5–7; cita breve en castellano.",
+          "nota_academica": "El ser humano se crea para cargar con el trabajo de los dioses, un motivo que el poema toma de Atrahasis.",
+          "lectura_astronauta": null,
+          "lectura_actual": null
+        }
+      ]
+    },
+    {
+      "id": "enki-ea",
+      "titulo": "Enki y el orden del mundo (muestra)",
+      "version": "Versión sumeria de época paleobabilonia",
+      "lengua": "Sumerio",
+      "ediciones": [
+        { "titulo": "The Electronic Text Corpus of Sumerian Literature (ETCSL 1.1.3)", "autor": "J. A. Black y otros", "anio": 2006 }
+      ],
+      "estructura": [
+        { "seccion": "Alabanza de Enki", "sinopsis": "Elogio del dios del abzu, que da fertilidad a la tierra." },
+        { "seccion": "Viaje y bendiciones", "sinopsis": "Enki recorre el mundo y fija el destino de Sumer, Ur, Meluhha y Dilmun." },
+        { "seccion": "Reparto de funciones", "sinopsis": "Enki asigna a cada divinidad su oficio: ríos, campos, ganado, construcción." },
+        { "seccion": "La queja de Inanna", "sinopsis": "Inanna reclama sus competencias y Enki le enumera las que ya tiene." }
+      ],
+      "pasajes": [
+        {
+          "ref": "Líneas 1–60",
+          "tipo": "parafrasis",
+          "texto": "El poema abre con un largo elogio de Enki, señor del abzu, el agua dulce subterránea: es el dios que hace crecer las cosechas, llena los canales y da nombre a las cosas.",
+          "fuente": "Paráfrasis basada en The Electronic Text Corpus of Sumerian Literature (ETCSL 1.1.3).",
+          "nota_academica": "Enki aparece como organizador más que como creador: reparte funciones entre los dioses y fija el lugar de cada pueblo.",
+          "lectura_astronauta": {
+            "autor": "Zecharia Sitchin",
+            "lectura": "Enki sería un ingeniero anunnaki llegado de Nibiru que dirigió obras hidráulicas en la Tierra.",
+            "replica": "El poema describe la fertilidad atribuida a un dios del agua dulce con imágenes agrícolas propias de la literatura sumeria; nada en él remite a técnicas ajenas a la Mesopotamia antigua."
+          },
+          "lectura_actual": null
+        },
+        {
+          "ref": "Líneas 386–471",
+          "tipo": "parafrasis",
+          "texto": "Cuando Enki ha repartido todos los oficios, Inanna se queja de que no le ha tocado ninguno. Enki le recuerda los poderes que ya tiene: el cayado del pastor, el grito de guerra, la capacidad de trastocar lo que está en orden.",
+          "fuente": "Paráfrasis basada en The Electronic Text Corpus of Sumerian Literature (ETCSL 1.1.3).",
+          "nota_academica": "El episodio explica las competencias de Inanna como una suma de rasgos contradictorios.",
+          "lectura_astronauta": null,
+          "lectura_actual": {
+            "enfoque": "Estudios de género",
+            "lectura": "La queja de Inanna se lee hoy como un texto sobre los límites del reparto: la diosa que no encaja en ningún oficio acaba definida por la transgresión.",
+            "referencia": "Rivkah Harris, «Inanna-Ishtar as Paradox and a Coincidence of Opposites» (1991)."
+          }
+        }
+      ]
+    }
+  ]
+}
