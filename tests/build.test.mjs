@@ -3,7 +3,9 @@
 import { test, describe, after } from 'node:test';
 import assert from 'node:assert/strict';
 import { spawnSync } from 'node:child_process';
-import { readFileSync } from 'node:fs';
+import { readFileSync, existsSync, mkdtempSync, cpSync, mkdirSync, writeFileSync, rmSync, renameSync } from 'node:fs';
+import { tmpdir } from 'node:os';
+import { ARCHIVOS } from '../i18n/comun.mjs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 import vm from 'node:vm';
@@ -58,10 +60,9 @@ for (const [nombre, b] of [['muestra', muestra], ['reales', real]]) {
       const [datos] = scripts(b.html);
       const ctx = { window: {} };
       vm.runInNewContext(datos, ctx);
-      const esperado = {
-        cientifico: JSON.parse(readFileSync(join(raiz, 'data', nombre === 'muestra' ? 'muestra-cientifico.json' : 'cientifico.json'), 'utf8')),
-        astronautas: JSON.parse(readFileSync(join(raiz, 'data', nombre === 'muestra' ? 'muestra-astronautas.json' : 'astronautas.json'), 'utf8'))
-      };
+      const archivos = ARCHIVOS[nombre === 'muestra' ? 'muestra' : 'real'];
+      const esperado = Object.fromEntries(Object.entries(archivos).map(([k, f]) => [k, existsSync(join(raiz, f)) ? JSON.parse(readFileSync(join(raiz, f), 'utf8')) : null]));
+      assert.deepEqual(Object.keys(esperado), ['cientifico', 'astronautas', 'actual', 'asiriologos', 'textos']);
       assert.deepEqual(JSON.parse(JSON.stringify(ctx.window.__MESO_DATA__)), esperado);
       // Idiomas publicados: el castellano siempre, delante.
       assert.ok(Array.isArray(ctx.window.__MESO_IDIOMAS__));
@@ -112,5 +113,40 @@ describe('build de muestra: <script> inyectado', () => {
   test('aparece escapado dentro del bloque de datos', () => {
     const [datos] = scripts(muestra.html);
     assert.match(datos, /<script>prueba de escape<\\\/script>/);
+  });
+});
+
+describe('build: casos especiales', () => {
+  test('una traducción incompleta se publica con aviso (en una copia de i18n/)', () => {
+    const tmp = mkdtempSync(join(tmpdir(), 'meso-build-'));
+    try {
+      cpSync(join(raiz, 'i18n/es'), join(tmp, 'es'), { recursive: true });
+      mkdirSync(join(tmp, 'en'));
+      writeFileSync(join(tmp, 'en/01.json'), JSON.stringify({ 'meta.revision': 'automatica', 'ui.nav.catalogo': 'Catalogue' }), 'utf8');
+      const r = spawnSync(process.execPath, ['build.mjs'], { cwd: raiz, encoding: 'utf8', env: { ...process.env, MESO_I18N_DIR: tmp } });
+      assert.equal(r.status, 0, r.stdout + r.stderr);
+      assert.match(r.stdout + r.stderr, /AVISO en: faltan \d+ de \d+ claves/);
+      assert.deepEqual(JSON.parse(readFileSync(join(raiz, 'dist/i18n/en.json'), 'utf8')), { 'meta.revision': 'automatica', 'ui.nav.catalogo': 'Catalogue' });
+      assert.equal(existsSync(join(raiz, 'dist/i18n/ca.json')), false, 'solo los idiomas de la carpeta indicada');
+    } finally {
+      rmSync(tmp, { recursive: true, force: true });
+    }
+  });
+  test('sin data/textos.json el build funciona y la sección queda vacía', () => {
+    const ruta = join(raiz, 'data/textos.json');
+    const aparte = join(raiz, 'data/textos.json.apartado-por-test');
+    const habia = existsSync(ruta);
+    if (habia) renameSync(ruta, aparte);
+    try {
+      const r = spawnSync(process.execPath, ['build.mjs'], { cwd: raiz, encoding: 'utf8' });
+      assert.equal(r.status, 0, r.stdout + r.stderr);
+      assert.match(r.stdout + r.stderr, /textos\.json no existe/);
+      const [datos] = scripts(readFileSync(dist, 'utf8'));
+      const ctx = { window: {} };
+      vm.runInNewContext(datos, ctx);
+      assert.equal(ctx.window.__MESO_DATA__.textos, null);
+    } finally {
+      if (habia) renameSync(aparte, ruta);
+    }
   });
 });

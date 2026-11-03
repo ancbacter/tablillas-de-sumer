@@ -4,7 +4,7 @@
 import { test, describe, before, after } from 'node:test';
 import assert from 'node:assert/strict';
 import { spawnSync } from 'node:child_process';
-import { readFileSync, writeFileSync, mkdirSync, rmSync, existsSync } from 'node:fs';
+import { readFileSync, writeFileSync, mkdirSync, existsSync, readdirSync, statSync } from 'node:fs';
 import { createServer } from 'node:http';
 import { fileURLToPath } from 'node:url';
 import { dirname, join, resolve, sep } from 'node:path';
@@ -18,6 +18,9 @@ const VISTAS = ['catalogo', 'textos', 't-enuma-elish', 'cronologia', 'mapa', 'ac
 const idsTextos = JSON.parse(readFileSync(join(raiz, 'data/textos.json'), 'utf8')).textos.map((x) => x.id);
 
 const envolver = (frag) => '<!doctype html>\n<html lang="es">\n<head>\n<meta charset="utf-8">\n<meta name="viewport" content="width=device-width, initial-scale=1">\n</head>\n<body>\n' + frag + '\n</body>\n</html>\n';
+/** Huella (nombre, tamaño y fecha de cada archivo) de i18n/<idioma>/, para comprobar que los tests no la tocan. */
+const huella = (d) => readdirSync(join(raiz, 'i18n', d)).sort().map((f) => { const st = statSync(join(raiz, 'i18n', d, f)); return f + ':' + st.size + ':' + st.mtimeMs; });
+const huellas = Object.fromEntries(readdirSync(join(raiz, 'i18n')).filter((d) => statSync(join(raiz, 'i18n', d)).isDirectory()).map((d) => [d, huella(d)]));
 const TIPOS = { '.html': 'text/html; charset=utf-8', '.json': 'application/json; charset=utf-8' };
 
 /**
@@ -35,10 +38,10 @@ function servir(muestraHTML) {
     try { r = decodeURIComponent(new URL(req.url, 'http://x').pathname); } catch { return enviar(400, 'mal', 'text/plain'); }
     if (r === '/' || r === '/index.html') {
       let html = readFileSync(join(dist, 'index.html'), 'utf8');
-      if (prueba.idiomas) html = html.replace(/window.__MESO_IDIOMAS__ = [^;]*;/, () => 'window.__MESO_IDIOMAS__ = ' + JSON.stringify(prueba.idiomas) + ';');
+      if (prueba.idiomas) html = html.replace(/window\.__MESO_IDIOMAS__ =[^;]*;/, () => 'window.__MESO_IDIOMAS__ = ' + JSON.stringify(prueba.idiomas) + ';');
       return enviar(200, envolver(html), TIPOS['.html']);
     }
-    const m = /^/i18n/([a-z]+).json$/.exec(r);
+    const m = /^\/i18n\/([a-z]+)\.json$/.exec(r);
     if (m && m[1] in prueba.mapas) return prueba.mapas[m[1]] ? enviar(200, JSON.stringify(prueba.mapas[m[1]]), TIPOS['.json']) : enviar(404, 'no encontrado', 'text/plain');
     if (r === '/muestra.html') return enviar(200, muestraHTML, TIPOS['.html']);
     const archivo = resolve(dist, '.' + r);
@@ -290,26 +293,17 @@ describe('navegador', { skip: ruta ? false : 'no se encontró Chrome ni Edge' },
   });
 
   test('idioma: cambia a «en», conserva la vista y cae al castellano en lo no traducido', async () => {
-    // Traducción de prueba: meta, tres claves de interfaz y una entrada.
-    const dirEn = join(raiz, 'i18n/en');
-    const reconstruir = () => {
-      const b = spawnSync(process.execPath, ['build.mjs'], { cwd: raiz, encoding: 'utf8' });
-      assert.equal(b.status, 0, b.stdout + b.stderr);
-      return b.stdout + b.stderr;
+    // Traducción de prueba servida desde memoria (no se toca i18n/en/): meta, tres claves de interfaz y una entrada.
+    prueba.idiomas = ['es', 'en'];
+    prueba.mapas.en = {
+      'meta.revision': 'automatica',
+      'ui.sitio.titulo': 'Tablets of Sumer',
+      'ui.nav.catalogo': 'Catalogue',
+      'ui.fecha.rango_ac': 'c. {inicio}–{fin} BC',
+      'c.entradas.nibiru.nombre': 'Nibiru (the crossing)',
+      't.textos.enuma-elish.titulo': 'Enuma Elish (EN)'
     };
     try {
-      mkdirSync(dirEn, { recursive: true });
-      writeFileSync(join(dirEn, '01.json'), JSON.stringify({
-        'meta.revision': 'automatica',
-        'ui.sitio.titulo': 'Tablets of Sumer',
-        'ui.nav.catalogo': 'Catalogue',
-        'ui.fecha.rango_ac': 'c. {inicio}–{fin} BC',
-        'c.entradas.nibiru.nombre': 'Nibiru (the crossing)'
-      }, null, 2), 'utf8');
-      const salida = reconstruir();
-      assert.match(salida, /AVISO en: faltan \d+ de \d+ claves/, 'el build avisa de que el inglés está incompleto');
-      assert.ok(existsSync(join(raiz, 'dist/i18n/en.json')));
-
       await abrir(url, { enfoque: 'comparar' });
       await irA('e-nibiru');
       const leer = () => pag.evaluar(`(() => ({
@@ -318,10 +312,11 @@ describe('navegador', { skip: ruta ? false : 'no se encontró Chrome ni Edge' },
         nav: document.querySelector('.nav a[data-vista="catalogo"]').textContent,
         h3: [...document.querySelectorAll('#vista .academica h3')].map(x => x.textContent),
         periodo: (document.getElementById('ficha-periodo') || {}).textContent || '',
-        columnas: document.querySelectorAll('#vista .columna').length,
+        columnas: document.querySelectorAll('#vista .comparar > .columna').length,
         comparar: document.getElementById('enfoque-comparar').checked,
         aviso: !document.getElementById('aviso-traduccion').hidden && document.getElementById('aviso-idioma').getBoundingClientRect().height > 0,
-        opciones: [...document.querySelectorAll('#selector-idioma option')].map(o => o.value)
+        opciones: [...document.querySelectorAll('#selector-idioma option')].map(o => o.value),
+        placeholder: document.getElementById('buscar').placeholder
       }))()`);
       const esperarLang = (l) => pag.evaluar(`new Promise((ok, mal) => { const t0 = Date.now(); (function mirar() {
         if (document.documentElement.lang === ${JSON.stringify(l)}) return requestAnimationFrame(() => ok(true));
@@ -333,6 +328,7 @@ describe('navegador', { skip: ruta ? false : 'no se encontró Chrome ni Edge' },
       assert.deepEqual(antes.opciones, ['es', 'en']);
       assert.equal(antes.aviso, false);
       assert.match(antes.h2, /^Nibiru/);
+      assert.equal(antes.placeholder, 'Enki, diluvio, Nibiru…');
       assert.equal(await pag.evaluar(`document.querySelector('label[for="selector-idioma"]').textContent`), 'Idioma');
 
       await pag.evaluar(`(() => { const s = document.getElementById('selector-idioma'); s.value = 'en'; s.dispatchEvent(new Event('change')); })()`);
@@ -342,10 +338,14 @@ describe('navegador', { skip: ruta ? false : 'no se encontró Chrome ni Edge' },
       assert.equal(en.nav, 'Catalogue', 'texto de interfaz traducido');
       assert.match(en.titulo, /Nibiru \(the crossing\) · Tablets of Sumer/);
       assert.equal(en.hash, '#e-nibiru', 'conserva la ficha abierta');
-      assert.ok(en.comparar && en.columnas === 2, 'conserva el enfoque');
+      assert.ok(en.comparar && en.columnas === 3, 'conserva el enfoque');
       assert.ok(en.h3.includes('Resumen'), 'clave sin traducir: castellano');
       if (antes.periodo) assert.match(en.periodo, /BC\)$/, en.periodo);
       assert.ok(en.aviso, 'aviso de traducción automática visible');
+      // Los textos se traducen con las mismas claves.
+      await irA('t-enuma-elish');
+      assert.equal(await pag.evaluar(`document.querySelector('#vista h2').textContent`), 'Enuma Elish (EN)');
+      await irA('e-nibiru');
 
       // La elección se recuerda al recargar.
       const carga = pag.evento('Page.loadEventFired');
@@ -365,8 +365,8 @@ describe('navegador', { skip: ruta ? false : 'no se encontró Chrome ni Edge' },
       assert.deepEqual(errores, []);
 
       // Si la traducción no se puede descargar: aviso discreto y la página sigue en castellano.
+      prueba.mapas.en = null;
       await abrir(url);
-      rmSync(join(raiz, 'dist/i18n/en.json'));
       await pag.evaluar(`(() => { const s = document.getElementById('selector-idioma'); s.value = 'en'; s.dispatchEvent(new Event('change')); })()`);
       const fallo = await pag.evaluar(`new Promise((ok) => { const t0 = Date.now(); (function mirar() {
         const e = document.getElementById('aviso-idioma-error');
@@ -385,24 +385,198 @@ describe('navegador', { skip: ruta ? false : 'no se encontró Chrome ni Edge' },
       errores.length = 0;
       assert.deepEqual(ajenos, []);
     } finally {
-      rmSync(dirEn, { recursive: true, force: true });
-      reconstruir();
+      prueba.idiomas = null;
+      prueba.mapas = {};
     }
-    assert.equal(existsSync(join(raiz, 'dist/i18n')), false, 'sin traducciones, dist/ solo lleva el castellano');
+  });
+
+  test('las traducciones reales publicadas se cargan', async () => {
+    const publicados = await (async () => { await abrir(url); return pag.evaluar(`[...document.querySelectorAll('#selector-idioma option')].map(o => o.value)`); })();
+    const otro = publicados.find((c) => c !== 'es');
+    if (!otro) return; // sin traducciones publicadas
+    await abrir(url, { idioma: otro });
+    const r = await pag.evaluar(`new Promise((ok) => { const t0 = Date.now(); (function mirar() {
+      if (document.documentElement.lang !== 'es' || Date.now() - t0 > 5000) return ok({ lang: document.documentElement.lang, nav: document.querySelector('.nav a[data-vista="glosario"]').textContent });
+      setTimeout(mirar, 20); })(); })`);
+    assert.equal(r.lang, otro);
+    assert.ok(r.nav.trim(), 'navegación con texto');
+    assert.deepEqual(errores, []);
+  });
+
+  test('#textos lista los textos y #t-<id> es un lector con índice, tipos y lecturas', async () => {
+    await abrir(url);
+    await irA('textos');
+    const lista = await pag.evaluar(`[...document.querySelectorAll('#vista .texto-tarjeta')].map(a => a.getAttribute('href'))`);
+    assert.deepEqual(lista, idsTextos.map((id) => '#t-' + id));
+    await irA('t-enuma-elish');
+    const r = await pag.evaluar(`(() => ({
+      h2: document.querySelector('#vista h2').textContent,
+      estructura: document.querySelectorAll('#indice .estructura li').length,
+      indice: document.querySelectorAll('#indice .boton-indice').length,
+      pasajes: document.querySelectorAll('#vista .pasaje').length,
+      tipos: [...document.querySelectorAll('#vista .pasaje-cab .tipo-pasaje')].map(x => x.textContent),
+      fuentes: [...document.querySelectorAll('#vista .pasaje')].every(p => p.querySelector('.pasaje-fuente')),
+      pestanas: [...document.querySelectorAll('#vista .pasaje')].map(p => [...p.querySelectorAll('[role=tab]')].map(t => t.id.split('-tab-')[1])),
+      seleccion: [...document.querySelectorAll('#vista [role=tab][aria-selected=true]')].map(t => t.id.split('-tab-')[1]),
+      visibles: document.querySelectorAll('#vista [role=tabpanel]:not([hidden])').length,
+      abierto: document.getElementById('indice').open
+    }))()`);
+    assert.match(r.h2, /Enuma/);
+    assert.ok(r.estructura > 0 && r.indice === r.pasajes && r.pasajes > 0, JSON.stringify(r));
+    assert.ok(r.tipos.length === r.pasajes && r.tipos.every((x) => ['Traducción (dominio público)', 'Cita breve', 'Paráfrasis'].includes(x)), r.tipos.join());
+    assert.ok(r.fuentes, 'cada pasaje muestra su fuente');
+    assert.ok(r.abierto, 'en escritorio el índice está desplegado');
+    // Solo hay pestañas de las lecturas que existen (lectura_actual null → sin pestaña).
+    const datos = JSON.parse(readFileSync(join(raiz, 'data/textos.json'), 'utf8')).textos.find((x) => x.id === 'enuma-elish');
+    datos.pasajes.forEach((p, i) => {
+      const esperadas = [p.nota_academica && 'cientifico', p.lectura_astronauta && 'astronautas', p.lectura_actual && 'actual'].filter(Boolean);
+      assert.deepEqual(r.pestanas[i], esperadas, `pasaje ${i}`);
+    });
+    assert.ok(r.seleccion.every((x) => x === 'cientifico'), 'con el enfoque académico se abre la nota académica');
+    assert.equal(r.visibles, r.pasajes, 'un panel visible por pasaje');
+    // Teclado en las pestañas: flecha derecha pasa a la siguiente lectura.
+    await pag.evaluar(`document.getElementById('p0-tab-cientifico').focus()`);
+    await pag.s('Input.dispatchKeyEvent', { type: 'keyDown', key: 'ArrowRight', code: 'ArrowRight', windowsVirtualKeyCode: 39 });
+    await pag.s('Input.dispatchKeyEvent', { type: 'keyUp', key: 'ArrowRight', code: 'ArrowRight', windowsVirtualKeyCode: 39 });
+    const tras = await pag.evaluar(`({ activo: document.activeElement.id, panel: !document.getElementById('p0-panel-astronautas').hidden,
+      aviso: !!document.querySelector('#p0-panel-astronautas .aviso'), replica: !!document.querySelector('#p0-panel-astronautas .replica') })`);
+    assert.deepEqual(tras, { activo: 'p0-tab-astronautas', panel: true, aviso: true, replica: true });
+    // Comparar: todas las lecturas en columnas, sin pestañas; el astronauta siempre con aviso y réplica.
+    await pag.evaluar(`document.getElementById('enfoque-comparar').click()`);
+    const comp = await pag.evaluar(`(() => ({
+      pestanas: document.querySelectorAll('#vista [role=tab]').length,
+      columnas: [...document.querySelectorAll('#vista .pasaje')].map(p => p.querySelectorAll('.lecturas-comparar > .lectura').length),
+      astro: [...document.querySelectorAll('#vista .lectura.astro')].every(l => l.querySelector('.aviso') && l.querySelector('.replica'))
+    }))()`);
+    assert.equal(comp.pestanas, 0);
+    assert.deepEqual(comp.columnas, r.pestanas.map((x) => x.length));
+    assert.ok(comp.astro, 'toda lectura astronauta lleva aviso y réplica');
+    // Enlace desde la ficha y texto inexistente.
+    await irA('e-enuma-elish');
+    assert.equal(await pag.evaluar(`(document.getElementById('leer-texto') || {}).getAttribute && document.getElementById('leer-texto').getAttribute('href')`), '#t-enuma-elish');
+    await irA('t-no-existe');
+    assert.match(await pag.evaluar(`document.querySelector('#vista h2').textContent`), /no encontrado/);
+    assert.deepEqual(errores, []);
+  });
+
+  test('#actual: corrientes, hallazgos, recepción filtrable y etiqueta de Sitchin', async () => {
+    await abrir(url);
+    await irA('actual');
+    const datos = JSON.parse(readFileSync(join(raiz, 'data/actual.json'), 'utf8'));
+    const r = await pag.evaluar(`(() => ({
+      corrientes: document.querySelectorAll('#vista .corriente').length,
+      hallazgos: document.querySelectorAll('#vista .linea-hitos > li').length,
+      puntos: document.querySelectorAll('#vista .regla-punto').length,
+      obras: document.querySelectorAll('#recepcion-lista .obra').length,
+      sitchin: document.querySelectorAll('#recepcion-lista .obra.con-sitchin .sello-sitchin').length,
+      sinSello: [...document.querySelectorAll('#recepcion-lista .obra:not(.con-sitchin)')].some(o => o.querySelector('.sello-sitchin'))
+    }))()`);
+    assert.equal(r.corrientes, datos.corrientes.length);
+    assert.equal(r.hallazgos, datos.hallazgos.length);
+    assert.equal(r.puntos, datos.hallazgos.length);
+    assert.equal(r.obras, datos.recepcion.length);
+    assert.equal(r.sitchin, datos.recepcion.filter((o) => o.influencia_sitchin).length);
+    assert.equal(r.sinSello, false);
+    const n = (tipo) => datos.recepcion.filter((o) => o.tipo === tipo).length;
+    for (const tipo of ['videojuego', 'serie']) {
+      await pag.evaluar(`document.getElementById('rec-${tipo}').click()`);
+      assert.equal(await pag.evaluar(`document.querySelectorAll('#recepcion-lista .obra').length`), n(tipo), tipo);
+      assert.equal(await pag.evaluar(`document.getElementById('rec-${tipo}').getAttribute('aria-pressed')`), 'true');
+    }
+    await pag.evaluar(`document.getElementById('rec-todas').click()`);
+    assert.equal(await pag.evaluar(`document.querySelectorAll('#recepcion-lista .obra').length`), datos.recepcion.length);
+    // Selector de enfoque oculto aquí: no cambia la vista.
+    assert.equal(await pag.evaluar(`document.getElementById('contexto').hidden`), true);
+    assert.deepEqual(errores, []);
+  });
+
+  test('#asiriologos agrupa por etapa, #as-<id> señala al autor y la ficha muestra especialistas', async () => {
+    await abrir(url);
+    await irA('asiriologos');
+    const datos = JSON.parse(readFileSync(join(raiz, 'data/asiriologos.json'), 'utf8'));
+    const r = await pag.evaluar(`(() => ({
+      autores: document.querySelectorAll('#vista .asiriologo').length,
+      etapas: [...document.querySelectorAll('#vista section.etapa')].map(s => s.className.match(/etapa-(\\w+)/)[1]),
+      hitos: document.querySelectorAll('#vista .linea-hitos > li').length,
+      nav: (document.querySelector('.nav a[aria-current="page"]') || {}).getAttribute('data-vista'),
+      sub: (document.querySelector('.subnav [aria-current="page"]') || {}).getAttribute('href')
+    }))()`);
+    assert.equal(r.autores, datos.autores.length);
+    assert.deepEqual(r.etapas, ['desciframiento', 'clasica', 'actual', 'espana', 'critica'].filter((e) => datos.autores.some((a) => a.etapa === e)));
+    assert.equal(r.hitos, datos.hitos.length);
+    assert.equal(r.nav, 'autores');
+    assert.equal(r.sub, '#asiriologos');
+    await irA('as-lambert');
+    const d = await pag.evaluar(`({ foco: document.activeElement.id, destacado: !!document.querySelector('#asiriologo-lambert.destacado'),
+      visible: (() => { const b = document.getElementById('asiriologo-lambert').getBoundingClientRect(); return b.top >= 0 && b.top < innerHeight; })() })`);
+    assert.deepEqual(d, { foco: 'asiriologo-lambert', destacado: true, visible: true });
+    await irA('e-enuma-elish');
+    const esp = await pag.evaluar(`[...document.querySelectorAll('#vista .especialistas a')].map(a => a.getAttribute('href'))`);
+    assert.deepEqual(esp.sort(), datos.autores.filter((a) => a.entradas.includes('enuma-elish')).map((a) => '#as-' + a.id).sort());
+    await irA('autores');
+    assert.equal(await pag.evaluar(`document.querySelector('.subnav [aria-current="page"]').getAttribute('href')`), '#autores');
+    assert.deepEqual(errores, []);
+  });
+
+  test('atajo «/» enfoca el buscador desde cualquier vista; Escribir en un campo no lo dispara', async () => {
+    await abrir(url);
+    await irA('mapa');
+    const pulsar = async () => {
+      await pag.s('Input.dispatchKeyEvent', { type: 'keyDown', key: '/', code: 'Slash', windowsVirtualKeyCode: 191, text: '/' });
+      await pag.s('Input.dispatchKeyEvent', { type: 'keyUp', key: '/', code: 'Slash', windowsVirtualKeyCode: 191 });
+      return pag.evaluar(`new Promise(r => requestAnimationFrame(() => requestAnimationFrame(() => r({ hash: location.hash, activo: document.activeElement.id, valor: document.getElementById('buscar').value }))))`);
+    };
+    await pag.evaluar(`document.body.focus()`);
+    let r = await pulsar();
+    assert.deepEqual(r, { hash: '#catalogo', activo: 'buscar', valor: '' });
+    r = await pulsar();
+    assert.equal(r.valor, '/', 'dentro del buscador «/» se escribe');
+    assert.deepEqual(errores, []);
+  });
+
+  test('móvil: la navegación es un menú compacto', async () => {
+    await abrir(url, { ancho: 400, alto: 860 });
+    const estadoMenu = () => pag.evaluar(`({ expandido: document.getElementById('menu-boton').getAttribute('aria-expanded'),
+      visible: document.querySelector('.nav a[data-vista="glosario"]').getBoundingClientRect().height > 0,
+      boton: document.getElementById('menu-boton').getBoundingClientRect().width > 0 })`);
+    assert.deepEqual(await estadoMenu(), { expandido: 'false', visible: false, boton: true });
+    await pag.evaluar(`document.getElementById('menu-boton').click()`);
+    assert.deepEqual(await estadoMenu(), { expandido: 'true', visible: true, boton: true });
+    await pag.evaluar(`document.querySelector('.nav a[data-vista="glosario"]').click()`);
+    await pag.evaluar(`new Promise(r => setTimeout(r, 50))`);
+    assert.equal(await pag.evaluar(`location.hash`), '#glosario');
+    assert.deepEqual(await estadoMenu(), { expandido: 'false', visible: false, boton: true });
+    assert.deepEqual(errores, []);
+  });
+
+  test('las carpetas de los traductores no se modifican', () => {
+    // Los tests anteriores no deben haber escrito en i18n/<idioma>/ (salvo es, que genera extraer.mjs).
+    for (const d of readdirSync(join(raiz, 'i18n'))) {
+      if (d === 'es' || !statSync(join(raiz, 'i18n', d)).isDirectory()) continue;
+      const antes = huellas[d];
+      assert.deepEqual(huella(d), antes, `i18n/${d}/ ha cambiado durante los tests`);
+    }
   });
 
   test('capturas a 1280 y 400 px, en claro y en oscuro', async () => {
     for (const oscuro of [false, true]) {
       for (const ancho of [1280, 400]) {
         const tema = oscuro ? 'oscuro' : 'claro';
-        await abrir(url, { ancho, alto: ancho === 400 ? 860 : 900, oscuro, enfoque: 'cientifico' });
+        const alto = ancho === 400 ? 860 : 900;
+        await abrir(url, { ancho, alto, oscuro, enfoque: 'cientifico' });
         await captura(`catalogo-${ancho}-${tema}`);
-        for (const v of ['cronologia', 'mapa', 'glosario']) { await irA(v); await captura(`${v}-${ancho}-${tema}`); }
-        await abrir(url, { ancho, alto: ancho === 400 ? 860 : 900, oscuro, enfoque: 'comparar' });
+        for (const v of ['cronologia', 'mapa', 'glosario', 'textos', 'actual', 'asiriologos']) { await irA(v); await captura(`${v}-${ancho}-${tema}`); }
+        await abrir(url, { ancho, alto, oscuro, enfoque: 'comparar' });
         await irA('e-nibiru');
         await captura(`ficha-nibiru-comparar-${ancho}-${tema}`, 3200);
+        await irA('t-enuma-elish');
+        await captura(`texto-enuma-comparar-${ancho}-${tema}`, 3200);
         await irA('autores');
         await captura(`autores-${ancho}-${tema}`);
+        await abrir(url, { ancho, alto, oscuro, enfoque: 'actual' });
+        await captura(`catalogo-actual-${ancho}-${tema}`, 1600);
+        await irA('t-enuma-elish');
+        await captura(`texto-enuma-actual-${ancho}-${tema}`, 2400);
       }
     }
     assert.deepEqual(errores, []);
