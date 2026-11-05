@@ -652,6 +652,38 @@ blockquote.pasaje-texto { padding-left: 22px; border-left: 2px solid var(--lapis
 .tipo-parafrasis .pasaje-texto { padding-left: 22px; border-left: 2px dashed var(--linea-fuerte); color: var(--tinta-suave); }
 .pasaje-fuente { font-size: 0.85rem; color: var(--tinta-suave); max-width: 72ch; margin: 4px 0 20px; }
 .pasaje-fuente .rot { display: inline; margin-right: 8px; }
+/* Texto completo: versos numerados, lagunas y notas por tablilla */
+.texto-acciones { display: flex; flex-wrap: wrap; gap: 10px; }
+.tt-completo { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.04em; padding: 2px 9px; border-radius: 999px; background: var(--oro-tenue); border: 1px solid var(--oro-linea); color: var(--oro); white-space: nowrap; }
+.texto-completo .texto-meta { align-items: center; }
+.texto-completo .pasaje-fuente { margin: 0; }
+.aviso-solo-es { font-size: 0.9rem; color: var(--tinta-suave); padding: 8px 12px; border-left: 3px solid var(--oro-vivo); background: var(--superficie-2); max-width: 72ch; }
+.presentacion { margin-top: 18px; max-width: 72ch; font-size: 0.95rem; }
+.presentacion summary { cursor: pointer; font-weight: 650; color: var(--lapis); }
+.presentacion p { margin: 10px 0 0; color: var(--tinta-suave); }
+.tablilla { padding-block: 8px 40px; }
+.tablilla + .tablilla { padding-top: 32px; border-top: 1px solid var(--linea); }
+.tablilla-cab { margin-bottom: 18px; max-width: 72ch; }
+.tablilla-cab h3 { font-family: var(--f-titulo); font-weight: 650; font-size: 1.5rem; letter-spacing: -0.01em; text-transform: none; color: var(--tinta); scroll-margin-top: calc(var(--alto-barra) + 24px); }
+.tablilla-sinopsis { margin: 6px 0 0; color: var(--tinta-suave); font-size: 0.95rem; }
+.versos { font-family: var(--f-lectura); font-size: 1.15rem; line-height: 1.6; max-width: 66ch; padding-left: 4px; border-left: 2px solid var(--lapis); }
+.verso { display: grid; grid-template-columns: 3.2em minmax(0, 1fr); margin: 0; scroll-margin-top: calc(var(--alto-barra) + 24px); }
+.verso-n { font-family: var(--f-texto); font-size: 0.72rem; font-variant-numeric: tabular-nums; color: var(--tinta-suave); text-align: right; padding: 0.45em 0.9em 0 0; user-select: none; }
+.verso:not(:nth-child(5n)) .verso-n { visibility: hidden; }
+.verso:target .verso-n, .verso:hover .verso-n { visibility: visible; }
+.verso-t { min-width: 0; padding-left: 1.2em; text-indent: -1.2em; }
+.llamada { font-family: var(--f-texto); font-size: 0.75rem; font-weight: 700; vertical-align: super; line-height: 0; margin-left: 2px; text-decoration: none; padding: 0 2px; }
+.laguna { margin: 14px 0 14px 3.2em; padding: 10px 14px; font-family: var(--f-texto); font-size: 0.92rem; line-height: 1.55; color: var(--tinta-suave); border: 1px dashed var(--linea-fuerte); border-radius: var(--radio); background: var(--superficie); }
+.laguna p { margin: 0; }
+.laguna .rot { display: block; margin-bottom: 2px; }
+.laguna-hoy { margin-top: 10px !important; padding-top: 10px; border-top: 1px solid var(--linea); color: var(--tinta); }
+.acotacion { margin: 12px 0 8px 3.2em; font-family: var(--f-texto); font-size: 0.92rem; font-style: italic; color: var(--tinta-suave); }
+.epilogo { margin: 22px 0 8px 3.2em; font-family: var(--f-texto); font-size: 0.75rem; font-weight: 700; letter-spacing: 0.09em; text-transform: uppercase; color: var(--oro); }
+.notas-tablilla { margin-top: 22px; max-width: 72ch; font-size: 0.88rem; color: var(--tinta-suave); }
+.notas-tablilla h4 { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.09em; text-transform: uppercase; margin: 0 0 8px; }
+.notas-tablilla ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.notas-tablilla li { scroll-margin-top: calc(var(--alto-barra) + 24px); }
+.nota-verso { font-weight: 700; font-variant-numeric: tabular-nums; margin-right: 4px; }
 .lecturas { max-width: 76ch; }
 .pestanas { display: flex; flex-wrap: wrap; gap: 4px; border-bottom: 1px solid var(--linea-fuerte); }
 .pestana {
@@ -915,6 +947,9 @@ blockquote.pasaje-texto { padding-left: 22px; border-left: 2px solid var(--lapis
   .autores, .cron-moderna { padding: 14px; }
   .regla-marca.menor { display: none; }
   .pasaje-texto { font-size: 1.12rem; }
+  .versos { font-size: 1.06rem; }
+  .verso { grid-template-columns: 2.4em minmax(0, 1fr); }
+  .laguna, .acotacion, .epilogo { margin-left: 0; }
   .boton-buscar .boton-etq { display: none; }
 }
 @media (max-width: 400px) {

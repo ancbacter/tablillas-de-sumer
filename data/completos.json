@@ -1,0 +1,2865 @@
+{
+ "textos": {
+  "enuma-elish": {
+   "titulo": "Enuma Elish",
+   "subtitulo": "Las siete tablillas de la creación, texto completo",
+   "fuente": "Versión española a partir de E. A. Wallis Budge, The Babylonian Legends of the Creation (Londres, British Museum, 1921), que se basa en las copias de Nínive editadas por L. W. King (The Seven Tablets of Creation, 1902) y en los fragmentos de Asur publicados por E. Ebeling (1919). Ambas obras son de dominio público.",
+   "fuente_url": "https://www.gutenberg.org/ebooks/9914",
+   "presentacion": "Esta es una traducción al castellano, verso a verso, de la versión inglesa que publicó Budge en 1921. Era la más completa de su tiempo, pero hoy está superada en muchos puntos: desde entonces han aparecido copias de Sultantepe, Kish, Sippar y otros lugares que rellenan casi todas las lagunas, y algunas lecturas de Budge se han corregido. Las ediciones modernas de referencia (Lambert 2013, Talon 2005, Kämmerer y Metzler 2012) tienen derechos de autor, por eso aquí se sigue la de Budge.\n\nLa numeración de los versos es la de Budge. Los corchetes [ ] marcan reconstrucciones del editor; los puntos suspensivos, texto perdido; (?), lecturas dudosas. Donde la tablilla está rota se da el resumen de Budge y, cuando hace falta, una nota breve con lo que se sabe hoy. Las notas al pie son de Budge, salvo las que comentan su lectura.",
+   "tablillas": [
+    {
+     "n": 1,
+     "titulo": "Tablilla I",
+     "sinopsis": "Origen de los dioses en la mezcla de las aguas. Apsu quiere destruir a sus descendientes y Ea lo vence. Tiamat prepara la guerra, crea once monstruos y entrega a Qingu la Tablilla de los Destinos.",
+     "items": [
+      {
+       "n": 1,
+       "v": "Cuando en lo alto los cielos aún no tenían nombre,",
+       "nota": "Para los mesopotámicos, el nombre era la cosa misma: nada podía existir sin su nombre."
+      },
+      {
+       "n": 2,
+       "v": "y el nombre de la tierra de abajo no se había fijado,"
+      },
+      {
+       "n": 3,
+       "v": "Apsu, el más antiguo de los seres, su progenitor,"
+      },
+      {
+       "n": 4,
+       "v": "y «Mummu» Tiamat, la que los dio a luz a todos,"
+      },
+      {
+       "n": 5,
+       "v": "mezclaban sus aguas en una sola masa."
+      },
+      {
+       "n": 6,
+       "v": "No se había medido campo alguno, no se había explorado marisma alguna,"
+      },
+      {
+       "n": 7,
+       "v": "cuando de los dioses ninguno brillaba aún,"
+      },
+      {
+       "n": 8,
+       "v": "no se había fijado nombre alguno, no se había decretado destino alguno,"
+      },
+      {
+       "n": 9,
+       "v": "los dioses nacieron en medio de ellos."
+      },
+      {
+       "n": 10,
+       "v": "El dios Lahmu y la diosa Lahamu fueron hechos brillar, recibieron nombre."
+      },
+      {
+       "n": 11,
+       "v": "[Juntos] crecieron en estatura, se hicieron altos."
+      },
+      {
+       "n": 12,
+       "v": "Anshar y Kishar llegaron a existir, y otros además de ellos."
+      },
+      {
+       "n": 13,
+       "v": "Largos fueron los días, se multiplicaron los años."
+      },
+      {
+       "n": 14,
+       "v": "El dios Anu, su hijo, igual a sus padres, [fue creado]."
+      },
+      {
+       "n": 15,
+       "v": "El dios Anshar hizo a Anu, su primogénito, a su propia imagen."
+      },
+      {
+       "n": 16,
+       "v": "Y el dios Anu engendró a Nudimmud (Ea), imagen de sí mismo."
+      },
+      {
+       "n": 17,
+       "v": "El dios Nudimmud fue el primero entre sus padres,"
+      },
+      {
+       "n": 18,
+       "v": "dotado de entendimiento, el de pensamiento profundo, el elocuente,"
+      },
+      {
+       "n": 19,
+       "v": "mucho más poderoso en fuerza que su padre Anshar, que lo engendró,"
+      },
+      {
+       "n": 20,
+       "v": "sin rival entre los dioses, sus hermanos…"
+      },
+      {
+       "n": 21,
+       "v": "Se estableció la hermandad de los dioses."
+      },
+      {
+       "n": 22,
+       "v": "Tiamat se turbó y ella… a su guardián."
+      },
+      {
+       "n": 23,
+       "v": "Su vientre se agitó hasta lo más profundo."
+      },
+      {
+       "n": 24,
+       "v": "…"
+      },
+      {
+       "n": 25,
+       "v": "Apsu (el abismo de las aguas) no podía acallar su alboroto,"
+      },
+      {
+       "n": 26,
+       "v": "y Tiamat se recogió en sí misma…"
+      },
+      {
+       "n": 27,
+       "v": "Descargó un golpe, y sus obras…"
+      },
+      {
+       "n": 28,
+       "v": "Su conducta no era buena…"
+      },
+      {
+       "n": 29,
+       "v": "Entonces Apsu, el progenitor de los grandes dioses,"
+      },
+      {
+       "n": 30,
+       "v": "gritó y llamó a Mummu, el mayordomo de su casa, diciendo:"
+      },
+      {
+       "n": 31,
+       "v": "«[Oh] Mummu, mi mayordomo, que alegras mi hígado,"
+      },
+      {
+       "n": 32,
+       "v": "ven, vayamos a Tiamat»."
+      },
+      {
+       "n": 33,
+       "v": "Fueron y se tendieron [en un lecho] frente a Tiamat."
+      },
+      {
+       "n": 34,
+       "v": "Deliberaron juntos sobre los dioses, [sus hijos]."
+      },
+      {
+       "n": 35,
+       "v": "Apsu tomó la palabra y dijo,"
+      },
+      {
+       "n": 36,
+       "v": "a Tiamat, la santa (?), le planteó un asunto, [diciendo]:"
+      },
+      {
+       "n": 37,
+       "v": "«… su conducta…"
+      },
+      {
+       "n": 38,
+       "v": "De día no encuentro paz, de noche no tengo descanso."
+      },
+      {
+       "n": 39,
+       "v": "En verdad pondré fin a su conducta, los barreré,"
+      },
+      {
+       "n": 40,
+       "v": "y habrá un clamor de lamento; entonces descansaremos»."
+      },
+      {
+       "n": 41,
+       "v": "Tiamat, al oír esto,"
+      },
+      {
+       "n": 42,
+       "v": "montó en cólera y gritó a su esposo,",
+       "nota": "Lo que enfurece a Tiamat es que Apsu se proponga matar a los dioses, sus hijos. Ella no toma parte en la primera lucha de Apsu y Mummu contra los dioses; solo entra en guerra después, para vengar a Apsu."
+      },
+      {
+       "n": 43,
+       "v": "… hasta enfermar. Se enfureció ella sola,"
+      },
+      {
+       "n": 44,
+       "v": "lanzó una maldición, y a [Apsu habló, diciendo]:"
+      },
+      {
+       "n": 45,
+       "v": "«Todo lo que hemos hecho lo destruiremos."
+      },
+      {
+       "n": 46,
+       "v": "En verdad su camino se llenará de desgracia; entonces descansaremos»."
+      },
+      {
+       "n": 47,
+       "v": "Mummu respondió y dio consejo a Apsu;"
+      },
+      {
+       "n": 48,
+       "v": "el consejo de Mummu fue… y funesto [para los dioses]:"
+      },
+      {
+       "n": 49,
+       "v": "«Ven, [destruye] su conducta, que es fuerte."
+      },
+      {
+       "n": 50,
+       "v": "Entonces, en verdad, de día hallarás paz [y] de noche tendrás descanso»."
+      },
+      {
+       "n": 51,
+       "v": "Apsu lo oyó, y su rostro se iluminó,"
+      },
+      {
+       "n": 52,
+       "v": "porque tramaban el mal contra los dioses, sus hijos."
+      },
+      {
+       "n": 53,
+       "v": "Mummu le abrazó el cuello…"
+      },
+      {
+       "n": 54,
+       "v": "lo tomó sobre sus rodillas, lo besó…"
+      },
+      {
+       "n": 55,
+       "v": "Ellos (Mummu y Apsu) tramaron la maldición en la asamblea,"
+      },
+      {
+       "n": 56,
+       "v": "repitieron las maldiciones a los dioses, sus primogénitos."
+      },
+      {
+       "n": 57,
+       "v": "Los dioses respondieron…"
+      },
+      {
+       "n": 58,
+       "v": "Comenzaron un lamento…"
+      },
+      {
+       "n": 59,
+       "v": "[Dotado] de entendimiento, el dios prudente, el excelso,"
+      },
+      {
+       "n": 60,
+       "v": "Ea, que medita todo cuanto existe, descubrió su [plan]."
+      },
+      {
+       "n": 61,
+       "v": "Lo desbarató (?), hizo que la forma de todo quedara inmóvil."
+      },
+      {
+       "n": 62,
+       "v": "Recitó un conjuro astuto, muy poderoso y santo."
+      },
+      {
+       "laguna": "Versos 63–108. En las tablillas del British Museum faltan por completo o están demasiado rotos para traducirlos, y las últimas 130 líneas del fragmento de Berlín están muy mutiladas. Los restos muestran que Ea hizo la guerra a Apsu y a Mummu. Su conjuro sumió a Apsu en el sueño; después «soltó las articulaciones» de Mummu, que quedó herido, pero aún tuvo fuerzas para atacar a Ea cuando este se volvió contra Apsu. Ea venció a sus dos adversarios, dividió a Apsu en cámaras y lo encadenó. En una de esas cámaras fue engendrado y nació un dios. Según los teólogos de Nínive, Ea engendró en su esposa, cuyo nombre no se da, a su hijo Marduk; según los de la ciudad de Asur, Lahmu engendró en Lahamu a un hijo que no es otro que Anshar, es decir, Ashur. Se nombró una nodriza para criarlo, y creció hermoso, para gran alegría de su padre. Tenía cuatro orejas y cuatro ojos.",
+       "hoy": "Las copias encontradas después completan este pasaje. Ea mata a Apsu, encierra a Mummu y levanta sobre Apsu su morada. Allí nacen Marduk, hijo de Ea y de Damkina, que tiene cuatro ojos y cuatro orejas y supera a todos los dioses. Anu le regala los cuatro vientos para jugar; el alboroto que arman inquieta a Tiamat, y otros dioses la empujan a vengar a Apsu."
+      },
+      {
+       "n": 109,
+       "v": "Formaron una banda y salieron a la batalla para ayudar a Tiamat."
+      },
+      {
+       "n": 110,
+       "v": "Estaban enfurecidos en extremo, tramaban de día y de noche sin cesar."
+      },
+      {
+       "n": 111,
+       "v": "Presentaron batalla, echando humo y bramando."
+      },
+      {
+       "n": 112,
+       "v": "Ordenaron la batalla, lanzaron gritos de hostilidad.",
+       "nota": "Literalmente, «se excitaron a la hostilidad»."
+      },
+      {
+       "n": 113,
+       "v": "Ummu-Hubur, que dio forma a todas las cosas,",
+       "nota": "Ummu-Hubur es un título de Tiamat."
+      },
+      {
+       "n": 114,
+       "v": "erigió el arma sin rival, parió enormes serpientes,"
+      },
+      {
+       "n": 115,
+       "v": "de diente afilado, despiadadas en el ataque (?)."
+      },
+      {
+       "n": 116,
+       "v": "Llenó sus cuerpos de veneno en lugar de sangre."
+      },
+      {
+       "n": 117,
+       "v": "Serpientes feroces y monstruosas, vestidas de terror,"
+      },
+      {
+       "n": 118,
+       "v": "las adornó de resplandor, les dio formas excelsas,"
+      },
+      {
+       "n": 119,
+       "v": "para que el espanto y el horror dominaran a quien las mirase,"
+      },
+      {
+       "n": 120,
+       "v": "para que sus cuerpos se irguieran y nadie resistiera su ataque."
+      },
+      {
+       "n": 121,
+       "v": "Erigió a la Víbora, a la Serpiente y al dios Lahamu,"
+      },
+      {
+       "n": 122,
+       "v": "al Torbellino, al Perro rabioso, al Hombre-escorpión,"
+      },
+      {
+       "n": 123,
+       "v": "a la poderosa Tempestad, al Hombre-pez, a la Bestia con cuernos (¿Capricornio?)."
+      },
+      {
+       "n": 124,
+       "v": "Llevaban el Arma que no perdonaba ni retrocedía en la batalla.",
+       "nota": "Budge entiende que estos nueve monstruos, junto con el Arma (¿el rayo?) y Qingu, forman los once aliados de Tiamat, y que ella y sus aliados representan los doce signos del zodiaco. Esta lectura astral es suya y la asiriología actual no la sigue."
+      },
+      {
+       "n": 125,
+       "v": "Poderosísimos eran los decretos de Tiamat, no se les podía resistir."
+      },
+      {
+       "n": 126,
+       "v": "Así hizo que existieran once [monstruos] de esta clase."
+      },
+      {
+       "n": 127,
+       "v": "Entre los dioses, a su hijo primogénito, que había reunido su compañía,"
+      },
+      {
+       "n": 128,
+       "v": "es decir, a Qingu, lo exaltó, lo hizo el más grande entre ellos,"
+      },
+      {
+       "n": 129,
+       "v": "jefe de las huestes en la batalla, el que dispone las tropas,"
+      },
+      {
+       "n": 130,
+       "v": "portador del arma firmemente empuñada, el que ataca en la lucha,"
+      },
+      {
+       "n": 131,
+       "v": "el que en la batalla es señor del arma."
+      },
+      {
+       "n": 132,
+       "v": "Lo nombró, lo hizo sentarse con [buenas vestiduras],"
+      },
+      {
+       "n": 133,
+       "v": "[diciendo]: «He pronunciado el conjuro por ti, te he engrandecido en la asamblea de los dioses."
+      },
+      {
+       "n": 134,
+       "v": "He llenado tu mano con la soberanía de toda la compañía de los dioses."
+      },
+      {
+       "n": 135,
+       "v": "Seas tú engrandecido, tú que eres mi único esposo."
+      },
+      {
+       "n": 136,
+       "v": "Que los Anunnaki hagan grande tu fama sobre todos ellos»."
+      },
+      {
+       "n": 137,
+       "v": "Le dio la Tablilla de los Destinos, se la sujetó al pecho, [diciendo]:"
+      },
+      {
+       "n": 138,
+       "v": "«En cuanto a ti, tu mandato no caerá en vano; lo que salga de tu boca se cumplirá»."
+      },
+      {
+       "n": 139,
+       "v": "Cuando Qingu fue exaltado y hubo tomado los cielos (literalmente, el rango de Anu),"
+      },
+      {
+       "n": 140,
+       "v": "fijó los destinos de los dioses, sus hijos:"
+      },
+      {
+       "n": 141,
+       "v": "«Abrid vuestras bocas, que se apague el dios del fuego.",
+       "nota": "Budge cree que aquí se alude a Marduk, que en uno de sus aspectos es un dios del fuego (véase la tablilla IV, vv. 39–40)."
+      },
+      {
+       "n": 142,
+       "v": "El que es glorioso en la batalla y poderosísimo hará grandes hazañas»."
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "titulo": "Tablilla II",
+     "sinopsis": "Ea se entera de la guerra que prepara Tiamat y se lo cuenta a Anshar. Anu va a enfrentarse con ella y vuelve atrás. Los dioses no encuentran campeón hasta que Ea propone a Marduk, que acepta a cambio de la soberanía.",
+     "items": [
+      {
+       "n": 1,
+       "v": "Tiamat dio firmeza a lo que había modelado."
+      },
+      {
+       "n": 2,
+       "v": "Ató a los dioses, sus hijos, con [ataduras malignas]."
+      },
+      {
+       "n": 3,
+       "v": "Tiamat obró la maldad para vengar a Apsu."
+      },
+      {
+       "n": 4,
+       "v": "Cuando… hubo uncido su carro, fue al encuentro de Ea."
+      },
+      {
+       "n": 5,
+       "v": "Ea escuchó su relato;"
+      },
+      {
+       "n": 6,
+       "v": "quedó muy afligido y permaneció en la tristeza."
+      },
+      {
+       "n": 7,
+       "v": "Los días fueron largos y su ira se calmó."
+      },
+      {
+       "n": 8,
+       "v": "Se encaminó a la morada de Anshar, su padre;"
+      },
+      {
+       "n": 9,
+       "v": "entró en presencia de Anshar, el padre que lo engendró,"
+      },
+      {
+       "n": 10,
+       "v": "y le repitió todo lo que Tiamat había tramado:"
+      },
+      {
+       "n": 11,
+       "v": "«La madre Tiamat, que nos dio a luz, ha sembrado estas cosas."
+      },
+      {
+       "n": 12,
+       "v": "Ha puesto en orden su asamblea, se enfurece con rabia."
+      },
+      {
+       "n": 13,
+       "v": "Todos los dioses se han unido a ella."
+      },
+      {
+       "n": 14,
+       "v": "Marchan a su lado, junto con los que vosotros creasteis."
+      },
+      {
+       "n": 15,
+       "v": "Formaron una banda y salieron a la batalla para ayudar a Tiamat."
+      },
+      {
+       "n": 16,
+       "v": "Estaban enfurecidos en extremo, tramaban de día y de noche sin cesar."
+      },
+      {
+       "n": 17,
+       "v": "Presentaron batalla, echando humo y bramando."
+      },
+      {
+       "n": 18,
+       "v": "Ordenaron la batalla, lanzaron gritos de desafío."
+      },
+      {
+       "n": 19,
+       "v": "Ummu-Hubur, que dio forma a todas las cosas,",
+       "nota": "Título de Tiamat (véase la tablilla I, v. 113). Los versos 15–48 repiten casi palabra por palabra la tablilla I, vv. 109–142."
+      },
+      {
+       "n": 20,
+       "v": "erigió el arma sin rival, parió enormes serpientes,"
+      },
+      {
+       "n": 21,
+       "v": "de diente afilado, despiadadas en el ataque (?)."
+      },
+      {
+       "n": 22,
+       "v": "Llenó sus cuerpos de veneno en lugar de sangre,"
+      },
+      {
+       "n": 23,
+       "v": "serpientes feroces y monstruosas, vestidas de terror."
+      },
+      {
+       "n": 24,
+       "v": "Las adornó de resplandor, les dio formas excelsas,"
+      },
+      {
+       "n": 25,
+       "v": "para que el espanto y el horror dominaran a quien las mirase,"
+      },
+      {
+       "n": 26,
+       "v": "para que sus cuerpos se irguieran y nadie resistiera su ataque."
+      },
+      {
+       "n": 27,
+       "v": "Erigió a la Víbora, a la Serpiente y al dios Lahamu,"
+      },
+      {
+       "n": 28,
+       "v": "al Torbellino, al Perro rabioso, al Hombre-escorpión,"
+      },
+      {
+       "n": 29,
+       "v": "a la Tempestad, al Hombre-pez, a la Bestia con cuernos."
+      },
+      {
+       "n": 30,
+       "v": "Llevaban el Arma que no perdonaba ni retrocedía en la batalla."
+      },
+      {
+       "n": 31,
+       "v": "Poderosísimos eran los aliados de Tiamat, no se les podía resistir."
+      },
+      {
+       "n": 32,
+       "v": "Así hizo que existieran once [monstruos] de esta clase."
+      },
+      {
+       "n": 33,
+       "v": "Entre los dioses, a su hijo primogénito, que había reunido su compañía,"
+      },
+      {
+       "n": 34,
+       "v": "es decir, a Qingu, lo exaltó, lo hizo el más grande entre ellos,"
+      },
+      {
+       "n": 35,
+       "v": "jefe de las huestes en la batalla, el que dispone las tropas,"
+      },
+      {
+       "n": 36,
+       "v": "portador del arma firmemente empuñada, el que ataca en la lucha,"
+      },
+      {
+       "n": 37,
+       "v": "el que en la batalla es señor del arma."
+      },
+      {
+       "n": 38,
+       "v": "Lo nombró, lo hizo sentarse con [buenas vestiduras],"
+      },
+      {
+       "n": 39,
+       "v": "[diciendo]: “He recitado el conjuro por ti, te he engrandecido en la asamblea de los dioses,"
+      },
+      {
+       "n": 40,
+       "v": "he llenado tu mano con la soberanía de toda la compañía de los dioses."
+      },
+      {
+       "n": 41,
+       "v": "Seas tú engrandecido, tú que eres mi único esposo."
+      },
+      {
+       "n": 42,
+       "v": "Que los Anunnaki hagan grande tu fama sobre todos ellos”."
+      },
+      {
+       "n": 43,
+       "v": "Le dio la Tablilla de los Destinos, se la sujetó al pecho, [diciendo]:"
+      },
+      {
+       "n": 44,
+       "v": "“En cuanto a ti, tu mandato no caerá en vano; lo que salga de tu boca se cumplirá”."
+      },
+      {
+       "n": 45,
+       "v": "Cuando Qingu fue exaltado y hubo tomado los cielos (literalmente, «el rango de Anu»),"
+      },
+      {
+       "n": 46,
+       "v": "fijó los destinos de los dioses, sus hijos, [diciendo]:"
+      },
+      {
+       "n": 47,
+       "v": "“Abrid vuestras bocas, que se apague el dios del fuego."
+      },
+      {
+       "n": 48,
+       "v": "El que es glorioso en la batalla y poderosísimo hará grandes hazañas”»."
+      },
+      {
+       "n": 49,
+       "v": "Cuando Anshar oyó que Tiamat se había agitado con fuerza,"
+      },
+      {
+       "n": 50,
+       "v": "… se mordió los labios,"
+      },
+      {
+       "n": 51,
+       "v": "… su mente no estaba en paz."
+      },
+      {
+       "laguna": "Versos 52–54: demasiado fragmentarios para traducirlos."
+      },
+      {
+       "acot": "Anshar se dirige entonces a Ea y le dice:"
+      },
+      {
+       "n": 55,
+       "v": "«Tú has matado a Mummu y a Apsu,"
+      },
+      {
+       "n": 56,
+       "v": "pero Tiamat ha exaltado a Qingu: ¿dónde está el que pueda hacerle frente?»."
+      },
+      {
+       "laguna": "Versos 57 y 58 incompletos; faltan los versos 59–71.",
+       "hoy": "Las copias más completas muestran que Anshar envía primero a Ea a enfrentarse con Tiamat, y que Ea vuelve atrás al ver su poder. Después Anshar recurre a Anu."
+      },
+      {
+       "n": 72,
+       "v": "Anshar dirigió una palabra a su hijo [Anu]:"
+      },
+      {
+       "n": 73,
+       "v": "«… esto es difícil, guerrero mío,"
+      },
+      {
+       "n": 74,
+       "v": "tú cuyo poder es excelso, cuyo ataque no se puede detener."
+      },
+      {
+       "n": 75,
+       "v": "Ve y plántate en presencia de Tiamat,"
+      },
+      {
+       "n": 76,
+       "v": "para que su espíritu [se calme] y su corazón se ablande."
+      },
+      {
+       "n": 77,
+       "v": "Pero si no escucha tu palabra,"
+      },
+      {
+       "n": 78,
+       "v": "dile nuestra palabra para que se aplaque»."
+      },
+      {
+       "n": 79,
+       "v": "[Anu] oyó la orden de su padre Anshar,"
+      },
+      {
+       "n": 80,
+       "v": "tomó el camino derecho hacia ella y se apresuró en su camino."
+      },
+      {
+       "n": 81,
+       "v": "Anu se acercó, escudriñó el plan de Tiamat;"
+      },
+      {
+       "n": 82,
+       "v": "no pudo prevalecer contra ella y se volvió atrás."
+      },
+      {
+       "acot": "Los versos 83 y 84 contienen el informe de Anu a Anshar, pero están demasiado rotos. Budge los completa con los fragmentos de Berlín:"
+      },
+      {
+       "n": 83,
+       "v": "Él (Anu) fue a su padre Anshar, que lo engendró,"
+      },
+      {
+       "n": 84,
+       "v": "le dirigió una palabra [sobre Tiamat]:"
+      },
+      {
+       "n": 85,
+       "v": "«[Ella puso] sus manos sobre mí, y me marchitaron»."
+      },
+      {
+       "n": 86,
+       "v": "Anshar se angustió, bajó la mirada al suelo,"
+      },
+      {
+       "n": 87,
+       "v": "palideció; hacia Ea alzó la cabeza."
+      },
+      {
+       "n": 88,
+       "v": "Todos los Anunnaki se reunieron en sus puestos,"
+      },
+      {
+       "n": 89,
+       "v": "cerraron la boca, se sentaron entre lamentos,"
+      },
+      {
+       "n": 90,
+       "v": "[y dijeron]: «No hay en ninguna parte un dios que pueda atacar a Tiamat."
+      },
+      {
+       "n": 91,
+       "v": "No escaparía con vida de la presencia de Tiamat»."
+      },
+      {
+       "n": 92,
+       "v": "El Señor Anshar, el Padre de los dioses, [habló] con majestad,"
+      },
+      {
+       "n": 93,
+       "v": "alzó su corazón y se dirigió a los Anunnaki, [diciendo]:"
+      },
+      {
+       "n": 94,
+       "v": "«Aquel cuya [fuerza] es poderosa [será] nuestro vengador,"
+      },
+      {
+       "n": 95,
+       "v": "el… en la contienda, Marduk el Héroe»."
+      },
+      {
+       "n": 96,
+       "v": "Ea llamó a Marduk al lugar donde daba sus oráculos;"
+      },
+      {
+       "n": 97,
+       "v": "Marduk vino, y según su corazón le habló,"
+      },
+      {
+       "n": 98,
+       "v": "[diciendo]: «Oh Marduk, escucha el consejo y la advertencia de tu padre."
+      },
+      {
+       "n": 99,
+       "v": "Tú eres el hijo que refresca su corazón."
+      },
+      {
+       "n": 100,
+       "v": "Acércate y entra en presencia de Anshar;"
+      },
+      {
+       "n": 101,
+       "v": "permanece allí [con alegría]: cuando te mire, quedará en paz».",
+       "nota": "Budge traduce los versos 83–84 y 88–101 a partir de los fragmentos del British Museum y de Berlín. Los versos 88–101 cubren todo el hueco de la tablilla del British Museum."
+      },
+      {
+       "laguna": "Versos 102–112: faltan en la edición de Budge."
+      },
+      {
+       "n": 113,
+       "v": "El Señor [Marduk] se alegró con la palabra de su padre;"
+      },
+      {
+       "n": 114,
+       "v": "se acercó y ocupó su sitio ante Anshar."
+      },
+      {
+       "n": 115,
+       "v": "Anshar lo miró y su corazón se llenó de gozo."
+      },
+      {
+       "n": 116,
+       "v": "Él (Anshar) le besó los labios (a Marduk), y su miedo (el de Anshar) se disipó. [Entonces dijo Marduk:]"
+      },
+      {
+       "n": 117,
+       "v": "«Padre mío, que no se cierre la abertura de tu boca:",
+       "nota": "Es decir, «que prevalezca lo que dices»."
+      },
+      {
+       "n": 118,
+       "v": "iré, haré que suceda todo lo que hay en tu corazón."
+      },
+      {
+       "n": 119,
+       "v": "Anshar, que no se cierre la abertura de tu boca:"
+      },
+      {
+       "n": 120,
+       "v": "iré, haré que suceda todo lo que hay en tu corazón». [Anshar dice a Marduk:]"
+      },
+      {
+       "n": 121,
+       "v": "«¿Qué hombre es la causa de la batalla que te ha hecho salir?"
+      },
+      {
+       "n": 122,
+       "v": "… Tiamat, que es una mujer, te persigue con armas."
+      },
+      {
+       "n": 123,
+       "v": "Alegra nuestros [corazones] y haznos felices."
+      },
+      {
+       "n": 124,
+       "v": "Tú mismo pisarás pronto el cuello de Tiamat."
+      },
+      {
+       "n": 125,
+       "v": "Alegra nuestros [corazones] y haznos felices."
+      },
+      {
+       "n": 126,
+       "v": "Tú mismo pisarás pronto el cuello de Tiamat."
+      },
+      {
+       "n": 127,
+       "v": "Hijo mío, que todo lo comprendes,"
+      },
+      {
+       "n": 128,
+       "v": "echa un sueño profundo sobre Tiamat con tu santo conjuro."
+      },
+      {
+       "n": 129,
+       "v": "Emprende tu marcha a toda prisa."
+      },
+      {
+       "n": 130,
+       "v": "…»"
+      },
+      {
+       "n": 131,
+       "v": "El Señor [Marduk] se alegró con la palabra de su padre;"
+      },
+      {
+       "n": 132,
+       "v": "su corazón saltó de gozo, y a su padre habló, [diciendo]:"
+      },
+      {
+       "n": 133,
+       "v": "«Oh Señor de los dioses, soberano de los grandes dioses,"
+      },
+      {
+       "n": 134,
+       "v": "si yo, como vuestro vengador,"
+      },
+      {
+       "n": 135,
+       "v": "mato a Tiamat y os doy la vida,"
+      },
+      {
+       "n": 136,
+       "v": "convocad una asamblea, proclamad y engrandeced mi rango."
+      },
+      {
+       "n": 137,
+       "v": "Sentaos juntos en amistad en Upshukkinaku."
+      },
+      {
+       "n": 138,
+       "v": "Que yo dicte decretos al abrir mi boca, igual que vosotros."
+      },
+      {
+       "n": 139,
+       "v": "Que lo que yo haga suceder permanezca inalterado;"
+      },
+      {
+       "n": 140,
+       "v": "lo que diga mi boca nunca fallará ni quedará en nada»."
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "titulo": "Tablilla III",
+     "sinopsis": "Anshar envía a su mensajero Gaga a Lahmu y Lahamu con el relato de la guerra y las condiciones de Marduk. Los dioses se reúnen en un banquete y, ya ebrios, otorgan a Marduk el poder que pedía.",
+     "items": [
+      {
+       "n": 1,
+       "v": "Anshar abrió su boca"
+      },
+      {
+       "n": 2,
+       "v": "y dirigió una palabra al dios Gaga, su mensajero, [diciendo]:"
+      },
+      {
+       "n": 3,
+       "v": "«Oh Gaga, mi mensajero, que alegras mi hígado,"
+      },
+      {
+       "n": 4,
+       "v": "te enviaré a los dioses Lahmu y Lahamu."
+      },
+      {
+       "n": 5,
+       "v": "Has de saber y comprender [la intención de mi corazón]."
+      },
+      {
+       "n": 6,
+       "v": "… son traídos ante ti"
+      },
+      {
+       "n": 7,
+       "v": "… todos los dioses."
+      },
+      {
+       "n": 8,
+       "v": "Que celebren consejo, que se sienten a un banquete,"
+      },
+      {
+       "n": 9,
+       "v": "que coman pan, que calienten el vino de sésamo."
+      },
+      {
+       "n": 10,
+       "v": "Que dicten decretos para Marduk como su vengador."
+      },
+      {
+       "n": 11,
+       "v": "Vete, Gaga, plántate ante ellos."
+      },
+      {
+       "n": 12,
+       "v": "Todo lo que voy a decirte, repíteselo [diciendo]:"
+      },
+      {
+       "n": 13,
+       "v": "“[Oh dioses], Anshar, vuestro hijo, me ha encargado,"
+      },
+      {
+       "n": 14,
+       "v": "me ha dado a conocer así la intención de su corazón:"
+      },
+      {
+       "n": 15,
+       "v": "La madre Tiamat, que nos dio a luz, ha sembrado estas cosas.",
+       "nota": "Los versos 15–52 y 73–110 repiten el relato de la guerra de la tablilla II (vv. 11–48); los versos 58–64 y 116–122, las condiciones de Marduk (II, 134–140)."
+      },
+      {
+       "n": 16,
+       "v": "Ha puesto en orden su asamblea, se enfurece con rabia."
+      },
+      {
+       "n": 17,
+       "v": "Todos los dioses se han unido a ella."
+      },
+      {
+       "n": 18,
+       "v": "Marchan a su lado, junto con los que vosotros creasteis."
+      },
+      {
+       "n": 19,
+       "v": "Formaron una banda y salieron a la batalla para ayudar a Tiamat."
+      },
+      {
+       "n": 20,
+       "v": "Estaban enfurecidos en extremo, tramaban de día y de noche sin cesar."
+      },
+      {
+       "n": 21,
+       "v": "Presentaron batalla, echando humo y bramando."
+      },
+      {
+       "n": 22,
+       "v": "Ordenaron la batalla, lanzaron gritos de desafío."
+      },
+      {
+       "n": 23,
+       "v": "Ummu-Hubur, que dio forma a todas las cosas,"
+      },
+      {
+       "n": 24,
+       "v": "erigió el arma sin rival, parió enormes serpientes,"
+      },
+      {
+       "n": 25,
+       "v": "de diente afilado, despiadadas en el ataque (?)."
+      },
+      {
+       "n": 26,
+       "v": "Llenó sus cuerpos de veneno en lugar de sangre,"
+      },
+      {
+       "n": 27,
+       "v": "serpientes feroces y monstruosas, vestidas de terror."
+      },
+      {
+       "n": 28,
+       "v": "Las adornó de resplandor, les dio formas excelsas,"
+      },
+      {
+       "n": 29,
+       "v": "para que el espanto y el horror dominaran a quien las mirase,"
+      },
+      {
+       "n": 30,
+       "v": "para que sus cuerpos se irguieran y nadie resistiera su ataque."
+      },
+      {
+       "n": 31,
+       "v": "Erigió a la Víbora, a la Serpiente y al dios Lahamu,"
+      },
+      {
+       "n": 32,
+       "v": "al Torbellino, al Perro rabioso, al Hombre-escorpión,"
+      },
+      {
+       "n": 33,
+       "v": "a la Tempestad, al Hombre-pez, a la Bestia con cuernos."
+      },
+      {
+       "n": 34,
+       "v": "Llevaban el Arma que no perdonaba ni retrocedía en la batalla."
+      },
+      {
+       "n": 35,
+       "v": "Poderosísimos eran los aliados de Tiamat, no se les podía resistir."
+      },
+      {
+       "n": 36,
+       "v": "Así hizo que existieran once [monstruos] de esta clase."
+      },
+      {
+       "n": 37,
+       "v": "Entre los dioses, a su hijo primogénito, que había reunido su compañía,"
+      },
+      {
+       "n": 38,
+       "v": "es decir, a Qingu, lo exaltó, lo hizo el más grande entre ellos,"
+      },
+      {
+       "n": 39,
+       "v": "jefe de las huestes en la batalla, el que dispone las tropas,"
+      },
+      {
+       "n": 40,
+       "v": "portador del arma firmemente empuñada, el que ataca en la lucha,"
+      },
+      {
+       "n": 41,
+       "v": "el que en la batalla es señor del arma."
+      },
+      {
+       "n": 42,
+       "v": "Lo nombró, lo hizo sentarse con [buenas vestiduras],"
+      },
+      {
+       "n": 43,
+       "v": "[diciendo]: «He recitado el conjuro por ti, te he engrandecido en la asamblea de los dioses,"
+      },
+      {
+       "n": 44,
+       "v": "he llenado tu mano con la soberanía de toda la compañía de los dioses."
+      },
+      {
+       "n": 45,
+       "v": "Seas tú engrandecido, tú que eres mi único esposo."
+      },
+      {
+       "n": 46,
+       "v": "Que los Anunnaki hagan grande tu fama sobre todos ellos»."
+      },
+      {
+       "n": 47,
+       "v": "Le dio la Tablilla de los Destinos, se la sujetó a la cabeza, [diciendo]:",
+       "nota": "Aquí la tablilla dice que Tiamat le sujetó la Tablilla de los Destinos «a la cabeza», no «al pecho» como en las tablillas I y II."
+      },
+      {
+       "n": 48,
+       "v": "«En cuanto a ti, tu mandato no caerá en vano; lo que salga de tu boca se cumplirá»."
+      },
+      {
+       "n": 49,
+       "v": "Cuando Qingu fue exaltado y hubo tomado los cielos (literalmente, el rango de Anu),"
+      },
+      {
+       "n": 50,
+       "v": "fijó los destinos de los dioses, sus hijos, [diciendo]:"
+      },
+      {
+       "n": 51,
+       "v": "«Abrid vuestras bocas, que se apague el dios del fuego."
+      },
+      {
+       "n": 52,
+       "v": "El que es glorioso en la batalla y poderosísimo hará grandes hazañas»."
+      },
+      {
+       "n": 53,
+       "v": "Envié al dios Anu, pero no pudo prevalecer contra ella."
+      },
+      {
+       "n": 54,
+       "v": "Nudimmud (Ea) tuvo miedo y se volvió atrás."
+      },
+      {
+       "n": 55,
+       "v": "Marduk, vuestro hijo, el mensajero de los dioses, se ha puesto en marcha."
+      },
+      {
+       "n": 56,
+       "v": "Su corazón se ha alzado para oponerse a Tiamat."
+      },
+      {
+       "n": 57,
+       "v": "Abrió su boca y me habló [diciendo]:"
+      },
+      {
+       "n": 58,
+       "v": "«Si yo, como vuestro vengador,"
+      },
+      {
+       "n": 59,
+       "v": "mato a Tiamat y os doy la vida,"
+      },
+      {
+       "n": 60,
+       "v": "convocad una asamblea, proclamad y engrandeced mi rango."
+      },
+      {
+       "n": 61,
+       "v": "Sentaos juntos en amistad en Upshukkinaku."
+      },
+      {
+       "n": 62,
+       "v": "Que yo dicte decretos al abrir mi boca, igual que vosotros."
+      },
+      {
+       "n": 63,
+       "v": "Que lo que yo haga suceder permanezca inalterado;"
+      },
+      {
+       "n": 64,
+       "v": "lo que diga mi boca nunca fallará ni quedará en nada».”"
+      },
+      {
+       "n": 65,
+       "v": "Apresuraos, pues, dictad vuestros decretos sin demora,"
+      },
+      {
+       "n": 66,
+       "v": "para que vaya al encuentro de vuestro poderoso enemigo»."
+      },
+      {
+       "n": 67,
+       "v": "Gaga partió y se apresuró en su camino"
+      },
+      {
+       "n": 68,
+       "v": "hacia el dios Lahmu y la diosa Lahamu, los dioses sus padres; con reverencia"
+      },
+      {
+       "n": 69,
+       "v": "les rindió homenaje y besó el suelo a sus pies."
+      },
+      {
+       "n": 70,
+       "v": "Se inclinó, se levantó y les habló [diciendo]:"
+      },
+      {
+       "n": 71,
+       "v": "«[Oh dioses], Anshar, vuestro hijo, me ha encargado,"
+      },
+      {
+       "n": 72,
+       "v": "me ha dado a conocer así la intención de su corazón:"
+      },
+      {
+       "n": 73,
+       "v": "La madre Tiamat, que nos dio a luz, ha sembrado estas cosas."
+      },
+      {
+       "n": 74,
+       "v": "Ha puesto en orden su asamblea, se enfurece con rabia."
+      },
+      {
+       "n": 75,
+       "v": "Todos los dioses se han unido a ella."
+      },
+      {
+       "n": 76,
+       "v": "Marchan a su lado, junto con los que vosotros creasteis."
+      },
+      {
+       "n": 77,
+       "v": "Formaron una banda y salieron a la batalla para ayudar a Tiamat."
+      },
+      {
+       "n": 78,
+       "v": "Estaban enfurecidos en extremo, tramaban de día y de noche sin cesar."
+      },
+      {
+       "n": 79,
+       "v": "Presentaron batalla, echando humo y bramando."
+      },
+      {
+       "n": 80,
+       "v": "Ordenaron la batalla, lanzaron gritos de desafío."
+      },
+      {
+       "n": 81,
+       "v": "Ummu-Hubur, que dio forma a todas las cosas,"
+      },
+      {
+       "n": 82,
+       "v": "erigió el arma sin rival, parió enormes serpientes,"
+      },
+      {
+       "n": 83,
+       "v": "de diente afilado, despiadadas en el ataque (?)."
+      },
+      {
+       "n": 84,
+       "v": "Llenó sus cuerpos de veneno en lugar de sangre,"
+      },
+      {
+       "n": 85,
+       "v": "serpientes feroces y monstruosas, vestidas de terror."
+      },
+      {
+       "n": 86,
+       "v": "Las adornó de resplandor, les dio formas excelsas,"
+      },
+      {
+       "n": 87,
+       "v": "para que el espanto y el horror dominaran a quien las mirase,"
+      },
+      {
+       "n": 88,
+       "v": "para que sus cuerpos se irguieran y nadie resistiera su ataque."
+      },
+      {
+       "n": 89,
+       "v": "Erigió a la Víbora, a la Serpiente y al dios Lahamu,"
+      },
+      {
+       "n": 90,
+       "v": "al Torbellino, al Perro rabioso, al Hombre-escorpión,"
+      },
+      {
+       "n": 91,
+       "v": "a la Tempestad, al Hombre-pez, a la Bestia con cuernos."
+      },
+      {
+       "n": 92,
+       "v": "Llevaban el Arma que no perdonaba ni retrocedía en la batalla."
+      },
+      {
+       "n": 93,
+       "v": "Poderosísimos eran los aliados de Tiamat, no se les podía resistir."
+      },
+      {
+       "n": 94,
+       "v": "Así hizo que existieran once [monstruos] de esta clase."
+      },
+      {
+       "n": 95,
+       "v": "Entre los dioses, a su hijo primogénito, que había reunido su compañía,"
+      },
+      {
+       "n": 96,
+       "v": "es decir, a Qingu, lo exaltó, lo hizo el más grande entre ellos,"
+      },
+      {
+       "n": 97,
+       "v": "jefe de las huestes en la batalla, el que dispone las tropas,"
+      },
+      {
+       "n": 98,
+       "v": "portador del arma firmemente empuñada, el que ataca en la lucha,"
+      },
+      {
+       "n": 99,
+       "v": "el que en la batalla es señor del arma."
+      },
+      {
+       "n": 100,
+       "v": "Lo nombró, lo hizo sentarse con [buenas vestiduras],"
+      },
+      {
+       "n": 101,
+       "v": "[diciendo]: «He recitado el conjuro por ti, te he engrandecido en la asamblea de los dioses,"
+      },
+      {
+       "n": 102,
+       "v": "he llenado tu mano con la soberanía de toda la compañía de los dioses."
+      },
+      {
+       "n": 103,
+       "v": "Seas tú engrandecido, tú que eres mi único esposo."
+      },
+      {
+       "n": 104,
+       "v": "Que los Anunnaki hagan grande tu fama sobre todos ellos»."
+      },
+      {
+       "n": 105,
+       "v": "Le dio la Tablilla de los Destinos, se la sujetó a la cabeza, [diciendo]:"
+      },
+      {
+       "n": 106,
+       "v": "«En cuanto a ti, tu mandato no caerá en vano; lo que salga de tu boca se cumplirá»."
+      },
+      {
+       "n": 107,
+       "v": "Cuando Qingu fue exaltado y hubo tomado los cielos (literalmente, el rango de Anu),"
+      },
+      {
+       "n": 108,
+       "v": "fijó los destinos de los dioses, sus hijos, [diciendo]:"
+      },
+      {
+       "n": 109,
+       "v": "«Abrid vuestras bocas, que se apague el dios del fuego."
+      },
+      {
+       "n": 110,
+       "v": "El que es glorioso en la batalla y poderosísimo hará grandes hazañas»."
+      },
+      {
+       "n": 111,
+       "v": "Envié al dios Anu, pero no pudo prevalecer contra ella."
+      },
+      {
+       "n": 112,
+       "v": "Nudimmud (Ea) tuvo miedo y se volvió atrás."
+      },
+      {
+       "n": 113,
+       "v": "Marduk, vuestro hijo, el mensajero de los dioses, se ha puesto en marcha."
+      },
+      {
+       "n": 114,
+       "v": "Su corazón se ha alzado para oponerse a Tiamat."
+      },
+      {
+       "n": 115,
+       "v": "Abrió su boca y me habló [diciendo]:"
+      },
+      {
+       "n": 116,
+       "v": "«Si yo, como vuestro vengador,"
+      },
+      {
+       "n": 117,
+       "v": "mato a Tiamat y os doy la vida,"
+      },
+      {
+       "n": 118,
+       "v": "convocad una asamblea (un consejo), proclamad y engrandeced mi rango."
+      },
+      {
+       "n": 119,
+       "v": "Sentaos juntos en amistad en Upshukkinaku."
+      },
+      {
+       "n": 120,
+       "v": "Que yo dicte decretos al abrir mi boca, igual que vosotros."
+      },
+      {
+       "n": 121,
+       "v": "Que lo que yo haga suceder permanezca inalterado;"
+      },
+      {
+       "n": 122,
+       "v": "lo que diga mi boca nunca fallará ni quedará en nada»."
+      },
+      {
+       "n": 123,
+       "v": "Apresuraos, pues, dictad vuestros decretos sin demora,"
+      },
+      {
+       "n": 124,
+       "v": "para que vaya al encuentro de vuestro poderoso enemigo»."
+      },
+      {
+       "n": 125,
+       "v": "Los dioses Lahmu y Lahamu lo oyeron y lanzaron grandes gemidos;"
+      },
+      {
+       "n": 126,
+       "v": "todos los dioses Igigi lloraron amargamente [diciendo]:"
+      },
+      {
+       "n": 127,
+       "v": "«¿Quiénes eran [nuestros] enemigos hasta que [los dioses] fueron apostados [en el cielo]?"
+      },
+      {
+       "n": 128,
+       "v": "No podemos comprender la obra de Tiamat»."
+      },
+      {
+       "n": 129,
+       "v": "Se reunieron y se pusieron en camino,"
+      },
+      {
+       "n": 130,
+       "v": "todos los grandes dioses, los que dictan decretos."
+      },
+      {
+       "n": 131,
+       "v": "Entraron y llenaron [el patio] ante Anshar."
+      },
+      {
+       "n": 132,
+       "v": "Hermano [dios] besó a hermano [dios] en la asamblea [divina];"
+      },
+      {
+       "n": 133,
+       "v": "celebraron consejo, se sentaron a un banquete,"
+      },
+      {
+       "n": 134,
+       "v": "comieron pan, calentaron el [vino de sésamo]."
+      },
+      {
+       "n": 135,
+       "v": "El sabor de la bebida dulce confundió su…"
+      },
+      {
+       "n": 136,
+       "v": "bebieron hasta embriagarse, sus cuerpos se llenaron hasta rebosar,"
+      },
+      {
+       "n": 137,
+       "v": "la pesadez [de la bebida] los venció, sus hígados (es decir, sus ánimos) se exaltaron,"
+      },
+      {
+       "n": 138,
+       "v": "y dictaron el decreto para Marduk como su vengador."
+      }
+     ]
+    },
+    {
+     "n": 4,
+     "titulo": "Tablilla IV",
+     "sinopsis": "Los dioses entronizan a Marduk y prueban su poder con un manto. Marduk se arma con el arco, la red y los vientos, se enfrenta a Tiamat y la mata. Captura a sus aliados, quita a Qingu la Tablilla de los Destinos y parte el cuerpo de Tiamat en dos para formar el cielo.",
+     "items": [
+      {
+       "n": 1,
+       "v": "Le levantaron un dosel majestuoso;"
+      },
+      {
+       "n": 2,
+       "v": "él (Marduk) se sentó en el trono de la realeza en presencia de sus padres, [que le dijeron]:"
+      },
+      {
+       "n": 3,
+       "v": "«Eres honrado por tu grandeza entre los dioses."
+      },
+      {
+       "n": 4,
+       "v": "Tu rango no tiene rival; las palabras que pronuncias se vuelven Anum (es decir, tan firmes como el cielo)."
+      },
+      {
+       "n": 5,
+       "v": "Eres honrado por tu grandeza entre los dioses."
+      },
+      {
+       "n": 6,
+       "v": "Tu rango no tiene rival; las palabras que pronuncias se vuelven Anum (es decir, tan firmes como el cielo)."
+      },
+      {
+       "n": 7,
+       "v": "Desde este día tu mandato no será revocado."
+      },
+      {
+       "n": 8,
+       "v": "El poder de ensalzar hasta el cielo y de derribar a la tierra estará en tu mano."
+      },
+      {
+       "n": 9,
+       "v": "Lo que salga de tu boca se cumplirá; contra tu palabra no habrá apelación."
+      },
+      {
+       "n": 10,
+       "v": "Nadie entre los dioses traspasará tu límite."
+      },
+      {
+       "n": 11,
+       "v": "El culto, que es el fin del santuario de los dioses,"
+      },
+      {
+       "n": 12,
+       "v": "siempre que les falte, se hallará en tu santuario."
+      },
+      {
+       "n": 13,
+       "v": "Oh dios Marduk, tú eres nuestro vengador."
+      },
+      {
+       "n": 14,
+       "v": "Te hemos dado la soberanía sobre toda la creación."
+      },
+      {
+       "n": 15,
+       "v": "Te sentarás, y en el consejo tu palabra será exaltada."
+      },
+      {
+       "n": 16,
+       "v": "Tu arma nunca caerá [de tus manos]; romperá la cabeza de tu enemigo."
+      },
+      {
+       "n": 17,
+       "v": "Señor, a quien ponga en ti su confianza, perdónale la vida,"
+      },
+      {
+       "n": 18,
+       "v": "y al dios que trame el mal, derrama su alma»."
+      },
+      {
+       "n": 19,
+       "v": "Entonces pusieron un manto (literalmente, un solo manto) en medio de ellos"
+      },
+      {
+       "n": 20,
+       "v": "y se dirigieron al dios Marduk, su primogénito, [diciendo]:"
+      },
+      {
+       "n": 21,
+       "v": "«Tú, Señor, ocuparás el primer puesto entre los dioses."
+      },
+      {
+       "n": 22,
+       "v": "Decreta derribar y edificar, y así será.",
+       "nota": "Según Budge, «derribar» alude a la destrucción de Tiamat, y «edificar», a la nueva creación que sustituirá a la antigua."
+      },
+      {
+       "n": 23,
+       "v": "Di solo la palabra, y el manto desaparecerá;"
+      },
+      {
+       "n": 24,
+       "v": "habla por segunda vez, y el manto volverá intacto»."
+      },
+      {
+       "n": 25,
+       "v": "Marduk dijo la palabra, y el manto desapareció;"
+      },
+      {
+       "n": 26,
+       "v": "habló por segunda vez, y el manto reapareció."
+      },
+      {
+       "n": 27,
+       "v": "Cuando los dioses, sus padres, vieron el efecto de lo que salía de su boca,"
+      },
+      {
+       "n": 28,
+       "v": "se alegraron y lo adoraron, [diciendo]: «¡Marduk es rey!»."
+      },
+      {
+       "n": 29,
+       "v": "Le otorgaron el cetro, el trono y el símbolo de la realeza (?).",
+       "nota": "El original dice pal-a, palabra de significado desconocido para Budge."
+      },
+      {
+       "n": 30,
+       "v": "Le dieron el arma sin rival, la que destruye al enemigo, [diciendo]:"
+      },
+      {
+       "n": 31,
+       "v": "«Ve, corta la vida de Tiamat."
+      },
+      {
+       "n": 32,
+       "v": "Que el viento lleve su sangre a lo profundo [bajo la tierra]»."
+      },
+      {
+       "n": 33,
+       "v": "Los dioses, sus padres, dictaron el decreto para el dios Bel;",
+       "nota": "Bel, «Señor», es un título de Marduk."
+      },
+      {
+       "n": 34,
+       "v": "lo pusieron en el camino que conduce a la paz y a la adoración."
+      },
+      {
+       "n": 35,
+       "v": "Tensó [su] arco, dispuso su arma [en el soporte],"
+      },
+      {
+       "n": 36,
+       "v": "se colgó la lanza, se la sujetó [al vientre],"
+      },
+      {
+       "n": 37,
+       "v": "alzó la maza y la empuñó con la mano derecha."
+      },
+      {
+       "n": 38,
+       "v": "Se colgó al costado el arco y la aljaba.",
+       "nota": "Este equipo del auriga aparece en los bajorrelieves asirios."
+      },
+      {
+       "n": 39,
+       "v": "Puso el relámpago delante de sí;"
+      },
+      {
+       "n": 40,
+       "v": "su cuerpo se llenó de una llama de fuego centelleante."
+      },
+      {
+       "n": 41,
+       "v": "Hizo una red para envolver a Tiamat."
+      },
+      {
+       "n": 42,
+       "v": "Hizo que los cuatro vientos tomaran posiciones para que nada de ella escapara:"
+      },
+      {
+       "n": 43,
+       "v": "el viento del Sur, el viento del Norte, el viento del Este, el viento del Oeste."
+      },
+      {
+       "n": 44,
+       "v": "Sostuvo la red junto a su costado, el regalo de su padre Anu."
+      },
+      {
+       "n": 45,
+       "v": "Creó el viento «malo», la tormenta, el soplo abrasador,"
+      },
+      {
+       "n": 46,
+       "v": "el viento «cuádruple», el viento «séptuple», el tifón, el viento sin igual."
+      },
+      {
+       "n": 47,
+       "v": "Despachó los siete vientos que había hecho"
+      },
+      {
+       "n": 48,
+       "v": "para enturbiar las entrañas de Tiamat; lo siguieron en su séquito."
+      },
+      {
+       "n": 49,
+       "v": "El Señor alzó el huracán, su arma poderosa."
+      },
+      {
+       "n": 50,
+       "v": "Subió a su carro, la tempestad terrible y sin igual.",
+       "nota": "Budge lo compara con los Salmos 18, 7–15 y 104, 1 y siguientes."
+      },
+      {
+       "n": 51,
+       "v": "Lo aparejó, le unció un tiro de cuatro caballos,"
+      },
+      {
+       "n": 52,
+       "v": "que piafaban, mordían el freno, echaban espuma, [ansiosos de] volar."
+      },
+      {
+       "n": 53,
+       "v": "… [el olor] de sus dientes era fétido;"
+      },
+      {
+       "n": 54,
+       "v": "eran diestros [en morder], adiestrados para pisotear."
+      },
+      {
+       "laguna": "Versos 55–57: demasiado fragmentarios para traducirlos; continúan la descripción del equipo de Marduk."
+      },
+      {
+       "n": 58,
+       "v": "Su resplandor manaba, su cabeza quedaba coronada [por él]."
+      },
+      {
+       "n": 59,
+       "v": "Tomó un camino derecho, se apresuró en su viaje."
+      },
+      {
+       "n": 60,
+       "v": "Volvió el rostro hacia el lugar de Tiamat, que estaba…"
+      },
+      {
+       "n": 61,
+       "v": "En sus labios… contuvo"
+      },
+      {
+       "n": 62,
+       "v": "… su mano empuñó."
+      },
+      {
+       "n": 63,
+       "v": "En ese momento los dioses lo miraban fijamente,"
+      },
+      {
+       "n": 64,
+       "v": "los dioses, sus padres, lo miraban, lo miraban."
+      },
+      {
+       "n": 65,
+       "v": "El Señor se acercó, miró el centro de Tiamat,"
+      },
+      {
+       "n": 66,
+       "v": "escudriñó el plan de Qingu, su esposo."
+      },
+      {
+       "n": 67,
+       "v": "Marduk miró, y Qingu se tambaleó en su andar;"
+      },
+      {
+       "n": 68,
+       "v": "su voluntad quedó deshecha, su movimiento paralizado."
+      },
+      {
+       "n": 69,
+       "v": "Y los dioses, sus ayudantes, que marchaban a su lado,"
+      },
+      {
+       "n": 70,
+       "v": "vieron [el desplome] de su jefe y se les turbó la vista."
+      },
+      {
+       "n": 71,
+       "v": "Tiamat [chilló, pero] no volvió la cabeza."
+      },
+      {
+       "n": 72,
+       "v": "Con los labios llenos de [palabras rebeldes] mantuvo su terquedad,"
+      },
+      {
+       "n": 73,
+       "v": "[diciendo]: «… que has venido como Señor de los dioses, [¡vaya!],"
+      },
+      {
+       "n": 74,
+       "v": "te han nombrado en el lugar que debería ser suyo»."
+      },
+      {
+       "n": 75,
+       "v": "El Señor alzó el huracán, su arma poderosa,"
+      },
+      {
+       "n": 76,
+       "v": "y lo lanzó [contra] Tiamat, que estaba furiosa (?), [diciendo]:"
+      },
+      {
+       "n": 77,
+       "v": "«[Te has hecho] poderosa, te has engreído hasta lo alto,"
+      },
+      {
+       "n": 78,
+       "v": "tu corazón [te ha incitado] a provocar la batalla."
+      },
+      {
+       "n": 79,
+       "v": "… sus padres…"
+      },
+      {
+       "n": 80,
+       "v": "…"
+      },
+      {
+       "n": 81,
+       "v": "[Has exaltado a Qingu para que sea tu] esposo,"
+      },
+      {
+       "n": 82,
+       "v": "[le has hecho usurpar] los atributos de Anu,"
+      },
+      {
+       "n": 83,
+       "v": "… has tramado el mal."
+      },
+      {
+       "n": 84,
+       "v": "[Contra] los dioses, mis padres, has obrado el mal."
+      },
+      {
+       "n": 85,
+       "v": "Que tus tropas se ciñan ahora, que se sujeten las armas."
+      },
+      {
+       "n": 86,
+       "v": "¡En pie! ¡Tú y yo, a la lucha!»."
+      },
+      {
+       "n": 87,
+       "v": "Al oír estas palabras, Tiamat"
+      },
+      {
+       "n": 88,
+       "v": "se volvió como loca, perdió el juicio."
+      },
+      {
+       "n": 89,
+       "v": "Tiamat lanzó gritos agudos una y otra vez."
+      },
+      {
+       "n": 90,
+       "v": "Aquello sobre lo que se alzaba se partió en dos con sus palabras."
+      },
+      {
+       "n": 91,
+       "v": "Recitó un conjuro, pronunció su hechizo."
+      },
+      {
+       "n": 92,
+       "v": "Los dioses de la batalla reclamaron sus armas.",
+       "nota": "Es decir, los dioses estaban impacientes por empezar la lucha."
+      },
+      {
+       "n": 93,
+       "v": "Tiamat y Marduk, el mensajero de los dioses, se lanzaron;"
+      },
+      {
+       "n": 94,
+       "v": "avanzaron a luchar el uno contra el otro, se acercaron en la batalla."
+      },
+      {
+       "n": 95,
+       "v": "El Señor echó su red y la envolvió con ella;"
+      },
+      {
+       "n": 96,
+       "v": "el viento malo, que tenía su lugar detrás de él, se lo soltó en la cara."
+      },
+      {
+       "n": 97,
+       "v": "Tiamat abrió la boca todo lo que pudo;"
+      },
+      {
+       "n": 98,
+       "v": "Marduk hizo entrar [en ella] el viento malo mientras sus labios estaban abiertos."
+      },
+      {
+       "n": 99,
+       "v": "Los vientos furiosos le hincharon el vientre;"
+      },
+      {
+       "n": 100,
+       "v": "su corazón quedó atenazado, abrió de par en par la boca [jadeando]."
+      },
+      {
+       "n": 101,
+       "v": "Marduk empuñó la lanza, le abrió el vientre,"
+      },
+      {
+       "n": 102,
+       "v": "le rajó las entrañas, le atravesó [el] corazón,"
+      },
+      {
+       "n": 103,
+       "v": "la redujo a nada, acabó con su vida."
+      },
+      {
+       "n": 104,
+       "v": "Derribó su cadáver y se plantó sobre él."
+      },
+      {
+       "n": 105,
+       "v": "Después de que Marduk matara a Tiamat, la jefa,"
+      },
+      {
+       "n": 106,
+       "v": "su hueste se dispersó, sus levas huyeron,"
+      },
+      {
+       "n": 107,
+       "v": "y los dioses, sus aliados, que habían marchado a su lado,"
+      },
+      {
+       "n": 108,
+       "v": "temblaron de terror, se desbandaron y corrieron,"
+      },
+      {
+       "n": 109,
+       "v": "y se dieron a la fuga para salvar la vida."
+      },
+      {
+       "n": 110,
+       "v": "Pero se vieron cercados, no pudieron escapar."
+      },
+      {
+       "n": 111,
+       "v": "Marduk los ató, destrozó sus armas."
+      },
+      {
+       "n": 112,
+       "v": "Fueron arrojados a la red y quedaron presos en la trampa;"
+      },
+      {
+       "n": 113,
+       "v": "llenaron los… del mundo con [sus] gritos de dolor."
+      },
+      {
+       "n": 114,
+       "v": "Recibieron el castigo [de Marduk], quedaron sujetos en prisión."
+      },
+      {
+       "n": 115,
+       "v": "Y [sobre] las Once Criaturas que Tiamat había llenado de espanto,"
+      },
+      {
+       "n": 116,
+       "v": "la compañía de demonios que marchaba a su…,"
+      },
+      {
+       "n": 117,
+       "v": "echó grilletes, les… los costados."
+      },
+      {
+       "n": 118,
+       "v": "A ellos y su resistencia los pisoteó."
+      },
+      {
+       "n": 119,
+       "v": "Al dios Qingu, que había sido engrandecido sobre ellos,"
+      },
+      {
+       "n": 120,
+       "v": "lo aplastó, lo tuvo [en tan poco] como al dios Dugga (¿un dios muerto?)."
+      },
+      {
+       "n": 121,
+       "v": "Marduk le quitó la Tablilla de los Destinos, que nunca debió ser suya,"
+      },
+      {
+       "n": 122,
+       "v": "la selló con un sello y se la sujetó al pecho.",
+       "nota": "Al imprimir su sello en la Tablilla, Marduk demostraba que era suya y hacía legal su derecho a ella."
+      },
+      {
+       "n": 123,
+       "v": "Después de aplastar y derribar a sus enemigos,"
+      },
+      {
+       "n": 124,
+       "v": "hizo que el enemigo altanero fuera como el polvo bajo los pies."
+      },
+      {
+       "n": 125,
+       "v": "Consumó del todo la victoria de Anshar sobre el enemigo."
+      },
+      {
+       "n": 126,
+       "v": "El valiente Marduk logró el propósito de Nudimmud (Ea).",
+       "nota": "Es una manera indirecta de decir que Marduk triunfó donde Ea había fracasado."
+      },
+      {
+       "n": 127,
+       "v": "Impuso estricta prisión a los dioses que había capturado."
+      },
+      {
+       "n": 128,
+       "v": "Se volvió hacia Tiamat, a la que había vencido."
+      },
+      {
+       "n": 129,
+       "v": "El Señor [Marduk] pisoteó las ancas de Tiamat;"
+      },
+      {
+       "n": 130,
+       "v": "con su maza implacable le partió el cráneo."
+      },
+      {
+       "n": 131,
+       "v": "Le abrió los canales (es decir, las arterias) de la sangre"
+      },
+      {
+       "n": 132,
+       "v": "e hizo que el viento del Norte se la llevara a un lugar bajo tierra."
+      },
+      {
+       "n": 133,
+       "v": "Sus padres (los dioses) miraban, se alegraban, se regocijaban;"
+      },
+      {
+       "n": 134,
+       "v": "le llevaron ofrendas de triunfo y de paz."
+      },
+      {
+       "n": 135,
+       "v": "El Señor [Marduk] se detuvo, examinó el cadáver de Tiamat."
+      },
+      {
+       "n": 136,
+       "v": "Separó la carne [del] pelo, trabajó con astucia.",
+       "nota": "La palabra es kupu, «caña» o «junco». Budge cree posible que Marduk desollara a Tiamat."
+      },
+      {
+       "n": 137,
+       "v": "Abrió a Tiamat como a un pez plano (?), [cortado] en dos pedazos;"
+      },
+      {
+       "n": 138,
+       "v": "con una mitad hizo una bóveda y cubrió con ella los cielos."
+      },
+      {
+       "n": 139,
+       "v": "Corrió el cerrojo, apostó una guardia"
+      },
+      {
+       "n": 140,
+       "v": "y les ordenó que no dejaran escapar sus aguas."
+      },
+      {
+       "n": 141,
+       "v": "Recorrió el cielo, contempló sus regiones."
+      },
+      {
+       "n": 142,
+       "v": "Se dirigió a la morada de Nudimmud (Ea), que está frente al Abismo (Apsu)."
+      },
+      {
+       "n": 143,
+       "v": "El Señor Marduk midió las dimensiones del Abismo,"
+      },
+      {
+       "n": 144,
+       "v": "fundó Esharra, un lugar semejante a él,"
+      },
+      {
+       "n": 145,
+       "v": "la morada Esharra, que hizo que fuera el cielo."
+      },
+      {
+       "n": 146,
+       "v": "Hizo que los dioses Anu, Bel y Ea habitaran sus [propias] ciudades."
+      }
+     ]
+    },
+    {
+     "n": 5,
+     "titulo": "Tablilla V",
+     "sinopsis": "Marduk ordena el cielo: fija las estaciones de los grandes dioses, el año y sus doce meses, la estación de Nibiru y las fases de la Luna. Los dioses alaban su obra y Anu da nombre al arco de Marduk.",
+     "items": [
+      {
+       "n": 1,
+       "v": "Asignó las Estaciones de los grandes dioses;"
+      },
+      {
+       "n": 2,
+       "v": "puso en el cielo las Estrellas del Zodiaco, que son sus imágenes."
+      },
+      {
+       "n": 3,
+       "v": "Fijó el año, señaló sus límites."
+      },
+      {
+       "n": 4,
+       "v": "Para los doce meses colocó tres estrellas a cada uno."
+      },
+      {
+       "n": 5,
+       "v": "Según el día del año… figuras."
+      },
+      {
+       "n": 6,
+       "v": "Fundó la Estación de Nibir (Júpiter) para fijar sus límites,",
+       "nota": "Es el Nēberu del texto acadio, que aquí designa un punto o estrella del cielo, identificado por Budge con Júpiter. No tiene nada que ver con el «planeta Nibiru» de Zecharia Sitchin (véase la ficha de Nibiru)."
+      },
+      {
+       "n": 7,
+       "v": "para que ninguno se excediera ni se quedara corto."
+      },
+      {
+       "n": 8,
+       "v": "Junto a ella puso la Estación de Bel y de Ea."
+      },
+      {
+       "n": 9,
+       "v": "Abrió grandes puertas resguardadas a ambos lados;"
+      },
+      {
+       "n": 10,
+       "v": "hizo un corredor fuerte a la izquierda y a la derecha."
+      },
+      {
+       "n": 11,
+       "v": "Fijó el cenit en la bóveda celeste (?)."
+      },
+      {
+       "n": 12,
+       "v": "Dio al dios Nannar (el dios Luna) su resplandor y le confió la noche."
+      },
+      {
+       "n": 13,
+       "v": "Lo puso para el gobierno de la noche, para determinar el día."
+      },
+      {
+       "n": 14,
+       "v": "Cada mes, sin falta, lo puso en una corona (es decir, un disco), [diciendo]:"
+      },
+      {
+       "n": 15,
+       "v": "«Al comienzo del mes, cuando te alces sobre la tierra,"
+      },
+      {
+       "n": 16,
+       "v": "haz que tus cuernos sobresalgan para marcar seis días [del mes];"
+      },
+      {
+       "n": 17,
+       "v": "el séptimo día, hazte semejante a una corona;"
+      },
+      {
+       "n": 18,
+       "v": "el decimocuarto día…»"
+      },
+      {
+       "laguna": "Los versos 19–26 seguían con las instrucciones de Marduk al dios Luna, pero están demasiado rotos para traducirlos. Tras el verso 26 hay un hueco de 40 versos; los versos 66–74 son demasiado fragmentarios, aunque parecen describir nuevos actos de la creación.",
+       "hoy": "Las copias halladas después (sobre todo en Sultantepe) llenan buena parte de esta laguna. Marduk termina de fijar el curso de la Luna y su relación con el Sol, y después da forma a la tierra con la otra mitad del cuerpo de Tiamat: de sus ojos hace brotar el Tigris y el Éufrates, amontona montañas sobre su cabeza y sujeta su cola al cielo. Entrega la Tablilla de los Destinos a Anu y los dioses le rinden homenaje."
+      },
+      {
+       "n": 75,
+       "v": "Los dioses, sus padres (de Marduk), miraron la red que había hecho,"
+      },
+      {
+       "n": 76,
+       "v": "observaron con qué astucia estaba construido el arco,"
+      },
+      {
+       "n": 77,
+       "v": "ensalzaron la obra que había hecho."
+      },
+      {
+       "n": 78,
+       "v": "[Entonces] el dios Anu alzó [el arco] en la asamblea de los dioses,"
+      },
+      {
+       "n": 79,
+       "v": "besó el arco [diciendo]: «Que…»."
+      },
+      {
+       "n": 80,
+       "v": "Proclamó así [los nombres] del arco:"
+      },
+      {
+       "n": 81,
+       "v": "«En verdad, el primero es “Madera Larga”, el segundo es…"
+      },
+      {
+       "n": 82,
+       "v": "Su tercer nombre es “Estrella del Arco en el cielo”…»."
+      },
+      {
+       "n": 83,
+       "v": "Le fijó una estación…"
+      },
+      {
+       "laguna": "De los 57 versos restantes de esta tablilla solo se conservan fragmentos de 17, y no dan un sentido seguido.",
+       "hoy": "En las ediciones modernas este episodio del arco y de su estrella forma parte de la tablilla VI."
+      }
+     ]
+    },
+    {
+     "n": 6,
+     "titulo": "Tablilla VI",
+     "sinopsis": "Marduk decide crear al ser humano para que sirva a los dioses. Qingu, culpable de la rebelión, es ejecutado, y con su sangre Ea forma a la humanidad. Los Anunnaki construyen Babilonia y el templo Esagila, y empiezan a proclamar los nombres de Marduk.",
+     "items": [
+      {
+       "n": 1,
+       "v": "Al oír las palabras de los dioses, el corazón de Marduk lo movió a hacer obras de artesano."
+      },
+      {
+       "n": 2,
+       "v": "Abrió su boca, dijo a Ea lo que había planeado en su corazón, le dio consejo [diciendo]:"
+      },
+      {
+       "n": 3,
+       "v": "«Solidificaré la sangre, formaré el hueso."
+      },
+      {
+       "n": 4,
+       "v": "Levantaré al hombre: “Hombre” [será] su nombre."
+      },
+      {
+       "n": 5,
+       "v": "Crearé al hombre, al “Hombre”."
+      },
+      {
+       "n": 6,
+       "v": "Quedará establecido el servicio de los dioses, y a ellos (los dioses) los dejaré libres."
+      },
+      {
+       "n": 7,
+       "v": "Haré dobles los caminos de los dioses y [los] embelleceré."
+      },
+      {
+       "n": 8,
+       "v": "[Ahora] están agrupados en un solo lugar, pero se repartirán en dos».",
+       "nota": "Budge lee aquí ishtenish lu kuppudu-ma ana shina lu uzizu."
+      },
+      {
+       "n": 9,
+       "v": "Ea respondió y le dirigió una palabra;"
+      },
+      {
+       "n": 10,
+       "v": "para consuelo de los dioses le repitió una palabra de consejo, [diciendo]:",
+       "nota": "Es decir, «para contentar a los dioses»."
+      },
+      {
+       "n": 11,
+       "v": "«Que se entregue a un hermano [dios de entre ellos], que sufra la destrucción para que se forme a los hombres."
+      },
+      {
+       "n": 12,
+       "v": "Que se reúnan los grandes dioses, que se entregue a este [elegido] para que ellos (los demás dioses) queden establecidos»."
+      },
+      {
+       "n": 13,
+       "v": "Marduk reunió a los grandes dioses, [se acercó] con benevolencia, dictó un decreto."
+      },
+      {
+       "n": 14,
+       "v": "Abrió su boca, se dirigió a los dioses; el Rey dijo una palabra a los Anunnaki, [diciendo]:"
+      },
+      {
+       "n": 15,
+       "v": "«En verdad, lo que os dije antes era cierto."
+      },
+      {
+       "n": 16,
+       "v": "[También esta vez] digo la verdad. [Hubo quienes] se me opusieron.",
+       "nota": "Literalmente, «(alguien) se me opuso»."
+      },
+      {
+       "n": 17,
+       "v": "¿Quién fue el que creó la discordia?"
+      },
+      {
+       "n": 18,
+       "v": "¿Quién hizo que Tiamat se rebelara y entablara batalla conmigo?"
+      },
+      {
+       "n": 19,
+       "v": "Que se entregue [en sacrificio] al que creó la discordia;"
+      },
+      {
+       "n": 20,
+       "v": "haré que el hacha, al caer, borre su pecado»."
+      },
+      {
+       "n": 21,
+       "v": "Los grandes dioses, los Igigi, le respondieron,"
+      },
+      {
+       "n": 22,
+       "v": "al Rey de los dioses del cielo y de la tierra, al Príncipe de los dioses, su señor, [dijeron]:"
+      },
+      {
+       "n": 23,
+       "v": "«[Fue] Qingu el que creó la discordia,"
+      },
+      {
+       "n": 24,
+       "v": "el que hizo que Tiamat se rebelara y entablara batalla [contigo]»."
+      },
+      {
+       "n": 25,
+       "v": "Lo ataron con grilletes, [lo llevaron] ante Ea, le impusieron el castigo, le sangraron."
+      },
+      {
+       "n": 26,
+       "v": "Con su sangre él (Ea) formó a la humanidad para el servicio de los dioses, y dejó libres a los dioses."
+      },
+      {
+       "n": 27,
+       "v": "Después de que Ea formara al hombre, … le impuso el servicio."
+      },
+      {
+       "n": 28,
+       "v": "[Para] aquella obra, que no le agradaba, fue elegido el hombre: Marduk…"
+      },
+      {
+       "n": 29,
+       "v": "Marduk, el Rey de los dioses, repartió…, puso a los Anunnaki en lo alto."
+      },
+      {
+       "n": 30,
+       "v": "Estableció para Anu un decreto que protegía [su] corazón… como guardia."
+      },
+      {
+       "n": 31,
+       "v": "Hizo dobles los caminos en la tierra [¿y en los cielos?]."
+      },
+      {
+       "n": 32,
+       "v": "Por decretos…"
+      },
+      {
+       "n": 33,
+       "v": "Los Anunnaki que…"
+      },
+      {
+       "n": 34,
+       "v": "Los Anunnaki…"
+      },
+      {
+       "n": 35,
+       "v": "Hablaron a Marduk, su señor, [diciendo]:"
+      },
+      {
+       "n": 36,
+       "v": "«Oh tú, dios Luna (Nannaru), que has establecido nuestro esplendor,",
+       "nota": "Budge remite a Cuneiform Texts, parte XXIV, lámina 50, donde se dice que el dios Sin es «Marduk, que ilumina la noche»."
+      },
+      {
+       "n": 37,
+       "v": "¿qué beneficio te hemos dado?"
+      },
+      {
+       "n": 38,
+       "v": "Ven, hagamos un santuario cuyo nombre sea famoso;"
+      },
+      {
+       "n": 39,
+       "v": "ven [de] noche, nuestro tiempo de fiesta, descansemos en él;"
+      },
+      {
+       "n": 40,
+       "v": "ven, el báculo gobernará…"
+      },
+      {
+       "n": 41,
+       "v": "El día en que lleguemos [a él], descansaremos en él»."
+      },
+      {
+       "n": 42,
+       "v": "Al oír esto, Marduk…"
+      },
+      {
+       "n": 43,
+       "v": "los rasgos de su rostro [brillaron como] el día, en extremo."
+      },
+      {
+       "n": 44,
+       "v": "[Dijo]: «Como… Babilonia, cuya construcción deseáis,",
+       "nota": "Los versos 44 y 45 anuncian la decisión de Marduk de construir Babilonia."
+      },
+      {
+       "n": 45,
+       "v": "haré… una ciudad, daré forma a un santuario espléndido»."
+      },
+      {
+       "n": 46,
+       "v": "Los Anunnaki trabajaron el molde [de los ladrillos]; sus ladrillos eran…"
+      },
+      {
+       "n": 47,
+       "v": "El segundo año [el santuario era tan alto como] una colina, y la cima de Esagila llegaba al Océano [celeste]."
+      },
+      {
+       "n": 48,
+       "v": "Hicieron que el zigurat [llegara] al Océano celeste; a Marduk, Enlil y Ea asignaron [santuarios].",
+       "nota": "Zigurat es el término habitual para la torre escalonada del templo. Según Budge, el famoso zigurat de Esagila tenía siete pisos, probablemente de colores distintos; fue destruido poco después de que Ciro tomara Babilonia (539 a. C.), y Alejandro Magno lo encontró en ruinas."
+      },
+      {
+       "n": 49,
+       "v": "Se alzaba (el zigurat) majestuoso ante ellos; abajo y [arriba] contemplaron sus dos cuernos.",
+       "nota": "Es la primera mención conocida de los «cuernos» de un zigurat; el sentido exacto de la palabra es dudoso."
+      },
+      {
+       "n": 50,
+       "v": "Después de que los Anunnaki terminaron la construcción de Esagila y completaron sus santuarios,"
+      },
+      {
+       "n": 51,
+       "v": "se reunieron desde el… del Océano (Apsu). En BAR-MAH, la morada que habían hecho,"
+      },
+      {
+       "n": 52,
+       "v": "él (Marduk) hizo sentar a los dioses, sus padres… [diciendo]: «Esta Babilonia será vuestra morada."
+      },
+      {
+       "n": 53,
+       "v": "Ningún poderoso [destruirá] su casa; los grandes dioses habitarán en ella»."
+      },
+      {
+       "laguna": "Tras el verso 53 se han borrado las partes centrales de varios versos, pero lo que queda deja claro que los dioses celebraron un banquete de consagración del santuario de Esagila y después dictaron decretos. Marduk asigna asientos a los Siete Dioses del Destino, a Enlil y a Anu, y deposita en Esagila el famoso arco que llevó en la lucha contra Tiamat. Cuando el texto vuelve a ser seguido, los dioses cantan un himno de alabanza a Marduk."
+      },
+      {
+       "n": 94,
+       "v": "«Todo lo que… esos dioses y diosas llevarán (?)."
+      },
+      {
+       "n": 95,
+       "v": "Nunca olvidarán, se aferrarán al dios (?)."
+      },
+      {
+       "n": 96,
+       "v": "… harán brillar, harán santuarios."
+      },
+      {
+       "n": 97,
+       "v": "En verdad, la decisión (sobre) los Cabezas Negras [pertenece a] los dioses.",
+       "nota": "«Cabezas Negras» es una manera habitual de referirse a los seres humanos en los textos mesopotámicos."
+      },
+      {
+       "n": 98,
+       "v": "… todos nuestros nombres han invocado; él (Marduk) es santísimo (elli)."
+      },
+      {
+       "n": 99,
+       "v": "… proclamaron y veneraron (?) sus nombres."
+      },
+      {
+       "n": 100,
+       "v": "Su… es brillantísimo, su obra es…"
+      },
+      {
+       "n": 101,
+       "v": "Marduk, cuyo [nombre] proclamó su padre Anu desde su nacimiento,"
+      },
+      {
+       "n": 102,
+       "v": "que ha puesto el día a su puerta… su marcha,"
+      },
+      {
+       "n": 103,
+       "v": "con cuya ayuda fue atado el huracán…,"
+      },
+      {
+       "n": 104,
+       "v": "libró a los dioses, sus padres, en el tiempo de angustia."
+      },
+      {
+       "n": 105,
+       "v": "En verdad, los dioses han proclamado su filiación."
+      },
+      {
+       "n": 106,
+       "v": "Que caminen para siempre en su luz brillante."
+      },
+      {
+       "n": 107,
+       "v": "[Sobre] los hombres que ha formado, las criaturas modeladas por sus dedos,"
+      },
+      {
+       "n": 108,
+       "v": "ha impuesto el servicio de los dioses, y a estos los ha dejado libres."
+      },
+      {
+       "n": 109,
+       "v": "…"
+      },
+      {
+       "n": 110,
+       "v": "… lo miraron."
+      },
+      {
+       "n": 111,
+       "v": "[Él es] el dios que ve lejos (maruku), en verdad…"
+      },
+      {
+       "n": 112,
+       "v": "el que ha alegrado el corazón de los Anunnaki, el que les ha hecho…"
+      },
+      {
+       "n": 113,
+       "v": "El dios Marudukku: en verdad, él es la confianza de su país…"
+      },
+      {
+       "n": 114,
+       "v": "Que los hombres lo alaben…"
+      },
+      {
+       "n": 115,
+       "v": "El “Rey del Corazón Protector” (?) se ha alzado y ha [atado] a la Serpiente…"
+      },
+      {
+       "n": 116,
+       "v": "Ancho es su corazón, poderoso [su] vientre."
+      },
+      {
+       "n": 117,
+       "v": "Rey de los dioses del cielo y de la tierra, cuyo nombre ha proclamado nuestra compañía,"
+      },
+      {
+       "n": 118,
+       "v": "cumpliremos (?) lo que diga su boca. Sobre sus padres los dioses,"
+      },
+      {
+       "n": 119,
+       "v": "sí, [sobre] los dioses del cielo y de la tierra, todos ellos,"
+      },
+      {
+       "n": 120,
+       "v": "[exaltaremos] su realeza."
+      },
+      {
+       "n": 121,
+       "v": "[Nosotros] miraremos al Rey de todo el cielo y la tierra de noche, cuando el lugar de todos los dioses está en tinieblas (literalmente, en tristeza)."
+      },
+      {
+       "n": 122,
+       "v": "Él ha asignado nuestra morada en el cielo y en la tierra en el tiempo de angustia;"
+      },
+      {
+       "n": 123,
+       "v": "ha repartido sus estaciones a los Igigi y a los Anunnaki."
+      },
+      {
+       "n": 124,
+       "v": "Los propios dioses son engrandecidos por su nombre; que él dirija sus santuarios."
+      },
+      {
+       "n": 125,
+       "v": "ASAR-LU-DUG es su nombre, con el que lo nombró su padre Anu."
+      },
+      {
+       "n": 126,
+       "v": "En verdad, él es la luz de los dioses, el poderoso…"
+      },
+      {
+       "n": 127,
+       "v": "el que… todas las partes del cielo y de la tierra."
+      },
+      {
+       "n": 128,
+       "v": "Con un combate poderoso salvó nuestra morada en el tiempo de angustia."
+      },
+      {
+       "n": 129,
+       "v": "ASAR-LU-DUG, el dios que lo hizo vivir (al hombre): así lo llamó el dios… en segundo lugar,"
+      },
+      {
+       "n": 130,
+       "v": "[y] a los dioses que habían sido formados, a los que modeló como si [fueran] su descendencia."
+      },
+      {
+       "n": 131,
+       "v": "Él es el Señor que ha hecho vivir a todos los dioses con su santa boca»."
+      },
+      {
+       "laguna": "Los versos 132–139 son demasiado fragmentarios para traducirlos, pero lo que queda deja claro que Lahmu, Lahamu y Anshar proclamaron los nombres de Marduk. Cuando el texto vuelve a ser seguido, Marduk acaba de dirigirse a los dioses."
+      },
+      {
+       "n": 140,
+       "v": "En Upshukkinaku les fijó su consejo.",
+       "nota": "Según Budge, Upshukkinaku era una cámara del templo de Esagila. El nombre significaría probablemente «la cámara del shakkanakku», es decir, aquella a la que el gobernador de la ciudad acudía cada año a tomar las manos de Bel-Marduk, y de quien recibía así el derecho a gobernar el país."
+      },
+      {
+       "n": 141,
+       "v": "[Dijeron]: «De [nuestro] hijo, el Héroe, nuestro Vengador,"
+      },
+      {
+       "n": 142,
+       "v": "exaltaremos el nombre con nuestra palabra»."
+      },
+      {
+       "n": 143,
+       "v": "Se sentaron y en su asamblea proclamaron su rango;"
+      },
+      {
+       "n": 144,
+       "v": "cada uno de ellos pronunció su nombre en el santuario."
+      }
+     ]
+    },
+    {
+     "n": 7,
+     "titulo": "Tablilla VII",
+     "sinopsis": "Los dioses proclaman los cincuenta nombres de Marduk y explican cada uno. Entre ellos está Nibiru, «el que ocupa el centro». Un epílogo pide que los nombres se transmitan de padres a hijos.",
+     "items": [
+      {
+       "n": 1,
+       "v": "¡Oh ASARI, dador de plantíos, el que fija el tiempo de la siembra,"
+      },
+      {
+       "n": 2,
+       "v": "que haces el grano y las plantas de fibra, que haces brotar las hierbas del huerto!"
+      },
+      {
+       "n": 3,
+       "v": "¡Oh ASARU-ALIM, de peso en la sala del consejo, fértil en consejos,"
+      },
+      {
+       "n": 4,
+       "v": "a quien los dioses rinden culto (?) reverente…!"
+      },
+      {
+       "n": 5,
+       "v": "¡Oh ASARU-ALIM-NUNA, luz adorada del Padre que lo engendró,"
+      },
+      {
+       "n": 6,
+       "v": "que enderezas el camino de Anu, Bel [y Ea]!",
+       "nota": "Budge entiende que Marduk aparece aquí como maestro de los dioses «antiguos». Los «caminos» de Anu, Bel y Ea son términos técnicos de la astrología: las tres franjas en que se dividía el cielo."
+      },
+      {
+       "n": 7,
+       "v": "Él es su patrón, el que fijó [sus]…,"
+      },
+      {
+       "n": 8,
+       "v": "cuya bebida es la abundancia, el que sale…"
+      },
+      {
+       "n": 9,
+       "v": "¡Oh TUTU, creador de su vida nueva,"
+      },
+      {
+       "n": 10,
+       "v": "proveedor de lo que necesitan, para que queden saciados [o, contentos]!"
+      },
+      {
+       "n": 11,
+       "v": "Basta que [Tutu] recite un conjuro, y los dioses quedarán en paz;"
+      },
+      {
+       "n": 12,
+       "v": "basta que [los dioses] lo ataquen (a Tutu) con ira, y él les resistirá con éxito."
+      },
+      {
+       "n": 13,
+       "v": "Que sea alzado a un trono alto en la asamblea de los dioses…"
+      },
+      {
+       "n": 14,
+       "v": "Ninguno entre los dioses es como él."
+      },
+      {
+       "n": 15,
+       "v": "¡Oh dios TUTU, que eres el dios ZI-UKKINA, vida de la hueste de los dioses,"
+      },
+      {
+       "n": 16,
+       "v": "que estableciste los cielos brillantes para los dioses!"
+      },
+      {
+       "n": 17,
+       "v": "Fundó sus caminos, fijó [su curso]."
+      },
+      {
+       "n": 18,
+       "v": "Nunca se olvidarán sus hazañas entre los hombres."
+      },
+      {
+       "n": 19,
+       "v": "Oh dios TUTU, que eres ZI-AZAG: fue el tercer nombre que le dieron, el que posee la santidad,"
+      },
+      {
+       "n": 20,
+       "v": "dios del viento propicio, señor de la adoración y de la gracia,"
+      },
+      {
+       "n": 21,
+       "v": "creador de la plenitud y la abundancia, el que asienta la prosperidad,"
+      },
+      {
+       "n": 22,
+       "v": "el que convierte lo poco en mucho."
+      },
+      {
+       "n": 23,
+       "v": "En los peores aprietos hemos sentido su brisa favorable."
+      },
+      {
+       "n": 24,
+       "v": "Que [los dioses] lo proclamen, que lo engrandezcan, que canten sus alabanzas."
+      },
+      {
+       "n": 25,
+       "v": "Oh TUTU, que eres el dios AGA-AZAG en cuarto lugar: ¡que los hombres se regocijen!"
+      },
+      {
+       "n": 26,
+       "v": "Señor del santo conjuro, que hace vivir a los muertos,"
+      },
+      {
+       "n": 27,
+       "v": "tuvo compasión de los dioses que estaban cautivos."
+      },
+      {
+       "n": 28,
+       "v": "Remachó sobre los dioses, sus enemigos, el yugo que pesaba sobre aquellos."
+      },
+      {
+       "n": 29,
+       "v": "Por misericordia hacia ellos creó a la humanidad,"
+      },
+      {
+       "n": 30,
+       "v": "el Misericordioso, en cuyo poder está dar la vida."
+      },
+      {
+       "n": 31,
+       "v": "Sus palabras durarán para siempre, nunca serán olvidadas"
+      },
+      {
+       "n": 32,
+       "v": "en la boca de los Cabezas Negras, que sus manos hicieron.",
+       "nota": "Aquí «Cabezas Negras» designa a toda la humanidad. Según Budge, los escribas lo usaban a veces para distinguir a la población del valle del Éufrates de los pueblos extranjeros de tez clara."
+      },
+      {
+       "n": 33,
+       "v": "Oh dios TUTU, que eres el dios MU-AZAG en quinto lugar: que su boca [le] recite un santo conjuro,"
+      },
+      {
+       "n": 34,
+       "v": "a él, que con su propio santo conjuro ha destruido a todos los malvados."
+      },
+      {
+       "n": 35,
+       "v": "Oh dios SHAZU, corazón sabio de los dioses, que escudriñas el interior del vientre,"
+      },
+      {
+       "n": 36,
+       "v": "que no permites que el malhechor salga a tu lado,"
+      },
+      {
+       "n": 37,
+       "v": "el que asienta la compañía de los dioses… sus corazones,"
+      },
+      {
+       "n": 38,
+       "v": "el que somete a los desobedientes…"
+      },
+      {
+       "laguna": "Faltan los versos 39–106. No se sabe dónde van los versos fragmentarios que aportan otras copias, y en todo caso no dan un sentido seguido.",
+       "hoy": "Hoy se conoce casi toda esta parte. Continúa la lista de nombres de Marduk, cada uno con su explicación, hasta llegar a cincuenta."
+      },
+      {
+       "n": 107,
+       "v": "En verdad, él tiene el principio y el fin de ellos; en verdad…",
+       "nota": "Budge lo compara con el Corán (sura II, 255): «Él sabe lo que tienen delante y lo que tienen detrás»."
+      },
+      {
+       "n": 108,
+       "v": "diciendo: «El que entró en medio de Tiamat no descansa;"
+      },
+      {
+       "n": 109,
+       "v": "su nombre será “Nibiru”, el que ocupa el centro.",
+       "nota": "Es el nombre Nēberu, uno de los cincuenta de Marduk. En el texto designa un punto del cielo ligado a Marduk, y no un planeta desconocido. La lectura de Sitchin, que lo convierte en un planeta habitado, no tiene apoyo en este verso ni en el resto del poema (véase la ficha de Nibiru)."
+      },
+      {
+       "n": 110,
+       "v": "Él fijará el curso de las estrellas del cielo,"
+      },
+      {
+       "n": 111,
+       "v": "pastoreará a toda la compañía de los dioses como a ovejas."
+      },
+      {
+       "n": 112,
+       "v": "Él [siempre] tendrá cautiva a Tiamat, rasgará su tesoro (variante: su vida), le sacará las entrañas».",
+       "nota": "Según Budge, estos versos sugieren que la lucha entre Marduk y Tiamat se repetía, así que no es correcto traducir los verbos en pasado."
+      },
+      {
+       "n": 113,
+       "v": "Entre los hombres que vendrán con el paso del tiempo,"
+      },
+      {
+       "n": 114,
+       "v": "que [estas palabras] se oigan sin cesar, que reinen por toda la eternidad,"
+      },
+      {
+       "n": 115,
+       "v": "porque él hizo los lugares [celestes] y modeló la [tierra] firme."
+      },
+      {
+       "n": 116,
+       "v": "El padre Bel proclamó su nombre: «Señor de las Tierras»."
+      },
+      {
+       "n": 117,
+       "v": "Todos los Igigi repitieron el título."
+      },
+      {
+       "n": 118,
+       "v": "Ea lo oyó, y su hígado se alegró,"
+      },
+      {
+       "n": 119,
+       "v": "diciendo: «Aquel cuyo título ha alegrado a sus padres"
+      },
+      {
+       "n": 120,
+       "v": "será igual que yo; su nombre será Ea."
+      },
+      {
+       "n": 121,
+       "v": "Dispondrá de todos los beneficios mágicos de mis ritos,"
+      },
+      {
+       "n": 122,
+       "v": "hará que se cumplan mis instrucciones»."
+      },
+      {
+       "n": 123,
+       "v": "Con el título de «Cincuenta veces», los grandes dioses"
+      },
+      {
+       "n": 124,
+       "v": "proclamaron sus nombres cincuenta veces, engrandecieron su camino."
+      },
+      {
+       "epilogo": true
+      },
+      {
+       "n": 125,
+       "v": "Que el primero que llegue los tome y los repita;"
+      },
+      {
+       "n": 126,
+       "v": "que el sabio y el docto mediten sobre todos ellos;"
+      },
+      {
+       "n": 127,
+       "v": "el padre los repetirá a su hijo para que los aprenda."
+      },
+      {
+       "n": 128,
+       "v": "Que ellos (los nombres) abran los oídos del pastor y del vaquero.",
+       "nota": "«Abrir los oídos» significa dar entendimiento."
+      },
+      {
+       "n": 129,
+       "v": "Que [el hombre] se regocije en Marduk, el Señor de los Dioses,"
+      },
+      {
+       "n": 130,
+       "v": "para que su tierra sea fértil y él mismo viva seguro."
+      },
+      {
+       "n": 131,
+       "v": "Su palabra es verdadera, su mandato no cambia."
+      },
+      {
+       "n": 132,
+       "v": "Ningún dios ha echado nunca por tierra lo que sale de su boca."
+      },
+      {
+       "n": 133,
+       "v": "Ellos (los dioses) lo despreciaron, pero él no dio la espalda [para huir];"
+      },
+      {
+       "n": 134,
+       "v": "ningún dios pudo resistir su ira en su cólera más alta."
+      },
+      {
+       "n": 135,
+       "v": "Su corazón es grande, sus entrañas de misericordia son grandes."
+      },
+      {
+       "n": 136,
+       "v": "Del pecado y la maldad ante él…"
+      },
+      {
+       "n": 137,
+       "v": "El primero que llega le expone su queja de humillación."
+      },
+      {
+       "laguna": "Versos 138–142: demasiado fragmentarios para traducirlos."
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

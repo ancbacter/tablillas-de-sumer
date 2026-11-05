@@ -128,3 +128,25 @@ describe('astronautas', () => {
     assert.deepEqual(A.cronologia.filter((h) => typeof h.anio !== 'number' || vacio(h.evento)).map((h) => h.anio), []);
   });
 });
+
+describe('textos completos (data/completos.json)', () => {
+  const X = leer('completos.json').textos;
+  const idsTextos = new Set(leer('textos.json').textos.map((t) => t.id));
+  test('cada texto completo corresponde a un texto con pasajes y cita su fuente', () => {
+    for (const [id, x] of Object.entries(X)) {
+      assert.ok(idsTextos.has(id), `${id} no está en textos.json`);
+      assert.ok(!vacio(x.fuente) && !vacio(x.presentacion), `${id}: falta fuente o presentación`);
+      assert.match(x.fuente, /dominio público/, `${id}: la fuente debe declarar que es de dominio público`);
+    }
+  });
+  test('versos numerados en orden creciente, sin vacíos ni repetidos', () => {
+    for (const [id, x] of Object.entries(X)) {
+      for (const tb of x.tablillas) {
+        const ns = tb.items.filter((it) => 'n' in it).map((it) => it.n);
+        assert.ok(ns.every((n, i) => Number.isInteger(n) && (i === 0 || n > ns[i - 1])), `${id} ${tb.titulo}: numeración`);
+        assert.deepEqual(tb.items.filter((it) => 'n' in it && vacio(it.v)).map((it) => it.n), [], `${id} ${tb.titulo}: versos vacíos`);
+        assert.ok(tb.items.every((it) => 'n' in it || !vacio(it.laguna) || !vacio(it.acot) || it.epilogo === true), `${id} ${tb.titulo}: elemento desconocido`);
+      }
+    }
+  });
+});

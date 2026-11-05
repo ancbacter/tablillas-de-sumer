@@ -422,6 +422,31 @@ describe('formatearAnio y formatearRango', () => {
   });
 });
 
+describe('textos completos', () => {
+  test('#c-<id> abre el texto completo', () => {
+    assert.deepEqual(L.parsearHash('#c-enuma-elish'), { vista: 'completo', id: 'enuma-elish' });
+    assert.deepEqual(L.parsearHash('#c-'), { vista: 'catalogo' });
+  });
+  test('normaliza data/completos.json: siete tablillas y 680 versos del Enuma Elish', () => {
+    const [x] = L.normalizarCompletos(leer('completos.json'));
+    assert.equal(x.id, 'enuma-elish');
+    assert.equal(x.tablillas.length, 7);
+    assert.equal(L.contarVersos(x), 680);
+    assert.ok(x.fuente_url.startsWith('https://'));
+    const tipos = new Set(x.tablillas.flatMap((tb) => tb.items.map((it) => it.tipo)));
+    assert.deepEqual([...tipos].sort(), ['acot', 'epilogo', 'laguna', 'verso']);
+  });
+  test('descarta lo mal formado sin romperse', () => {
+    assert.deepEqual(L.normalizarCompletos(null), []);
+    assert.deepEqual(L.normalizarCompletos({ textos: { a: { tablillas: [{ items: [{ n: 'x' }, {}, null] }] } } }), []);
+    const [x] = L.normalizarCompletos({ textos: { 'Mi Texto': { fuente_url: 'javascript:alert(1)', tablillas: [{ items: [{ n: 3, v: 'verso' }, { laguna: 'rota' }] }] } } });
+    assert.equal(x.id, 'mi-texto');
+    assert.equal(x.fuente_url, '');
+    assert.equal(x.tablillas[0].n, 1);
+    assert.equal(L.contarVersos(x), 1);
+  });
+});
+
 describe('parsearHash', () => {
   test('vistas válidas', () => {
     for (const v of L.VISTAS) assert.deepEqual(L.parsearHash('#' + v), { vista: v });

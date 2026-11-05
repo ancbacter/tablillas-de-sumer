@@ -157,6 +157,41 @@
   }
 
   /**
+   * Textos completos (solo en castellano): lista de {id, titulo, subtitulo, fuente, fuente_url, presentacion, tablillas}.
+   * Cada tablilla tiene {n, titulo, sinopsis, items}; un item es un verso {n, v, nota}, una laguna {laguna, hoy},
+   * una acotación {acot} o el comienzo del epílogo {epilogo}.
+   */
+  function normalizarCompletos(raw) {
+    var textos = obj(obj(raw).textos);
+    return Object.keys(textos).map(function (k) {
+      var x = obj(textos[k]), id = slug(k);
+      if (!id) return null;
+      var tablillas = arr(x.tablillas).filter(function (tb) { return tb && typeof tb === 'object'; }).map(function (tb, i) {
+        var items = arr(tb.items).map(function (it) {
+          it = obj(it);
+          if (num(it.n) !== null && str(it.v).trim()) return { tipo: 'verso', n: num(it.n), v: str(it.v), nota: str(it.nota) };
+          if (str(it.laguna).trim()) return { tipo: 'laguna', texto: str(it.laguna), hoy: str(it.hoy) };
+          if (str(it.acot).trim()) return { tipo: 'acot', texto: str(it.acot) };
+          if (it.epilogo === true) return { tipo: 'epilogo' };
+          return null;
+        }).filter(Boolean);
+        return { n: num(tb.n) === null ? i + 1 : num(tb.n), titulo: str(tb.titulo), sinopsis: str(tb.sinopsis), items: items };
+      }).filter(function (tb) { return tb.items.length; });
+      return tablillas.length ? {
+        id: id, titulo: str(x.titulo) || id, subtitulo: str(x.subtitulo), fuente: str(x.fuente),
+        fuente_url: /^https?:\/\//.test(str(x.fuente_url)) ? str(x.fuente_url) : '', presentacion: str(x.presentacion), tablillas: tablillas
+      } : null;
+    }).filter(Boolean);
+  }
+
+  /** Versos de un texto completo. */
+  function contarVersos(completo) {
+    return arr(obj(completo).tablillas).reduce(function (s, tb) {
+      return s + arr(tb.items).filter(function (it) { return it.tipo === 'verso'; }).length;
+    }, 0);
+  }
+
+  /**
    * Limpia y completa los datos de entrada. Nunca lanza.
    * Devuelve { cientifico: {periodos, entradas, glosario}, astronautas: {autores, entradas, cronologia, metodo},
    *            actual: {corrientes, entradas, hallazgos, recepcion}, asiriologos: {autores, hitos}, textos: [] }.
@@ -239,7 +274,8 @@
       },
       actual: normalizarActual(r.actual),
       asiriologos: normalizarAsiriologos(r.asiriologos),
-      textos: normalizarTextos(r.textos)
+      textos: normalizarTextos(r.textos),
+      completos: normalizarCompletos(r.completos)
     };
   }
 
@@ -788,6 +824,19 @@
     'ui.textos.no_encontrado_texto': 'No hay ningún texto con el identificador «{id}».',
     'ui.textos.volver': 'Volver a los textos',
     'ui.textos.ficha': 'Ficha de la entrada',
+    'ui.completo.leer': 'Leer el texto completo',
+    'ui.completo.etiqueta': 'Texto completo',
+    'ui.completo.versos': '{n} versos',
+    'ui.completo.solo_es': 'El texto completo solo está disponible en castellano por ahora.',
+    'ui.completo.presentacion': 'Sobre esta versión',
+    'ui.completo.tablillas': 'Tablillas',
+    'ui.completo.epilogo': 'Epílogo',
+    'ui.completo.laguna': 'Laguna',
+    'ui.completo.hoy': 'Lo que se sabe hoy',
+    'ui.completo.notas': 'Notas',
+    'ui.completo.nota_n': 'Nota al verso {n}',
+    'ui.completo.volver_texto': 'Pasajes comentados',
+    'ui.completo.no_encontrado': 'No hay texto completo de «{id}».',
     'ui.pasaje.tipo_traduccion': 'Traducción (dominio público)',
     'ui.pasaje.tipo_cita': 'Cita breve',
     'ui.pasaje.tipo_parafrasis': 'Paráfrasis',
@@ -1065,13 +1114,13 @@
   }
 
   /**
-   * Interpreta el hash. Devuelve { vista, id? }: una de VISTAS, 'ficha' (#e-<id>), 'texto' (#t-<id>)
-   * o 'asiriologos' con id (#as-<id>, abre la vista y señala a ese autor).
+   * Interpreta el hash. Devuelve { vista, id? }: una de VISTAS, 'ficha' (#e-<id>), 'texto' (#t-<id>),
+   * 'completo' (#c-<id>, texto completo) o 'asiriologos' con id (#as-<id>, abre la vista y señala a ese autor).
    */
   function parsearHash(hash) {
     var h = str(hash).replace(/^#/, '');
     try { h = decodeURIComponent(h); } catch (e) { /* hash mal formado: se usa tal cual */ }
-    var prefijos = [['e-', 'ficha'], ['t-', 'texto'], ['as-', 'asiriologos']];
+    var prefijos = [['e-', 'ficha'], ['t-', 'texto'], ['c-', 'completo'], ['as-', 'asiriologos']];
     for (var i = 0; i < prefijos.length; i++) {
       var p = prefijos[i][0];
       if (h.indexOf(p) === 0 && h.length > p.length) {
@@ -1137,6 +1186,8 @@
     formatearAnio: formatearAnio,
     formatearRango: formatearRango,
     parsearHash: parsearHash,
+    normalizarCompletos: normalizarCompletos,
+    contarVersos: contarVersos,
     relacionesValidas: relacionesValidas,
     enfoqueValido: enfoqueValido,
     IDIOMAS: IDIOMAS,
@@ -1183,10 +1234,11 @@
     : codigos;
 
   var DATOS_ORIGINALES = global.__MESO_DATA__;
-  var C, A, ACT, AS, TX, porId, astroPorId, actualPorId, autorPorId, periodoPorId, textoPorId, corrientePorId;
+  var C, A, ACT, AS, TX, porId, astroPorId, actualPorId, autorPorId, periodoPorId, textoPorId, corrientePorId, completoPorId;
   function prepararDatos(raw) {
     var D = normalizarDatos(raw);
     C = D.cientifico; A = D.astronautas; ACT = D.actual; AS = D.asiriologos; TX = D.textos;
+    completoPorId = indexarPorId(D.completos);
     porId = indexarPorId(C.entradas);
     astroPorId = indexarPorId(A.entradas.filter(function (e) { return porId[e.id]; }));
     actualPorId = indexarPorId(ACT.entradas.filter(function (e) { return porId[e.id]; }));
@@ -1472,7 +1524,7 @@
     return idiomaPreferido(nav.languages && nav.languages.length ? nav.languages : [nav.language], DISPONIBLES);
   }
 
-  var SECCION_DE = { ficha: 'catalogo', texto: 'textos', asiriologos: 'autores' };
+  var SECCION_DE = { ficha: 'catalogo', texto: 'textos', completo: 'textos', asiriologos: 'autores' };
   function marcarNav(v) {
     var actual = SECCION_DE[v] || v;
     Array.prototype.forEach.call(document.querySelectorAll('.nav a[data-vista]'), function (a) {
@@ -1751,6 +1803,7 @@
           x.version ? h('span', { class: 'tt-version' }, x.version) : null,
           h('span', { class: 'tt-pie' }, [
             h('span', { class: 'tt-num' }, textoPasajes(x.pasajes.length)),
+            completoPorId[x.id] ? h('span', { class: 'tt-completo' }, t('ui.completo.etiqueta')) : null,
             tipos.map(function (tp) { return h('span', { class: 'tipo-pasaje tp-' + tp }, t(CLAVE_TIPO_PASAJE[tp])); }),
             e ? h('span', { class: 'tt-entrada' }, e.nombre) : null
           ])
@@ -1881,12 +1934,118 @@
             h('h3', null, t('ui.textos.ediciones')),
             h('ul', { class: 'biblio' }, x.ediciones.map(function (ed) { return referencia({ titulo: ed.titulo, autor: ed.autor, anio: ed.anio, url: '' }); }))
           ]) : null,
-          e ? h('a', { class: 'boton', href: '#e-' + e.id, id: 'ver-ficha' }, [t('ui.textos.ficha'), ': ', e.nombre, icono('flecha')]) : null
+          h('div', { class: 'texto-acciones' }, [
+            completoPorId[x.id] ? h('a', { class: 'boton boton-primario', href: '#c-' + x.id, id: 'leer-completo' }, [icono('libro'), t('ui.completo.leer')]) : null,
+            e ? h('a', { class: 'boton', href: '#e-' + e.id, id: 'ver-ficha' }, [t('ui.textos.ficha'), ': ', e.nombre, icono('flecha')]) : null
+          ])
         ])
       ]),
       h('div', { class: 'lector' }, [
         h('aside', { class: 'lector-indice' }, indice),
         h('div', { class: 'lector-cuerpo' }, x.pasajes.map(pasaje))
+      ])
+    ]);
+  }
+
+  /* --- Texto completo (solo castellano) --- */
+  function romano(n) {
+    var r = '', v = [[10, 'X'], [9, 'IX'], [5, 'V'], [4, 'IV'], [1, 'I']];
+    v.forEach(function (p) { while (n >= p[0]) { r += p[1]; n -= p[0]; } });
+    return r;
+  }
+
+  function irA(idElemento) {
+    var el = document.getElementById(idElemento);
+    if (!el) return;
+    var indice = document.getElementById('indice');
+    if (indice && window.matchMedia && !window.matchMedia('(min-width: 961px)').matches) indice.open = false;
+    el.scrollIntoView({ block: 'start' });
+    el.focus({ preventScroll: true });
+  }
+
+  function tablillaCompleta(tb) {
+    var base = 'tablilla-' + tb.n;
+    var notas = [];
+    var cuerpo = [];
+    tb.items.forEach(function (it) {
+      if (it.tipo === 'verso') {
+        var nota = null;
+        if (it.nota) {
+          notas.push(it);
+          var idNota = base + '-nota-' + it.n;
+          nota = h('a', { class: 'llamada', href: '#' + idNota, id: idNota + '-ref', 'aria-label': t('ui.completo.nota_n', { n: it.n }),
+            onclick: function (ev) { ev.preventDefault(); irA(idNota); } }, '*');
+        }
+        cuerpo.push(h('p', { class: 'verso', id: base + '-v' + it.n }, [h('span', { class: 'verso-n', 'aria-hidden': 'true' }, String(it.n)), h('span', { class: 'verso-t' }, [it.v, nota])]));
+      } else if (it.tipo === 'laguna') {
+        cuerpo.push(h('div', { class: 'laguna', role: 'note' }, [
+          h('p', null, [h('span', { class: 'rot' }, t('ui.completo.laguna')), it.texto]),
+          it.hoy ? h('p', { class: 'laguna-hoy' }, [h('span', { class: 'rot' }, t('ui.completo.hoy')), it.hoy]) : null
+        ]));
+      } else if (it.tipo === 'acot') {
+        cuerpo.push(h('p', { class: 'acotacion' }, it.texto));
+      } else if (it.tipo === 'epilogo') {
+        cuerpo.push(h('h4', { class: 'epilogo' }, t('ui.completo.epilogo')));
+      }
+    });
+    return h('section', { class: 'tablilla', id: base, 'aria-labelledby': base + '-tit' }, [
+      h('header', { class: 'tablilla-cab' }, [
+        h('h3', { id: base + '-tit', tabindex: '-1' }, tb.titulo || t('ui.completo.tablillas') + ' ' + romano(tb.n)),
+        tb.sinopsis ? h('p', { class: 'tablilla-sinopsis' }, tb.sinopsis) : null
+      ]),
+      h('div', { class: 'versos' }, cuerpo),
+      notas.length ? h('aside', { class: 'notas-tablilla', 'aria-label': t('ui.completo.notas') + ' · ' + (tb.titulo || romano(tb.n)) }, [
+        h('h4', null, t('ui.completo.notas')),
+        h('ol', null, notas.map(function (it) {
+          var idNota = base + '-nota-' + it.n;
+          return h('li', { id: idNota, tabindex: '-1' }, [
+            h('a', { href: '#' + base + '-v' + it.n, class: 'nota-verso', onclick: function (ev) { ev.preventDefault(); irA(idNota + '-ref'); } }, String(it.n)),
+            ' ', it.nota
+          ]);
+        }))
+      ]) : null
+    ]);
+  }
+
+  function vistaCompleto(id) {
+    var x = completoPorId[id];
+    var tx = textoPorId[id];
+    if (!x) {
+      return h('div', { class: 'texto-lector' }, [
+        h('h2', { tabindex: '-1', class: 'foco-inicial' }, t('ui.textos.no_encontrado')),
+        h('p', null, [t('ui.completo.no_encontrado', { id: id }), ' ', h('a', { href: '#textos' }, t('ui.textos.volver'))])
+      ]);
+    }
+    var abierto = !window.matchMedia || window.matchMedia('(min-width: 961px)').matches;
+    var indice = h('details', { class: 'indice', id: 'indice', open: abierto }, [
+      h('summary', null, t('ui.textos.indice')),
+      h('section', { class: 'indice-bloque' }, [
+        h('h3', null, t('ui.completo.tablillas')),
+        h('ol', { class: 'indice-pasajes' }, x.tablillas.map(function (tb) {
+          return h('li', null, h('button', { type: 'button', class: 'boton-indice', id: 'ir-tablilla-' + tb.n, onclick: function () { irA('tablilla-' + tb.n + '-tit'); } }, tb.titulo || romano(tb.n)));
+        }))
+      ])
+    ]);
+    return h('article', { class: 'texto-lector texto-completo' }, [
+      h('p', { class: 'migas' }, [
+        h('a', { href: '#textos' }, t('ui.nav.textos')), h('span', { 'aria-hidden': 'true' }, ' / '),
+        tx ? h('a', { href: '#t-' + tx.id }, tx.titulo) : x.titulo, h('span', { 'aria-hidden': 'true' }, ' / '),
+        t('ui.completo.etiqueta')
+      ]),
+      h('header', { class: 'texto-cab' }, [
+        h('p', { class: 'tt-lengua' }, [t('ui.completo.etiqueta'), ' · ', t('ui.completo.versos', { n: contarVersos(x) })]),
+        h('h2', { tabindex: '-1', class: 'foco-inicial' }, x.titulo),
+        x.subtitulo ? h('p', { class: 'texto-version' }, x.subtitulo) : null,
+        estado.idioma !== IDIOMA_ORIGINAL ? h('p', { class: 'aviso-solo-es', lang: estado.idioma }, t('ui.completo.solo_es')) : null,
+        h('div', { class: 'texto-meta' }, [
+          x.fuente ? h('p', { class: 'pasaje-fuente' }, [h('span', { class: 'rot' }, t('ui.textos.fuente')), x.fuente_url ? h('a', { href: x.fuente_url, rel: 'noopener', target: '_blank' }, x.fuente) : x.fuente]) : null,
+          tx ? h('a', { class: 'boton', href: '#t-' + tx.id, id: 'volver-pasajes' }, [t('ui.completo.volver_texto'), icono('flecha')]) : null
+        ]),
+        x.presentacion ? h('details', { class: 'presentacion' }, [h('summary', null, t('ui.completo.presentacion')), parrafos(x.presentacion)]) : null
+      ]),
+      h('div', { class: 'lector' }, [
+        h('aside', { class: 'lector-indice' }, indice),
+        h('div', { class: 'lector-cuerpo', lang: 'es' }, x.tablillas.map(tablillaCompleta))
       ])
     ]);
   }
@@ -2275,6 +2434,7 @@
       contenido = h('p', { class: 'vacio' }, t('ui.general.sin_datos'));
     } else if (r.vista === 'ficha') contenido = vistaFicha(r.id);
     else if (r.vista === 'texto') contenido = vistaTexto(r.id);
+    else if (r.vista === 'completo') contenido = vistaCompleto(r.id);
     else if (r.vista === 'textos') contenido = vistaTextos();
     else if (r.vista === 'cronologia') contenido = vistaCronologia();
     else if (r.vista === 'mapa') contenido = vistaMapa();
@@ -2288,6 +2448,7 @@
     var nombre;
     if (r.vista === 'ficha') nombre = porId[r.id] ? porId[r.id].nombre : t('ui.ficha.titulo');
     else if (r.vista === 'texto') nombre = textoPorId[r.id] ? textoPorId[r.id].titulo : t('ui.nav.textos');
+    else if (r.vista === 'completo') nombre = completoPorId[r.id] ? completoPorId[r.id].titulo + ' (' + t('ui.completo.etiqueta') + ')' : t('ui.nav.textos');
     else nombre = t('ui.nav.' + r.vista);
     document.title = nombre + ' · ' + t('ui.sitio.titulo');
 

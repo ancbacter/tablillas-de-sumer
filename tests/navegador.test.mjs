@@ -577,8 +577,60 @@ describe('navegador', { skip: ruta ? false : 'no se encontró Chrome ni Edge' },
         await captura(`catalogo-actual-${ancho}-${tema}`, 1600);
         await irA('t-enuma-elish');
         await captura(`texto-enuma-actual-${ancho}-${tema}`, 2400);
+        await irA('c-enuma-elish');
+        await captura(`completo-enuma-${ancho}-${tema}`, 3200);
       }
     }
     assert.deepEqual(errores, []);
+  });
+
+  test('#c-enuma-elish: texto completo con sus siete tablillas, notas y lagunas', async () => {
+    await abrir(url, { ancho: 1280, alto: 900 });
+    await irA('t-enuma-elish');
+    assert.equal(await pag.evaluar(`document.querySelector('#leer-completo').getAttribute('href')`), '#c-enuma-elish');
+    await irA('c-enuma-elish');
+    const r = await pag.evaluar(`({
+      h2: document.querySelector('#vista h2').textContent,
+      tablillas: document.querySelectorAll('#vista section.tablilla').length,
+      versos: document.querySelectorAll('#vista .verso').length,
+      lagunas: document.querySelectorAll('#vista .laguna').length,
+      notas: document.querySelectorAll('#vista .notas-tablilla li').length,
+      llamadas: document.querySelectorAll('#vista .llamada').length,
+      indice: document.querySelectorAll('#vista .indice-pasajes button').length,
+      aviso: !!document.querySelector('.aviso-solo-es'),
+      enfoque: document.getElementById('contexto') ? document.getElementById('contexto').hidden : true,
+      actual: document.querySelector('.nav a[aria-current="page"]').getAttribute('data-vista')
+    })`);
+    assert.equal(r.h2, 'Enuma Elish');
+    assert.equal(r.tablillas, 7);
+    assert.equal(r.versos, 680);
+    assert.equal(r.indice, 7);
+    assert.ok(r.lagunas >= 10, 'lagunas: ' + r.lagunas);
+    assert.equal(r.notas, r.llamadas);
+    assert.ok(r.notas > 20);
+    assert.equal(r.aviso, false, 'en castellano no hay aviso de idioma');
+    assert.equal(r.enfoque, true, 'el selector de enfoque no se muestra en el texto completo');
+    assert.equal(r.actual, 'textos');
+    // El índice lleva a la tablilla y la llamada de nota a su nota
+    await pag.evaluar(`document.getElementById('ir-tablilla-4').click()`);
+    assert.equal(await pag.evaluar(`document.activeElement.id`), 'tablilla-4-tit');
+    await pag.evaluar(`document.querySelector('#tablilla-4 .llamada').click()`);
+    assert.match(await pag.evaluar(`document.activeElement.id`), /^tablilla-4-nota-\d+$/);
+    // A 400 px no se sale nada
+    await abrir(url, { ancho: 400, alto: 860 });
+    await irA('c-enuma-elish');
+    assert.ok(await pag.evaluar(`document.documentElement.scrollWidth`) <= 400);
+    assert.deepEqual(errores, []);
+  });
+
+  test('#c-…: en otro idioma avisa de que el texto completo está en castellano; id desconocido', async () => {
+    await abrir(url, { ancho: 1280, alto: 900, idioma: 'en' });
+    await irA('c-enuma-elish');
+    const r = await pag.evaluar(`({ aviso: (document.querySelector('.aviso-solo-es') || {}).textContent || '', lang: document.querySelector('.lector-cuerpo').getAttribute('lang'), primero: document.querySelector('.verso-t').textContent })`);
+    assert.match(r.aviso, /Spanish/);
+    assert.equal(r.lang, 'es');
+    assert.match(r.primero, /^Cuando en lo alto/);
+    await irA('c-no-existe');
+    assert.match(await pag.evaluar(`document.querySelector('#vista').textContent`), /no-existe/);
   });
 });
