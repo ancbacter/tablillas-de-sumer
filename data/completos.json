@@ -7721,6 +7721,1493 @@
      ]
     }
    ]
+  },
+  "descenso-inanna": {
+   "titulo": "El descenso de Ishtar al Inframundo",
+   "subtitulo": "Versión acadia, texto completo",
+   "fuente": "Versión española a partir de R. W. Rogers, Cuneiform Parallels to the Old Testament (Nueva York, Eaton & Mains, 1912), que traduce la tablilla asiria de Nínive. La obra es de dominio público.",
+   "fuente_url": "https://archive.org/details/cuneiformparalle00rogerich",
+   "presentacion": "Esta es la versión acadia del mito, mucho más breve que la sumeria (El descenso de Inanna). Se conserva en una tablilla neoasiria de la Biblioteca de Asurbanipal y en una copia de Asur. Aquí se traduce al castellano la versión inglesa de Rogers (1912), verso a verso, con su numeración del anverso y del reverso de la tablilla.\n\nLa traducción de Rogers es de hace más de un siglo y algunas lecturas se han corregido después; las notas «Lo que se sabe hoy» lo indican con palabras propias. Los corchetes [ ] marcan reconstrucciones; los puntos suspensivos, texto perdido; (?), lecturas dudosas. Las notas al pie son de Rogers, salvo las que comentan su lectura.",
+   "tablillas": [
+    {
+     "n": 1,
+     "titulo": "Tablilla única",
+     "sinopsis": "Ishtar baja a la Tierra sin Retorno, el reino de su hermana Ereshkigal. En cada una de las siete puertas el portero le quita una prenda, hasta dejarla desnuda; Ereshkigal la encierra y le manda sesenta enfermedades. Sin Ishtar, la tierra deja de engendrar. Ea crea a Asushunamir para engañar a Ereshkigal, e Ishtar vuelve a la vida y recupera sus prendas en el camino de regreso.",
+     "items": [
+      {
+       "col": "Anverso"
+      },
+      {
+       "n": 1,
+       "v": "A la Tierra sin Retorno, la región [de…],"
+      },
+      {
+       "v": "Ishtar, la hija de Sin, dirigió su pensamiento;",
+       "nota": "Literalmente, «puso su oído»."
+      },
+      {
+       "v": "la hija de Sin dirigió su pensamiento"
+      },
+      {
+       "v": "a la casa de las tinieblas, la morada de Irkalla,"
+      },
+      {
+       "n": 5,
+       "v": "a la casa de la que no vuelve el que entra,"
+      },
+      {
+       "v": "al camino cuya senda no tiene vuelta,"
+      },
+      {
+       "v": "a la casa donde el que entra queda privado de la luz,"
+      },
+      {
+       "v": "donde el polvo es su sustento y el barro su alimento;"
+      },
+      {
+       "v": "no ven la luz, se sientan en las tinieblas,"
+      },
+      {
+       "n": 10,
+       "v": "visten como pájaros, con alas por vestido;"
+      },
+      {
+       "v": "sobre la puerta y el cerrojo se extiende el polvo."
+      },
+      {
+       "v": "Ishtar, al llegar a la puerta de la Tierra [sin Retorno],"
+      },
+      {
+       "v": "dirigió la palabra al portero de la puerta:"
+      },
+      {
+       "v": "«Guardián, abre la puerta,"
+      },
+      {
+       "n": 15,
+       "v": "abre la puerta para que yo entre."
+      },
+      {
+       "v": "Si no abres la puerta para que yo entre,"
+      },
+      {
+       "v": "romperé la puerta, quebraré el cerrojo,"
+      },
+      {
+       "v": "romperé el umbral, arrancaré las hojas de la puerta,"
+      },
+      {
+       "v": "haré subir a los muertos para que se coman a los vivos,",
+       "nota": "Rogers explica que este verso se ha discutido mucho. El asirio dice literalmente «haré subir a los muertos, comiendo, vivos». Otros traductores entienden «para que se coman a los vivos»; Rogers lo duda, aunque admite que quizá la idea fuera que los muertos se comportarían como vampiros."
+      },
+      {
+       "n": 20,
+       "v": "¡los muertos serán más que los vivos!»."
+      },
+      {
+       "v": "El portero abrió la boca y habló,"
+      },
+      {
+       "v": "dijo a la gran Ishtar:"
+      },
+      {
+       "v": "«Detente, señora mía, no la destruyas;"
+      },
+      {
+       "v": "iré a anunciar tu nombre a mi soberana Ereshkigal».",
+       "nota": "Ereshkigal es la reina del Inframundo y esposa de Nergal, dios de los muertos."
+      },
+      {
+       "n": 25,
+       "v": "El guardián entró y dijo [a Ereshkigal]:"
+      },
+      {
+       "v": "«Esta es tu hermana Ishtar […],"
+      },
+      {
+       "v": "la enemistad (?) de las grandes casas de alegría […]».",
+       "nota": "Según Rogers, el sentido de este verso está todavía por determinar."
+      },
+      {
+       "v": "Cuando Ereshkigal [oyó esto…],"
+      },
+      {
+       "v": "como cuando se tala el tamarisco [se estremeció (?)],",
+       "nota": "El sentido de este verso y del siguiente es muy incierto."
+      },
+      {
+       "n": 30,
+       "v": "como cuando se quiebra la caña [… ¿dijo?]:"
+      },
+      {
+       "v": "«¿Por qué la ha movido su corazón hacia mí? ¿Por qué la ha traído su mente hacia mí?"
+      },
+      {
+       "v": "Estas, allí… yo […]."
+      },
+      {
+       "v": "Como alimento comeré barro, como bebida beberé [agua]."
+      },
+      {
+       "v": "Lloraré por los hombres que dejaron a sus esposas,"
+      },
+      {
+       "n": 35,
+       "v": "lloraré por las mujeres [arrancadas] del regazo de sus maridos,"
+      },
+      {
+       "v": "lloraré por el niño pequeño [arrebatado antes de] su día."
+      },
+      {
+       "v": "Ve, guardián, ábrele la puerta;"
+      },
+      {
+       "v": "trátala según la antigua costumbre»."
+      },
+      {
+       "v": "El guardián fue y le abrió su puerta:"
+      },
+      {
+       "n": 40,
+       "v": "«Entra, señora mía, Kutha te saluda;"
+      },
+      {
+       "v": "que el palacio de la Tierra sin Retorno se alegre con tu presencia»."
+      },
+      {
+       "v": "La hizo entrar por la primera puerta, la abrió de par en par y le quitó de la cabeza la gran corona."
+      },
+      {
+       "v": "«¿Por qué, guardián, me has quitado de la cabeza la gran corona?»."
+      },
+      {
+       "v": "«Entra, señora mía, así son las órdenes de la soberana de esta tierra»."
+      },
+      {
+       "n": 45,
+       "v": "La hizo entrar por la segunda puerta, la abrió de par en par y le quitó los pendientes de las orejas."
+      },
+      {
+       "v": "«¿Por qué, guardián, me has quitado los pendientes de las orejas?»."
+      },
+      {
+       "v": "«Entra, señora mía, así son las órdenes de la soberana de esta tierra»."
+      },
+      {
+       "v": "La hizo entrar por la tercera puerta, la abrió de par en par y le quitó las cadenas del cuello."
+      },
+      {
+       "v": "«¿Por qué, guardián, me has quitado las cadenas del cuello?»."
+      },
+      {
+       "n": 50,
+       "v": "«Entra, señora mía, así son las órdenes de la soberana de esta tierra»."
+      },
+      {
+       "v": "La hizo entrar por la cuarta puerta, la abrió de par en par y le quitó los adornos del pecho."
+      },
+      {
+       "v": "«¿Por qué, guardián, me has quitado los adornos del pecho?»."
+      },
+      {
+       "v": "«Entra, señora mía, así son las órdenes de la soberana de esta tierra»."
+      },
+      {
+       "v": "La hizo entrar por la quinta puerta, la abrió de par en par y le quitó de las caderas el cinturón de piedras de parto."
+      },
+      {
+       "n": 55,
+       "v": "«¿Por qué, guardián, me has quitado de las caderas el cinturón de piedras de parto?»."
+      },
+      {
+       "v": "«Entra, señora mía, así son las órdenes de la soberana de esta tierra»."
+      },
+      {
+       "v": "La hizo entrar por la sexta puerta, la abrió de par en par y le quitó las ajorcas de las manos y los pies."
+      },
+      {
+       "v": "«¿Por qué, guardián, me has quitado las ajorcas de las manos y los pies?»."
+      },
+      {
+       "v": "«Entra, señora mía, así son las órdenes de la soberana de esta tierra»."
+      },
+      {
+       "n": 60,
+       "v": "La hizo entrar por la séptima puerta, la abrió de par en par y le quitó del cuerpo el taparrabos."
+      },
+      {
+       "v": "«¿Por qué, guardián, me has quitado del cuerpo el taparrabos?»."
+      },
+      {
+       "v": "«Entra, señora mía, así son las órdenes de la soberana de esta tierra»."
+      },
+      {
+       "v": "Cuando Ishtar hubo descendido a la Tierra sin Retorno,",
+       "nota": "Ishtar está ahora desnuda: según Rogers, solo así se puede entrar en la morada de los muertos."
+      },
+      {
+       "v": "Ereshkigal la vio y se enfureció en su presencia."
+      },
+      {
+       "n": 65,
+       "v": "Ishtar no se contuvo y fue hacia ella."
+      },
+      {
+       "v": "Ereshkigal abrió la boca y habló,"
+      },
+      {
+       "v": "dirigió la palabra a Namtar, su mensajero:",
+       "nota": "Namtar, además de mensajero, es un demonio de la enfermedad."
+      },
+      {
+       "v": "«Ve, Namtar, enciérrala [en mi palacio],"
+      },
+      {
+       "v": "suelta contra ella sesenta enfermedades… Ishtar:"
+      },
+      {
+       "n": 70,
+       "v": "enfermedad de los ojos contra [sus ojos],"
+      },
+      {
+       "v": "enfermedad de los costados contra [sus costados],"
+      },
+      {
+       "v": "enfermedad de los pies contra [sus pies],"
+      },
+      {
+       "v": "enfermedad del corazón contra [su corazón],"
+      },
+      {
+       "v": "enfermedad de la cabeza contra [su cabeza],"
+      },
+      {
+       "n": 75,
+       "v": "contra toda ella […]»."
+      },
+      {
+       "v": "Desde que la señora Ishtar bajó a la Tierra [sin Retorno],"
+      },
+      {
+       "v": "el toro no monta a la vaca, el asno no cubre a la burra,"
+      },
+      {
+       "v": "el hombre ya no se inclina sobre la mujer en la calle;"
+      },
+      {
+       "v": "el hombre duerme en su aposento,"
+      },
+      {
+       "n": 80,
+       "v": "la mujer duerme sola.",
+       "nota": "Ishtar es la diosa del amor, y mientras está en el mundo de los muertos no puede ejercer su influjo sobre el instinto de engendrar."
+      },
+      {
+       "col": "Reverso"
+      },
+      {
+       "n": 1,
+       "v": "El semblante de Papsukkal, mensajero de los grandes dioses, estaba abatido, su rostro oscurecido;",
+       "nota": "Papsukkal está de luto por Ishtar; no está claro qué otra función tiene en el poema."
+      },
+      {
+       "v": "estaba vestido de luto, cubierto de ropas sucias."
+      },
+      {
+       "v": "Entonces fue Shamash ante Sin, su padre, y lloró;",
+       "nota": "Shamash es hermano de Ishtar, y por eso la llora. Sin es el padre de ambos; como al parecer no sabe qué hacer, Shamash acude a Ea."
+      },
+      {
+       "v": "en presencia del rey Ea corrieron sus lágrimas:"
+      },
+      {
+       "n": 5,
+       "v": "«Ishtar ha bajado a la tierra y no ha vuelto a subir."
+      },
+      {
+       "v": "Desde que Ishtar bajó a la Tierra sin Retorno,"
+      },
+      {
+       "v": "el toro no ha montado a la vaca, el asno no ha cubierto a la burra,"
+      },
+      {
+       "v": "el hombre ya no se inclina sobre la mujer en la calle;"
+      },
+      {
+       "v": "el hombre duerme en su aposento,"
+      },
+      {
+       "n": 10,
+       "v": "la mujer duerme sola»."
+      },
+      {
+       "v": "Entonces Ea creó en su sabio corazón una imagen,"
+      },
+      {
+       "v": "creó a Asushunamir, un actor (?):",
+       "nota": "El nombre significa «su origen es brillante». El sentido de assinu, aquí «actor», es incierto: Rogers entiende que debía actuar ante Ereshkigal para ganarse su favor."
+      },
+      {
+       "v": "«Ve, Asushunamir, pon el rostro hacia la puerta de la Tierra sin Retorno;"
+      },
+      {
+       "v": "las siete puertas de la Tierra sin Retorno se abrirán ante ti."
+      },
+      {
+       "n": 15,
+       "v": "Ereshkigal te verá y se alegrará con tu presencia."
+      },
+      {
+       "v": "Cuando su corazón se haya calmado y su ánimo se haya alegrado,"
+      },
+      {
+       "v": "hazla jurar por los grandes dioses.",
+       "nota": "Según Rogers, la idea es que, una vez ganado su favor y hecho el juramento de concederle cualquier cosa, Asushunamir le pidiera algo imposible; al negarse, Ereshkigal rompería su juramento y perdería su poder sobre Ishtar."
+      },
+      {
+       "v": "Alza la cabeza, fíjate en el odre halziqqu:"
+      },
+      {
+       "v": "“Señora, que me den el odre halziqqu para que beba agua de él”»."
+      },
+      {
+       "n": 20,
+       "v": "Cuando Ereshkigal oyó esto,"
+      },
+      {
+       "v": "se golpeó el pecho y se mordió el dedo:"
+      },
+      {
+       "v": "«Has expresado un deseo que no se puede desear."
+      },
+      {
+       "v": "Ve, Asushunamir, te maldigo con una gran maldición:"
+      },
+      {
+       "v": "la comida de las cloacas de la ciudad será tu comida,"
+      },
+      {
+       "n": 25,
+       "v": "los albañales de la ciudad serán tu bebida,"
+      },
+      {
+       "v": "la sombra de los muros será tu morada,"
+      },
+      {
+       "v": "los umbrales serán tu habitación,"
+      },
+      {
+       "v": "el borracho y el sediento te abofetearán»."
+      },
+      {
+       "v": "Ereshkigal abrió la boca y habló,"
+      },
+      {
+       "n": 30,
+       "v": "dirigió la palabra a Namtar, su mensajero:"
+      },
+      {
+       "v": "«Ve, Namtar, llama al palacio de la justicia,"
+      },
+      {
+       "v": "llama a los umbrales de piedras brillantes,"
+      },
+      {
+       "v": "saca a los Anunnaki, siéntalos en el trono de oro,",
+       "nota": "Según Rogers, los Anunnaki parecen encargarse de la justicia en el mundo de los muertos."
+      },
+      {
+       "v": "rocía a Ishtar con el agua de la vida y tráela ante mí»."
+      },
+      {
+       "n": 35,
+       "v": "Namtar fue y llamó al palacio de la justicia,"
+      },
+      {
+       "v": "llamó a los umbrales de piedras brillantes,"
+      },
+      {
+       "v": "sacó a los Anunnaki, los sentó en el trono de oro,"
+      },
+      {
+       "v": "roció a Ishtar con el agua de la vida y la sacó."
+      },
+      {
+       "v": "Por la primera puerta la sacó y le devolvió el taparrabos de su cuerpo;"
+      },
+      {
+       "n": 40,
+       "v": "por la segunda puerta la sacó y le devolvió las ajorcas de las manos y los pies;"
+      },
+      {
+       "v": "por la tercera puerta la sacó y le devolvió el cinturón de piedras de parto de sus caderas;"
+      },
+      {
+       "v": "por la cuarta puerta la sacó y le devolvió los adornos del pecho;"
+      },
+      {
+       "v": "por la quinta puerta la sacó y le devolvió las cadenas del cuello;"
+      },
+      {
+       "v": "por la sexta puerta la sacó y le devolvió los pendientes de las orejas;"
+      },
+      {
+       "n": 45,
+       "v": "por la séptima puerta la sacó y le devolvió la gran corona de la cabeza."
+      },
+      {
+       "v": "«Si no te concede su liberación, vuélvete hacia ella,",
+       "nota": "El sentido de este verso es incierto, y su relación con lo anterior, oscura. Rogers añade que los versos de aquí hasta el final son oscuros."
+      },
+      {
+       "v": "hacia Tammuz, el amado de su juventud;"
+      },
+      {
+       "v": "derrama aguas puras, ofrece buen aceite;"
+      },
+      {
+       "v": "vístelo con un manto rojo, que toque una flauta de lapislázuli;"
+      },
+      {
+       "n": 50,
+       "v": "que las muchachas de la alegría, su ánimo […]»."
+      },
+      {
+       "v": "[Cuando] Belili, el tesoro […],",
+       "nota": "Belili es la hermana de Tammuz."
+      },
+      {
+       "v": "con piedras preciosas se llena su pecho."
+      },
+      {
+       "v": "Belili oyó el lamento de su hermano; Belili golpeó el tesoro que […],"
+      },
+      {
+       "v": "las piedras preciosas las ordenó [en] su santuario:"
+      },
+      {
+       "n": 55,
+       "v": "«Mi único hermano, no me deshonres."
+      },
+      {
+       "v": "En los días de Tammuz, tócame la flauta de lapislázuli; con el anillo de jade (?), toca con él;"
+      },
+      {
+       "v": "cuando con él toquen los plañideros y las plañideras,"
+      },
+      {
+       "v": "que vuelvan los muertos y huelan el incienso».",
+       "nota": "Según Rogers, este poema forma parte de un ritual que se recitaba en una comida sagrada por las almas de los muertos."
+      }
+     ]
+    }
+   ]
+  },
+  "adapa": {
+   "titulo": "El mito de Adapa",
+   "subtitulo": "Los fragmentos de Nínive y de Tell el-Amarna, texto completo",
+   "fuente": "Versión española a partir de R. W. Rogers, Cuneiform Parallels to the Old Testament (Nueva York, Eaton & Mains, 1912), que traduce los fragmentos de la Biblioteca de Asurbanipal y de Tell el-Amarna. La obra es de dominio público.",
+   "fuente_url": "https://archive.org/details/cuneiformparalle00rogerich",
+   "presentacion": "El mito se conserva en cuatro fragmentos. Tres procedían de la biblioteca de Asurbanipal en Nínive (siglo VII a. C.) y el cuarto, el más largo, de los archivos del faraón Amenofis IV en Tell el-Amarna (siglo XIV a. C.). Este último tiene las palabras separadas con puntos de tinta roja: se usaba en Egipto para aprender acadio. Aquí se traduce al castellano la versión inglesa de Rogers (1912), con su numeración de cada fragmento.\n\nRogers comparó el mito con el relato del Paraíso del Génesis: el «alimento de la vida» pertenece a la misma categoría que el «árbol de la vida». Pero Adapa no pierde la inmortalidad por desobediencia, como Adán, sino por obedecer al pie de la letra a Ea. Hoy esa comparación se matiza y se discute si Ea engañó a Adapa a propósito. Los corchetes [ ] marcan reconstrucciones; los puntos suspensivos, texto perdido; (?), lecturas dudosas.",
+   "tablillas": [
+    {
+     "n": 1,
+     "titulo": "Fragmento 1 (Nínive)",
+     "sinopsis": "Ea ha dado a Adapa, el sabio de Eridu, sabiduría pero no vida eterna. Adapa sirve en el templo de Ea, hace el pan y pesca para la ciudad.",
+     "items": [
+      {
+       "n": 1,
+       "v": "Poseía (?) inteligencia […],"
+      },
+      {
+       "v": "su mandato era como el mandato de Anu […]."
+      },
+      {
+       "v": "Él (Ea) le concedió un oído amplio para revelar el destino del país;"
+      },
+      {
+       "v": "le concedió la sabiduría, pero no le concedió la vida eterna."
+      },
+      {
+       "n": 5,
+       "v": "En aquellos días, en aquellos años, el sabio de Eridu,"
+      },
+      {
+       "v": "Ea lo había creado como jefe (?) entre los hombres,"
+      },
+      {
+       "v": "un sabio cuyo mandato nadie debía contradecir,"
+      },
+      {
+       "v": "el prudente, el más sabio entre los Anunnaki era él,"
+      },
+      {
+       "v": "intachable, de manos limpias, ungido, cumplidor de los preceptos divinos."
+      },
+      {
+       "n": 10,
+       "v": "Con los panaderos hacía el pan;"
+      },
+      {
+       "v": "con los panaderos de Eridu hacía el pan;"
+      },
+      {
+       "v": "la comida y el agua de Eridu las preparaba cada día."
+      },
+      {
+       "v": "Con sus manos limpias disponía la mesa,"
+      },
+      {
+       "v": "y sin él no se levantaba la mesa."
+      },
+      {
+       "n": 15,
+       "v": "Gobernaba la barca, pescaba y cazaba para Eridu."
+      },
+      {
+       "v": "Entonces Adapa de Eridu,"
+      },
+      {
+       "v": "mientras Ea […] en la alcoba, sobre el lecho,"
+      },
+      {
+       "v": "cada día se ocupaba del cierre de Eridu."
+      },
+      {
+       "v": "En el muelle puro, el muelle de la luna nueva, se embarcó en la barca;"
+      },
+      {
+       "n": 20,
+       "v": "sopló el viento y su barca partió."
+      },
+      {
+       "v": "Con el remo gobernaba su barca"
+      },
+      {
+       "v": "sobre el ancho mar […]."
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "titulo": "Fragmento 2 (Tell el-Amarna)",
+     "sinopsis": "El viento del sur vuelca la barca de Adapa y este le rompe el ala. Anu lo llama al cielo. Ea le aconseja vestirse de luto para ganarse a los dioses de la puerta y no tomar la comida ni el agua que le ofrezcan. Pero lo que Anu le ofrece es el alimento y el agua de la vida, y al rechazarlos Adapa pierde la inmortalidad.",
+     "items": [
+      {
+       "laguna": "El comienzo está roto: «El viento del sur […, cuando] me hubo (arrastrado) a la casa de mi señor, dije […]»."
+      },
+      {
+       "n": 4,
+       "v": "«Viento del sur, en el camino te […] todo lo que…,"
+      },
+      {
+       "n": 5,
+       "v": "¡te romperé el ala!». En cuanto lo dijo su boca,"
+      },
+      {
+       "v": "el ala del viento del sur se rompió; durante siete días"
+      },
+      {
+       "v": "el viento del sur no sopló sobre la tierra. Anu"
+      },
+      {
+       "v": "llamó a su mensajero Ilabrat:"
+      },
+      {
+       "v": "«¿Por qué el viento del sur no ha soplado sobre la tierra en siete días?»."
+      },
+      {
+       "n": 10,
+       "v": "Su mensajero Ilabrat le respondió: «Señor mío,"
+      },
+      {
+       "v": "Adapa, el hijo de Ea, le ha roto el ala"
+      },
+      {
+       "v": "al viento del sur»."
+      },
+      {
+       "v": "Cuando Anu oyó estas palabras,"
+      },
+      {
+       "v": "gritó: «¡Socorro!». Subió a su trono: «Que alguien me lo traiga».",
+       "nota": "El fragmento 3, de Nínive, duplica los versos 12–21 de este fragmento con algunas variantes: Anu envía a su mensajero «en la ira de su corazón», y Ea, «que conoce el corazón de los grandes dioses», viste a Adapa con una ropa sucia y de luto."
+      },
+      {
+       "n": 14,
+       "v": "Asimismo Ea, que conoce el cielo, lo despertó."
+      },
+      {
+       "n": 15,
+       "v": "[…] le hizo vestir. Con una ropa de luto"
+      },
+      {
+       "v": "lo vistió y le dio consejo,"
+      },
+      {
+       "v": "diciendo: «Adapa, ante el rostro del rey Anu has de ir;"
+      },
+      {
+       "v": "[…] al cielo."
+      },
+      {
+       "v": "Cuando subas y te acerques a la puerta de Anu,"
+      },
+      {
+       "n": 20,
+       "v": "a la puerta de Anu estarán"
+      },
+      {
+       "v": "Tammuz y Gishzida."
+      },
+      {
+       "v": "Te verán, te preguntarán: “Señor,"
+      },
+      {
+       "v": "¿por quién te presentas así, Adapa? ¿Por quién"
+      },
+      {
+       "v": "vas vestido de luto?”. “En nuestro país han desaparecido dos dioses; por eso",
+       "nota": "Adapa ha de llevar luto a la puerta del cielo como si fuera por Tammuz y Gishzida, para despertar su interés y su simpatía; la estratagema da resultado."
+      },
+      {
+       "v": "voy así”. “¿Quiénes son los dos dioses que han desaparecido"
+      },
+      {
+       "n": 25,
+       "v": "del país?”. “Tammuz y Gishzida”. Se mirarán uno a otro"
+      },
+      {
+       "v": "y se asombrarán. Buenas palabras"
+      },
+      {
+       "v": "dirán a Anu. Un buen semblante de Anu"
+      },
+      {
+       "v": "te mostrarán. Cuando estés ante Anu,"
+      },
+      {
+       "v": "te pondrán delante comida de muerte:"
+      },
+      {
+       "n": 30,
+       "v": "no la comas. Te pondrán delante agua de muerte:"
+      },
+      {
+       "v": "no la bebas. Te pondrán delante ropas:"
+      },
+      {
+       "v": "póntelas. Te pondrán delante aceite: úngete."
+      },
+      {
+       "v": "El consejo que te he dado, no lo olvides. Las palabras"
+      },
+      {
+       "v": "que te he dicho, guárdalas»."
+      },
+      {
+       "v": "Llegó el mensajero"
+      },
+      {
+       "n": 35,
+       "v": "de Anu: «Adapa ha roto"
+      },
+      {
+       "v": "el ala del viento del sur. Tráelo ante mí»."
+      },
+      {
+       "v": "Le hizo tomar el camino del cielo, y al cielo subió."
+      },
+      {
+       "v": "Cuando llegó al cielo y se acercó a la puerta de Anu,"
+      },
+      {
+       "v": "a la puerta de Anu estaban Tammuz y Gishzida."
+      },
+      {
+       "n": 40,
+       "v": "Cuando lo vieron, a Adapa, gritaron: «¡Socorro!"
+      },
+      {
+       "v": "Señor, ¿por quién te presentas así? Adapa,"
+      },
+      {
+       "v": "¿por quién vas vestido de luto?»."
+      },
+      {
+       "v": "«En el país han desaparecido dos dioses; por eso voy vestido"
+      },
+      {
+       "v": "de luto». «¿Quiénes son los dos dioses que han desaparecido del país?»."
+      },
+      {
+       "n": 45,
+       "v": "«Tammuz y Gishzida». Se miraron uno a otro"
+      },
+      {
+       "v": "y se asombraron. Cuando Adapa se acercó ante Anu, el rey,"
+      },
+      {
+       "v": "y Anu lo vio, gritó:"
+      },
+      {
+       "v": "«Ven aquí, Adapa. ¿Por qué has roto el ala"
+      },
+      {
+       "v": "del viento del sur?». Adapa respondió a Anu: «Señor mío,"
+      },
+      {
+       "n": 50,
+       "v": "para la casa de mi señor, en medio del mar,"
+      },
+      {
+       "v": "estaba pescando. El mar estaba como un espejo (?)."
+      },
+      {
+       "v": "Sopló el viento del sur y me volcó."
+      },
+      {
+       "v": "A la casa del señor fui arrastrado (?). En la ira de mi corazón"
+      },
+      {
+       "v": "presté atención (?)…». […] Tammuz y Gishzida"
+      },
+      {
+       "n": 55,
+       "v": "respondieron […] «¿eres tú (?)…». A Anu"
+      },
+      {
+       "v": "hablan. Él se calmó, su corazón estaba […]."
+      },
+      {
+       "v": "«¿Por qué ha revelado Ea a la humanidad impura"
+      },
+      {
+       "v": "el corazón del cielo y de la tierra? Un corazón"
+      },
+      {
+       "v": "… ha creado dentro de él, le ha dado un nombre."
+      },
+      {
+       "n": 60,
+       "v": "¿Qué podemos hacer con él? Comida de vida"
+      },
+      {
+       "v": "traedle, que coma». Comida de vida"
+      },
+      {
+       "v": "le trajeron, pero no comió. Agua de vida"
+      },
+      {
+       "v": "le trajeron, pero no bebió. Ropas"
+      },
+      {
+       "v": "le trajeron. Se vistió. Aceite"
+      },
+      {
+       "n": 65,
+       "v": "le trajeron. Se ungió."
+      },
+      {
+       "v": "Anu lo miró; se asombró (?) de él."
+      },
+      {
+       "v": "«Ven, Adapa, ¿por qué no has comido ni bebido?"
+      },
+      {
+       "v": "Ahora no vivirás. […] hombres […]». «Ea, mi señor,"
+      },
+      {
+       "v": "dijo: “No comas, no bebas”»."
+      },
+      {
+       "n": 70,
+       "v": "«Tomadlo y devolvedlo a su tierra»."
+      },
+      {
+       "v": "[ ] lo miró."
+      }
+     ]
+    },
+    {
+     "n": 4,
+     "titulo": "Fragmento 4 (Nínive)",
+     "sinopsis": "Fragmento muy roto con el final del mito.",
+     "items": [
+      {
+       "laguna": "Según Rogers, el fragmento 4 está tan roto que es muy difícil sacar su sentido general.",
+       "hoy": "Las lecturas posteriores entienden que el fragmento cuenta cómo Anu se ríe de Adapa por haber rechazado la vida, y cómo Adapa, ya en la tierra, queda libre de cargas para Eridu, mientras el daño que causó trae enfermedades a los hombres, que la diosa de la curación puede aliviar."
+      }
+     ]
+    }
+   ]
+  },
+  "nergal-ereshkigal": {
+   "titulo": "Nergal y Ereshkigal",
+   "subtitulo": "Versión de Tell el-Amarna, texto completo",
+   "fuente": "Versión española a partir de R. W. Rogers, Cuneiform Parallels to the Old Testament (Nueva York, Eaton & Mains, 1912), que traduce los dos fragmentos hallados en Tell el-Amarna (Egipto). La obra es de dominio público.",
+   "fuente_url": "https://archive.org/details/cuneiformparalle00rogerich",
+   "presentacion": "El mito se conoce por dos versiones. La más antigua que se conserva, y la única que conocía Rogers, son dos fragmentos de una tablilla del siglo XIV a. C. hallados en 1887 en Tell el-Amarna, en Egipto, donde los escribas la usaban para aprender acadio; uno está en el British Museum y otro en Berlín. Aquí se traduce al castellano la versión inglesa de Rogers (1912), con su numeración.\n\nLa versión larga, en copias de Sultantepe y Uruk del primer milenio, se publicó después y cuenta la historia de otra manera: Nergal baja dos veces al Inframundo y se une a Ereshkigal antes de quedarse con ella. Las notas «Lo que se sabe hoy» lo resumen con palabras propias. Los corchetes [ ] marcan reconstrucciones; los puntos suspensivos, texto perdido; (?), lecturas dudosas.",
+   "tablillas": [
+    {
+     "n": 1,
+     "titulo": "Tablilla de Amarna",
+     "sinopsis": "Los dioses celebran un banquete y Ereshkigal envía a su mensajero Namtar a recoger su parte. Todos se levantan ante él menos Nergal. Ereshkigal exige su muerte, pero Nergal baja al Inframundo con catorce demonios, toma las puertas, mata a Namtar y agarra a Ereshkigal del pelo. Ella le ofrece casarse y compartir el reino de los muertos.",
+     "items": [
+      {
+       "n": 1,
+       "v": "Cuando los dioses prepararon un banquete,"
+      },
+      {
+       "v": "a su hermana Ereshkigal"
+      },
+      {
+       "v": "le enviaron un mensajero:"
+      },
+      {
+       "v": "«Aunque nosotros bajáramos a ti,"
+      },
+      {
+       "n": 5,
+       "v": "tú no subirías a nosotros."
+      },
+      {
+       "v": "Así que envía [aquí] a alguien y toma tu porción».",
+       "nota": "Literalmente, «tu comida». Ereshkigal, diosa del Inframundo, no puede dejar su puesto, así que los dioses de arriba le ofrecen que le envíen su parte del banquete."
+      },
+      {
+       "v": "Ereshkigal envió a Namtar, su mensajero."
+      },
+      {
+       "v": "Namtar subió al alto cielo"
+      },
+      {
+       "v": "y entró […]; los dioses estaban hablando,"
+      },
+      {
+       "n": 10,
+       "v": "ellos [ ] a Namtar,"
+      },
+      {
+       "v": "el mensajero de su gran hermana."
+      },
+      {
+       "laguna": "Varios versos ilegibles y algunos que faltan del todo. Por lo que sigue, Rogers deduce que contaban más o menos esto: cuando Namtar entró en la sala de los grandes dioses, todos se levantaron para recibirlo con honor, salvo Nergal, que siguió sentado. Namtar contó la descortesía a Ereshkigal, que la tomó como una ofensa contra ella y lo envió de nuevo a los dioses con una amenaza de venganza: mataría al culpable."
+      },
+      {
+       "v": "Ea […]"
+      },
+      {
+       "v": "fue […]"
+      },
+      {
+       "n": 25,
+       "v": "«Ve, hermana mía […]»,"
+      },
+      {
+       "v": "diciendo: «Al dios que no se levantó ante mi mensajero"
+      },
+      {
+       "v": "llévale este mensaje: lo mataré»."
+      },
+      {
+       "v": "Namtar fue y habló a los dioses."
+      },
+      {
+       "v": "Los dioses lo llamaron y hablaron con él:"
+      },
+      {
+       "n": 30,
+       "v": "«Mira al dios que no se levantó ante ti;"
+      },
+      {
+       "v": "llévalo ante tu señora»."
+      },
+      {
+       "v": "Namtar los contó: faltaba un dios al fondo."
+      },
+      {
+       "v": "«¿Dónde está el dios que no se levantó ante mí?»."
+      },
+      {
+       "v": "Y Namtar se marcha, [dio su mensaje]."
+      },
+      {
+       "laguna": "Varios versos ilegibles, salvo unas pocas palabras sueltas."
+      },
+      {
+       "v": "[…] a Ereshkigal. Llora […]"
+      },
+      {
+       "v": "ante Ea, su padre… […] me […]"
+      },
+      {
+       "laguna": "Varios versos ilegibles."
+      },
+      {
+       "n": 45,
+       "v": "o la vida para mí. No habría tenido miedo». [Ea le respondió]:",
+       "nota": "Según Rogers, el sentido de los versos 43–62 parece ser este: Namtar había ido ante los dioses, que le permitieron escoger al dios culpable para entregarlo a la muerte, pero no lo encontró. Entonces Ea ordena a su hijo Nergal que vaya ante Ereshkigal y le promete enviar con él, para defenderlo, catorce demonios de la enfermedad. Así acompañado, Nergal va al reino de Ereshkigal."
+      },
+      {
+       "v": "«Te daré siete y siete […]"
+      },
+      {
+       "v": "para que vayan contigo: [… ba, Mutabriku,]"
+      },
+      {
+       "v": "Sharabdu, [Rabisu, Tirid, Idibtu,]"
+      },
+      {
+       "v": "Be[nnu, Sidanu, Mikit, Bel-upri,]"
+      },
+      {
+       "n": 50,
+       "v": "Ummu, [Libu…]"
+      },
+      {
+       "v": "contigo [irán]». [Cuando Nergal llegó a la] puerta"
+      },
+      {
+       "v": "de Ereshkigal, llamó: «Portero…, tu puerta"
+      },
+      {
+       "v": "[… abre]: quiero entrar ante tu señora"
+      },
+      {
+       "v": "Ereshkigal. Me envían». El portero se fue"
+      },
+      {
+       "n": 55,
+       "v": "y dijo a Namtar: «Hay un dios en la entrada de la puerta;"
+      },
+      {
+       "v": "ven a verlo, a ver si puede entrar». Namtar salió,"
+      },
+      {
+       "v": "lo miró [ ] y dijo"
+      },
+      {
+       "v": "a su señora: «Señora mía, es el dios que hace"
+      },
+      {
+       "v": "meses desapareció y no se levantó ante mí»."
+      },
+      {
+       "n": 60,
+       "v": "«Tráelo [ ], [no] se irá. Lo mataré»."
+      },
+      {
+       "v": "Namtar salió […]: «Entra, señor mío,"
+      },
+      {
+       "v": "en la casa de tu hermana […] tu partida»."
+      },
+      {
+       "v": "Nergal respondió: «Que tu corazón se alegre conmigo»."
+      },
+      {
+       "laguna": "Faltan unos tres versos."
+      },
+      {
+       "v": "[… apostó, cuando entró por la (segunda) puerta],"
+      },
+      {
+       "v": "[…]ba en la tercera, Mutabriku en la cuarta,",
+       "nota": "Son los nombres de los demonios de la enfermedad que Ea había dado a Nergal para defenderse; según Rogers, apenas significan otra cosa que «fiebre», «fuego», «calor» y cosas parecidas."
+      },
+      {
+       "v": "Sharabdu en la quinta, Rabisu en la sexta, Tirid"
+      },
+      {
+       "n": 70,
+       "v": "en la séptima, Idibtu en la octava, Bennu"
+      },
+      {
+       "v": "en la novena, Sidanu en la décima, Mikit"
+      },
+      {
+       "v": "en la undécima, Bel-upri en la duodécima,"
+      },
+      {
+       "v": "Ummu en la decimotercera, Libu en la decimocuarta"
+      },
+      {
+       "v": "puerta apostó como su […]. En el patio abatió"
+      },
+      {
+       "n": 75,
+       "v": "a Namtar. A sus guerreros dio la orden: «Que se abran"
+      },
+      {
+       "v": "las puertas. ¡Mirad, o caeré sobre vosotros!»."
+      },
+      {
+       "v": "Dentro de la casa agarró a Ereshkigal"
+      },
+      {
+       "v": "por el pelo, la arrancó del trono"
+      },
+      {
+       "v": "hasta el suelo para cortarle la cabeza."
+      },
+      {
+       "n": 80,
+       "v": "«No me mates, hermano mío. Déjame decirte una palabra»."
+      },
+      {
+       "v": "Nergal la escuchó; sus manos se aflojaron. Ella lloraba y sollozaba:"
+      },
+      {
+       "v": "«Tú serás mi marido, yo seré tu mujer; te daré"
+      },
+      {
+       "v": "la soberanía sobre la ancha tierra; pondré la tablilla"
+      },
+      {
+       "v": "de la sabiduría en tu mano. Tú serás el señor,"
+      },
+      {
+       "n": 85,
+       "v": "yo seré la señora». Cuando Nergal oyó su palabra,"
+      },
+      {
+       "v": "la tomó, la besó y le enjugó las lágrimas:"
+      },
+      {
+       "v": "«¿Qué has deseado de mí desde hace meses"
+      },
+      {
+       "v": "hasta ahora?»."
+      },
+      {
+       "laguna": "Aquí termina la tablilla de Amarna.",
+       "hoy": "En la versión larga del primer milenio, Nergal baja al Inframundo, pasa siete días y siete noches con Ereshkigal y vuelve al cielo a escondidas. Ella amenaza con hacer subir a los muertos si no se lo devuelven; Nergal baja de nuevo, esta vez para quedarse, y se convierte en rey del Inframundo junto a ella."
+      }
+     ]
+    }
+   ]
+  },
+  "atrahasis": {
+   "titulo": "Atrahasis",
+   "subtitulo": "La tablilla asiria de las plagas, texto conservado",
+   "fuente": "Versión española a partir de R. W. Rogers, Cuneiform Parallels to the Old Testament (Nueva York, Eaton & Mains, 1912), capítulo «Ea and Atrakhasis», que traduce una tablilla de la Biblioteca de Asurbanipal. La obra es de dominio público.",
+   "fuente_url": "https://archive.org/details/cuneiformparalle00rogerich",
+   "presentacion": "En 1912 solo se conocían fragmentos sueltos de este poema. Rogers traduce aquí cuatro columnas muy rotas de una tablilla asiria de seis columnas, en las que Enlil castiga a los hombres con el hambre, la peste y la esterilidad, y Atrahasis (Rogers escribe «Atrakhasis») pide ayuda a Ea. Rogers, siguiendo a Zimmern, entendía que eran castigos sucesivos antes del diluvio, y así ha resultado ser. Añade que el texto se usaba como conjuro para las mujeres a punto de dar a luz.\n\nEl poema completo, con la creación del hombre y el diluvio, se conoce hoy gracias a la edición de Lambert y Millard (1969), que tiene derechos de autor. Por eso aquí solo se da lo que tradujo Rogers; las notas «Lo que se sabe hoy» resumen con palabras propias lo que se ha recuperado después. Los corchetes [ ] marcan reconstrucciones; los puntos suspensivos, texto perdido; (?), lecturas dudosas.",
+   "tablillas": [
+    {
+     "n": 1,
+     "titulo": "Tablilla de las plagas",
+     "sinopsis": "Una hambruna de seis años lleva a los hombres a comerse a sus hijos. Atrahasis ruega a Ea. Enlil, molesto por el clamor de los hombres, envía la peste y después la sequía y la esterilidad. Al final, la diosa madre forma de nuevo a siete hombres y siete mujeres con barro.",
+     "items": [
+      {
+       "laguna": "Falta el comienzo de la columna I.",
+       "hoy": "El poema empieza mucho antes. Los dioses menores, cansados de cavar los canales, se rebelan; Ea y la diosa madre crean al hombre con barro y la sangre de un dios sacrificado para que trabaje en su lugar. Los hombres se multiplican y su ruido no deja dormir a Enlil, que les envía las plagas que se cuentan aquí."
+      },
+      {
+       "col": "I"
+      },
+      {
+       "n": 25,
+       "v": "[Cuando llegó el] segundo año, [empezó…],"
+      },
+      {
+       "v": "[cuando] llegó el tercer año,"
+      },
+      {
+       "v": "el pueblo se rebeló contra su […]."
+      },
+      {
+       "v": "Cuando llegó el cuarto año…, sus ciudades se vieron en apuros,"
+      },
+      {
+       "v": "sus anchas… se volvieron estrechas (?),"
+      },
+      {
+       "n": 30,
+       "v": "la gente vagaba abatida por la calle."
+      },
+      {
+       "v": "Cuando llegó el quinto año, la hija espera que entre la madre;"
+      },
+      {
+       "v": "la madre no abre la puerta a su hija;"
+      },
+      {
+       "v": "la balanza de la madre la vigila la hija,"
+      },
+      {
+       "v": "la balanza de la hija la vigila la madre."
+      },
+      {
+       "n": 35,
+       "v": "Cuando llegó el sexto año, prepararon a la [hija] para comerla,"
+      },
+      {
+       "v": "prepararon al niño como alimento (?); lleno estaba [ …]."
+      },
+      {
+       "v": "Una casa devoraba a otra."
+      },
+      {
+       "v": "Como (?) sus rostros estaban velados;"
+      },
+      {
+       "v": "la gente vivía conteniendo el aliento."
+      },
+      {
+       "n": 40,
+       "v": "Tomaron un mensaje […],"
+      },
+      {
+       "v": "entraron […]."
+      },
+      {
+       "col": "II"
+      },
+      {
+       "laguna": "Faltan los primeros versos de la columna."
+      },
+      {
+       "v": "Arriba, Adad menguó su lluvia;"
+      },
+      {
+       "n": 30,
+       "v": "abajo quedó retenida [el agua, de modo que la crecida no subió de las fuentes]."
+      },
+      {
+       "v": "El campo menguó su fruto,"
+      },
+      {
+       "v": "cambió el seno de Nisaba; de noche los campos estaban blancos;",
+       "nota": "Nisaba es una diosa de la vegetación, y su seno son las colinas de la tierra. Desaparecen porque no las cubre el grano, y de noche el suelo se ve blanco en vez de verde."
+      },
+      {
+       "v": "la ancha llanura dio sal;",
+       "nota": "Con la sequía aparecen sales en la tierra reseca."
+      },
+      {
+       "v": "la planta no brotaba, los corderos no engordaban;"
+      },
+      {
+       "n": 35,
+       "v": "la desgracia cayó sobre los hombres;"
+      },
+      {
+       "v": "el vientre quedó cerrado, no salía ningún niño."
+      },
+      {
+       "v": "[ ]"
+      },
+      {
+       "v": "[Cuando llegó el segundo año] empezó…,"
+      },
+      {
+       "v": "cuando llegó el tercer año,"
+      },
+      {
+       "n": 40,
+       "v": "el pueblo se rebeló contra su […]."
+      },
+      {
+       "v": "[Cuando llegó el cuarto año], sus ciudades se vieron en apuros,"
+      },
+      {
+       "v": "[sus anchas…]… se volvieron estrechas (?),"
+      },
+      {
+       "v": "[la gente vagaba] por la calle [abatida]."
+      },
+      {
+       "v": "[Cuando llegó el quinto año], la hija esperaba que entrara la madre;"
+      },
+      {
+       "n": 45,
+       "v": "la madre no abre la puerta a su hija;"
+      },
+      {
+       "v": "[la balanza de la madre] la vigila la hija,"
+      },
+      {
+       "v": "[la balanza de la hija] la vigila la madre."
+      },
+      {
+       "v": "[Cuando llegó el sexto año, prepararon] a la hija para comerla,"
+      },
+      {
+       "v": "[prepararon] al niño [como alimento];"
+      },
+      {
+       "n": 50,
+       "v": "[lleno estaba…]; una casa devoraba a otra;"
+      },
+      {
+       "v": "[como…] estaban velados sus rostros;"
+      },
+      {
+       "v": "[la gente] vivía [conteniendo] el aliento."
+      },
+      {
+       "v": "[El sabio] Atrahasis, el hombre,"
+      },
+      {
+       "v": "a Ea, [su señor], dirige su pensamiento;"
+      },
+      {
+       "n": 55,
+       "v": "[habla] con su dios;"
+      },
+      {
+       "v": "[pero su señor Ea] no habla (?) con él."
+      },
+      {
+       "v": "[Entonces salió] a la puerta de su dios,"
+      },
+      {
+       "v": "junto al río puso su lecho."
+      },
+      {
+       "laguna": "Aquí se pierde un pasaje."
+      },
+      {
+       "col": "III"
+      },
+      {
+       "v": "Por su clamor, él (Enlil) estaba [turbado (?)],"
+      },
+      {
+       "v": "a causa de su…"
+      },
+      {
+       "v": "[Enlil] celebró su asamblea"
+      },
+      {
+       "n": 5,
+       "v": "y dijo a los dioses, sus hijos:"
+      },
+      {
+       "v": "«El clamor de los hombres [me molesta (?)];"
+      },
+      {
+       "v": "por su clamor estoy turbado."
+      },
+      {
+       "v": "A causa de su… no me deja en paz;"
+      },
+      {
+       "v": "[…] ¡que venga el escalofrío!"
+      },
+      {
+       "n": 10,
+       "v": "[Pronto] (?) que la peste ponga fin (?) a su clamor."
+      },
+      {
+       "v": "Que se alcen contra ellos como una tempestad"
+      },
+      {
+       "v": "la enfermedad, el dolor de cabeza, el escalofrío, la desgracia»."
+      },
+      {
+       "v": "Entonces […] y empezó el escalofrío."
+      },
+      {
+       "v": "[Pronto (?)] la peste puso fin a su clamor;"
+      },
+      {
+       "n": 15,
+       "v": "se alzaron contra ellos como una tempestad"
+      },
+      {
+       "v": "la enfermedad, el dolor de cabeza, el escalofrío, la desgracia."
+      },
+      {
+       "v": "El sabio Atrahasis, el hombre,"
+      },
+      {
+       "v": "a Ea, su señor, dirige su pensamiento;"
+      },
+      {
+       "v": "[él] habla con su dios,"
+      },
+      {
+       "n": 20,
+       "v": "su [señor] Ea habla con él."
+      },
+      {
+       "v": "Atrahasis abrió la boca,"
+      },
+      {
+       "v": "[habló a] Ea, su señor:"
+      },
+      {
+       "v": "«Señor, [Ea], los hombres están en apuros;"
+      },
+      {
+       "v": "tu ira consume la tierra."
+      },
+      {
+       "n": 25,
+       "v": "Señor mío, los hombres se lamentan […], tu… consume la tierra;"
+      },
+      {
+       "v": "[la ira (?)] de los dioses consume la tierra."
+      },
+      {
+       "v": "[Señor (?)], tú que nos creaste,"
+      },
+      {
+       "v": "que [cesen (?)] la enfermedad, el dolor de cabeza, el escalofrío, la desgracia»."
+      },
+      {
+       "v": "[Ea abrió la boca y] habló, dijo a Atrahasis:"
+      },
+      {
+       "n": 30,
+       "v": "«[…] ha cesado la confusión en la tierra."
+      },
+      {
+       "v": "[ ] rezad a vuestra diosa…»."
+      },
+      {
+       "laguna": "Varios versos muy rotos.",
+       "hoy": "Ea aconseja a los hombres que dejen de rezar a sus dioses y lleven todas sus ofrendas a Namtar, el dios de la peste, que, avergonzado, levanta la plaga. Más adelante hará lo mismo con Adad para acabar con la sequía."
+      },
+      {
+       "n": 37,
+       "v": "[Enlil] celebró su asamblea, habló a los dioses, sus hijos:"
+      },
+      {
+       "v": "«[…] no hagáis nada por ellos."
+      },
+      {
+       "v": "[Sus pecados (?)] no han disminuido; son más numerosos que antes."
+      },
+      {
+       "n": 40,
+       "v": "[Por] su clamor estoy turbado;"
+      },
+      {
+       "v": "a causa de su… no hago caso (?)."
+      },
+      {
+       "v": "Que se corte para la gente el […],"
+      },
+      {
+       "v": "que les falten las verduras en el vientre;"
+      },
+      {
+       "v": "que arriba Adad mengüe su lluvia,"
+      },
+      {
+       "n": 45,
+       "v": "que abajo quede obstruida la crecida para que no suba de la fuente;",
+       "nota": "La idea de los versos 44 y 45, según Rogers, es que la tierra se riega con la lluvia del cielo y con el agua que brota de los manantiales, que procede de las grandes fuentes bajo la tierra. La misma idea aparece en el relato del diluvio del Génesis (7, 11)."
+      },
+      {
+       "v": "que el campo mengüe su fruto (?),"
+      },
+      {
+       "v": "que cambie el seno de Nisaba, que de noche los campos estén blancos,"
+      },
+      {
+       "v": "que el ancho campo dé sal."
+      },
+      {
+       "v": "Que desaparezca (?) su seno, que la planta no brote, que los corderos no engorden,"
+      },
+      {
+       "n": 50,
+       "v": "que la desgracia caiga sobre los hombres,"
+      },
+      {
+       "v": "que [el vientre] se cierre, que no dé a luz ningún niño»."
+      },
+      {
+       "v": "Entonces se cortó para la gente el […],"
+      },
+      {
+       "v": "les faltaron las verduras en el vientre."
+      },
+      {
+       "v": "Arriba, Adad menguó su lluvia;"
+      },
+      {
+       "n": 55,
+       "v": "abajo quedó obstruida la crecida, que no subió de la fuente."
+      },
+      {
+       "v": "El campo menguó su fruto."
+      },
+      {
+       "v": "Cambió el seno de Nisaba; de noche los campos se volvieron blancos."
+      },
+      {
+       "v": "El ancho campo dio sal; su seno desapareció;"
+      },
+      {
+       "v": "las plantas no brotaban; los corderos no engordaban;"
+      },
+      {
+       "n": 60,
+       "v": "la desgracia cayó sobre los hombres."
+      },
+      {
+       "v": "El vientre quedó cerrado, no dejó salir ningún niño."
+      },
+      {
+       "laguna": "Aquí falta un pasaje. Según Rogers, en la parte perdida entre las columnas III y IV los hombres debieron de ser destruidos del todo, y en la columna IV Ea forma otros para ocupar su lugar, con la ayuda de Mami (es decir, Aruru), que llama en su auxilio a siete madres.",
+       "hoy": "Hoy se sabe que el orden es el contrario: la escena de la columna IV pertenece a la creación de la humanidad, al comienzo del poema, y lo que viene después de las plagas es el diluvio, del que Atrahasis se salva en un barco por aviso de Ea, como Utnapishtim en la tablilla XI de Gilgamesh."
+      },
+      {
+       "col": "IV"
+      },
+      {
+       "v": "[ ] dice Ea,"
+      },
+      {
+       "v": "[… un conjuro] le hará recitar."
+      },
+      {
+       "v": "[Recitó] un conjuro; después de recitar el conjuro,"
+      },
+      {
+       "v": "escupió sobre el barro;"
+      },
+      {
+       "n": 5,
+       "v": "pellizcó catorce pedazos; siete pedazos los puso a la derecha,"
+      },
+      {
+       "v": "siete pedazos los puso a la izquierda; entre ellos puso un ladrillo."
+      },
+      {
+       "v": "[ ] le abrió las narices."
+      },
+      {
+       "v": "Entonces llamó a las sabias (?), a las instruidas (?),"
+      },
+      {
+       "v": "a siete y siete madres; siete formaron varones,"
+      },
+      {
+       "n": 10,
+       "v": "siete formaron mujeres."
+      },
+      {
+       "v": "La madre, creadora del destino,"
+      },
+      {
+       "v": "los terminó."
+      },
+      {
+       "v": "Los terminó ante ella;"
+      },
+      {
+       "v": "las figuras de los hombres las formó Mami."
+      }
+     ]
+    }
+   ]
   }
  }
 }
