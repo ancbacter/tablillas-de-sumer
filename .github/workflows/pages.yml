@@ -1,0 +1,65 @@
+# Pasa los tests, construye la página y la publica en GitHub Pages en cada push a main.
+# En los pull requests solo pasa los tests y el build, sin publicar.
+name: Tests y publicación
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # Node 24: los tests de navegador usan el WebSocket nativo.
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Validar las traducciones
+        run: node i18n/validar.mjs --todos
+
+      # ejecutar.mjs pasa todos los tests (los de navegador con el Chrome del runner)
+      # y deja dist/ construido con los datos reales.
+      - name: Tests y build
+        env:
+          CHROME_PATH: /usr/bin/google-chrome
+        run: node tests/ejecutar.mjs
+
+      - name: Guardar las capturas de los tests
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: capturas
+          path: tests/capturas/
+          if-no-files-found: ignore
+          retention-days: 7
+
+      - uses: actions/upload-pages-artifact@v3
+        if: github.event_name != 'pull_request'
+        with:
+          path: dist/
+
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
