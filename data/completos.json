@@ -2860,6 +2860,4867 @@
      ]
     }
    ]
+  },
+  "gilgamesh": {
+   "titulo": "Epopeya de Gilgamesh",
+   "subtitulo": "Las doce tablillas, texto completo",
+   "fuente": "Versión española a partir de R. Campbell Thompson, The Epic of Gilgamish (Londres, Luzac, 1928), que combina la versión asiria de Nínive con la paleobabilónica y la hitita. La obra es de dominio público.",
+   "fuente_url": "https://sacred-texts.com/ane/eog/index.htm",
+   "presentacion": "Esta es una traducción al castellano de la versión inglesa que publicó Thompson en 1928, la más completa de su tiempo. Thompson escribió en hexámetros ingleses y siguió la versión asiria de doce tablillas; donde esta se ha perdido, la completó con la paleobabilónica (las tablillas de Pensilvania, Yale y Berlín) y con la hitita de Boğazköy. Aquí se indica en cada caso de qué versión viene el texto.\n\nDesde 1928 se han encontrado muchas copias nuevas, y la edición de referencia actual (George 2003) completa buena parte de lo que aquí falta; tiene derechos de autor, por eso se sigue a Thompson. Las notas «Lo que se sabe hoy» resumen, con palabras propias, lo más importante que han aportado esos hallazgos.\n\nLa numeración es la de Thompson: la de las líneas del original en cada columna de la tablilla, que no siempre coincide con sus versos ingleses, por eso solo algunos versos llevan número. Los corchetes [ ] marcan reconstrucciones; los puntos suspensivos, texto perdido; (?), lecturas dudosas. Thompson añadió entre paréntesis palabras para completar el sentido o el metro; aquí se integran sin marcar. Las notas al pie son suyas, salvo las que comentan su lectura.",
+   "tablillas": [
+    {
+     "n": 1,
+     "titulo": "Tablilla I",
+     "sinopsis": "La tiranía de Gilgamesh en Uruk. Los dioses crean a Enkidu, que vive con las fieras hasta que una hieródula lo seduce y lo lleva a la ciudad. Gilgamesh sueña con su llegada.",
+     "items": [
+      {
+       "col": "I"
+      },
+      {
+       "sub": "Proemio"
+      },
+      {
+       "v": "El que ha probado el fondo de todas las cosas, que [enseñe] a la nación;"
+      },
+      {
+       "v": "[el que] todo saber posee, que [instruya] en él a todo el pueblo,"
+      },
+      {
+       "v": "[que imparta su sabiduría (?)], y así la [compartirán] todos juntos."
+      },
+      {
+       "v": "[Gilgamesh (?)]: él fue el [maestro] de la sabiduría, [conocedor de todas las cosas];",
+       "nota": "Thompson supone que el nombre del héroe tenía que aparecer antes del verso 5, quizá al final de este."
+      },
+      {
+       "n": 5,
+       "v": "él descubrió el secreto escondido…,"
+      },
+      {
+       "v": "transmitió la tradición de lo anterior al diluvio,"
+      },
+      {
+       "v": "hizo un viaje lejano, cansado y [rendido por su esfuerzo (?)],"
+      },
+      {
+       "n": 10,
+       "v": "[grabó] en una tabla de piedra toda su fatiga."
+      },
+      {
+       "v": "De Uruk, la de altas murallas, él levantó los baluartes; él afianzó, como bronce, los cimientos"
+      },
+      {
+       "v": "de [E]anna, el santuario sagrado, el tesoro consagrado;",
+       "nota": "Eanna era el gran templo de Anu, dios del cielo, y de Ishtar, diosa del amor, en Uruk."
+      },
+      {
+       "v": "[reforzó] su base para no dar paso a [nadie]…"
+      },
+      {
+       "v": "… el umbral que desde [antiguo (?)]…"
+      },
+      {
+       "v": "… [E]anna…"
+      },
+      {
+       "n": 15,
+       "v": "… para no dar paso [a nadie (?)]…"
+      },
+      {
+       "laguna": "Faltan unos treinta versos. La descripción de Gilgamesh continúa al comienzo de la columna siguiente.",
+       "hoy": "Las copias halladas después completan el proemio: invita al lector a recorrer las murallas de Uruk y a buscar, en una caja de cedro, la tablilla de lapislázuli en la que Gilgamesh dejó escritas sus penalidades."
+      },
+      {
+       "col": "II"
+      },
+      {
+       "v": "Dos tercios de él son divinos, y [un tercio, humano]…",
+       "nota": "Restituido a partir de la tablilla IX."
+      },
+      {
+       "v": "La forma de su cuerpo…"
+      },
+      {
+       "v": "Él ha obligado a tomar…"
+      },
+      {
+       "laguna": "Faltan unos tres versos."
+      },
+      {
+       "sub": "Queja de Uruk ante los dioses contra el tirano"
+      },
+      {
+       "n": 7,
+       "v": "«… de Uruk es él quien ha [tomado],"
+      },
+      {
+       "v": "… mientras alza [su] testuz como un uro."
+      },
+      {
+       "n": 10,
+       "v": "Nunca el choque de [sus] armas tiene [igual]; [sus] compañeros son arrastrados"
+      },
+      {
+       "v": "a la red, y los héroes de Uruk están acobardados…",
+       "nota": "Es decir, apresados y muertos. Compárese con el comienzo de la tablilla XII."
+      },
+      {
+       "v": "Gilgamesh no deja hijo a [su] padre; [su] arrogancia crece"
+      },
+      {
+       "v": "día y [noche]; [y él] es el pastor de Uruk, la de altas [murallas],"
+      },
+      {
+       "n": 15,
+       "v": "él es [nuestro (?)] pastor… [dominante, imperioso, astuto]…"
+      },
+      {
+       "v": "[Gilgamesh] no deja [doncella a su madre, ni] hija a [guerrero],"
+      },
+      {
+       "v": "[ni esposa a su marido]»."
+      },
+      {
+       "v": "Al clamor de su llanto [prestaron oído los inmortales]; los dioses del alto cielo [se dirigieron al dios Anu],"
+      },
+      {
+       "n": 20,
+       "v": "señor de Uruk: «Tú has engendrado un hijo"
+      },
+      {
+       "v": "del todo tiránico, [que alza su testuz como un uro];"
+      },
+      {
+       "v": "nunca [el choque de sus armas] tiene igual; [sus compañeros] son arrastrados"
+      },
+      {
+       "v": "a la red, y los héroes de Uruk están acobardados…"
+      },
+      {
+       "v": "Gilgamesh no deja hijo a su padre; [su arrogancia crece]"
+      },
+      {
+       "n": 25,
+       "v": "día y noche; él es el pastor de Uruk, [la de altas murallas],"
+      },
+      {
+       "v": "él es su pastor… dominante, imperioso, astuto…"
+      },
+      {
+       "v": "Gilgamesh no deja doncella a [su madre], ni hija a guerrero,"
+      },
+      {
+       "v": "ni esposa a su [marido]»."
+      },
+      {
+       "n": 30,
+       "v": "Al clamor de su llanto [Anu] prestó oído, y llamó a la señora Aruru: «Tú, oh Aruru,",
+       "nota": "Aruru es una diosa madre, forma de Ninmah, protectora sobre todo de los niños."
+      },
+      {
+       "v": "hiciste [la semilla primera de la humanidad (?)]: haz ahora su igual,"
+      },
+      {
+       "v": "para que [se tope con Gilgamesh] el día que a este le plazca,"
+      },
+      {
+       "v": "para que luchen entre sí, y él dé [descanso] a Uruk»."
+      },
+      {
+       "sub": "La creación de Enkidu"
+      },
+      {
+       "v": "Cuando la diosa Aruru oyó esto, concibió en su mente"
+      },
+      {
+       "v": "la idea de Anu, y, lavándose las manos, Aruru"
+      },
+      {
+       "v": "pellizcó un poco de arcilla y la modeló en la estepa: [así, en la estepa]",
+       "nota": "O «la arrojó»."
+      },
+      {
+       "n": 35,
+       "v": "hizo a Enkidu, un guerrero, como nacido y engendrado,"
+      },
+      {
+       "v": "doble de Ninurta; [y cubrió] todo su cuerpo",
+       "nota": "Ninurta es un dios, hijo de Enlil, patrón de la guerra y de la caza."
+      },
+      {
+       "v": "de pelo; recogía sus mechones como una mujer,"
+      },
+      {
+       "v": "y su cabello brotaba exuberante como las espigas de la cebada."
+      },
+      {
+       "v": "No conocía gente ni país; vestía como Sumuqan.",
+       "nota": "Sumuqan es el dios del ganado y de los animales de la estepa."
+      },
+      {
+       "n": 40,
+       "v": "Con las gacelas pacía la hierba, junto con las bestias"
+      },
+      {
+       "v": "bebía hasta saciarse; con los animales se alegraba su corazón en el agua."
+      },
+      {
+       "sub": "El encuentro de Enkidu con el cazador"
+      },
+      {
+       "v": "Entonces un cazador, un trampero, se encontró cara a cara con él;"
+      },
+      {
+       "v": "se lo encontró [uno], dos, tres días en el abrevadero.",
+       "nota": "Literalmente: «Un cazador, un trampero, se lo encontró en el abrevadero, [uno], dos, tres días en el abrevadero, ídem»."
+      },
+      {
+       "n": 45,
+       "v": "Cuando el cazador lo vio, el terror le cubrió el rostro;"
+      },
+      {
+       "v": "él y sus bestias volvieron a su majada, [consternados] y espantados,"
+      },
+      {
+       "v": "gritando, [angustiado su corazón] y nublado su rostro,"
+      },
+      {
+       "v": "… congoja en su vientre…"
+      },
+      {
+       "n": 50,
+       "v": "y su rostro era como el de quien [ha hecho] un largo [viaje]."
+      },
+      {
+       "col": "III"
+      },
+      {
+       "v": "Abrió [la boca] el cazador y habló, dirigiéndose [a su padre]:"
+      },
+      {
+       "v": "«Padre, hay un hombre enorme que ha [bajado de las montañas];"
+      },
+      {
+       "v": "su fuerza es la mayor [de todo el país],"
+      },
+      {
+       "v": "[como la de un doble] del propio Anu, enorme es [su fuerza]."
+      },
+      {
+       "n": 5,
+       "v": "Recorre sin cesar las montañas, y siempre con las bestias"
+      },
+      {
+       "v": "[pace la hierba y siempre pone] el pie en el agua,"
+      },
+      {
+       "v": "[de modo que temo] acercarme a él. Los hoyos que [yo mismo] cavé"
+      },
+      {
+       "n": 10,
+       "v": "[con mis propias manos los ha rellenado], y las trampas que [puse]"
+      },
+      {
+       "v": "[las ha arrancado, y de mis manos ha hecho escapar] a las bestias,"
+      },
+      {
+       "v": "a los animales de la estepa; no me [deja] trabajar en el campo»."
+      },
+      {
+       "v": "[Abrió la boca su padre y habló], dirigiéndose al cazador:"
+      },
+      {
+       "n": 15,
+       "v": "«Gilgamesh [vive] en Uruk, [hijo mío; nadie] lo ha vencido;"
+      },
+      {
+       "v": "[su fuerza es la mayor de todo el país],"
+      },
+      {
+       "v": "[como la de un doble del propio Anu], enorme es su fuerza."
+      },
+      {
+       "v": "[Ve], pon rumbo [a Uruk; y cuando oiga hablar de] ese monstruo,"
+      },
+      {
+       "v": "[dirá: “Ve, cazador, lleva contigo una cortesana, una hieródula];"
+      },
+      {
+       "n": 20,
+       "v": "toma [contigo]… como a un fuerte;"
+      },
+      {
+       "v": "[cuando él vuelva a reunir a las bestias] en el abrevadero,"
+      },
+      {
+       "v": "[que ella se quite] el [manto y descubra] su belleza;"
+      },
+      {
+       "v": "[la verá, y la abrazará, y desde entonces] sus bestias,"
+      },
+      {
+       "v": "[criadas en] su propia estepa, lo rechazarán”»."
+      },
+      {
+       "sub": "Cómo supo Gilgamesh de Enkidu"
+      },
+      {
+       "n": 25,
+       "v": "El cazador [escuchó] el consejo de su padre"
+      },
+      {
+       "v": "y se fue [a ver a Gilgamesh]. Tomando el camino de Uruk,"
+      },
+      {
+       "v": "dirigió [sus pasos y llegó ante] Gilgamesh, [y le habló así]:"
+      },
+      {
+       "v": "«Hay un hombre enorme que ha [bajado de las montañas];"
+      },
+      {
+       "n": 30,
+       "v": "[su fuerza] es la mayor de todo el país,"
+      },
+      {
+       "v": "como la de un doble del propio Anu, enorme es [su fuerza]."
+      },
+      {
+       "v": "Recorre sin cesar las montañas, y siempre con las bestias"
+      },
+      {
+       "v": "[pace la hierba y siempre pone] el pie en el agua,"
+      },
+      {
+       "n": 35,
+       "v": "de modo que temo acercarme [a él]. Los hoyos que [yo mismo] cavé"
+      },
+      {
+       "v": "con mis propias manos los ha rellenado, y las trampas que [puse]"
+      },
+      {
+       "v": "las ha arrancado, y de mis manos ha hecho escapar a las bestias,"
+      },
+      {
+       "v": "a los animales [de la estepa]; no me deja trabajar en el campo»."
+      },
+      {
+       "n": 40,
+       "v": "Gilgamesh le respondió así al cazador:"
+      },
+      {
+       "v": "«Ve, cazador mío, lleva contigo una cortesana, una hieródula;"
+      },
+      {
+       "v": "cuando él [reúna] de nuevo a las bestias en el abrevadero,"
+      },
+      {
+       "v": "que ella se quite el manto y [descubra] su belleza;"
+      },
+      {
+       "n": 45,
+       "v": "la verá, y la abrazará, y desde entonces sus bestias,"
+      },
+      {
+       "v": "criadas en su propia estepa, lo rechazarán»."
+      },
+      {
+       "sub": "La seducción de Enkidu"
+      },
+      {
+       "v": "Partió el cazador y llevó consigo a una cortesana, una hieródula."
+      },
+      {
+       "v": "Emprendieron el viaje y salieron juntos al camino,"
+      },
+      {
+       "v": "y al cabo de tres días llegaron al lugar señalado."
+      },
+      {
+       "v": "Se sentaron al acecho (?), el cazador y la hieródula;"
+      },
+      {
+       "n": 50,
+       "v": "un día, dos días se sentaron junto al abrevadero."
+      },
+      {
+       "v": "Por fin llegaron las bestias a saciar su sed."
+      },
+      {
+       "col": "IV"
+      },
+      {
+       "v": "Allí llegaron los animales a alegrar su corazón en el agua,"
+      },
+      {
+       "v": "y allí estaba también Enkidu, el que habían engendrado las montañas;"
+      },
+      {
+       "v": "con las gacelas pacía la hierba, junto con las bestias"
+      },
+      {
+       "n": 5,
+       "v": "bebía hasta saciarse; con los animales se alegraba su corazón en el agua."
+      },
+      {
+       "v": "Lo vio la cortesana, al hombre lleno de vigor,"
+      },
+      {
+       "v": "¡un ser salvaje venido de lo más hondo de la estepa!"
+      },
+      {
+       "v": "«¡Es él, muchacha! Descubre tu belleza, muéstrale tus encantos,"
+      },
+      {
+       "n": 10,
+       "v": "para que se adueñe de tu hermosura; no tengas reparo,"
+      },
+      {
+       "v": "arrebátale el alma: en cuanto ponga los ojos en ti"
+      },
+      {
+       "v": "se acercará; y tú, suelta el manto,"
+      },
+      {
+       "v": "para que te abrace, y después trátalo con las artes de mujer;"
+      },
+      {
+       "v": "y sus animales, criados en su estepa, lo rechazarán,"
+      },
+      {
+       "n": 15,
+       "v": "porque te habrá estrechado contra su pecho»."
+      },
+      {
+       "v": "La muchacha, mostrando sus pechos, le enseñó sus encantos, y él se adueñó de su belleza;"
+      },
+      {
+       "v": "no tuvo reparo, le arrebató el alma, soltó el manto,"
+      },
+      {
+       "v": "y él la abrazó, y ella lo trató con las artes de mujer,"
+      },
+      {
+       "n": 20,
+       "v": "estrechándola contra su pecho."
+      },
+      {
+       "v": "Así se solazó Enkidu seis días y siete noches unido a la cortesana."
+      },
+      {
+       "sub": "Cómo Enkidu fue atraído a Uruk para luchar con Gilgamesh"
+      },
+      {
+       "v": "Cuando por fin se sació de sus encantos, volvió el rostro hacia sus bestias;"
+      },
+      {
+       "v": "¡cómo huyeron las gacelas en cuanto lo vieron!"
+      },
+      {
+       "n": 25,
+       "v": "De él, de Enkidu, huyeron los animales de la estepa."
+      },
+      {
+       "v": "Enkidu había perdido su inocencia; cuando las bestias huyeron de él,",
+       "nota": "Literalmente, «la inocencia de su cuerpo» o «la excelencia de su fuerza». Thompson recuerda que la creencia en esta pérdida de la inocencia es antigua en Oriente."
+      },
+      {
+       "v": "le flaquearon las rodillas y aflojó la carrera, no como antes;"
+      },
+      {
+       "v": "y sin embargo había alcanzado su pleno desarrollo y ensanchado su saber."
+      },
+      {
+       "n": 30,
+       "v": "Se sentó de nuevo a los pies de la mujer, mirando el rostro"
+      },
+      {
+       "v": "de la mujer, y mientras ella hablaba, sus oídos oían lo que decía:"
+      },
+      {
+       "v": "«Hermoso eres, Enkidu, serás como un dios;"
+      },
+      {
+       "n": 35,
+       "v": "¿por qué vagas por la estepa con las bestias?"
+      },
+      {
+       "v": "¡Arriba! Te llevaré a Uruk, la de altas murallas, al templo"
+      },
+      {
+       "v": "sagrado, morada de Anu y de Ishtar, donde, el más poderoso,"
+      },
+      {
+       "v": "está Gilgamesh, y prevalece sobre los hombres como un uro»."
+      },
+      {
+       "n": 40,
+       "v": "Su consejo, en cuanto lo dijo, halló favor, porque él sentía el anhelo"
+      },
+      {
+       "v": "de buscar un compañero; así que le dijo a la cortesana:"
+      },
+      {
+       "v": "«¡Arriba, muchacha! Llévame al templo santo y sagrado,"
+      },
+      {
+       "n": 45,
+       "v": "a la morada de Anu y de Ishtar, donde, el más poderoso,"
+      },
+      {
+       "v": "está Gilgamesh, y prevalece sobre los hombres como un uro. Porque también yo,"
+      },
+      {
+       "col": "V"
+      },
+      {
+       "v": "yo lo desafiaré, lo retaré con audacia gritando por Uruk:"
+      },
+      {
+       "v": "“¡También yo soy poderoso!” Sí, yo cambiaré incluso el destino."
+      },
+      {
+       "v": "¡En verdad, el nacido en la estepa es el de mayor vigor!"
+      },
+      {
+       "v": "… te [complaceré]…"
+      },
+      {
+       "n": 5,
+       "v": "… [lo que sea], eso quiero saberlo»."
+      },
+      {
+       "v": "«Ven, pues, Enkidu, a [Uruk], la de altas murallas, [donde] la gente [se viste]"
+      },
+      {
+       "v": "[espléndidamente] de fiesta y cada día es un festejo,"
+      },
+      {
+       "n": 10,
+       "v": "[los sacerdotes eunucos tañen] los címbalos y las [bailarinas]…"
+      },
+      {
+       "v": "… exaltadas en su lascivia, gozosas, y no dejan a los nobles"
+      },
+      {
+       "v": "irse a la cama. Enkidu, [gozarás] la vida",
+       "nota": "El texto está mutilado y la traducción de estos dos versos puede no ser exacta."
+      },
+      {
+       "v": "[hasta el fondo]; te mostraré a un hombre feliz:"
+      },
+      {
+       "n": 15,
+       "v": "¡Gilgamesh! Míralo, mira su rostro, ¡qué hermosa su hombría!"
+      },
+      {
+       "v": "Dotado de vigor está, todo su cuerpo rebosa"
+      },
+      {
+       "v": "de fuerza, [su] vigor es mayor que el tuyo, inquieto día y noche."
+      },
+      {
+       "n": 20,
+       "v": "Enkidu, templa tu arrogancia: a Gilgamesh lo ama Shamash,"
+      },
+      {
+       "v": "y Anu, Enlil y Ea lo han colmado de sabiduría."
+      },
+      {
+       "sub": "Cómo soñó Gilgamesh con Enkidu"
+      },
+      {
+       "v": "Antes de que bajaras de tus montañas, en Uruk"
+      },
+      {
+       "n": 25,
+       "v": "Gilgamesh te había visto en sueños; y Gilgamesh, al levantarse,"
+      },
+      {
+       "v": "habló a su madre para revelarle el sueño:"
+      },
+      {
+       "v": "“Madre mía, he tenido una visión esta noche. Había estrellas en el cielo,"
+      },
+      {
+       "v": "y algo semejante al propio Anu me cayó sobre los hombros."
+      },
+      {
+       "n": 30,
+       "v": "Aunque lo levanté, era demasiado fuerte para mí; y aunque aflojé"
+      },
+      {
+       "v": "su presa, no pude sacudírmelo de encima; mientras tanto,"
+      },
+      {
+       "v": "la gente de Uruk estaba a [su] alrededor, [y los] artesanos se apretujaban."
+      },
+      {
+       "n": 35,
+       "v": "[Detrás de él] lo rodeaban [los héroes]; mis propios compañeros"
+      },
+      {
+       "v": "le besaban los pies; [yo lo estreché contra mi pecho] como a una mujer,"
+      },
+      {
+       "v": "y [lo] puse a [tus] pies para que lo tuvieras por igual mío”."
+      },
+      {
+       "v": "[La] que todo lo sabe respondió así a su señor;",
+       "nota": "Thompson se pregunta si en el hueco iba el nombre de Ninsun, la madre de Gilgamesh."
+      },
+      {
+       "n": 40,
+       "v": "[la] que todo lo sabe respondió así a Gilgamesh:"
+      },
+      {
+       "v": "“Las estrellas del cielo representan a tus [compañeros];"
+      },
+      {
+       "v": "[lo que era semejante] al propio Anu, que te cayó sobre los hombros,"
+      },
+      {
+       "v": "[que levantaste, pero era demasiado fuerte para ti, aunque aflojaste] su presa,"
+      },
+      {
+       "v": "[y no pudiste] sacudírtelo de encima,"
+      },
+      {
+       "n": 45,
+       "v": "[y que pusiste] a mis pies para que [yo] lo tuviera por igual tuyo,"
+      },
+      {
+       "v": "[y que estrechaste contra tu pecho como a una mujer]:"
+      },
+      {
+       "col": "VI"
+      },
+      {
+       "v": "[es un valiente, un] amigo, dispuesto a socorrer [al compañero],"
+      },
+      {
+       "v": "cuya fuerza [es la mayor de todo el país],"
+      },
+      {
+       "v": "[como la de un doble del propio Anu], enorme es su fuerza."
+      },
+      {
+       "v": "[Y puesto que] lo estrechaste contra tu pecho [como a una mujer],"
+      },
+      {
+       "n": 5,
+       "v": "[es señal de que] eres aquel a quien [nunca] abandonará."
+      },
+      {
+       "v": "[Ese] es el [sentido] de tu sueño”."
+      },
+      {
+       "v": "[De nuevo habló] a su madre:"
+      },
+      {
+       "v": "“[Madre], he visto un segundo sueño: [en Uruk, la de altas murallas],"
+      },
+      {
+       "n": 10,
+       "v": "cayó un hacha, y se reunieron a su alrededor; [mientras tanto, de Uruk]"
+      },
+      {
+       "v": "[la gente] estaba en torno a ella, [la gente] se agolpaba delante,"
+      },
+      {
+       "v": "[los artesanos se apretujaban] detrás, [mientras] yo la ponía a tus pies,"
+      },
+      {
+       "n": 15,
+       "v": "[yo] la estreché contra mí como a una mujer [para que] la tuvieras"
+      },
+      {
+       "v": "por igual mío”."
+      },
+      {
+       "v": "[La sapientísima, la que todo lo sabe], respondió así a su hijo;"
+      },
+      {
+       "v": "[la sapientísima], la que todo lo sabe, respondió a Gilgamesh:"
+      },
+      {
+       "v": "“[El hacha] que viste es un hombre; como a una mujer lo estrechaste"
+      },
+      {
+       "n": 20,
+       "v": "contra tu pecho [para que] yo lo tuviera por igual tuyo."
+      },
+      {
+       "v": "[Es] un valiente, un amigo, dispuesto a socorrer al compañero,"
+      },
+      {
+       "v": "cuya fuerza es la [mayor de todo el país],"
+      },
+      {
+       "v": "[como la de un doble del propio] Anu, enorme es su fuerza”."
+      },
+      {
+       "v": "[Gilgamesh abrió la boca y], dirigiéndose a su madre, [dijo]:"
+      },
+      {
+       "v": "“[Aunque] caiga un gran [peligro (?)], tendré [un amigo (?)]…”»."
+      },
+      {
+       "acot": "La edición asiria del siglo VII tiene tres versos más en esta tablilla, que corresponden a la tablilla II de la edición paleobabilónica. Esta empieza ya con el episodio de los dos sueños, y como el texto es muy parecido en ambas, Thompson no lo repite. La edición paleobabilónica retoma aquí la historia."
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "titulo": "Tablilla II",
+     "sinopsis": "La hieródula enseña a Enkidu a comer pan y beber cerveza, y lo lleva a Uruk. Allí Enkidu cierra el paso a Gilgamesh, luchan como toros y, cuando la furia se calma, nace su amistad. Thompson sigue aquí la versión paleobabilónica (la tablilla de Pensilvania).",
+     "items": [
+      {
+       "col": "II"
+      },
+      {
+       "n": 2,
+       "v": "Mientras Gilgamesh revelaba así su visión,"
+      },
+      {
+       "v": "Enkidu estaba sentado ante la hieródula, y ella, [mostrándole] sus pechos,"
+      },
+      {
+       "n": 5,
+       "v": "[enseñándole su belleza (?)], le hacía olvidar el lugar donde había nacido."
+      },
+      {
+       "v": "Así se solazó Enkidu seis días y siete noches unido a la cortesana."
+      },
+      {
+       "n": 10,
+       "v": "Entonces la ninfa rompió a [hablar] y le dijo así a Enkidu:"
+      },
+      {
+       "v": "«Cuando te miro, Enkidu, eres como un dios;"
+      },
+      {
+       "v": "¿por qué vagas por la estepa con las bestias?"
+      },
+      {
+       "n": 15,
+       "v": "¡Arriba! Te llevaré a [Uruk], la de anchas plazas, al templo"
+      },
+      {
+       "v": "sagrado, morada de Anu. Ven, Enkidu, que te guíe"
+      },
+      {
+       "v": "a Eanna, morada de Anu, donde [vive Gilgamesh],"
+      },
+      {
+       "n": 20,
+       "v": "el supremo de la creación; y tú lo [abrazarás]"
+      },
+      {
+       "v": "como [a una mujer], y lo [amarás como] a ti mismo."
+      },
+      {
+       "v": "¡Levántate del suelo: es solo lecho de pastores!»."
+      },
+      {
+       "v": "Él oyó sus palabras y acogió su consejo:"
+      },
+      {
+       "n": 25,
+       "v": "el consejo de la mujer le llegó al corazón."
+      },
+      {
+       "v": "Ella se quitó una de sus ropas para vestirlo con ella; la otra"
+      },
+      {
+       "n": 30,
+       "v": "la siguió llevando ella, y, tomándolo de la mano como a un hermano, lo condujo"
+      },
+      {
+       "v": "a las cabañas (?) de los pastores, al lugar de los rediles. Los pastores"
+      },
+      {
+       "n": 35,
+       "v": "se reunieron al verlo…"
+      },
+      {
+       "laguna": "Faltan cuatro o cinco versos."
+      },
+      {
+       "col": "III"
+      },
+      {
+       "sub": "Cómo la hieródula educó a Enkidu"
+      },
+      {
+       "v": "¡Él, que antes estaba acostumbrado a mamar la leche de las fieras!"
+      },
+      {
+       "n": 5,
+       "v": "Partía el pan que ella le ponía delante, pero miraba y se quedaba mirando:"
+      },
+      {
+       "v": "Enkidu no sabía comer pan, ni sabía"
+      },
+      {
+       "v": "beber cerveza."
+      },
+      {
+       "n": 10,
+       "v": "Entonces la mujer respondió y le dijo a Enkidu:"
+      },
+      {
+       "v": "«Enkidu, prueba el pan, que es la vida, lo esencial;"
+      },
+      {
+       "v": "bebe también cerveza, que es la costumbre del país»."
+      },
+      {
+       "n": 15,
+       "v": "Enkidu comió pan hasta hartarse,"
+      },
+      {
+       "v": "bebió siete jarras de cerveza; se le alegró el ánimo y, exultante,"
+      },
+      {
+       "n": 20,
+       "v": "estaba contento su corazón y radiante su rostro. Se frotó [el cuerpo (?)],"
+      },
+      {
+       "n": 25,
+       "v": "se ungió con aceite el vello del cuerpo, y así se volvió humano."
+      },
+      {
+       "v": "Se puso una ropa como un hombre y, tomando su arma,"
+      },
+      {
+       "n": 30,
+       "v": "cazó a los leones que de noche acosaban a los pastores, y atrapó"
+      },
+      {
+       "v": "a los chacales. Y como él había dominado a los leones, los pastores dormían tranquilos."
+      },
+      {
+       "n": 35,
+       "v": "Enkidu era su guardián: se ha hecho un hombre de pleno vigor."
+      },
+      {
+       "v": "Ahora uno de los héroes habla a [Gilgamesh (?)]…"
+      },
+      {
+       "laguna": "Faltan unos trece versos. En ese hueco aparece, al parecer, un personaje siniestro, enviado sin duda por Gilgamesh para saber qué significa la llegada de los forasteros a Uruk. Enkidu lo ve y habla.",
+       "hoy": "En la versión paleobabilónica, el que pasa es un hombre que va a una boda en Uruk. Cuenta que Gilgamesh se reserva el derecho de acostarse con la novia antes que el marido, y eso indigna a Enkidu."
+      },
+      {
+       "col": "IV"
+      },
+      {
+       "n": 10,
+       "v": "Mientras se solazaba, alzó los ojos y, al ver al hombre,"
+      },
+      {
+       "v": "dijo a la mujer: «Muchacha, tráeme a ese hombre;"
+      },
+      {
+       "n": 15,
+       "v": "¿a qué ha venido? Quiero saber su intención»."
+      },
+      {
+       "v": "La mujer llamó al hombre para que se acercara y lo viera: «¿Qué buscas,"
+      },
+      {
+       "v": "señor? ¿Cuál es el camino de tu posada?»."
+      },
+      {
+       "n": 20,
+       "v": "El hombre habló, dirigiéndose a Enkidu:"
+      },
+      {
+       "v": "«[Gilgamesh] os [llama] a la Casa de la Comunidad:",
+       "nota": "El lugar de reunión de los hombres de la ciudad, como todavía hoy en algunas aldeas árabes, según Thompson."
+      },
+      {
+       "v": "es la costumbre de los hombres y un homenaje a los grandes."
+      },
+      {
+       "n": 25,
+       "v": "Ven, pues, y amontona las ofrendas que se deben a la ciudad;"
+      },
+      {
+       "v": "ven, trae para el bien común los alimentos de la ciudad."
+      },
+      {
+       "v": "Es para que el rey de Uruk, la de anchas plazas, contemple tu saludo,"
+      },
+      {
+       "n": 30,
+       "v": "para que Gilgamesh, rey de Uruk, la de anchas plazas, contemple tu saludo."
+      },
+      {
+       "v": "Él se une primero a la mujer que le asigna el destino, y después"
+      },
+      {
+       "v": "habla por consejo del dios, y así, por la forma de los presagios,",
+       "nota": "Thompson dice que aquí usa un eufemismo y que del verso 1 al 29 el texto es muy difícil. Se refiere al derecho que se arroga Gilgamesh sobre las novias."
+      },
+      {
+       "v": "[pronuncia] su destino»."
+      },
+      {
+       "v": "Ante las palabras del hombre, fueron delante de él."
+      },
+      {
+       "laguna": "Faltan unos nueve versos."
+      },
+      {
+       "col": "V"
+      },
+      {
+       "sub": "La entrada de Enkidu en Uruk"
+      },
+      {
+       "n": 7,
+       "v": "[Enkidu] iba [delante], y la cortesana detrás de él;"
+      },
+      {
+       "n": 10,
+       "v": "entró en Uruk, la de anchas plazas, y la gente se reunió tras él."
+      },
+      {
+       "v": "Cuando se detuvo en la calle de Uruk, la de anchas plazas, la gente"
+      },
+      {
+       "n": 15,
+       "v": "se agolpó detrás de él exclamando: «¡En verdad, es como Gilgamesh!"
+      },
+      {
+       "v": "Un poco más bajo de estatura, [su] complexión es más fuerte."
+      },
+      {
+       "n": 20,
+       "v": "… [antes], como un niño [débil], mamaba la leche de las fieras."
+      },
+      {
+       "v": "¡Siempre los panes de Uruk dan a la hombría su gloria!"
+      },
+      {
+       "n": 25,
+       "v": "Él, un simple salvaje, se ha vuelto un héroe de buen aspecto;"
+      },
+      {
+       "v": "ahora iguala en complexión a Gilgamesh, semejante a un dios»."
+      },
+      {
+       "sub": "Cómo luchó Enkidu con Gilgamesh por la mujer"
+      },
+      {
+       "n": 30,
+       "v": "Está preparado el lecho para los ritos del amor, y Gilgamesh, de noche,",
+       "nota": "Literalmente, «para Ishhara», la diosa del amor."
+      },
+      {
+       "v": "viene a dormir, a gozar de la mujer; pero [Enkidu], que llega"
+      },
+      {
+       "n": 35,
+       "v": "por el camino, le cierra el paso a Gilgamesh, [amenazándolo]"
+      },
+      {
+       "v": "con su fuerza…"
+      },
+      {
+       "laguna": "Faltan siete u ocho versos."
+      },
+      {
+       "col": "VI"
+      },
+      {
+       "n": 6,
+       "v": "Gilgamesh… detrás de él…"
+      },
+      {
+       "n": 10,
+       "v": "Creció [su furia], y se lanzó a [atacarlo]: se encontraron en el camino."
+      },
+      {
+       "v": "Enkidu atrancó la puerta con el pie, y a Gilgamesh no le dejaba"
+      },
+      {
+       "n": 15,
+       "v": "entrar; se agarraron y resoplaron (?) como toros, y el umbral"
+      },
+      {
+       "v": "se hizo pedazos; la misma pared tembló mientras Gilgamesh y Enkidu forcejeaban,"
+      },
+      {
+       "n": 20,
+       "v": "resoplando (?) como toros; el umbral se hizo pedazos, la misma pared tembló."
+      },
+      {
+       "sub": "El nacimiento de la amistad"
+      },
+      {
+       "n": 25,
+       "v": "Gilgamesh dobló la rodilla hasta el suelo, y su furia se calmó,"
+      },
+      {
+       "v": "y su ardor se apaciguó. En cuanto se apaciguó su ardor,"
+      },
+      {
+       "n": 30,
+       "v": "Enkidu le dijo así a Gilgamesh: «En verdad, tu madre"
+      },
+      {
+       "v": "te parió único, solo a ti: ella, la vaca escogida de los establos,"
+      },
+      {
+       "n": 35,
+       "v": "Ninsun, alzó tu cabeza sobre los héroes, y Enlil te ha dado",
+       "nota": "Ninsun es la madre de Gilgamesh."
+      },
+      {
+       "v": "la realeza sobre los hombres»."
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "titulo": "Tablilla III",
+     "sinopsis": "Enkidu llora la partida de la hieródula. Gilgamesh decide ir al Bosque de los Cedros a matar a Humbaba, pese a las advertencias de Enkidu y de los ancianos de Uruk. Se funden las armas, Gilgamesh ruega a Shamash, los ancianos le dan consejo y su madre Ninsun intercede ante el dios Sol.",
+     "items": [
+      {
+       "acot": "Al comienzo de la versión paleobabilónica (la tablilla de Yale) falta casi todo el texto de columna y media. Gilgamesh y Enkidu se han hecho amigos inseparables, lo que frustra de forma curiosa el propósito para el que fue creado Enkidu, y se prepara la gran expedición contra el Bosque de los Cedros, guardado por el ogro Humbaba. La cortesana ha desaparecido de escena por un tiempo: ha dejado a Enkidu, que lo siente mucho. La versión asiria, mutilada, sugiere que la madre de Gilgamesh cuenta la lucha a una de sus damas (?), Rishat-Nin…, y donde su relato se vuelve seguido dice así:"
+      },
+      {
+       "col": "II"
+      },
+      {
+       "sub": "El relato de la lucha"
+      },
+      {
+       "v": "«Él alzó [el pie, hacia la puerta]…"
+      },
+      {
+       "n": 21,
+       "v": "(?) se enfurecieron con violencia…"
+      },
+      {
+       "v": "Enkidu no tiene [igual]… desgreñado es el cabello…"
+      },
+      {
+       "v": "nació en la estepa, y [nadie puede igualarse a él]»."
+      },
+      {
+       "sub": "La pena de Enkidu por la pérdida de su amada"
+      },
+      {
+       "v": "Enkidu, allí de pie, escuchó [sus palabras (?)], afligido,"
+      },
+      {
+       "n": 26,
+       "v": "sentado [en su tristeza]; se le llenaron los ojos [de lágrimas] y los brazos perdieron su fuerza,"
+      },
+      {
+       "v": "[se aflojó el vigor de su cuerpo]. Cada uno tomó [la mano del] otro.",
+       "nota": "Hasta aquí Thompson sigue la versión asiria, restituida en parte con la paleobabilónica. En esta última, Gilgamesh ve llorar a Enkidu y le pregunta por qué tiene los ojos llenos de lágrimas y el corazón apesadumbrado."
+      },
+      {
+       "n": 37,
+       "v": "[Apretándose] como [hermanos]…, Enkidu respondió [a Gilgamesh]:"
+      },
+      {
+       "n": 40,
+       "v": "«Amigo, es mi amada la que me ha rodeado el cuello con sus brazos [para despedirse],",
+       "nota": "Frase difícil. Thompson cree que puede ser simplemente una fórmula de despedida, como en Rut 1, 14."
+      },
+      {
+       "v": "por eso mis brazos pierden su fuerza y se afloja el vigor de mi cuerpo»."
+      },
+      {
+       "sub": "La ambición de Gilgamesh"
+      },
+      {
+       "n": 45,
+       "v": "Gilgamesh abrió la boca y le dijo así a Enkidu:"
+      },
+      {
+       "col": "III"
+      },
+      {
+       "laguna": "Faltan unos dos versos."
+      },
+      {
+       "v": "«[Yo, amigo mío, estoy resuelto a ir al Bosque de los Cedros],"
+      },
+      {
+       "n": 5,
+       "v": "[y] a Humbaba el Feroz [lo] venceré y destruiré [lo que es malo];"
+      },
+      {
+       "n": 10,
+       "v": "[entonces cortaré] el Cedro…»."
+      },
+      {
+       "v": "Enkidu abrió la boca y le dijo así a Gilgamesh:"
+      },
+      {
+       "n": 15,
+       "v": "«Sabe, amigo mío, que cuando vagaba con las bestias por las montañas"
+      },
+      {
+       "v": "me adentraba en el bosque hasta dos horas de marcha"
+      },
+      {
+       "v": "desde su linde. Humbaba: su rugido es un torbellino,"
+      },
+      {
+       "n": 20,
+       "v": "llamas sus fauces, y su aliento es la muerte. ¿Por qué has deseado"
+      },
+      {
+       "v": "hacer esto? Enfrentarse (?) con Humbaba sería una lucha desigual»."
+      },
+      {
+       "n": 25,
+       "v": "Gilgamesh abrió la boca y le dijo así a Enkidu:"
+      },
+      {
+       "v": "«[Es que necesito] la rica cosecha de sus montañas: [voy al Bosque]…»."
+      },
+      {
+       "laguna": "Siete versos mutilados que continúan el discurso de Gilgamesh y mencionan «la morada [de los dioses (?)]» y «el hacha» para cortar los cedros."
+      },
+      {
+       "n": 36,
+       "v": "Enkidu abrió la boca [y] le dijo así a Gilgamesh:"
+      },
+      {
+       "n": 40,
+       "v": "«Pero cuando vayamos al Bosque [de los Cedros]…, su guardián es un [luchador],"
+      },
+      {
+       "v": "fuerte, que [nunca duerme], oh Gilgamesh…»."
+      },
+      {
+       "laguna": "Tres versos mutilados que, al parecer, explican los poderes que Shamash (?), el dios Sol, y Adad, el dios de la tormenta, han dado a Humbaba."
+      },
+      {
+       "col": "IV"
+      },
+      {
+       "n": 1,
+       "v": "«Para que guarde el Bosque de los Cedros, terror de los mortales,",
+       "nota": "Desde aquí hasta «a su Bosque» Thompson sigue la versión asiria (tablilla II, columna V)."
+      },
+      {
+       "v": "lo ha puesto Enlil: Humbaba, su rugido es un torbellino,"
+      },
+      {
+       "v": "llamas sus fauces, y su aliento es la muerte. Si en el Bosque"
+      },
+      {
+       "v": "oye aunque sea un paso (?) en el camino: “¿Quién es este que baja a su Bosque?”."
+      },
+      {
+       "v": "Para que guarde el Bosque de los Cedros, terror de los mortales,"
+      },
+      {
+       "v": "lo ha puesto Enlil, y la desgracia se apodera de quien baja"
+      },
+      {
+       "v": "a su Bosque»."
+      },
+      {
+       "n": 3,
+       "v": "Gilgamesh abrió la boca y le dijo así a Enkidu:",
+       "nota": "Vuelve la versión paleobabilónica."
+      },
+      {
+       "n": 5,
+       "v": "«¿Quién, amigo mío, no es vencido por [la muerte]? Un dios, sin duda,"
+      },
+      {
+       "v": "vive para siempre a la luz del día, pero los mortales tienen los días contados;"
+      },
+      {
+       "v": "todo lo que hacen es viento. Pero tú, ahora que temes a la muerte,"
+      },
+      {
+       "n": 10,
+       "v": "tu valor no ofrece nada sólido. ¡Yo iré delante de ti!"
+      },
+      {
+       "v": "Tu propia boca dirá que temiste el asalto de la batalla."
+      },
+      {
+       "v": "Yo, si caigo, habré asentado mi nombre para siempre:"
+      },
+      {
+       "n": 15,
+       "v": "“Fue Gilgamesh quien luchó con Humbaba el Feroz”."
+      },
+      {
+       "v": "En el futuro, cuando hayan nacido mis hijos en mi casa y trepen a ti diciendo:"
+      },
+      {
+       "v": "“Cuéntanos todo lo que sabes”…"
+      },
+      {
+       "laguna": "Cuatro versos mutilados."
+      },
+      {
+       "v": "[Sí, cuando] hablas [así], me apenas el corazón por el Cedro"
+      },
+      {
+       "n": 25,
+       "v": "que [estoy] resuelto [a talar] para ganar [fama] eterna."
+      },
+      {
+       "sub": "Se funden las armas para la expedición"
+      },
+      {
+       "v": "Ahora, amigo mío, quiero dar [mi encargo] a los artesanos,"
+      },
+      {
+       "v": "para que fundan en nuestra presencia [nuestras armas]»."
+      },
+      {
+       "v": "Dieron [el encargo]"
+      },
+      {
+       "n": 30,
+       "v": "a los artesanos: los obreros prepararon el molde (?), y fundieron"
+      },
+      {
+       "v": "hachas enormes; fundieron hachuelas de tres talentos cada una;"
+      },
+      {
+       "v": "fundieron también espadas enormes, de empuñaduras de dos talentos cada una,"
+      },
+      {
+       "n": 35,
+       "v": "y hojas de treinta minas cada una para ajustarlas; [la incrustación (?)],"
+      },
+      {
+       "v": "de treinta minas de oro cada espada. Así Gilgamesh y Enkidu iban cargados"
+      },
+      {
+       "v": "con diez talentos cada uno."
+      },
+      {
+       "sub": "Gilgamesh pide consejo a los ancianos"
+      },
+      {
+       "v": "Y ahora, [en] la [Puerta] de los Siete Cerrojos [de Uruk],"
+      },
+      {
+       "v": "al oír [el rumor (?)], se reunieron los artesanos, [se juntó el pueblo (?)]",
+       "nota": "Conjetura de Thompson, como la de los versos 40 y 45."
+      },
+      {
+       "n": 40,
+       "v": "en las calles de Uruk, la de anchas plazas, [en honor de Gilgamesh (?)],"
+      },
+      {
+       "v": "[y los ancianos de Uruk], la de anchas plazas, se sentaron ante él."
+      },
+      {
+       "v": "[Gilgamesh] habló [así: «Ancianos de Uruk], la de anchas plazas, [¡escuchadme!]"
+      },
+      {
+       "n": 45,
+       "v": "[Voy contra Humbaba el Feroz, que dirá, cuando lo oiga]:"
+      },
+      {
+       "col": "V"
+      },
+      {
+       "v": "“Que vea yo a ese Gilgamesh del que habla la gente,"
+      },
+      {
+       "v": "aquel de cuya fama están llenos los países”. ¡Yo lo aplastaré"
+      },
+      {
+       "n": 5,
+       "v": "allí, en el Bosque de los Cedros! Haré que la tierra oiga"
+      },
+      {
+       "v": "qué gigante es el vástago de Uruk, porque los cedros"
+      },
+      {
+       "v": "estoy resuelto a talarlos para ganar fama eterna»."
+      },
+      {
+       "v": "Los ancianos de Uruk, la de anchas plazas, respondieron así a Gilgamesh:"
+      },
+      {
+       "n": 10,
+       "v": "«Gilgamesh, eres joven, y tu valor te arrastra demasiado;"
+      },
+      {
+       "v": "no sabes del todo lo que pretendes hacer."
+      },
+      {
+       "v": "Ha llegado a nuestros oídos que Humbaba tiene doble semblante.",
+       "nota": "Frase difícil, según Thompson."
+      },
+      {
+       "n": 15,
+       "v": "¿Quién [buscaría] por su voluntad oponerse a sus armas?"
+      },
+      {
+       "v": "¿Quién se adentraría en el bosque hasta dos horas de marcha"
+      },
+      {
+       "v": "desde su linde? Humbaba: su rugido es un torbellino,"
+      },
+      {
+       "v": "llamas sus fauces, y su aliento es la muerte. ¿Por qué has deseado"
+      },
+      {
+       "v": "hacer esto? Enfrentarse (?) con Humbaba sería una lucha desigual»."
+      },
+      {
+       "n": 20,
+       "v": "Gilgamesh escuchó el consejo de sus consejeros y reflexionó;"
+      },
+      {
+       "v": "gritó a [su] amigo: «Ahora, amigo mío, [diré] así [mi parecer]:"
+      },
+      {
+       "v": "le temo, y aun así [me adentraré en lo hondo del Bosque]…»."
+      },
+      {
+       "laguna": "Unos siete versos mutilados o perdidos, en los que los ancianos bendicen a Gilgamesh al despedirlo."
+      },
+      {
+       "v": "«… que tu dios te [proteja]"
+      },
+      {
+       "v": "y te devuelva [sano y salvo] a las murallas de Uruk, [la de anchas plazas]»."
+      },
+      {
+       "n": 35,
+       "v": "Gilgamesh se arrodilló [ante Shamash] para decir una palabra [en su presencia]:"
+      },
+      {
+       "v": "«Aquí me presento, Shamash, [para alzar] las manos [en súplica]:"
+      },
+      {
+       "v": "¡que después se me conserve la vida, y a las murallas de [Uruk]"
+      },
+      {
+       "n": 40,
+       "v": "me devuelvas! ¡Extiende tu protección [sobre mí]!»."
+      },
+      {
+       "v": "Y Shamash respondió, [pronunciando] su oráculo…"
+      },
+      {
+       "laguna": "Unos seis versos mutilados o perdidos."
+      },
+      {
+       "col": "VI"
+      },
+      {
+       "v": "Las lágrimas corrían [por las mejillas] de Gilgamesh: «Un camino que nunca"
+      },
+      {
+       "v": "he recorrido [emprendo, por un paso (?)] que no conozco; pero si se me conserva la vida,"
+      },
+      {
+       "n": 5,
+       "v": "[volveré] contento [y te rendiré (?)] el homenaje debido»."
+      },
+      {
+       "laguna": "Dos versos mutilados con las palabras «en asientos» y «su equipo»."
+      },
+      {
+       "n": 10,
+       "v": "[Trajeron (?)] las hachas enormes, entregaron [el arco] y la aljaba"
+      },
+      {
+       "v": "[en su] mano; y tomando un hacha, [se colgó (?)] la aljaba,"
+      },
+      {
+       "n": 15,
+       "v": "[empuñó] otra [hacha (?)] y [se sujetó la espada] al tahalí."
+      },
+      {
+       "v": "[Pero antes de que] los dos emprendieran el viaje, ofrecieron"
+      },
+      {
+       "v": "[dones] al dios Sol, para que los devolviera [a salvo] a Uruk."
+      },
+      {
+       "sub": "La partida de los dos héroes"
+      },
+      {
+       "n": 20,
+       "v": "Ahora los [ancianos] lo despiden con bendiciones, y dan a Gilgamesh"
+      },
+      {
+       "v": "consejo [sobre] el camino: «Gilgamesh, no confíes"
+      },
+      {
+       "v": "[solo] en tu propia fuerza; que tu [camino] lo recorra otro [antes que] tú;"
+      },
+      {
+       "v": "guarda tu persona; que Enkidu vaya delante de ti,"
+      },
+      {
+       "v": "porque él ha descubierto el [camino], él ha recorrido la ruta."
+      },
+      {
+       "n": 25,
+       "v": "Los pasos del Bosque están todos bajo el dominio (?) [de] Humbaba;"
+      },
+      {
+       "v": "[el que va] delante puede proteger al compañero."
+      },
+      {
+       "v": "¡Que el dios Sol te [conceda éxito para lograr] tu [ambición],"
+      },
+      {
+       "n": 30,
+       "v": "que te conceda ver cumplidas con tus ojos las palabras de tu boca,"
+      },
+      {
+       "v": "que allane el camino cerrado y abra una senda a tus pasos,"
+      },
+      {
+       "n": 35,
+       "v": "que abra también la montaña a tu pie! Que el dios Lugalbanda",
+       "nota": "Lugalbanda parece ser el dios protector de Gilgamesh, y quizá su padre. Él y Dumuzi son los dos reyes de Uruk anteriores a Gilgamesh en las listas reales."
+      },
+      {
+       "v": "te traiga de noche un mensaje que te alegre,"
+      },
+      {
+       "v": "para que ayude a tu ambición, porque, como un muchacho, pones tu ambición"
+      },
+      {
+       "v": "en derribar a Humbaba, como has decidido."
+      },
+      {
+       "n": 40,
+       "v": "Lávate los pies; cuando te detengas, cava un pozo, para que siempre",
+       "nota": "Verso dudoso: Thompson duda de que el verbo signifique «lavar» y no «encontrar»."
+      },
+      {
+       "v": "esté pura el agua de tu odre, y fresca el agua"
+      },
+      {
+       "v": "que derrames al dios Sol; y así te acordarás de Lugalbanda»."
+      },
+      {
+       "n": 45,
+       "v": "Enkidu abrió la boca y dijo a Gilgamesh:"
+      },
+      {
+       "v": "«[Gilgamesh], ¿estás de verdad a la altura de esta incursión?"
+      },
+      {
+       "v": "Que [no] tema tu corazón; confía en mí»."
+      },
+      {
+       "v": "Se echó el manto sobre el hombro,"
+      },
+      {
+       "n": 50,
+       "v": "y juntos emprendieron [el camino] hacia Humbaba."
+      },
+      {
+       "laguna": "Cinco versos mutilados: los dos héroes encuentran a un hombre que los encamina."
+      },
+      {
+       "n": 56,
+       "v": "«… fueron conmigo… [os diré]… con el corazón alegre»."
+      },
+      {
+       "n": 60,
+       "v": "[Cuando oyó estas palabras, el hombre lo [encaminó]:"
+      },
+      {
+       "v": "«Gilgamesh, ve…, que tu hermano (?) vaya [delante de ti]… [y en tu ambición]"
+      },
+      {
+       "v": "¡que el dios Sol (?) te muestre el éxito!»."
+      },
+      {
+       "acot": "La versión paleobabilónica se interrumpe tras tres versos fragmentarios más. Lo que sigue es la versión asiria, que retoma desde el consejo de los ancianos (columna VI, verso 21) y empieza la tablilla III asiria."
+      },
+      {
+       "col": "I (versión asiria)"
+      },
+      {
+       "v": "«Gilgamesh, no pongas tu confianza solo en la fuerza de tu persona;"
+      },
+      {
+       "v": "que se apague tu deseo de confiar (?) demasiado en tu destreza al golpear."
+      },
+      {
+       "v": "El que va delante puede proteger al compañero;"
+      },
+      {
+       "n": 5,
+       "v": "el que sabe guiar ha guardado a su amigo; así que delante de ti"
+      },
+      {
+       "v": "deja ir a Enkidu, porque él conoce el camino al Bosque de los Cedros;"
+      },
+      {
+       "v": "él ansía la batalla y amenaza con el combate."
+      },
+      {
+       "v": "Enkidu velaría por un amigo, protegería a un compañero,"
+      },
+      {
+       "n": 10,
+       "v": "y un hombre así libraría su persona de las trampas."
+      },
+      {
+       "v": "Nosotros, oh Rey, en nuestra asamblea hemos velado por tu bien;"
+      },
+      {
+       "v": "tú, oh Rey, a cambio, velarás igual por nosotros»."
+      },
+      {
+       "v": "Gilgamesh abrió la boca y dijo a Enkidu:"
+      },
+      {
+       "n": 15,
+       "v": "«Al Palacio del Esplendor, amigo, vamos,"
+      },
+      {
+       "v": "ante Ninsun, la gloriosa reina, ante Ninsun,"
+      },
+      {
+       "v": "la más sabia de las mujeres, la que todo lo sabe: un camino bien pensado"
+      },
+      {
+       "v": "trazará para nuestros pies»."
+      },
+      {
+       "n": 20,
+       "v": "Se tomaron de las manos y fueron al Palacio del Esplendor,"
+      },
+      {
+       "v": "Gilgamesh y Enkidu. Ante la gloriosa reina, ante Ninsun,"
+      },
+      {
+       "v": "llegó Gilgamesh y entró [en presencia de Ninsun]:"
+      },
+      {
+       "v": "«Ninsun, quiero contarte [cómo] emprendo un largo viaje,"
+      },
+      {
+       "n": 25,
+       "v": "[a] la morada [de Humbaba, a afrontar una] guerra que no conozco,"
+      },
+      {
+       "v": "[a seguir un camino] que no [conozco], [desde el día en que parta]"
+      },
+      {
+       "v": "[hasta que vuelva, hasta que llegue al Bosque de los Cedros],"
+      },
+      {
+       "v": "[hasta que derribe a Humbaba el Feroz y destruya en el país]"
+      },
+      {
+       "v": "[todo el mal que aborrece el dios Sol]…»."
+      },
+      {
+       "laguna": "Se pierde el resto del discurso de Gilgamesh hasta el final de la columna, donde aún se dirige a su madre y, al parecer, le pide que se vista de fiesta para pedir un favor al dios Sol."
+      },
+      {
+       "v": "«… vístete…, en tu presencia»."
+      },
+      {
+       "v": "Ninsun escuchó a su hijo, a Gilgamesh…"
+      },
+      {
+       "col": "II (versión asiria)"
+      },
+      {
+       "v": "Entró [en su aposento]… [y se adornó] con las flores de Tulal (?),"
+      },
+      {
+       "v": "[se puso] el vestido de fiesta de su cuerpo…"
+      },
+      {
+       "n": 5,
+       "v": "[se puso] el adorno de fiesta de su pecho…, coronó su cabeza [con una diadema]"
+      },
+      {
+       "v": "… el suelo ipirani."
+      },
+      {
+       "v": "Subió [la escalera], ascendió al terrado y subió [al parapeto (?)],"
+      },
+      {
+       "v": "ofreció su incienso a Shamash, ofreció su sacrificio [a Shamash],"
+      },
+      {
+       "v": "y alzó las manos hacia Shamash [en oración, diciendo]:"
+      },
+      {
+       "n": 10,
+       "v": "«¿Por qué diste este espíritu inquieto,"
+      },
+      {
+       "v": "del que dotaste a Gilgamesh, [mi] hijo?"
+      },
+      {
+       "v": "Ahora lo tocas, y al instante emprende"
+      },
+      {
+       "v": "un largo viaje hasta donde vive Humbaba,"
+      },
+      {
+       "v": "a afrontar una guerra que no conoce,"
+      },
+      {
+       "v": "a seguir un camino que no conoce,"
+      },
+      {
+       "n": 15,
+       "v": "desde el mismo día en que parta"
+      },
+      {
+       "v": "hasta que vuelva, hasta que al Bosque de los Cedros"
+      },
+      {
+       "v": "llegue, hasta que derribe al feroz Humbaba"
+      },
+      {
+       "v": "y destruya en el país todo el mal"
+      },
+      {
+       "v": "que aborreces; el día que [hayas fijado]"
+      },
+      {
+       "n": 20,
+       "v": "como plazo de ese hombre fuerte que te teme,"
+      },
+      {
+       "v": "que Aya, tu esposa, te lo recuerde.",
+       "nota": "Aya es la esposa del dios Sol."
+      },
+      {
+       "v": "Él, las vigilias de la noche…»."
+      },
+      {
+       "laguna": "Las columnas III, IV y V están muy mutiladas. Queda un pasaje en asirio con el discurso de Enkidu sobre «las montañas», «las bestias del campo» y cómo «esperaba»; otro fragmento menciona el «cadáver» [de Humbaba] y a los Anunnaki, y repite el verso «ese hombre fuerte que [te] teme». Después se habla del «viaje» hasta que [Gilgamesh haya derribado al feroz Humbaba], tarde días, meses o años, y en otro fragmento alguien «amontona incienso» [para un dios] y Enkidu vuelve a hablar con alguien, aunque el texto mutilado no deja ver la relación. La última columna repite lo que los ancianos dijeron a Gilgamesh:"
+      },
+      {
+       "col": "VI (versión asiria)"
+      },
+      {
+       "v": "«[Un hombre así libraría su persona] de las trampas."
+      },
+      {
+       "n": 10,
+       "v": "[Nosotros, oh Rey], en nuestra asamblea [hemos velado por tu bien];"
+      },
+      {
+       "v": "[ahora, oh Rey, a tu vez velarás igual por nosotros]»."
+      },
+      {
+       "v": "Enkidu [abrió] la boca [y dijo a Gilgamesh]:"
+      },
+      {
+       "v": "«Vuelve, amigo mío… un camino no…»."
+      }
+     ]
+    },
+    {
+     "n": 4,
+     "titulo": "Tablilla IV",
+     "sinopsis": "Los héroes llegan a la puerta del Bosque. Enkidu le habla a la puerta, la derriba y cae enfermo de miedo durante doce días; Gilgamesh le devuelve el valor y avanzan juntos.",
+     "items": [
+      {
+       "acot": "De la columna I faltan o están mutilados los versos 1–36: solo quedan los comienzos de dieciséis. Cuando el texto se vuelve seguido, los héroes han llegado a la puerta del Bosque."
+      },
+      {
+       "col": "I"
+      },
+      {
+       "sub": "Enkidu habla a la puerta"
+      },
+      {
+       "n": 36,
+       "v": "Enkidu alzó [los ojos]… y habló con la puerta como [si fuera humana (?)]:",
+       "nota": "Versión asiria."
+      },
+      {
+       "v": "«Tú, puerta del Bosque, sin entendimiento (?)…,"
+      },
+      {
+       "v": "sentidos que no tienes…"
+      },
+      {
+       "n": 40,
+       "v": "durante cuarenta leguas he admirado tu [maravillosa] madera,"
+      },
+      {
+       "v": "hasta que divisé el Cedro altísimo…"
+      },
+      {
+       "v": "Tu madera no tiene igual [en el país]…"
+      },
+      {
+       "v": "Seis gar es tu altura, y dos gar tu anchura…"
+      },
+      {
+       "n": 45,
+       "v": "Tu poste (?), tu quicio (?), tu gozne (?), tu cerrojo (?) y tu batiente (?)"
+      },
+      {
+       "v": "[tuvieron que hacerse para ti] en la ciudad de Nippur."
+      },
+      {
+       "v": "¡Si yo hubiera sabido, puerta, que esta era [tu grandeza]"
+      },
+      {
+       "v": "y esta [la gracia de tu estructura], habría alzado un hacha,"
+      },
+      {
+       "n": 50,
+       "v": "o habría… o atado…»."
+      },
+      {
+       "laguna": "De la columna siguiente queda un fragmento que, por su aspecto, se atribuye a esta tablilla. Habla de terror, de un sueño y de pena: «déjame rogar a los dioses… que tu dios (?) sea… el padre de los dioses». De la tercera columna solo queda una pequeña parte de la mitad derecha, que menciona a Gilgamesh, el Bosque y Enkidu. La cuarta columna se ha perdido por completo. De la columna V sobrevive sin duda la parte final. Tras unos versos rotos sigue así; el que habla es probablemente Enkidu, ante la puerta del Bosque."
+      },
+      {
+       "col": "V"
+      },
+      {
+       "n": 6,
+       "v": "«… [apresúrate], resístele, no [te perseguirá (?)],"
+      },
+      {
+       "v": "[bajaremos] al bosque sin miedo, [juntos (?)]."
+      },
+      {
+       "v": "… te pondrás siete vestiduras…"
+      },
+      {
+       "v": "… poniéndote, y seis… (?)…»."
+      },
+      {
+       "n": 10,
+       "v": "Él, como un poderoso toro salvaje…"
+      },
+      {
+       "v": "arrojó lejos la puerta, y [su] boca se llenó [de su desafío];"
+      },
+      {
+       "v": "gritó al guardián del Bosque: «¡Arriba (?)…!"
+      },
+      {
+       "v": "[Yo desafiaré] a Humbaba como a un…»."
+      },
+      {
+       "laguna": "Un hueco pequeño."
+      },
+      {
+       "col": "VI"
+      },
+      {
+       "acot": "Habla Enkidu."
+      },
+      {
+       "v": "«[Preveo (?)] problemas (?) dondequiera que vaya…"
+      },
+      {
+       "n": 5,
+       "v": "Amigo mío, he [visto] un sueño que…»."
+      },
+      {
+       "v": "El día del sueño que había visto se cumplió…",
+       "nota": "O «el sueño [se cumplirá]»."
+      },
+      {
+       "sub": "A Enkidu lo paraliza el miedo al pensar en el combate"
+      },
+      {
+       "v": "Enkidu estuvo acostado un día, [sí, un segundo]; Enkidu [estuvo]"
+      },
+      {
+       "n": 10,
+       "v": "tendido en su lecho un tercero y un cuarto día…, un quinto, sexto y séptimo,"
+      },
+      {
+       "v": "octavo, noveno [y décimo]. Mientras Enkidu [yacía en su] enfermedad…, el undécimo,"
+      },
+      {
+       "v": "hasta el duodécimo… estuvo Enkidu [acostado] en [su] lecho."
+      },
+      {
+       "n": 15,
+       "v": "Llamó a Gilgamesh…:"
+      },
+      {
+       "v": "«Compañero mío… me odia… porque en Uruk"
+      },
+      {
+       "v": "tuve miedo del combate, y… Amigo mío, que en la batalla…»."
+      },
+      {
+       "laguna": "Un hueco pequeño en el que Gilgamesh responde. Enkidu contesta:"
+      },
+      {
+       "n": 26,
+       "v": "[Enkidu abrió] la [boca] y habló [a Gilgamesh, diciendo]:"
+      },
+      {
+       "v": "«[Amigo mío, no] bajemos [a lo hondo del Bosque],"
+      },
+      {
+       "v": "porque se me [han debilitado] las manos y [los brazos] están paralizados»."
+      },
+      {
+       "v": "Gilgamesh abrió la boca y habló [a Enkidu], diciendo:"
+      },
+      {
+       "n": 30,
+       "v": "«¿Vamos a [portarnos] como cobardes, amigo?…"
+      },
+      {
+       "v": "… tú los superarás a todos (?)…"
+      },
+      {
+       "v": "[Tú, amigo] mío, eres diestro en la guerra, [astuto (?)] en la batalla;"
+      },
+      {
+       "v": "tocarás el… y no temerás a la [muerte]."
+      },
+      {
+       "laguna": "Dos versos difíciles y mutilados."
+      },
+      {
+       "v": "[Para que] la parálisis de tus brazos [se vaya] y la debilidad"
+      },
+      {
+       "v": "deje [tus manos], [¡sé valiente (?)] y resiste! Compañero mío, juntos"
+      },
+      {
+       "v": "bajaremos: ¡que el combate [no mengüe (?)] tu valor!"
+      },
+      {
+       "n": 40,
+       "v": "Olvida la muerte y no temas (?) nada (?)…, [porque el valiente (?)],"
+      },
+      {
+       "v": "precavido y cuidadoso, al ir delante ha guardado su propio cuerpo,"
+      },
+      {
+       "v": "y él protegerá al compañero»."
+      },
+      {
+       "v": "Un nombre por su [valor (?)]…"
+      },
+      {
+       "v": "asentarán. Y ahora llegan juntos a la barrera (?);"
+      },
+      {
+       "v": "[enmudece (?)] su habla, y de pronto se detienen."
+      }
+     ]
+    },
+    {
+     "n": 5,
+     "titulo": "Tablilla V",
+     "sinopsis": "Los héroes contemplan el Bosque de los Cedros. Gilgamesh tiene sueños inquietantes que Enkidu interpreta como buenos presagios. Shamash desata ocho vientos contra Humbaba, que pide clemencia; Enkidu convence a Gilgamesh de no perdonarlo y le cortan la cabeza.",
+     "items": [
+      {
+       "col": "I"
+      },
+      {
+       "sub": "Las maravillas del Bosque"
+      },
+      {
+       "v": "Se quedaron mirando el Bosque, contemplaron la altura de los cedros,",
+       "nota": "Versión asiria."
+      },
+      {
+       "v": "escrutando la entrada del Bosque; y allí por donde Humbaba"
+      },
+      {
+       "n": 5,
+       "v": "andaba había un sendero, rectas eran sus huellas y buena la senda."
+      },
+      {
+       "v": "Contemplaron también el Monte del Cedro, morada de los inmortales,"
+      },
+      {
+       "v": "santuario [de Irnini]; el Cedro alzaba su orgullo frente a la montaña;",
+       "nota": "Irnini es una forma de Ishtar."
+      },
+      {
+       "v": "hermosa era su sombra, llena de deleite, con matorrales que se extendían,"
+      },
+      {
+       "v": "y se extendía también el…, el Cedro, el incienso…",
+       "nota": "Literalmente, Ferula persica."
+      },
+      {
+       "laguna": "Tras unos versos mutilados se interrumpe la columna. La parte superior de la columna II tiene unos veinte versos muy mutilados; la inferior está más completa y empieza con las visiones que recibe el héroe."
+      },
+      {
+       "col": "II"
+      },
+      {
+       "sub": "Gilgamesh cuenta sus sueños"
+      },
+      {
+       "n": 32,
+       "v": "«[Luego tuve otro sueño, compañero, y esta segunda] visión",
+       "nota": "Las restituciones de este pasaje son, como es obvio, inciertas."
+      },
+      {
+       "v": "[fue agradable de verdad], porque nosotros (?) [dos estábamos juntos]"
+      },
+      {
+       "v": "[en lo alto de (?) una] cumbre de las montañas, [y entonces la cumbre] se derrumbó,"
+      },
+      {
+       "n": 35,
+       "v": "[y nos dejó a los dos (?)] como… (?) que nacen en la estepa»."
+      },
+      {
+       "v": "Enkidu habló a su compañero para [interpretar] el sueño (?):"
+      },
+      {
+       "v": "«Compañero, esta visión [tuya nos anuncia] buena fortuna;"
+      },
+      {
+       "v": "es un sueño de gran provecho [el que viste], porque, piénsalo, compañero,"
+      },
+      {
+       "n": 40,
+       "v": "la montaña que has visto [tiene que ser Humbaba (?)]."
+      },
+      {
+       "v": "Quiere decir que capturaremos a Humbaba, [derribaremos su] cadáver"
+      },
+      {
+       "v": "[y dejaremos] su cuerpo humillado; mañana [te mostraré] el resultado»."
+      },
+      {
+       "n": 45,
+       "v": "A las cuarenta leguas rompieron el ayuno [con un bocado];",
+       "nota": "En este punto el texto lleva una raya horizontal, como separación de episodio. Los números 45 y 60 de los versos siguientes son de Thompson."
+      },
+      {
+       "v": "a las sesenta descansaron y cavaron un hoyo al sol…"
+      },
+      {
+       "v": "Gilgamesh subió encima [de él]… y derramó su harina [para la montaña]:"
+      },
+      {
+       "n": 50,
+       "v": "«Montaña, concédeme un sueño…, sopla sobre él…»."
+      },
+      {
+       "col": "III"
+      },
+      {
+       "v": "[La montaña] le concedió un sueño…, sopló sobre él…"
+      },
+      {
+       "v": "Entonces se levantó una ráfaga de viento frío, y [un golpe de aire] al pasar…"
+      },
+      {
+       "n": 5,
+       "v": "[lo hizo] encogerse, y… [ante ello se meció] como el trigo de las montañas…"
+      },
+      {
+       "v": "Gilgamesh, [en cuclillas], con las rodillas dobladas, se apoyó en sus ancas,"
+      },
+      {
+       "v": "y el sueño que fluye sobre los hombres descendió sobre él. [A] medianoche"
+      },
+      {
+       "v": "acabó de pronto su sueño, y corrió a hablar con su compañero:"
+      },
+      {
+       "n": 10,
+       "v": "«¿No me has llamado, amigo? ¿Por qué me he despertado?"
+      },
+      {
+       "v": "¿No me has tocado? ¿Por qué tengo miedo (?)? ¿No ha pasado"
+      },
+      {
+       "v": "algún espíritu? ¿Por qué me tiembla la carne?"
+      },
+      {
+       "sub": "El sueño del volcán, que probablemente representa a Humbaba"
+      },
+      {
+       "v": "He visto un tercer sueño, compañero, y el sueño que he visto es terrible:"
+      },
+      {
+       "n": 15,
+       "v": "rugía el firmamento, y la tierra resonaba con el eco;"
+      },
+      {
+       "v": "oscuro era el día, se alzaban las tinieblas y brillaban los relámpagos;"
+      },
+      {
+       "v": "se encendían llamas, [y allí también la peste (?)] se llenaba hasta rebosar,"
+      },
+      {
+       "v": "¡estaba ahíta la muerte! Entonces [se apagó] el resplandor, se apagaron los fuegos,"
+      },
+      {
+       "n": 20,
+       "v": "y [las brasas], al caer, se volvieron cenizas. [Vamos, bajemos] a la estepa"
+      },
+      {
+       "v": "para deliberar juntos»."
+      },
+      {
+       "v": "Ahora Enkidu habla a Gilgamesh para interpretarle el sueño:"
+      },
+      {
+       "laguna": "Se ha perdido el resto de la columna III. Una de las tablillas semíticas de Boğazköy conserva una versión distinta. Cuando el sentido se vuelve seguido, cuenta cómo los héroes se detienen para la noche y a medianoche el sueño abandona al héroe, que cuenta lo que ha soñado a Enkidu tras preguntar, más o menos con las mismas palabras, por qué se despierta asustado: «Además de mi primer sueño, un segundo… En mi sueño, amigo, una montaña… me derribó, me agarró los pies… Aumentó el resplandor: un hombre…, el más hermoso de toda la tierra era su belleza… Me sacó de debajo de la montaña y… me dio agua de beber, y [se calmó] mi deseo; puso mis pies en tierra…». Enkidu dijo a este dios… a Gilgamesh: «Amigo mío, iremos… todo lo hostil… No la montaña… Ven, deja el miedo…». El resto, tras unos siete versos mutilados, se ha perdido."
+      },
+      {
+       "laguna": "La columna IV se ha perdido entera y apenas queda nada de la V. La columna VI contenía la historia del gran combate, pero salvo unos versos rotos al final se ha perdido. Thompson la sustituye con la versión hitita de Boğazköy.",
+       "hoy": "Las copias halladas después, sobre todo una tablilla de Sulaymaniyah publicada en 2014, añaden pasajes nuevos sobre el bosque: está lleno de pájaros, cigarras y monos, y Humbaba aparece casi como un rey en su corte. También se conserva mejor la súplica de Humbaba, que ofrece a Gilgamesh ser su siervo y su madera."
+      },
+      {
+       "col": "VI (versión hitita)"
+      },
+      {
+       "sub": "El combate con Humbaba"
+      },
+      {
+       "v": "De este modo… el dios Sol en el cielo… los árboles:",
+       "nota": "Thompson traduce aquí la versión hitita a partir de las ediciones alemanas de J. Friedrich y de Ungnad."
+      },
+      {
+       "v": "vio [a Gilgamesh]: del dios Sol en el cielo en…"
+      },
+      {
+       "n": 5,
+       "v": "y [le mostró] el dique de las acequias."
+      },
+      {
+       "v": "Gilgamesh [dirigió] entonces [una súplica] al dios Sol en el cielo:"
+      },
+      {
+       "v": "«Mira, ese día a la ciudad… que está en la ciudad:"
+      },
+      {
+       "n": 10,
+       "v": "yo, en verdad, [ruego] al dios Sol en el cielo: he emprendido un camino,"
+      },
+      {
+       "v": "…»."
+      },
+      {
+       "v": "El dios Sol en el cielo escuchó la súplica de Gilgamesh,"
+      },
+      {
+       "v": "y por eso alzó contra Humbaba vientos poderosos: un gran viento,"
+      },
+      {
+       "v": "el viento del norte, [un viento del sur], [una tempestad] y un huracán,"
+      },
+      {
+       "n": 15,
+       "v": "un viento helado, un torbellino, un viento de todo mal: alzó ocho vientos,"
+      },
+      {
+       "v": "que agarraron [a Humbaba] por delante y por detrás, de modo que ni avanzar"
+      },
+      {
+       "v": "ni retroceder podía; y entonces Humbaba se rindió."
+      },
+      {
+       "n": 20,
+       "v": "Y Humbaba dijo así a Gilgamesh: «Gilgamesh, te lo ruego,"
+      },
+      {
+       "v": "detén la mano: sé [tú] mi [señor], y yo seré tu siervo;"
+      },
+      {
+       "v": "[no tengas en cuenta] todas las palabras que dije con jactancia contra ti,"
+      },
+      {
+       "n": 25,
+       "v": "importantes… me postraría… y el palacio»."
+      },
+      {
+       "v": "Entonces Enkidu [dijo] a [Gilgamesh]: «[El consejo que] Humbaba"
+      },
+      {
+       "v": "[te da] no te atrevas a aceptarlo de ningún modo,"
+      },
+      {
+       "v": "porque Humbaba no [debe quedar con vida]…»."
+      },
+      {
+       "acot": "La versión hitita se interrumpe aquí. La versión asiria termina con seis versos muy mutilados; el último cuenta el éxito de la expedición:"
+      },
+      {
+       "v": "… [cortaron] la cabeza de Humbaba."
+      }
+     ]
+    },
+    {
+     "n": 6,
+     "titulo": "Tablilla VI",
+     "sinopsis": "Ishtar se enamora de Gilgamesh y le propone matrimonio. Él la rechaza y le echa en cara la suerte de sus amantes. Ofendida, Ishtar consigue de Anu el Toro del Cielo, que siembra la muerte en Uruk hasta que Enkidu y Gilgamesh lo matan. Enkidu insulta a la diosa y esa noche tiene un sueño.",
+     "items": [
+      {
+       "col": "I"
+      },
+      {
+       "sub": "Gilgamesh se limpia las manchas del combate"
+      },
+      {
+       "v": "Ahora se lava las manchas y limpia sus ropas hechas jirones,",
+       "nota": "Versión asiria. El tiempo verbal es en realidad pasado, pero Thompson usa el presente histórico."
+      },
+      {
+       "v": "se trenza (?) el cabello y lo deja caer suelto sobre los hombros,"
+      },
+      {
+       "v": "deja las ropas sucias y se pone las limpias,"
+      },
+      {
+       "v": "se pone brazaletes (?) y se ciñe el cuerpo con un tahalí;"
+      },
+      {
+       "n": 5,
+       "v": "Gilgamesh se ata la diadema y se ciñe el tahalí."
+      },
+      {
+       "sub": "Ishtar lo ve y quiere casarse con él"
+      },
+      {
+       "v": "La Señora Ishtar se fija en la belleza de Gilgamesh, y dice:"
+      },
+      {
+       "v": "«Gilgamesh, ven, sé mi esposo, dame en prenda"
+      },
+      {
+       "v": "el fruto [de tu cuerpo]: tú serás mi marido y yo tu esposa."
+      },
+      {
+       "n": 10,
+       "v": "Te daré un carro de lapislázuli y oro,"
+      },
+      {
+       "v": "de oro la rueda y de piedras preciosas el yugo, que cada día se uncirá",
+       "nota": "En el original, elmeshu, una piedra preciosa de clase incierta."
+      },
+      {
+       "v": "a grandes mulas: ¡entra en nuestra casa con fragancia de cedro!"
+      },
+      {
+       "n": 15,
+       "v": "Cuando entres en nuestra casa, el umbral y el estrado"
+      },
+      {
+       "v": "te besarán los pies, y a tus pies se postrarán reyes, príncipes y gobernantes,"
+      },
+      {
+       "v": "y te traerán en tributo el producto de montes y llanuras; tus cabras"
+      },
+      {
+       "v": "parirán en abundancia, tus ovejas tendrán gemelos, tus asnos llegarán"
+      },
+      {
+       "n": 20,
+       "v": "al tamaño de una mula, y tus corceles, uncidos a tu carro, ganarán"
+      },
+      {
+       "v": "fama por su galope: [tus mulas] nunca tendrán rival bajo el yugo»."
+      },
+      {
+       "v": "[Gilgamesh] abrió la boca para [responder] a la Señora Ishtar:"
+      },
+      {
+       "v": "«[¿Y qué tendré que darte] si te tomo por esposa?"
+      },
+      {
+       "n": 25,
+       "v": "[Tendré que darte aceite] para el cuerpo, y vestidos,"
+      },
+      {
+       "v": "[darte] pan y alimento: tendrá que ser un sustento [abundante],"
+      },
+      {
+       "v": "digno de una diosa; [y también tendré que darte] bebida digna de reyes."
+      },
+      {
+       "n": 30,
+       "v": "… quedaré atado…, acumulemos (?)…, vestir con una prenda."
+      },
+      {
+       "v": "[¿Qué ganaré yo, entonces, si] te tomo por esposa?"
+      },
+      {
+       "v": "[Eres una ruina que no da cobijo (?) al hombre] contra el tiempo,"
+      },
+      {
+       "v": "eres una puerta trasera que [no] resiste la ráfaga ni el vendaval,"
+      },
+      {
+       "n": 35,
+       "v": "eres un palacio que aplasta a los héroes [que están dentro],"
+      },
+      {
+       "v": "eres una trampa cuya cubierta [cede a traición],"
+      },
+      {
+       "v": "eres brea que [mancha] al que la lleva consigo,"
+      },
+      {
+       "v": "eres un odre que [gotea] sobre el que lo lleva consigo,"
+      },
+      {
+       "v": "eres caliza que [deja] que se desmoronen las murallas de piedra,"
+      },
+      {
+       "n": 40,
+       "v": "eres calcedonia que [no protege (?)] en país enemigo,",
+       "nota": "Un sello cilíndrico o amuleto de calcedonia."
+      },
+      {
+       "v": "eres una sandalia que hace [tropezar] a su dueño."
+      },
+      {
+       "v": "¿A qué esposo [tuyo amaste con fidelidad] para siempre?"
+      },
+      {
+       "v": "¿Qué señor tuyo ha conseguido [ventaja sobre ti]?"
+      },
+      {
+       "v": "Ven, y te contaré [la interminable historia] de tus maridos."
+      },
+      {
+       "n": 45,
+       "v": "Tú misma darás fe (?) de la verdad (?) de esta lista. Al esposo de tu juventud,"
+      },
+      {
+       "v": "a Tammuz, cada año lo haces motivo de llanto. Después",
+       "nota": "Es la fiesta anual del llanto por Tammuz. Según Thompson, Tammuz, esposo de Ishtar, representa la vegetación y muere cada año en otoño; su fiel esposa baja al Inframundo para traerlo de vuelta en primavera."
+      },
+      {
+       "v": "amaste a la carraca de alegre plumaje, y aun así la golpeaste"
+      },
+      {
+       "n": 50,
+       "v": "y le rompiste el ala: está en el bosque gritando kappi, “¡mi ala!”.",
+       "nota": "La carraca es un ave de colores vivos que vive en los palmerales del sur de Babilonia y lanza un grito ronco que puede identificarse con kappi. En la época de cría vuela de forma irregular, lo que probablemente dio pie a la leyenda del ala rota."
+      },
+      {
+       "v": "Amaste también a un león, en la plenitud de su vigor,"
+      },
+      {
+       "v": "y aun así le cavaste siete y siete hoyos [para atraparlo]."
+      },
+      {
+       "v": "Amaste también a un semental, magnífico en la batalla:"
+      },
+      {
+       "v": "tú le diste el freno, la espuela y el látigo;"
+      },
+      {
+       "n": 55,
+       "v": "tú le hiciste galopar cincuenta millas; tú le diste"
+      },
+      {
+       "v": "el agotamiento y el sudor (?); y después fuiste tú"
+      },
+      {
+       "v": "quien dio motivo de duelo a su madre Silili."
+      },
+      {
+       "v": "Amaste también a un pastor, un vaquero, que sin cesar"
+      },
+      {
+       "n": 60,
+       "v": "te amontonaba sus brasas y cada día te sacrificaba corderos;"
+      },
+      {
+       "v": "y aun así lo golpeaste y lo convertiste en chacal: su zagal,"
+      },
+      {
+       "v": "su propio zagal lo ahuyentó, y sus perros le mordieron las nalgas."
+      },
+      {
+       "v": "Amaste también a Ishullanu, el jardinero de tu padre,"
+      },
+      {
+       "n": 65,
+       "v": "que te traía sin cesar delicias (?) y cada día adornaba tu fuente;"
+      },
+      {
+       "v": "bastó con que pusieras los ojos en él para que te prendaras de él:"
+      },
+      {
+       "v": "“Ishullanu mío, ven, déjame probar tu vigor,"
+      },
+      {
+       "v": "extiende también la mano…”."
+      },
+      {
+       "n": 70,
+       "v": "Pero él, Ishullanu,"
+      },
+      {
+       "v": "te dijo: “¿Qué me pides? Salvo lo que ha cocido mi madre,"
+      },
+      {
+       "v": "no he comido nada, y lo que comiera sería pan de pecado"
+      },
+      {
+       "v": "y de iniquidad. Además, las cañas me abrigan contra el invierno”.",
+       "nota": "La respuesta de Ishullanu es difícil. Cuando la diosa se enamora de él, la rechaza diciendo con desprecio que le basta con lo que cuece su madre y que las cañas le abrigan de sobra contra el frío."
+      },
+      {
+       "n": 75,
+       "v": "Tú oíste [su respuesta], lo golpeaste y lo convertiste en araña (?),"
+      },
+      {
+       "v": "y lo hiciste vivir a media altura de una [morada (?)]: no puede subir"
+      },
+      {
+       "v": "por miedo al agua que cae, ni bajar, por miedo a que lo aplasten."
+      },
+      {
+       "v": "Así también a mí me amarías y luego me [tratarías] como a ellos»."
+      },
+      {
+       "n": 80,
+       "v": "Ishtar [oyó] esto, montó en cólera y [subió] al cielo."
+      },
+      {
+       "v": "Fue Ishtar a Anu, [su padre], y a Antu, su madre,"
+      },
+      {
+       "n": 85,
+       "v": "y [les dijo]: «Padre, Gilgamesh me cubre de insultos;"
+      },
+      {
+       "v": "Gilgamesh cuenta mis pecados, mis pecados y mis iniquidades»."
+      },
+      {
+       "v": "Anu respondió y dijo a la Señora Ishtar:"
+      },
+      {
+       "v": "«Pero tú le pediste [que te diera en prenda el fruto de su cuerpo];"
+      },
+      {
+       "n": 90,
+       "v": "por eso él cuenta tus pecados, tus pecados y tus iniquidades»."
+      },
+      {
+       "sub": "La creación del Toro del Cielo, que ha de destruir a los héroes"
+      },
+      {
+       "v": "Ishtar respondió y dijo a [Anu, su padre]:"
+      },
+      {
+       "v": "«Padre, hazme un Toro del Cielo que [venza] a Gilgamesh,"
+      },
+      {
+       "n": 95,
+       "v": "llenando [su cuerpo] de llamas…"
+      },
+      {
+       "v": "Pero si [no] haces [este Toro], entonces…"
+      },
+      {
+       "v": "golpearé…, pondré…, haré…"
+      },
+      {
+       "n": 100,
+       "v": "más que los… serán los…».",
+       "nota": "Se suele restituir este pasaje a partir del Descenso de Ishtar, donde la diosa amenaza con romper la puerta y liberar a los muertos, que serán entonces más que los vivos."
+      },
+      {
+       "v": "Anu [respondió y dijo a] la Señora Ishtar:"
+      },
+      {
+       "v": "«[Si creo el Toro del Cielo que] me pides,"
+      },
+      {
+       "v": "habrá siete años de paja [después de su ataque (?)]."
+      },
+      {
+       "n": 105,
+       "v": "¿Has reunido [grano (?) para los hombres] y aumentado el forraje [para las bestias (?)]?»."
+      },
+      {
+       "v": "[Ishtar respondió y dijo a] Anu, su padre:"
+      },
+      {
+       "v": "«[He guardado grano para los hombres], he hecho crecer [el forraje para las bestias];"
+      },
+      {
+       "n": 110,
+       "v": "[si] ha de haber [siete] años de paja [después de su ataque (?)],"
+      },
+      {
+       "v": "[he] reunido [grano para los hombres y aumentado] el forraje [para las bestias]»."
+      },
+      {
+       "laguna": "Quizá un hueco pequeño. Unos siete versos están tan mutilados que apenas se saca de ellos que la lucha con el Toro del Cielo va a tener lugar en Uruk. Después, [cien hombres] se lanzan [sobre el Toro], pero con su aliento de fuego [los aniquila]. Luego doscientos, con el mismo resultado, y después trescientos más, también vencidos."
+      },
+      {
+       "n": 130,
+       "v": "Enkidu se ciñó (?) la cintura, y al instante Enkidu, de un salto,"
+      },
+      {
+       "v": "agarró al Toro del Cielo por los cuernos, y de cabeza ante sí"
+      },
+      {
+       "v": "derribó al Toro del Cielo cuan largo era…,"
+      },
+      {
+       "v": "por lo grueso de la cola."
+      },
+      {
+       "laguna": "Faltan trece versos mutilados."
+      },
+      {
+       "n": 147,
+       "v": "Enkidu lo persiguió…, al Toro del Cielo…,"
+      },
+      {
+       "v": "lo agarró, y por [lo grueso] de la cola…"
+      },
+      {
+       "laguna": "Faltan unos catorce versos mutilados, en los que matan al Toro."
+      },
+      {
+       "n": 153,
+       "v": "Cuando hubieron matado al Toro del Cielo, le sacaron el corazón"
+      },
+      {
+       "v": "y lo ofrecieron en sacrificio al dios Sol; tras derramar"
+      },
+      {
+       "n": 155,
+       "v": "la libación al Sol, se sentaron los dos hermanos."
+      },
+      {
+       "sub": "La furia de Ishtar"
+      },
+      {
+       "v": "Entonces Ishtar subió a lo alto de las murallas de Uruk, la de altas murallas,"
+      },
+      {
+       "v": "ascendió al terrado y allí dio voz a su lamento:"
+      },
+      {
+       "n": 160,
+       "v": "«¡Ay de Gilgamesh, que al matar al Toro del Cielo"
+      },
+      {
+       "v": "me ha hecho llorar!». Cuando Enkidu oyó esto, los gritos de Ishtar,"
+      },
+      {
+       "v": "arrancó el miembro del Toro y se lo arrojó delante:"
+      },
+      {
+       "n": 165,
+       "v": "«¡Si hubiera podido alcanzarte, a fe que te habría hecho lo mismo,"
+      },
+      {
+       "v": "y te habría colgado sus tripas de los costados!»."
+      },
+      {
+       "v": "Ishtar reunió a las devotas, a las hieródulas y a las rameras,"
+      },
+      {
+       "v": "y sobre el miembro arrancado al Toro dirigió el lamento."
+      },
+      {
+       "sub": "El triunfo de Gilgamesh"
+      },
+      {
+       "n": 170,
+       "v": "Gilgamesh llamó a los maestros artesanos, a los artistas, a todos ellos,"
+      },
+      {
+       "v": "y los gremios de artesanos alabaron el tamaño de sus cuernos:"
+      },
+      {
+       "v": "cada uno pesaba treinta minas de lapislázuli para su engaste,"
+      },
+      {
+       "v": "dos dedos su…"
+      },
+      {
+       "n": 175,
+       "v": "Los dos juntos cabían seis medidas de aceite; a su dios Lugalbanda"
+      },
+      {
+       "v": "los dedicó para su ungüento, los llevó y los colgó"
+      },
+      {
+       "v": "allí, en el santuario de sus antepasados."
+      },
+      {
+       "v": "Y ahora, lavándose las manos en el río Éufrates, se ponen en marcha y llegan a la ciudad;"
+      },
+      {
+       "v": "ya recorren la calzada de Uruk, y los héroes de Uruk"
+      },
+      {
+       "n": 180,
+       "v": "se agolpan para verlos. Entonces Gilgamesh lanzó una adivinanza"
+      },
+      {
+       "v": "a los notables (?):"
+      },
+      {
+       "v": "«¿Quién, decidme, es el más espléndido de los héroes?"
+      },
+      {
+       "v": "¿Quién, decidme, es el más famoso de los gigantes?"
+      },
+      {
+       "v": "Gilgamesh es el más espléndido de los héroes,"
+      },
+      {
+       "n": 185,
+       "v": "[Enkidu es el más] famoso de los gigantes»."
+      },
+      {
+       "laguna": "Siguen tres versos mutilados."
+      },
+      {
+       "n": 190,
+       "v": "Y así, en su palacio, Gilgamesh celebró una gran fiesta. Después,"
+      },
+      {
+       "v": "mientras todos los héroes dormían en sus lechos nocturnos,"
+      },
+      {
+       "v": "también Enkidu dormía, y tuvo una visión, y vino"
+      },
+      {
+       "v": "Enkidu a revelar su sueño, y así habló a su compañero."
+      }
+     ]
+    },
+    {
+     "n": 7,
+     "titulo": "Tablilla VII",
+     "sinopsis": "Enkidu sueña que los dioses han decidido su muerte. Enfermo, maldice a la hieródula, pero Shamash le recuerda lo que le debe y Enkidu la bendice. En un último sueño ve la Casa del Polvo, el mundo de los muertos.",
+     "items": [
+      {
+       "col": "I"
+      },
+      {
+       "sub": "El sueño de Enkidu"
+      },
+      {
+       "v": "«¿Por qué, amigo mío, deliberan ahora juntos los grandes dioses?»."
+      },
+      {
+       "laguna": "El resto de la columna se ha perdido en la versión asiria, pero la versión hitita lo suple en parte: «… Entonces llegó el día… [Enkidu] respondió a Gilgamesh: “[Gilgamesh, oye el] sueño que [vi] por la noche: [Enlil], Ea y el dios Sol del cielo… Enlil respondió: ‘[Estos que] han matado al Toro [del Cielo y han golpeado a Humbaba]…, que ayudaron en el cedro…: Enkidu morirá, [pero Gilgamesh] no morirá’. Entonces [el dios Sol] respondió con audacia a Enlil: ‘Por orden tuya mataron al Toro del Cielo y a Humbaba. ¿Y ahora ha de morir Enkidu?’. Pero Enlil se volvió enfadado hacia el dios Sol: ‘¿Por qué…? Con su compañero sales cada día’”. Y Enkidu se tendió a descansar ante Gilgamesh…: “Hermano mío, de [gran] valor es mi [sueño]”». Se interrumpe tras unos pocos versos mutilados más.",
+       "hoy": "Thompson tradujo este pasaje hitita a partir de las ediciones alemanas de Friedrich y de Ungnad."
+      },
+      {
+       "laguna": "La columna II se ha perdido por completo. Por la versión hitita está claro que Enkidu ha soñado que los dioses han deliberado juntos y que él ha de morir y Gilgamesh seguir vivo. Por lo que sigue, parece que Enkidu, presa al parecer de la fiebre, culpa de todas sus desgracias a la hieródula y la cubre de maldiciones. El siguiente fragmento empieza «destruye su poder, debilita su fuerza», probablemente referido a Enkidu. Después, tras tres versos rotos, dice Enkidu: «… la hieródula… que ha traído (?) una maldición: “Hieródula, te decretaré [tu destino (?)]: [tus penas (?)]… no acabarán nunca, por toda la eternidad. [Ven], te maldeciré con una maldición amarga…, con desolación caerá sobre ti su maldición: [que nunca] se sacie tu deseo”». Siguen los finales rotos de seis versos: «[Que]… caiga sobre tu casa, que la… de la calle sea tu morada, [que la sombra del muro sea tu] vivienda…, para tus pies, [que el calor abrasador y la sed golpeen tu fuerza]». El resto de la maldición está muy roto, pero es muy probable que los fragmentos siguientes vayan aquí."
+      },
+      {
+       "sub": "El final de la maldición de Enkidu contra la hieródula"
+      },
+      {
+       "n": 30,
+       "v": "«De la necesidad… puesto que a mí es a quien… ha…"
+      },
+      {
+       "v": "y a mí la fiebre me [ha tendido] de espaldas»."
+      },
+      {
+       "sub": "La respuesta de Shamash"
+      },
+      {
+       "v": "Lo oyó el dios Sol, abrió la boca y desde el cielo"
+      },
+      {
+       "v": "lo llamó al instante: «Enkidu, ¿por qué maldices a la hieródula?"
+      },
+      {
+       "n": 35,
+       "v": "Ella te hizo comer pan, digno de un dios; y vino"
+      },
+      {
+       "v": "te hizo beber, digno de un rey; te puso un manto"
+      },
+      {
+       "v": "generoso y te dio por compañero al espléndido Gilgamesh."
+      },
+      {
+       "n": 40,
+       "v": "Ahora, en un gran lecho, él, tu amigo y tu hermano,"
+      },
+      {
+       "v": "Gilgamesh, te hará yacer; en un hermoso lecho te hará"
+      },
+      {
+       "v": "descansar, y sentarte en un trono de gran reposo, un trono a [su] izquierda,"
+      },
+      {
+       "v": "para que los príncipes del Inframundo te besen los pies;",
+       "nota": "O «de la tierra»."
+      },
+      {
+       "v": "hará también que toda la gente de Uruk te llore,"
+      },
+      {
+       "n": 45,
+       "v": "que te lamenten, y obligará a doncellas y héroes a servirte,"
+      },
+      {
+       "v": "[mientras él mismo, por ti], llevará el cuerpo"
+      },
+      {
+       "v": "sucio, [y se pondrá] la piel de un león y vagará por la estepa».",
+       "nota": "O «de un perro». Ambas lecturas son posibles."
+      },
+      {
+       "v": "Enkidu [prestó oído] a las palabras del valiente Shamash"
+      },
+      {
+       "v": "que hablaba…, y su ira se calmó."
+      },
+      {
+       "laguna": "Faltan uno o dos versos."
+      },
+      {
+       "col": "IV"
+      },
+      {
+       "sub": "Enkidu se arrepiente de su maldición y bendice a la hieródula"
+      },
+      {
+       "v": "«… que… te devuelva a tu lugar."
+      },
+      {
+       "v": "[Que reyes, príncipes] y jefes se prendan [de ti];"
+      },
+      {
+       "v": "[que nadie se dé (?)] palmadas en el muslo [con desprecio (?) contra ti; que por ti el héroe]"
+      },
+      {
+       "v": "se peine los rizos;… el que quiera abrazar[te],"
+      },
+      {
+       "n": 5,
+       "v": "que se suelte el cinturón…, y que tu [lecho] sea de lapislázuli y oro;"
+      },
+      {
+       "v": "que… te trate con amabilidad (?)…, se amontonen sus ishshikku;"
+      },
+      {
+       "v": "que los dioses te hagan entrar…"
+      },
+      {
+       "n": 10,
+       "v": "[que] te dejen como madre de siete novias…»."
+      },
+      {
+       "sub": "Enkidu, triste ante su fin, duerme solo y sueña"
+      },
+      {
+       "v": "[Enkidu]… congoja en su vientre…, durmiendo solo,"
+      },
+      {
+       "v": "[vino] de noche [a confiar] su pesar a su compañero:"
+      },
+      {
+       "v": "«[Amigo], he visto un sueño esta noche: el firmamento [rugía],"
+      },
+      {
+       "n": 15,
+       "v": "resonaba la tierra, y yo [estaba solo (?)]…"
+      },
+      {
+       "v": "[cuando vi a un hombre (?)]; oscuro era su rostro, [y] se parecía"
+      },
+      {
+       "v": "[a]… su rostro,… [y] sus uñas como garras de león.",
+       "nota": "Thompson se pregunta si es el heraldo de la muerte que ha de llevarse a Enkidu."
+      },
+      {
+       "n": 20,
+       "v": "Me venció…, subiendo…, me oprimió,"
+      },
+      {
+       "v": "sobre mí…, mi (?) cuerpo…"
+      },
+      {
+       "laguna": "Falta quizá un hueco de unos tres versos hasta que, en el verso 31 (?), la otra mitad de la columna retoma lo que todavía parece el sueño, con una descripción del mundo de los muertos que se le muestra a Enkidu como presagio de su muerte."
+      },
+      {
+       "n": 33,
+       "v": "… como pájaros mis manos; y él me agarró (?),"
+      },
+      {
+       "v": "me llevó a la Morada de las Tinieblas, la casa de Irkalla,",
+       "nota": "Irkalla es la divinidad que preside el mundo de los muertos."
+      },
+      {
+       "n": 35,
+       "v": "a la Morada de la que no sale nunca el que entra,"
+      },
+      {
+       "v": "por el camino que, una vez recorrido, no tiene vuelta,"
+      },
+      {
+       "v": "a la Morada cuyos habitantes están siempre privados de la luz del día,"
+      },
+      {
+       "v": "donde el polvo es su alimento y el barro su sustento; como pájaros"
+      },
+      {
+       "n": 40,
+       "v": "visten un ropaje de plumas, y, sentados en la oscuridad,"
+      },
+      {
+       "v": "nunca ven la luz. En la puerta… cuando entré,"
+      },
+      {
+       "v": "en la casa (?)… estaba humillada la corona,"
+      },
+      {
+       "v": "por… los que llevaron corona, los que antaño gobernaron el país;"
+      },
+      {
+       "v": "… de Anu y de Enlil eran los que servían los manjares,"
+      },
+      {
+       "n": 45,
+       "v": "servían…, fresca era el agua que servían de los odres. Cuando entré"
+      },
+      {
+       "v": "en esta Casa del Polvo, estaban sentados el sumo sacerdote y el acólito,"
+      },
+      {
+       "v": "el adivino y el mago, el sacerdote que ungía el Mar de los grandes dioses;",
+       "nota": "El Mar es probablemente la gran pila de agua del templo."
+      },
+      {
+       "v": "aquí se sentaban Etana y Sumuqan; también la Reina del Inframundo,",
+       "nota": "Etana es el héroe de una leyenda que subió al cielo a lomos de un águila."
+      },
+      {
+       "v": "Ereshkigal, ante quien se inclina la escriba del Inframundo,"
+      },
+      {
+       "v": "[Belet]-seri, que lee ante ella; [alzó] la cabeza y me vio,"
+      },
+      {
+       "v": "… y tomó este…»."
+      },
+      {
+       "acot": "Aquí se interrumpe el texto."
+      }
+     ]
+    },
+    {
+     "n": 8,
+     "titulo": "Tablilla VIII",
+     "sinopsis": "Enkidu muere. Gilgamesh lo llora ante los ancianos de Uruk, le cubre el rostro como a una novia y le promete honras fúnebres.",
+     "items": [
+      {
+       "acot": "La primera columna está muy mutilada. Lo único que se saca de ella es que, «en cuanto despuntó algo de la mañana», Gilgamesh se dirige a Enkidu, lo compara con una gacela y promete glorificarlo. Después, al parecer, Gilgamesh recuerda sus hazañas juntos: «[subimos] montañas, [llegamos] al Bosque de los Cedros, [viajando] noche y día… [con fieras (?)] acercándose tras nosotros». Enkidu yace moribundo o muerto, y la columna II empieza con el llanto de Gilgamesh por su amigo muerto ante los ancianos de Uruk."
+      },
+      {
+       "col": "II"
+      },
+      {
+       "v": "«Escuchadme, ancianos, a mí, [prestadme oído]:",
+       "nota": "Versión asiria."
+      },
+      {
+       "v": "lloro por mi [compañero] Enkidu, gritando amargamente"
+      },
+      {
+       "v": "como una plañidera; se me [afloja] la mano en el hacha"
+      },
+      {
+       "n": 5,
+       "v": "que llevo al muslo, y la espada del cinto [se aparta] de mi vista;"
+      },
+      {
+       "v": "mi traje de fiesta [no me sirve de nada] para mi alegría;"
+      },
+      {
+       "v": "a mí me ha asaltado [la pena] y me ha [hundido en la aflicción]."
+      },
+      {
+       "v": "Compañero y escudero, que perseguía al asno salvaje, a la pantera de la estepa,",
+       "nota": "El texto dice «de las montañas». El verso aparece dos veces en la tablilla."
+      },
+      {
+       "v": "compañero y escudero, que perseguía al asno salvaje, a la pantera de la estepa,"
+      },
+      {
+       "n": 10,
+       "v": "Enkidu: nosotros, que todo lo superamos, [subiendo a las montañas],"
+      },
+      {
+       "v": "capturamos al Toro del Cielo y [lo destruimos]; derribamos a Humbaba,"
+      },
+      {
+       "v": "que [vivía] en el Bosque [de los Cedros]. ¿Qué sueño es este"
+      },
+      {
+       "v": "que ahora [te] ha vencido? Ahora estás oscuro y no puedes oír[me]»."
+      },
+      {
+       "n": 15,
+       "v": "Pero él no alzó [los ojos], y su corazón, cuando Gilgamesh lo palpó,"
+      },
+      {
+       "v": "no latía."
+      },
+      {
+       "v": "Entonces cubrió a su amigo como a una novia…"
+      },
+      {
+       "v": "Alzó la voz como un león…"
+      },
+      {
+       "v": "[rugió] como una leona a la que han robado [sus] cachorros. Delante de su [compañero]"
+      },
+      {
+       "n": 20,
+       "v": "iba y venía, arrancándose y arrojando los rizos (?),"
+      },
+      {
+       "v": "arrancándose y arrojando toda la gracia de su…"
+      },
+      {
+       "v": "Entonces, en cuanto despuntó algo de la mañana, Gilgamesh…"
+      },
+      {
+       "laguna": "Aquí se interrumpe la columna II. La columna III empieza con Gilgamesh todavía de luto, diciendo a su amigo muerto todo lo que hará por él con las palabras de Shamash en la tablilla anterior, de modo que los dos últimos versos (?) de la columna II pueden completarse así:"
+      },
+      {
+       "sub": "El lamento de Gilgamesh"
+      },
+      {
+       "n": 49,
+       "v": "«En un gran lecho yo, tu amigo y tu hermano,"
+      },
+      {
+       "col": "III"
+      },
+      {
+       "v": "[Gilgamesh, te haré yacer]; en [un hermoso] lecho [te haré]"
+      },
+      {
+       "v": "[descansar, y] sentarte en [un trono de gran tamaño, un trono a mi izquierda],"
+      },
+      {
+       "v": "para que los príncipes del Inframundo [te besen los pies];"
+      },
+      {
+       "v": "haré también que toda [la gente de Uruk] te llore,"
+      },
+      {
+       "n": 5,
+       "v": "[que te lamenten], y obligaré a doncellas y héroes [a servirte],"
+      },
+      {
+       "v": "mientras yo mismo, por ti, [llevaré el cuerpo]"
+      },
+      {
+       "v": "[sucio], y me pondré la piel de un [león y vagaré por la estepa]».",
+       "nota": "O «de un perro»."
+      },
+      {
+       "v": "Entonces, en cuanto despuntó algo de la mañana, [Gilgamesh]…,"
+      },
+      {
+       "v": "soltándose el cinturón…"
+      },
+      {
+       "laguna": "De la columna IV quedan solo cinco versos fragmentarios al final, que mencionan «a mi amigo», «tu espada», «imagen» y «al dios Bibbu», es decir, un planeta, quizá Mercurio. De la columna V quedan apenas una docena de versos fragmentarios al final:",
+       "hoy": "Hoy se conoce mejor esta parte. Gilgamesh hace fabricar una estatua de Enkidu con oro y piedras preciosas, saca de su tesoro ricas ofrendas para los dioses del Inframundo y celebra los funerales de su amigo."
+      },
+      {
+       "col": "V"
+      },
+      {
+       "n": 43,
+       "v": "«… Juez de los Anunnaki…».",
+       "nota": "Los Anunnaki son aquí los espíritus de la tierra, de los que Enlil era señor."
+      },
+      {
+       "v": "Cuando Gilgamesh oyó esto, concibió la imagen de la matanza.",
+       "nota": "O «de un río», pero es improbable. Thompson piensa que quizá imagina un relieve de la muerte del Toro, y que el resto del texto describe tal vez los ritos funerarios."
+      },
+      {
+       "n": 45,
+       "v": "Entonces, al amanecer, Gilgamesh hizo un…"
+      },
+      {
+       "v": "sacó también una gran bandeja de madera de las montañas,"
+      },
+      {
+       "v": "llenó de miel un cuenco de [brillante] rubí, y un cuenco de lapislázuli"
+      },
+      {
+       "v": "llenó de nata; adornó el…, y Shamash instruyó…"
+      },
+      {
+       "laguna": "Falta un verso al final de la columna. La columna VI se ha perdido entera."
+      }
+     ]
+    },
+    {
+     "n": 9,
+     "titulo": "Tablilla IX",
+     "sinopsis": "Aterrado por la muerte, Gilgamesh vaga por la estepa y decide buscar a Utnapishtim, el superviviente del diluvio. Los hombres-escorpión le abren el paso de los montes Mashu, recorre el Camino del Sol en la oscuridad y llega a un jardín de árboles de piedras preciosas.",
+     "items": [
+      {
+       "col": "I"
+      },
+      {
+       "sub": "Gilgamesh decide buscar la vida eterna"
+      },
+      {
+       "v": "Gilgamesh lloró amargamente por su compañero, por Enkidu, vagando",
+       "nota": "Versión asiria."
+      },
+      {
+       "v": "por la estepa: «Y yo, ¿no moriré también como Enkidu?"
+      },
+      {
+       "n": 5,
+       "v": "La pena ha entrado en mi corazón; temo la muerte mientras vago por la estepa."
+      },
+      {
+       "v": "Me pondré en camino hacia Utnapishtim,",
+       "nota": "El Noé babilónico, protagonista de buena parte de lo que queda de la historia."
+      },
+      {
+       "v": "el hijo de Ubar-Tutu, y viajaré deprisa."
+      },
+      {
+       "v": "Si llego de noche a las puertas de las montañas"
+      },
+      {
+       "n": 10,
+       "v": "y me encuentro con leones y me invade el terror, alzaré la cabeza al cielo,"
+      },
+      {
+       "v": "rezaré al dios Luna, o que mi oración llegue a… los dioses…:"
+      },
+      {
+       "v": "“¡Oh, líbrame!”»… Durmió… y un sueño…"
+      },
+      {
+       "v": "[vio]… que se alegraban de vivir;"
+      },
+      {
+       "n": 15,
+       "v": "blandió [su] hacha… en la mano, sacó [la espada del] tahalí,"
+      },
+      {
+       "v": "saltó entre ellos como una lanza…, golpeando… y aplastando."
+      },
+      {
+       "laguna": "El resto de la columna está mutilado."
+      },
+      {
+       "col": "II"
+      },
+      {
+       "sub": "El héroe llega a los montes Mashu"
+      },
+      {
+       "v": "Mashu es el nombre de los montes. Cuando llegó a los montes Mashu,"
+      },
+      {
+       "v": "que cada día vigilan la salida [y la puesta del dios Sol],"
+      },
+      {
+       "n": 5,
+       "v": "sus cumbres [se alzan] hasta el cenit del cielo, y hacia abajo"
+      },
+      {
+       "v": "llegan sus pechos hasta el Infierno; y allí, en sus puertas, montan guardia"
+      },
+      {
+       "v": "los hombres-escorpión, de un terror espantoso; su mirada es la muerte; tremendo,"
+      },
+      {
+       "v": "estremecedor de montes, es su esplendor; ellos son los guardianes de Shamash"
+      },
+      {
+       "n": 10,
+       "v": "a su salida y a su puesta. En cuanto Gilgamesh los vio,"
+      },
+      {
+       "v": "la alarma y el espanto le dejaron el rostro pálido;"
+      },
+      {
+       "v": "sin sentido, se arrastró ante ellos."
+      },
+      {
+       "v": "Entonces el escorpión dijo a su mujer:"
+      },
+      {
+       "v": "«El que viene a nosotros tiene un cuerpo de carne de dioses»."
+      },
+      {
+       "n": 15,
+       "v": "Y su mujer respondió al hombre-escorpión: «Dos partes de él son divinas,"
+      },
+      {
+       "v": "y solo un tercio humano»."
+      },
+      {
+       "laguna": "Quedan ocho versos rotos en los que el hombre-escorpión se dirige, al parecer, a Gilgamesh: le pregunta [por qué ha hecho un viaje tan largo] y le explica lo difícil que es la travesía. La columna III empieza con el tercer verso, en el que Gilgamesh le dice, al parecer, que quiere [preguntar (?)] a Utnapishtim por la muerte y la vida. Pero el hombre-escorpión responde que [nunca se ha hecho ese viaje], que nadie [ha cruzado] los montes. La travesía sigue el Camino del Sol: un viaje de veinticuatro horas que empieza en una oscuridad profunda. Se han perdido la segunda mitad de esta columna y la primera de la IV, pero parece que el hombre-escorpión describe el viaje hora a hora y que Gilgamesh acepta la prueba de su fuerza: «[aunque sea] con dolor…, [aunque se me curta el rostro] con el frío [y el calor], y en la pena [voy]…». Entonces el hombre-escorpión, con una última palabra sobre los montes Mashu, lo despide deseándole éxito. «[Cuando] Gilgamesh [oyó esto, partió] a la palabra del hombre-escorpión, tomando el Camino del Sol…». Las dos primeras horas pasan en una oscuridad profunda, sin luz, que no [le dejaba ver… detrás de él]… Cada tramo de dos horas es igual hasta llegar al octavo y pasarlo, y hacia el noveno llega, al parecer, el primer resplandor. Por fin, en la duodécima hora doble, alcanza el pleno resplandor del sol, y allí contempla el Árbol de los Dioses, que se describe en los únicos cuatro versos completos (48–51) de la columna V. Thompson cree posible que sea la vid, el Árbol de la Vida, de donde Siduri, la que hace el vino, arranca el fruto para su oficio.",
+       "hoy": "Las copias posteriores muestran que no es un solo árbol, sino un jardín de árboles cuyos frutos y hojas son piedras preciosas: cornalina, lapislázuli y otras gemas."
+      },
+      {
+       "col": "V"
+      },
+      {
+       "n": 48,
+       "v": "Daba su fruto, todo de rubí, y colgaban de él sus zarcillos,"
+      },
+      {
+       "n": 50,
+       "v": "hermoso de ver; y de lapislázuli era el follaje que llevaba; sí, daba"
+      },
+      {
+       "v": "frutos deseables a la vista."
+      },
+      {
+       "laguna": "La columna VI de la versión asiria se ha perdido casi entera, y no se sabe qué papel tiene el árbol. Aquí ayuda una tercera tablilla paleobabilónica. Según esta versión antigua, el dios Sol se apiada del héroe."
+      },
+      {
+       "col": "VI (versión paleobabilónica)"
+      },
+      {
+       "v": "«[Él, de las fieras, se ha vestido] con sus pieles y come su carne."
+      },
+      {
+       "v": "Gilgamesh, [nunca habrá (?)] un paso donde nunca lo ha habido,"
+      },
+      {
+       "v": "[mientras] el viento empuje el agua»."
+      },
+      {
+       "n": 5,
+       "v": "Shamash se conmovió, lo llamó y habló así a Gilgamesh:"
+      },
+      {
+       "v": "«Gilgamesh, ¿por qué corres, si la vida que buscas"
+      },
+      {
+       "v": "no la encontrarás?». Y Gilgamesh respondió al guerrero Shamash:"
+      },
+      {
+       "n": 10,
+       "v": "«¿He de vagar arriba y abajo por el desierto como un errante"
+      },
+      {
+       "v": "para luego poner la cabeza en las entrañas de la tierra y dormir, a lo largo de los años,"
+      },
+      {
+       "v": "por siempre jamás? Que mis ojos vean el Sol y se sacien de su luz,"
+      },
+      {
+       "v": "porque la oscuridad queda lejos si la luz es amplia."
+      },
+      {
+       "v": "¿Cuándo mirará el muerto la luz del sol?»."
+      },
+      {
+       "acot": "Aquí acaba el texto seguido de la columna VI. La versión asiria termina con una docena de versos mutilados que mencionan numerosos minerales y piedras. Gilgamesh ha llegado ya a la muchacha Siduri, la sabitu, palabra que suele entenderse como «la que sirve bebidas fuertes»."
+      }
+     ]
+    },
+    {
+     "n": 10,
+     "titulo": "Tablilla X",
+     "sinopsis": "Gilgamesh llega a la taberna de Siduri, que le aconseja gozar de la vida. Él insiste en buscar a Utnapishtim; con el barquero Urshanabi cruza el Océano y las Aguas de la Muerte, empujando la barca con pértigas, y cuenta a Utnapishtim su pena. Este le responde que nada es permanente y que el día de la muerte no se revela.",
+     "items": [
+      {
+       "col": "I"
+      },
+      {
+       "sub": "Gilgamesh encuentra a Siduri"
+      },
+      {
+       "v": "Vivía Siduri, la que hace el vino…",
+       "nota": "Versión asiria. Un fragmento de Boğazköy en lengua hurrita menciona también a Siduri."
+      },
+      {
+       "v": "el vino (?) era su oficio, su oficio era…"
+      },
+      {
+       "v": "Iba cubierta con un velo y…"
+      },
+      {
+       "n": 5,
+       "v": "Gilgamesh vagó [hacia ella]…"
+      },
+      {
+       "v": "Vestía pieles…"
+      },
+      {
+       "v": "tenía carne de dioses en [su cuerpo], pero congoja en [su vientre],"
+      },
+      {
+       "v": "y su rostro era como el de un hombre que ha hecho un largo viaje."
+      },
+      {
+       "n": 10,
+       "v": "La tabernera miró a lo lejos y dijo para sí,"
+      },
+      {
+       "v": "pensando: «Este es uno que quiere forzar (?) [a una mujer]."
+      },
+      {
+       "n": 15,
+       "v": "¿Adónde va con…?». En cuanto la tabernera lo vio,"
+      },
+      {
+       "v": "atrancó [su postigo], atrancó la puerta interior, atrancó [su aposento (?)]."
+      },
+      {
+       "v": "Y Gilgamesh, a su vez, oyó el ruido [de los cerrojos (?)],"
+      },
+      {
+       "v": "alzó la barbilla y [se fijó en ella]."
+      },
+      {
+       "v": "Entonces Gilgamesh le habló, [diciendo] a la tabernera:"
+      },
+      {
+       "n": 20,
+       "v": "«Tabernera, ¿qué has visto para atrancar [tu postigo],"
+      },
+      {
+       "v": "atrancar tu puerta interior, [atrancar tu aposento (?)]? ¡Golpearé [tu] portal,"
+      },
+      {
+       "v": "[romperé el cerrojo]…!»."
+      },
+      {
+       "laguna": "Unos nueve versos mutilados. Después Thompson restituye los versos 32 y siguientes a partir de la columna II, verso 8."
+      },
+      {
+       "v": "[La tabernera le respondió, diciendo a Gilgamesh]:"
+      },
+      {
+       "v": "«¿Por qué está tan gastado tu vigor y tan hundido tu rostro?",
+       "nota": "Restitución probable, como en los versos siguientes."
+      },
+      {
+       "v": "¿Por qué tiene pena (?) tu espíritu y se ha apagado tu alegría?"
+      },
+      {
+       "n": 35,
+       "v": "¡Hay congoja en tu vientre! Como el de quien ha hecho un largo viaje"
+      },
+      {
+       "v": "es tu rostro; el frío y el calor te han curtido la cara…,"
+      },
+      {
+       "v": "… para que vagues por la estepa»."
+      },
+      {
+       "v": "Gilgamesh le respondió a la tabernera:"
+      },
+      {
+       "n": 40,
+       "v": "«Tabernera, no está gastado mi vigor ni hundido mi rostro,"
+      },
+      {
+       "v": "ni tiene pena (?) mi espíritu, ni se ha apagado mi alegría;"
+      },
+      {
+       "v": "no hay congoja en mi vientre, ni mi semblante se parece"
+      },
+      {
+       "v": "al de quien ha hecho un largo viaje, ni el frío"
+      },
+      {
+       "n": 45,
+       "v": "ni el calor me han curtido la cara… para que vague así por la estepa."
+      },
+      {
+       "v": "Compañero y escudero, que perseguía al asno salvaje, a la pantera de la estepa,"
+      },
+      {
+       "v": "compañero y escudero, que perseguía al asno salvaje, a la pantera de la estepa,"
+      },
+      {
+       "v": "Enkidu: nosotros, que todo lo superamos, subiendo a las montañas,"
+      },
+      {
+       "n": 50,
+       "v": "capturamos al Toro del Cielo y [lo destruimos]; [derribamos a Humbaba],"
+      },
+      {
+       "v": "que vivía en el Bosque de los Cedros; matamos a los leones"
+      },
+      {
+       "col": "II"
+      },
+      {
+       "v": "allí, en las puertas (?) de los montes (?); él soportó conmigo todas las penalidades,"
+      },
+      {
+       "v": "Enkidu era mi compañero; matamos juntos a los leones,"
+      },
+      {
+       "v": "soportamos todas las penalidades, y a él le ha alcanzado su destino."
+      },
+      {
+       "v": "Lo lloré seis días, siete días, hasta que pude"
+      },
+      {
+       "n": 5,
+       "v": "entregarlo (?) a la sepultura…; entonces tuve miedo…"
+      },
+      {
+       "v": "Temí a la muerte, y por eso vago por la estepa; la suerte de mi compañero"
+      },
+      {
+       "v": "[pesa sobre mí (?)]. ¡Qué largo camino recorro por] la estepa!"
+      },
+      {
+       "v": "Enkidu, [la suerte de mi compañero pesa (?) sobre mí]:"
+      },
+      {
+       "n": 10,
+       "v": "[es largo el camino] que recorro por la estepa. ¿Cómo callar,"
+      },
+      {
+       "v": "o cómo hablar? [El compañero al que tanto amé]"
+      },
+      {
+       "v": "[se ha vuelto] como el polvo; Enkidu era mi compañero,"
+      },
+      {
+       "v": "aquel a quien amé se ha vuelto como el polvo. ¿Y yo no me"
+      },
+      {
+       "v": "tenderé también [como él], por toda la eternidad, [sin volver nunca]?»."
+      },
+      {
+       "acot": "Aquí intercala Thompson, por comodidad, la versión paleobabilónica de este episodio, en la tablilla de Berlín (columnas II, 1–III, 14)."
+      },
+      {
+       "col": "II (versión paleobabilónica)"
+      },
+      {
+       "v": "«El que soportó conmigo todas las penalidades, al que tanto amé,"
+      },
+      {
+       "v": "Enkidu, el que soportó conmigo todas las penalidades, [ha muerto],"
+      },
+      {
+       "v": "ha ido al destino común de la humanidad. Y yo lo he llorado"
+      },
+      {
+       "n": 5,
+       "v": "día y noche, y no lo he entregado a la tumba."
+      },
+      {
+       "v": "Mi amigo no viene (?) a mi llamada: seis días, siete días"
+      },
+      {
+       "n": 10,
+       "v": "ha yacido como un gusano sobre su rostro; y yo, por eso,"
+      },
+      {
+       "v": "no hallo la vida, y tengo que vagar por la estepa como un cazador."
+      },
+      {
+       "v": "Así que, tabernera, ahora que por fin veo tu rostro,"
+      },
+      {
+       "v": "¡que no vea la muerte que temo!»."
+      },
+      {
+       "sub": "La filosofía de la tabernera"
+      },
+      {
+       "v": "La tabernera respondió a Gilgamesh:"
+      },
+      {
+       "col": "III (versión paleobabilónica)"
+      },
+      {
+       "v": "«Gilgamesh, ¿por qué corres, si la vida que buscas"
+      },
+      {
+       "v": "no la puedes encontrar? Porque los dioses, cuando crearon a los mortales,"
+      },
+      {
+       "n": 5,
+       "v": "asignaron la muerte al hombre, y la vida la guardaron en sus manos."
+      },
+      {
+       "v": "Gilgamesh, llena tu vientre;"
+      },
+      {
+       "v": "alégrate cada día y cada noche, y celebra fiesta cada día;"
+      },
+      {
+       "n": 10,
+       "v": "baila y regocíjate día y noche; que tus ropas estén limpias,"
+      },
+      {
+       "v": "lávate la cabeza y báñate en el agua;"
+      },
+      {
+       "v": "mira con cariño al pequeño que te da la mano; que tu esposa sea dichosa"
+      },
+      {
+       "v": "en tu regazo: porque esa es la suerte [del hombre]…»."
+      },
+      {
+       "acot": "Aquí se interrumpe la versión paleobabilónica y hay que volver a la asiria."
+      },
+      {
+       "sub": "Gilgamesh, insatisfecho con la filosofía de la tabernera, quiere ir más lejos"
+      },
+      {
+       "col": "II (versión asiria, cont.)"
+      },
+      {
+       "n": 15,
+       "v": "[Gilgamesh] siguió hablando a la tabernera:"
+      },
+      {
+       "v": "«[Dime], tabernera, ¿cuál es el camino hacia Utnapishtim?"
+      },
+      {
+       "v": "¿[Cuál es] su señal? Dámela, te lo ruego, dame su señal."
+      },
+      {
+       "v": "Si es posible, cruzaré incluso el Océano;"
+      },
+      {
+       "v": "pero si es imposible, vagaré por la estepa»."
+      },
+      {
+       "sub": "La tabernera, como manda la tradición, intenta disuadirlo"
+      },
+      {
+       "n": 20,
+       "v": "La tabernera le respondió a Gilgamesh:"
+      },
+      {
+       "v": "«Nunca ha habido un paso, Gilgamesh; nunca antes"
+      },
+      {
+       "v": "nadie que llegara hasta aquí ha podido cruzar el Océano."
+      },
+      {
+       "v": "El guerrero Shamash lo cruza, es verdad, pero ¿quién, aparte de Shamash,"
+      },
+      {
+       "v": "hace la travesía? Áspero es el paso, y más áspera su travesía,"
+      },
+      {
+       "n": 25,
+       "v": "y profundas son las Aguas de la Muerte, que cierran sus accesos.",
+       "nota": "Thompson piensa quizá en el mar abierto, más allá de las aguas tranquilas de las mareas, donde el golfo Pérsico y los ríos se juntan en las lagunas saladas."
+      },
+      {
+       "v": "Gilgamesh, si por ventura logras cruzar el Océano,"
+      },
+      {
+       "v": "¿qué harás cuando llegues a las Aguas de la Muerte?"
+      },
+      {
+       "v": "Gilgamesh, está Urshanabi, el barquero de Utnapishtim,"
+      },
+      {
+       "v": "el que tiene las velas (?), cuyo urnu recoge en el bosque.",
+       "nota": "Esta palabra es uno de los mayores problemas filológicos del poema. Thompson piensa que quizá sean «remos», y duda de que tenga relación con «piedras», como se ha propuesto."
+      },
+      {
+       "n": 30,
+       "v": "Que vea él tu rostro, y [si es] posible, cruza con él;"
+      },
+      {
+       "v": "pero si no lo es, vuelve sobre tus pasos»."
+      },
+      {
+       "v": "Gilgamesh, al oír esto, [toma] el hacha en la [mano] y saca la espada del tahalí (?)."
+      },
+      {
+       "laguna": "El resto de esta columna de la versión asiria está tan mutilado que apenas se entiende, pero lo esencial es que Gilgamesh se encuentra con Urshanabi y, por alguna razón, destruye las velas (?) de la barca. Thompson intercala aquí la columna IV de la versión paleobabilónica de Berlín.",
+       "hoy": "Hoy se sabe que lo que Gilgamesh destruye son unos seres de piedra que ayudaban a Urshanabi a cruzar las Aguas de la Muerte."
+      },
+      {
+       "col": "IV (versión paleobabilónica)"
+      },
+      {
+       "v": "Entonces Urshanabi le habló, a Gilgamesh, diciendo:",
+       "nota": "En esta versión se llama Sursunabu."
+      },
+      {
+       "v": "«Dime cómo te llamas, porque yo soy Urshanabi, el servidor"
+      },
+      {
+       "v": "del lejano Utnapishtim». Gilgamesh le respondió:"
+      },
+      {
+       "n": 5,
+       "v": "«Gilgamesh es mi nombre; vengo de Uruk (?), de Eanna (?),"
+      },
+      {
+       "v": "soy el que ha cruzado las montañas, el fatigoso viaje del sol naciente."
+      },
+      {
+       "n": 10,
+       "v": "Ahora que veo tu rostro, Urshanabi, que vea también"
+      },
+      {
+       "v": "a Utnapishtim, el Lejano». Urshanabi le [respondió]:"
+      },
+      {
+       "v": "«Gilgamesh:…»."
+      },
+      {
+       "acot": "En la versión asiria, Urshanabi se dirige luego a Gilgamesh con las mismas palabras que Siduri y con el mismo asombro por su aspecto curtido."
+      },
+      {
+       "col": "III (versión asiria)"
+      },
+      {
+       "v": "Urshanabi le habló a Gilgamesh, diciendo:"
+      },
+      {
+       "v": "«¿Por qué está tan gastado tu vigor…?»."
+      },
+      {
+       "acot": "Continúa así: los versos 2–31 repiten la columna I, 33–II, 14, y después el texto sigue:"
+      },
+      {
+       "n": 32,
+       "v": "Gilgamesh siguió hablando a Urshanabi:"
+      },
+      {
+       "v": "«Dime, Urshanabi, ¿cuál es [el camino hacia Utnapishtim?"
+      },
+      {
+       "v": "¿Cuál es su señal? Dámela, te lo ruego, dame su señal]."
+      },
+      {
+       "v": "Si es posible, cruzaré incluso el Océano;"
+      },
+      {
+       "n": 35,
+       "v": "pero si es imposible, [vagaré por la estepa]»."
+      },
+      {
+       "v": "Urshanabi le habló a Gilgamesh, diciendo:"
+      },
+      {
+       "v": "«Gilgamesh, tu propia mano te ha impedido [cruzar el Océano]:"
+      },
+      {
+       "v": "has destruido las velas (?) y has perforado (?) el…"
+      },
+      {
+       "v": "Destruidas están las velas (?), y el urnu no…"
+      },
+      {
+       "n": 40,
+       "v": "Gilgamesh, toma el hacha en [la mano]; baja al bosque,"
+      },
+      {
+       "v": "[hazte] pértigas de cinco gar de largo cada una; hazles [pomos] de betún,"
+      },
+      {
+       "v": "y ponles también regatones: tráeme[las]». Cuando Gilgamesh [oyó esto],",
+       "nota": "Thompson recuerda que la pértiga de barquero del sur de Mesopotamia es una caña de bambú con un pomo de betún en un extremo y un regatón o anillo de metal en el otro."
+      },
+      {
+       "v": "tomó el hacha en la mano, sacó [la espada] del tahalí,"
+      },
+      {
+       "n": 45,
+       "v": "fue al bosque, [hizo] pértigas de cinco gar de largo cada una,"
+      },
+      {
+       "v": "les hizo pomos de betún, les puso regatones y se las trajo…"
+      },
+      {
+       "v": "Entonces Gilgamesh y Urshanabi partieron [en su barca],"
+      },
+      {
+       "v": "botaron la barca sobre las olas y [embarcaron en ella]."
+      },
+      {
+       "v": "Al tercer día, tras una travesía de mes y medio, vio"
+      },
+      {
+       "n": 50,
+       "v": "que Urshanabi había llegado a las Aguas de la Muerte."
+      },
+      {
+       "col": "IV (versión asiria)"
+      },
+      {
+       "v": "Urshanabi le [respondió, a Gilgamesh, diciendo]:"
+      },
+      {
+       "v": "«Gilgamesh, aparta el…"
+      },
+      {
+       "v": "que las Aguas de la Muerte no te toquen la mano…"
+      },
+      {
+       "v": "Gilgamesh, toma una segunda, una tercera y una cuarta pértiga,"
+      },
+      {
+       "n": 5,
+       "v": "Gilgamesh, toma una quinta, una sexta y una séptima pértiga,"
+      },
+      {
+       "v": "Gilgamesh, toma una octava, una novena y una décima pértiga,"
+      },
+      {
+       "v": "Gilgamesh, toma una undécima, una duodécima pértiga». Dejó de empujar,",
+       "nota": "O «terminó», o «gastó sus pértigas». El texto dice «Gilgamesh»."
+      },
+      {
+       "v": "tras dos veces sesenta [empujones]; entonces se desciñó la cintura…"
+      },
+      {
+       "n": 10,
+       "v": "Gilgamesh… (?), y plantó el mástil en su encaje."
+      },
+      {
+       "sub": "Llega a Utnapishtim"
+      },
+      {
+       "v": "Utnapishtim miró a lo lejos y, pensando para sí,"
+      },
+      {
+       "n": 15,
+       "v": "se dijo: «¿Por qué están destruidas [las velas (?)] de la barca,"
+      },
+      {
+       "v": "y uno que no es de mi… (?) va en la barca?"
+      },
+      {
+       "v": "No es un mortal el que viene, ni…"
+      },
+      {
+       "v": "Miro, pero [este] no es un [mortal]…"
+      },
+      {
+       "n": 20,
+       "v": "Miro, pero… Miro, pero…»."
+      },
+      {
+       "laguna": "Se ha perdido el resto de la columna. Hacia el verso 42 se ve que Utnapishtim pregunta a Gilgamesh con las mismas palabras que Siduri y Urshanabi: «¿Por qué está tan gastado tu vigor?», y así hasta la columna V, verso 22: «¿Y yo no me tenderé también como él, por toda la eternidad, sin volver nunca?»."
+      },
+      {
+       "col": "V"
+      },
+      {
+       "n": 23,
+       "v": "Gilgamesh siguió hablando a Utnapishtim:"
+      },
+      {
+       "v": "«Entonces [pensé]: me iré y veré qué dice el lejano Utnapishtim"
+      },
+      {
+       "n": 25,
+       "v": "sobre este asunto. Y así recorrí (?) todos los países,"
+      },
+      {
+       "v": "atravesé montañas difíciles [y] crucé todos los mares,"
+      },
+      {
+       "v": "y mi rostro nunca se ha saciado de dulce sueño (?); con penalidades"
+      },
+      {
+       "v": "me he agotado y he cargado mi carne de dolor."
+      },
+      {
+       "n": 30,
+       "v": "Antes de llegar a la [casa (?)] de la tabernera, se me habían gastado las ropas…"
+      },
+      {
+       "v": "… Búho, murciélago, león, pantera, gato montés, ciervo, íbice y…:"
+      },
+      {
+       "v": "he comido [la carne] de todos ellos y me he vestido (?) con sus pieles»."
+      },
+      {
+       "laguna": "El resto de la columna está mutilado. En el verso 33 se habla de «que atranquen su puerta…; con brea y betún…», y no hay nada con sentido seguido hasta la columna VI, versos 26–39, donde habla Utnapishtim."
+      },
+      {
+       "col": "VI"
+      },
+      {
+       "n": 26,
+       "v": "«¿Construimos casas para siempre? ¿Sellamos contratos para siempre?"
+      },
+      {
+       "v": "¿Siguen los hermanos repartiendo para siempre, o hay siempre odio entre [enemigos (?)]?"
+      },
+      {
+       "v": "¿O traerá para siempre un torrente el río crecido?"
+      },
+      {
+       "v": "¿El ave kulilu [al] ave kirippu…?"
+      },
+      {
+       "v": "El rostro que mira la luz del sol… pronto (?) no será…",
+       "nota": "Verso difícil."
+      },
+      {
+       "v": "El que duerme y el muerto [son] iguales: no ven diferencia ante la muerte"
+      },
+      {
+       "v": "el siervo y el amo, cuando han llegado [al término que se les asignó]."
+      },
+      {
+       "v": "Entonces los Anunnaki, los grandes dioses,…"
+      },
+      {
+       "v": "y Mammetum, la que hace el destino, con ellos fija el destino:"
+      },
+      {
+       "v": "la muerte y la vida determinan; el día de la muerte no lo revelan»."
+      }
+     ]
+    },
+    {
+     "n": 11,
+     "titulo": "Tablilla XI",
+     "sinopsis": "Utnapishtim cuenta el diluvio: Ea le advirtió a través de una pared de cañas, construyó un barco, sobrevivió siete días de tormenta, soltó una paloma, una golondrina y un cuervo, y los dioses le dieron la inmortalidad. Gilgamesh no supera la prueba de no dormir. Consigue la planta del rejuvenecimiento, pero una serpiente se la roba, y vuelve a Uruk.",
+     "items": [
+      {
+       "col": "I"
+      },
+      {
+       "sub": "La causa del diluvio"
+      },
+      {
+       "v": "Gilgamesh le habló a Utnapishtim, el Lejano:",
+       "nota": "Versión asiria."
+      },
+      {
+       "v": "«Utnapishtim, te miro, y tu presencia no tiene nada"
+      },
+      {
+       "v": "de extraño: eres como yo, en nada eres distinto;"
+      },
+      {
+       "n": 5,
+       "v": "eres como yo; tienes el ánimo de un guerrero,"
+      },
+      {
+       "v": "[y para descansar (?)] te tiendes de espaldas. [Dime (?)], ¿cómo pudiste"
+      },
+      {
+       "v": "estar en la Asamblea de los Dioses para pedir la vida [eterna]?»."
+      },
+      {
+       "v": "Utnapishtim le respondió así a Gilgamesh:"
+      },
+      {
+       "v": "«Gilgamesh, te descubriré toda la historia oculta,"
+      },
+      {
+       "n": 10,
+       "v": "y te contaré el consejo de los dioses."
+      },
+      {
+       "v": "La ciudad de Shuruppak (¡una ciudad que conoces!) está [a la orilla] del Éufrates.",
+       "nota": "La actual Fara."
+      },
+      {
+       "v": "Es una ciudad antigua, con dioses en su interior. Los grandes dioses decidieron"
+      },
+      {
+       "v": "traer un diluvio:… estaba Anu, su padre; su consejero,"
+      },
+      {
+       "v": "el guerrero Enlil; Ninurta, su heraldo; su jefe (?), Ennugi.",
+       "nota": "Ninurta es hijo de Enlil y dios de la guerra y de la caza."
+      },
+      {
+       "v": "Ninigiku, es decir, Ea, aunque conjurado con ellos,"
+      },
+      {
+       "n": 20,
+       "v": "reveló su consejo a una cabaña de cañas: “¡Cabaña, cabaña!"
+      },
+      {
+       "v": "¡Pared, pared! ¡Escucha, cabaña; reflexiona, pared! Tú, mortal,"
+      },
+      {
+       "v": "hombre de Shuruppak, hijo de Ubar-Tutu: derriba"
+      },
+      {
+       "n": 25,
+       "v": "tu casa y haz con ella un barco; abandona tus bienes,"
+      },
+      {
+       "v": "busca la vida, desprecia tu tesoro y salva la vida; haz embarcar"
+      },
+      {
+       "v": "a toda criatura en el barco. El barco que vas a construir,"
+      },
+      {
+       "n": 30,
+       "v": "que tenga la medida justa; que su anchura y su longitud se correspondan;"
+      },
+      {
+       "v": "entonces bótalo [en] el abismo”. Y yo, comprendiéndolo,"
+      },
+      {
+       "v": "le dije así a Ea, mi señor: “[Mira], Señor, lo que dices"
+      },
+      {
+       "n": 35,
+       "v": "lo respeto y lo haré; pero ¿qué explicaré a la ciudad, al pueblo y a los ancianos?”."
+      },
+      {
+       "v": "Entonces Ea respondió,"
+      },
+      {
+       "v": "diciéndome a mí, su siervo: “Mortal, les hablarás así:"
+      },
+      {
+       "v": "‘Es a mí solo (?) a quien Enlil odia tanto que en vuestra ciudad"
+      },
+      {
+       "n": 40,
+       "v": "ya no puedo vivir ni volver el rostro a la tierra que es de Enlil."
+      },
+      {
+       "v": "[Bajaré] al Abismo, a vivir allí con Ea, mi [señor];"
+      },
+      {
+       "v": "por eso él hará llover sobre vosotros la abundancia, aves [en gran número (?)],"
+      },
+      {
+       "n": 45,
+       "v": "botín de peces…, [y grande] la cosecha."
+      },
+      {
+       "v": "… haciendo caer sobre vosotros una lluvia abundante (?)’”.",
+       "nota": "Dos versos difíciles."
+      },
+      {
+       "v": "[Entonces, cuando despuntó algo] de la mañana…"
+      },
+      {
+       "laguna": "Cinco versos mutilados."
+      },
+      {
+       "n": 55,
+       "v": "Los niños trajeron la brea, y los fuertes trajeron [todo] lo necesario."
+      },
+      {
+       "v": "Al quinto día tracé la forma [de mi barco]:"
+      },
+      {
+       "v": "diez gar tenía de alto cada costado, según su plan (?);"
+      },
+      {
+       "v": "diez gar, a juego, medía su cubierta (?), y la forma de la proa (?)"
+      },
+      {
+       "n": 60,
+       "v": "la tracé y la construí; la atravesé seis veces con travesaños,"
+      },
+      {
+       "v": "la dividí en siete…, la dividí por dentro"
+      },
+      {
+       "v": "en nueve; le metí a martillazos la estopa, me busqué una pértiga,"
+      },
+      {
+       "n": 65,
+       "v": "le añadí todo lo necesario; el casco lo unté con seis shar de betún,",
+       "nota": "Variante: «tres»."
+      },
+      {
+       "v": "y [unté] tres shar de brea por dentro; unos hombres"
+      },
+      {
+       "v": "que llevaban un recipiente de grasa me trajeron tres shar; y un shar"
+      },
+      {
+       "v": "de esa grasa lo dejé para lo que consumieron los aparejos (?); y el barquero"
+      },
+      {
+       "n": 70,
+       "v": "guardó dos shar de grasa; sacrifiqué bueyes para los…,"
+      },
+      {
+       "v": "maté corderos cada día; hidromiel, cerveza, aceite y vino"
+      },
+      {
+       "v": "[bebían] los obreros como si fuera agua, e hicieron un gran banquete como en Año Nuevo."
+      },
+      {
+       "laguna": "Cinco versos mutilados: «añadí ungüento para las manos», «el barco estuvo terminado… Shamash el grande», «fue difícil», «hice traer arriba y abajo», «dos tercios de él»."
+      },
+      {
+       "n": 80,
+       "v": "[Todo lo que tenía] lo cargué a bordo; la plata la cargué,"
+      },
+      {
+       "v": "todo lo que tenía; el oro, todo lo que tenía, lo cargué a bordo;"
+      },
+      {
+       "v": "todo lo que tenía de la semilla de todos los seres vivos [lo cargué a bordo]."
+      },
+      {
+       "v": "Hice embarcar en el barco a toda mi familia y mi parentela,"
+      },
+      {
+       "n": 85,
+       "v": "el ganado, las bestias del campo y todos los artesanos."
+      },
+      {
+       "v": "Entonces Shamash fijó la hora: “… (?)"
+      },
+      {
+       "v": "hará caer por la noche una lluvia abundante (?)…;",
+       "nota": "Dos versos difíciles."
+      },
+      {
+       "v": "entonces entra en el barco y cierra al instante la escotilla”."
+      },
+      {
+       "n": 90,
+       "v": "Llegó la hora [fijada]… (?)"
+      },
+      {
+       "v": "hizo caer por la noche una lluvia abundante (?)… (?)."
+      },
+      {
+       "v": "Miré el aspecto del día: daba horror mirarlo;"
+      },
+      {
+       "v": "por eso entré en el barco y cerré al instante la escotilla."
+      },
+      {
+       "v": "Y para que cerrara el barco, a Puzur-Amurri (?), el barquero,"
+      },
+      {
+       "n": 95,
+       "v": "le entregué la popa con todo su equipo."
+      },
+      {
+       "v": "Entonces, en cuanto apareció algo del alba, en el horizonte"
+      },
+      {
+       "v": "se alzó una nube oscura; dentro de ella retumbaba Adad, el dios de la tormenta."
+      },
+      {
+       "n": 100,
+       "v": "Nabu y Sharru iban en la vanguardia, y venían como heraldos"
+      },
+      {
+       "v": "por montes y llanos; entonces Irragal arrancó los postes de amarre;"
+      },
+      {
+       "v": "Ninurta desató la destrucción a su paso; los Anunnaki blandieron"
+      },
+      {
+       "n": 105,
+       "v": "sus antorchas y abrasaron la tierra con sus llamas; la desolación de Adad"
+      },
+      {
+       "v": "llegó hasta lo alto del cielo, y todo lo que brillaba se volvió tinieblas."
+      },
+      {
+       "laguna": "Cuatro versos mutilados: «la tierra como…», «durante un día la tormenta…», «sopló con furia…», «como una batalla…»."
+      },
+      {
+       "v": "Ni un hermano podía distinguir a su hermano; desde el cielo no se veía"
+      },
+      {
+       "v": "a los mortales. ¡Los dioses se aterraron ante el diluvio,"
+      },
+      {
+       "v": "huyeron, subieron al cielo de Anu y se agazaparon en las afueras!"
+      },
+      {
+       "n": 115,
+       "v": "Acurrucados como perros estaban los dioses, mientras Ishtar"
+      },
+      {
+       "v": "gritaba como una mujer de parto; chillaba la Señora de la dulce voz,"
+      },
+      {
+       "v": "la de los dioses: “¡Que ese día se vuelva polvo, porque dije el mal"
+      },
+      {
+       "n": 120,
+       "v": "en la Asamblea de los Dioses! ¿Cómo pude decir tal mal"
+      },
+      {
+       "v": "en la Asamblea de los Dioses, ordenando la destrucción para borrar"
+      },
+      {
+       "v": "a mi pueblo? ¿He dado yo a luz a mi propio pueblo"
+      },
+      {
+       "v": "solo para que llene el mar como huevas de pez?”."
+      },
+      {
+       "n": 125,
+       "v": "Los dioses, los Anunnaki, lloraban con ella; los dioses estaban sentados, humillados,"
+      },
+      {
+       "v": "llorando, y cerrados sus labios en (?) la Asamblea."
+      },
+      {
+       "v": "Seis días y siete noches siguieron el huracán, el diluvio y la tempestad"
+      },
+      {
+       "v": "barriendo la tierra; al llegar el séptimo día se calmó la guerra,"
+      },
+      {
+       "n": 130,
+       "v": "la tempestad y el diluvio, que habían luchado como un ejército en batalla."
+      },
+      {
+       "v": "Se calmó el mar, se agotó el vendaval, cesó el diluvio."
+      },
+      {
+       "v": "Miré el día: todo sonido se había apagado, y toda la humanidad"
+      },
+      {
+       "v": "había vuelto al barro; la ciénaga estaba a la altura de los tejados."
+      },
+      {
+       "n": 135,
+       "v": "Entonces abrí una escotilla, y la luz del sol me cayó en la mejilla;"
+      },
+      {
+       "v": "me incliné, me senté a llorar, y las lágrimas me corrían por las mejillas."
+      },
+      {
+       "v": "Miré a lo lejos, hasta los últimos confines del Océano:"
+      },
+      {
+       "n": 140,
+       "v": "la tierra emergía en doce [puntos], y el arca encalló en el monte Nisir;"
+      },
+      {
+       "v": "el monte Nisir la sujetó y no la dejó moverse."
+      },
+      {
+       "v": "Un día, dos días, el Nisir la sujetó y no la dejó moverse;"
+      },
+      {
+       "v": "tres días, cuatro, el Nisir la sujetó y no la dejó moverse;"
+      },
+      {
+       "v": "cinco días, seis, el Nisir la sujetó y no la dejó moverse."
+      },
+      {
+       "n": 145,
+       "v": "Entonces, al amanecer el séptimo día, saqué una paloma y la solté;"
+      },
+      {
+       "v": "la paloma fue y vino, y volvió porque no había dónde posarse."
+      },
+      {
+       "n": 150,
+       "v": "Entonces saqué una golondrina y la solté; la golondrina fue y vino,"
+      },
+      {
+       "v": "y también volvió porque no había dónde posarse. Saqué un cuervo"
+      },
+      {
+       "v": "y lo solté también; el cuervo se fue, y vio que las aguas"
+      },
+      {
+       "v": "bajaban; y comía mientras vadeaba y chapoteaba, y no volvió [a mí]."
+      },
+      {
+       "n": 155,
+       "v": "Solté [a todos los animales] a los cuatro vientos, y ofrecí"
+      },
+      {
+       "v": "un sacrificio, y derramé una libación en la cima del monte,"
+      },
+      {
+       "v": "dedicando dos veces siete vasos, y amontoné debajo de ellos caña dulce,"
+      },
+      {
+       "n": 160,
+       "v": "cedro y mirto; los dioses olieron el aroma, los dioses olieron"
+      },
+      {
+       "v": "el dulce aroma; los dioses se juntaron como moscas sobre el que hacía la ofrenda."
+      },
+      {
+       "v": "Entonces, al llegar, la Reina [de los dioses] alzó"
+      },
+      {
+       "v": "las magníficas joyas que Anu había hecho a su gusto:"
+      },
+      {
+       "v": "“¡Oh dioses! Antes olvidaré este collar de lapislázuli"
+      },
+      {
+       "n": 165,
+       "v": "que dejar de recordar estos días; nunca los olvidaré."
+      },
+      {
+       "v": "Que acudan los demás dioses a la ofrenda,"
+      },
+      {
+       "v": "pero que Enlil no venga a la ofrenda,"
+      },
+      {
+       "v": "porque sin pensarlo trajo el diluvio y entregó a mi pueblo"
+      },
+      {
+       "v": "a la destrucción”."
+      },
+      {
+       "n": 170,
+       "v": "Entonces Enlil, al llegar,"
+      },
+      {
+       "v": "vio el barco, y al instante Enlil montó en cólera,"
+      },
+      {
+       "v": "lleno de ira contra los dioses, los Igigi: “¿Ha escapado algún mortal?",
+       "nota": "Los Igigi son aquí los dioses del cielo."
+      },
+      {
+       "v": "¡Ningún hombre debía sobrevivir a la ruina!”."
+      },
+      {
+       "v": "Entonces Ninurta respondió y dijo al guerrero Enlil:"
+      },
+      {
+       "n": 175,
+       "v": "“¿Quién sino Ea puede haber tramado algo así?"
+      },
+      {
+       "v": "Ea es quien conoce todos los designios”. Y Ea"
+      },
+      {
+       "v": "respondió y dijo al guerrero Enlil: “Oh, jefe"
+      },
+      {
+       "v": "de los dioses, guerrero, ¿cómo, sin consultar a nadie,"
+      },
+      {
+       "n": 180,
+       "v": "pudiste traer un diluvio? Haz pagar su pecado al pecador,",
+       "nota": "Thompson imprime aquí «150», por errata."
+      },
+      {
+       "v": "haz pagar su culpa al culpable, pero ten piedad, para que"
+      },
+      {
+       "v": "no sea exterminado; sé clemente, para que no [perezca]."
+      },
+      {
+       "v": "En vez de traer un diluvio, que venga un león a mermar a los hombres;"
+      },
+      {
+       "v": "en vez de traer un diluvio, que venga un chacal a mermar a los hombres;"
+      },
+      {
+       "v": "en vez de traer un diluvio, que haya una hambruna que [devore (?)]"
+      },
+      {
+       "n": 185,
+       "v": "el país; en vez de traer un diluvio, que venga el dios de la peste"
+      },
+      {
+       "v": "y [arrase] a la gente."
+      },
+      {
+       "v": "En verdad, no fui yo quien reveló el secreto de los grandes dioses,"
+      },
+      {
+       "v": "sino que al Sapientísimo le concedí un sueño, y así",
+       "nota": "Atrahasis, «el Sapientísimo», es otro nombre de Utnapishtim."
+      },
+      {
+       "v": "oyó el secreto de los dioses. Ahora, delibera sobre su suerte”."
+      },
+      {
+       "n": 190,
+       "v": "Entonces Enlil subió al arca, me tomó de la mano y me alzó,"
+      },
+      {
+       "v": "a mí y a mi mujer; la hizo arrodillarse"
+      },
+      {
+       "v": "a mi lado; nos tocó la frente, de pie entre nosotros,"
+      },
+      {
+       "v": "y nos bendijo: “Hasta ahora Utnapishtim ha sido solo un mortal;"
+      },
+      {
+       "v": "ahora Utnapishtim y su mujer serán iguales"
+      },
+      {
+       "n": 195,
+       "v": "a nosotros, los dioses; lejos, en la desembocadura de los ríos,"
+      },
+      {
+       "v": "vivirá Utnapishtim”. Así que me tomaron y allí, lejos,"
+      },
+      {
+       "v": "me hicieron vivir, en la desembocadura de los ríos."
+      },
+      {
+       "v": "Pero a ti, ¿quién reunirá a los dioses por ti, para que encuentres"
+      },
+      {
+       "v": "la vida que buscas? ¡Ven, no te duermas durante seis días y siete noches!»."
+      },
+      {
+       "sub": "Pero Gilgamesh es demasiado mortal para resistir siquiera el sueño"
+      },
+      {
+       "n": 200,
+       "v": "Entonces, mientras estaba sentado sobre sus ancas, el sueño sopló sobre él como una brisa."
+      },
+      {
+       "v": "Utnapishtim habló a su mujer: «Míralo,"
+      },
+      {
+       "v": "al hombre fuerte que pide la vida: ¡cómo ha soplado sobre él"
+      },
+      {
+       "n": 205,
+       "v": "el sueño como una brisa!». Y su mujer respondió a Utnapishtim, el Lejano:"
+      },
+      {
+       "v": "«Tócalo, que el hombre despierte, que vuelva a su casa en paz"
+      },
+      {
+       "v": "por el camino que ha recorrido, que por la puerta"
+      },
+      {
+       "v": "por la que salió vuelva a su tierra». Utnapishtim habló"
+      },
+      {
+       "n": 210,
+       "v": "a su mujer: «¡Cómo te afligen a ti también las penas de los mortales!"
+      },
+      {
+       "v": "Cuécele su pan y pónselo a la cabecera, y el tiempo que duerma"
+      },
+      {
+       "v": "márcalo en la pared de la casa». Ella lo hizo: le coció el pan,",
+       "nota": "Pasaje difícil que admite otras interpretaciones. Si esta es la correcta, Utnapishtim se burla del «hombre fuerte» que busca la vida eterna llevando la cuenta de las horas (¿o días?) que duerme, incapaz siquiera de mantenerse despierto."
+      },
+      {
+       "v": "se lo puso a la cabecera, y el tiempo que durmió lo fue marcando"
+      },
+      {
+       "n": 215,
+       "v": "en la pared de la casa. Primero se recogió su harina, segundo se cribó,"
+      },
+      {
+       "v": "tercero se humedeció, cuarto amasó ella la masa, quinto"
+      },
+      {
+       "v": "le añadió la levadura, sexto se coció; y al séptimo, él lo tocó"
+      },
+      {
+       "v": "de repente, y el hombretón despertó [de su sueño]."
+      },
+      {
+       "v": "Gilgamesh le habló a Utnapishtim, el Lejano:"
+      },
+      {
+       "n": 220,
+       "v": "«Dime, te lo ruego (?), ¿fuiste tú quien, cuando el sueño cayó sobre mí,"
+      },
+      {
+       "v": "me tocó de repente y me despertó al instante?»."
+      },
+      {
+       "v": "Utnapishtim [le habló] a Gilgamesh:"
+      },
+      {
+       "v": "«Gilgamesh, se ha contado la cuenta de tu pan…, y entonces te desperté:"
+      },
+      {
+       "n": 225,
+       "v": "[“uno”: se recogió] tu harina; [“dos”]: se cribó; “tres”:"
+      },
+      {
+       "v": "se humedeció; “cuatro”: ella amasó tu masa; [“cinco”]: añadió"
+      },
+      {
+       "v": "la levadura; “seis”: se coció; [“siete”]: fui yo quien de repente"
+      },
+      {
+       "v": "te tocó, y despertaste». A Utnapishtim, el Lejano,"
+      },
+      {
+       "n": 230,
+       "v": "respondió Gilgamesh: «¿[Qué] haré, o adónde iré,"
+      },
+      {
+       "v": "Utnapishtim? Un ladrón me ha arrebatado [el valor];",
+       "nota": "Así dice el texto, pero según Thompson no se entiende."
+      },
+      {
+       "v": "la muerte acecha [en] mi alcoba, y la muerte está dondequiera que [escucho]»."
+      },
+      {
+       "v": "Utnapishtim [habló] al barquero Urshanabi:"
+      },
+      {
+       "n": 235,
+       "v": "«Tú, Urshanabi…, el paso te odiará;"
+      },
+      {
+       "v": "a todos los que llegan a su orilla, su orilla les pone límite."
+      },
+      {
+       "v": "Este hombre al que guiaste, ¿ha de tener manchas que le cubran el cuerpo,"
+      },
+      {
+       "v": "o una piel que esconda la gracia de sus miembros? Urshanabi, llévatelo,"
+      },
+      {
+       "n": 240,
+       "v": "llévalo adonde pueda bañarse, que se lave las manchas en el agua"
+      },
+      {
+       "v": "hasta quedar blanco como la nieve; que se quite las pieles y se las lleve el mar;"
+      },
+      {
+       "v": "que su cuerpo se vea hermoso; que se renueve la diadema de su cabeza;"
+      },
+      {
+       "v": "que se vista un manto para cubrir su desnudez,"
+      },
+      {
+       "n": 245,
+       "v": "un manto que, hasta que llegue a su ciudad y acabe su viaje,"
+      },
+      {
+       "v": "no muestre señal de vejez, sino que conserve toda su frescura»."
+      },
+      {
+       "v": "Así que Urshanabi se lo llevó, lo condujo adonde podía bañarse,"
+      },
+      {
+       "v": "y él se lavó las manchas en el [agua] hasta quedar como la nieve, se quitó [también] las pieles"
+      },
+      {
+       "n": 250,
+       "v": "para que se las llevara el mar; y su cuerpo se vio"
+      },
+      {
+       "v": "hermoso; renovó [la diadema] de su cabeza y se vistió un manto"
+      },
+      {
+       "v": "para cubrir su desnudez, [de modo que hasta llegar a su ciudad],"
+      },
+      {
+       "v": "hasta acabar su viaje, [el manto no mostrara]"
+      },
+      {
+       "n": 255,
+       "v": "[vejez, sino que] conservara [toda] su frescura."
+      },
+      {
+       "v": "Así embarcaron en su barca Gilgamesh y Urshanabi, botaron [la nave sobre las olas]"
+      },
+      {
+       "v": "y subieron a bordo."
+      },
+      {
+       "sub": "El don mágico de la juventud recobrada"
+      },
+      {
+       "v": "A Utnapishtim, el Lejano,"
+      },
+      {
+       "v": "le habló entonces su mujer: «Gilgamesh vino hasta aquí agotado de remar;"
+      },
+      {
+       "n": 260,
+       "v": "¿qué le darás para que vuelva a su tierra?». Mientras tanto,"
+      },
+      {
+       "v": "Gilgamesh, alzando la pértiga, empujaba la barca junto a la orilla."
+      },
+      {
+       "v": "Entonces Utnapishtim le [habló] a Gilgamesh:"
+      },
+      {
+       "v": "«Gilgamesh, viniste hasta aquí agotado de remar; dime,"
+      },
+      {
+       "n": 265,
+       "v": "¿qué te daré de regalo para que vuelvas a tu país?"
+      },
+      {
+       "v": "Gilgamesh, te revelaré una cosa oculta…, te diré:"
+      },
+      {
+       "v": "hay una planta como un espino, con la raíz (?) [en lo hondo del océano];"
+      },
+      {
+       "v": "como las de la zarza, sus espinas te arañarán,"
+      },
+      {
+       "n": 270,
+       "v": "pero si tu mano alcanza esa planta, [encontrarás la vida]»."
+      },
+      {
+       "v": "Cuando Gilgamesh oyó esto, se soltó [el cinturón],"
+      },
+      {
+       "v": "se ató piedras pesadas [a los pies], que lo arrastraron a lo hondo del mar,"
+      },
+      {
+       "v": "[encontró la planta]; al agarrarla, [sus espinas lo arañaron]."
+      },
+      {
+       "n": 275,
+       "v": "Cortó las piedras pesadas [de sus pies], para que [el mar] lo devolviera"
+      },
+      {
+       "v": "a su orilla."
+      },
+      {
+       "v": "Gilgamesh le habló al barquero Urshanabi:"
+      },
+      {
+       "v": "«Esta planta es una planta de gran maravilla (?), Urshanabi,"
+      },
+      {
+       "v": "con la que un hombre puede lograr su deseo. La llevaré a Uruk,"
+      },
+      {
+       "n": 280,
+       "v": "a Uruk, la de altas murallas, y se la daré a comer [a…]."
+      },
+      {
+       "v": "Su nombre es “El viejo se vuelve joven”, y yo la comeré,"
+      },
+      {
+       "v": "yo mismo, para volver a mi juventud»."
+      },
+      {
+       "sub": "La búsqueda acaba en tragedia"
+      },
+      {
+       "v": "A las cuarenta horas rompieron el ayuno; a las sesenta descansaron."
+      },
+      {
+       "n": 285,
+       "v": "Gilgamesh vio un estanque de agua fresca y, bajando a él,"
+      },
+      {
+       "v": "se bañó en el agua. Pero había allí una serpiente que olió la fragancia de la planta,"
+      },
+      {
+       "v": "salió disparada [del agua (?)] y arrebató la planta, lanzando una maldición"
+      },
+      {
+       "n": 290,
+       "v": "al retirarse. Entonces Gilgamesh se sentó y rompió a llorar."
+      },
+      {
+       "v": "Le corrían las lágrimas por las mejillas; [habló (?)] al barquero Urshanabi:"
+      },
+      {
+       "v": "«Dime, ¿[para] quién se han fatigado mis brazos, Urshanabi?"
+      },
+      {
+       "n": 295,
+       "v": "¿Para quién se ha gastado la sangre de mi corazón? No para mí mismo"
+      },
+      {
+       "v": "he logrado la recompensa: solo para un león de tierra"
+      },
+      {
+       "v": "la he conseguido; y ahora, a las cuarenta horas,"
+      },
+      {
+       "v": "uno así me la arrebata. Cuando abrí la compuerta y… el aparejo,",
+       "nota": "Literalmente, «el mobiliario». Thompson dice que el episodio se ha perdido en una de las lagunas anteriores, y se pregunta si tiene que ver con el «dique» de la tablilla V, columna VI."
+      },
+      {
+       "v": "vi la señal (?) que se me dio como advertencia:"
+      },
+      {
+       "n": 300,
+       "v": "¡ojalá me hubiera dado la vuelta y hubiera dejado la barca en la orilla [del océano]!»."
+      },
+      {
+       "v": "A las cuarenta horas rompieron el ayuno; a las sesenta descansaron,"
+      },
+      {
+       "v": "y al fin llegaron al centro de Uruk, la de altas murallas."
+      },
+      {
+       "sub": "El orgullo del constructor"
+      },
+      {
+       "v": "Gilgamesh le habló al barquero Urshanabi:"
+      },
+      {
+       "v": "«Sube, Urshanabi, y camina por las murallas de Uruk,"
+      },
+      {
+       "v": "mira sus cimientos y fíjate en sus ladrillos: ¿no son de ladrillo cocido,"
+      },
+      {
+       "n": 305,
+       "v": "y no es su base de betún, siete hiladas?"
+      },
+      {
+       "v": "Un shar la ciudad, un shar los huertos y un shar los…"
+      },
+      {
+       "v": "… el templo de Ishtar; reuní tres shar y… (?) de Uruk».",
+       "nota": "Por desgracia, hay dos palabras difíciles en estos dos versos."
+      }
+     ]
+    },
+    {
+     "n": 12,
+     "titulo": "Tablilla XII",
+     "sinopsis": "Gilgamesh pregunta qué debe hacer el doliente para que no lo persigan los muertos, y hace justo lo contrario para que Enkidu vuelva. Ruega a Enlil, al dios Luna y a Ea; Nergal abre un agujero en la tierra y el espíritu de Enkidu sube para contarle cómo es la suerte de los muertos.",
+     "items": [
+      {
+       "acot": "Según Thompson, la tablilla anterior termina con la breve descripción de Uruk y de su arquitectura, que sirve de enlace con el comienzo de esta. El «Arquitecto» tiene que ser Gilgamesh, y la red que pasa por su casa, paralela a la frase de la tablilla I, columna II, debe de ser un eufemismo por la muerte de Enkidu. Gilgamesh, que no ha logrado el secreto de la vida eterna, se ve reducido a invocar a su amigo muerto para saber lo peor que le espera. Pregunta qué debe hacer el doliente para que no lo persiga el espíritu del muerto, y después hace exactamente lo contrario para que Enkidu vuelva.",
+       "hoy": "Hoy se sabe que esta tablilla es una traducción casi literal de la segunda mitad de un poema sumerio independiente, «Gilgamesh, Enkidu y el Inframundo». Por eso Enkidu aparece vivo al comienzo, aunque haya muerto en la tablilla VII."
+      },
+      {
+       "col": "I"
+      },
+      {
+       "sub": "Cómo persiguen los muertos a los vivos"
+      },
+      {
+       "v": "Entonces, cuando la red barredera hubo pasado por la casa del Arquitecto",
+       "nota": "Versión asiria."
+      },
+      {
+       "v": "y la red [hubo cobrado su tributo]…, [dijo]:"
+      },
+      {
+       "v": "«Señor, ¿qué [puedo hacer]…?"
+      },
+      {
+       "v": "Ahora que la red barredera ha [pasado por la casa del Arquitecto]",
+       "nota": "O, si es el Arquitecto quien habla, «por mi casa»."
+      },
+      {
+       "n": 5,
+       "v": "y la red [ha cobrado su tributo]…»."
+      },
+      {
+       "v": "Gilgamesh [le habló]…:"
+      },
+      {
+       "v": "«Si a…»."
+      },
+      {
+       "laguna": "Faltan unos dos versos, en los que Gilgamesh pregunta, al parecer, cómo se consigue que los muertos se aparezcan al doliente."
+      },
+      {
+       "v": "«Gilgamesh…»."
+      },
+      {
+       "sub": "El deber del doliente"
+      },
+      {
+       "v": "«Si te [acercas] a… al templo…",
+       "nota": "Estos versos admiten dos restituciones: «Si te [acercas]… a…, los espíritus te acompañarán a tu templo», o «Si te [acercas]… a…, o vas al templo»."
+      },
+      {
+       "n": 15,
+       "v": "[no te pondrás] ropa limpia, sino que, como un hombre de la ciudad, …;"
+      },
+      {
+       "v": "no te ungirás con aceite dulce de la alcuza, no sea que, por su fragancia,"
+      },
+      {
+       "v": "se reúnan en torno a ti; no apoyarás el arco en el suelo, no sea que te rodeen"
+      },
+      {
+       "n": 20,
+       "v": "los que murieron por el arco; no llevarás un bastón en la mano,"
+      },
+      {
+       "v": "no sea que los espíritus [heridos] parloteen contra ti; no te pondrás"
+      },
+      {
+       "v": "calzado ni harás eco en el suelo; a tu mujer, a la que amas,"
+      },
+      {
+       "n": 25,
+       "v": "no la besarás; a tu mujer, a la que odias, no la castigarás;"
+      },
+      {
+       "v": "a tu hijo, al que amas, no lo besarás, ni a tu hijo, al que odias,"
+      },
+      {
+       "v": "lo castigarás, porque el luto de la tierra te tiene preso»."
+      },
+      {
+       "v": "«La que yace muerta,"
+      },
+      {
+       "v": "la que yace muerta,"
+      },
+      {
+       "v": "la madre de Ninazu,"
+      },
+      {
+       "v": "la que yace muerta,"
+      },
+      {
+       "n": 30,
+       "v": "ya no cubre con el manto"
+      },
+      {
+       "v": "sus hermosos hombros,"
+      },
+      {
+       "v": "ya no tiene el pecho"
+      },
+      {
+       "v": "henchido como la alcuza de grasa».",
+       "nota": "Thompson cree que este breve poema puede ser el lamento habitual de las plañideras profesionales."
+      },
+      {
+       "sub": "Gilgamesh incumple estas costumbres para hacer volver a Enkidu"
+      },
+      {
+       "v": "Así que [se acercó] a… y fue a los templos,"
+      },
+      {
+       "v": "[se puso ropa limpia]… y, como un hombre de la ciudad, …"
+      },
+      {
+       "n": 35,
+       "v": "[se] ungió con aceite [dulce] de la alcuza, y por [su] fragancia"
+      },
+      {
+       "v": "se reunieron en torno a él; apoyó (?) el arco [en el suelo], y a su alrededor"
+      },
+      {
+       "v": "rondaron los espíritus; los que murieron por el arco parloteaban contra él;"
+      },
+      {
+       "v": "[llevó] un bastón en la mano, [y los espíritus heridos parloteaban contra él (?)];"
+      },
+      {
+       "n": 40,
+       "v": "[se puso] calzado [e hizo eco en el suelo];"
+      },
+      {
+       "v": "[besó] a su mujer, [a la que amaba; castigó a su] mujer, a la que odiaba;"
+      },
+      {
+       "n": 45,
+       "v": "[besó a su hijo], al que amaba; castigó a [su] hijo, al que odiaba."
+      },
+      {
+       "v": "En verdad, el luto de la tierra lo tenía preso:"
+      },
+      {
+       "v": "«La que yace [muerta],"
+      },
+      {
+       "v": "[la que] yace [muerta],"
+      },
+      {
+       "v": "la madre de Ninazu,"
+      },
+      {
+       "v": "la que yace [muerta],"
+      },
+      {
+       "v": "ya no cubre con el manto"
+      },
+      {
+       "v": "[sus] hermosos hombros,"
+      },
+      {
+       "v": "ya no tiene el pecho"
+      },
+      {
+       "v": "henchido como la alcuza de grasa»."
+      },
+      {
+       "n": 50,
+       "v": "[Llamó (?)] a Enkidu para que subiera de la tierra: «[No] lo ha [atrapado]"
+      },
+      {
+       "v": "Namtar, [el dios de la peste], ni la fiebre, sino solo la tierra; ni el Agazapado,"
+      },
+      {
+       "v": "[Nergal], el despiadado, lo ha atrapado, sino solo la tierra; ni cayó"
+      },
+      {
+       "v": "donde se [libraba la batalla] de los mortales: solo la tierra [lo ha atrapado]»."
+      },
+      {
+       "v": "Así… el hijo de Ninsun lloraba por su siervo Enkidu,"
+      },
+      {
+       "n": 55,
+       "v": "mientras iba solo a [Ekur], el templo de Enlil:"
+      },
+      {
+       "v": "«[Enlil], padre mío, ahora la red barredera me ha golpeado también a mí,"
+      },
+      {
+       "v": "hasta la tierra; la red hasta la tierra me ha golpeado también a mí."
+      },
+      {
+       "v": "Es a Enkidu a quien [te ruego] que hagas subir [de la tierra]: no lo ha atrapado"
+      },
+      {
+       "n": 60,
+       "v": "Namtar, [el dios de la peste], ni la fiebre, [sino solo la tierra]; ni el Agazapado,"
+      },
+      {
+       "v": "Nergal, el despiadado, [lo ha atrapado, sino solo la tierra]; [ni cayó]"
+      },
+      {
+       "v": "donde se libraba la batalla de los mortales: [solo la tierra lo ha atrapado]»."
+      },
+      {
+       "v": "Pero Enlil, el padre, no le dio respuesta."
+      },
+      {
+       "v": "[Fue al dios Luna (?)]:"
+      },
+      {
+       "v": "«Dios Luna, padre mío, ahora la red barredera [me ha golpeado también a mí,"
+      },
+      {
+       "v": "hasta la tierra]; la red [hasta la tierra me ha golpeado también a mí]."
+      },
+      {
+       "n": 65,
+       "v": "Es a Enkidu a quien [te ruego] que hagas subir [de la tierra]: no lo ha atrapado"
+      },
+      {
+       "v": "Namtar, [ni] la fiebre, [sino solo la tierra; ni] el Agazapado,"
+      },
+      {
+       "v": "Nergal, [el despiadado, lo ha atrapado, sino solo la tierra]; [ni cayó]"
+      },
+      {
+       "v": "donde [se libraba la batalla de los mortales: solo la tierra lo ha atrapado]»."
+      },
+      {
+       "n": 70,
+       "v": "[Pero el dios Luna no le dio respuesta."
+      },
+      {
+       "v": "Entonces fue a Ea]:"
+      },
+      {
+       "v": "[«Ea, padre mío, ahora la red barredera me ha golpeado también a mí,"
+      },
+      {
+       "v": "hasta la tierra; la red hasta la tierra me ha golpeado también a mí."
+      },
+      {
+       "v": "Es a Enkidu a quien te ruego que hagas subir de la tierra: no lo ha atrapado]"
+      },
+      {
+       "n": 75,
+       "v": "Nam[tar, ni la fiebre, sino solo la tierra; ni] el Agazapado,"
+      },
+      {
+       "v": "Nergal, el despiadado, [lo ha atrapado, sino solo la tierra; ni cayó]"
+      },
+      {
+       "v": "donde se libraba la batalla de los mortales: [solo la tierra lo ha atrapado]»."
+      },
+      {
+       "v": "Ea, el padre, [prestó oído y habló a Nergal], el héroe guerrero:"
+      },
+      {
+       "v": "«Nergal, héroe guerrero, [¡escucha mis palabras (?)!]"
+      },
+      {
+       "n": 80,
+       "v": "[Abre ahora] un agujero [en la tierra], para que el espíritu de [Enkidu, al subir],"
+      },
+      {
+       "v": "[salga de la tierra y hable] con [su] hermano»."
+      },
+      {
+       "v": "Nergal, el héroe guerrero, [escuchó las palabras de Ea],"
+      },
+      {
+       "n": 85,
+       "v": "abrió un agujero en la tierra, y el espíritu de Enkidu salió"
+      },
+      {
+       "v": "de la tierra como un viento. Se abrazaron y…,"
+      },
+      {
+       "v": "hablaron juntos, llorando:"
+      },
+      {
+       "v": "«Dime, amigo mío; dime, amigo mío, dímelo, te lo ruego:"
+      },
+      {
+       "v": "¿qué has visto de las leyes del Inframundo?». «No, compañero,"
+      },
+      {
+       "n": 90,
+       "v": "no te lo diré, no te lo diré; porque si te dijera"
+      },
+      {
+       "v": "lo que he visto de las leyes del Inframundo, ¡te sentarías a llorar!»."
+      },
+      {
+       "v": "«Pues que me siente a llorar»."
+      },
+      {
+       "sub": "La triste suerte de todos los que han de morir"
+      },
+      {
+       "v": "«Sea: [el amigo (?)] que acariciabas"
+      },
+      {
+       "v": "y te alegraba, [en su cuerpo (?), como en un] manto"
+      },
+      {
+       "n": 95,
+       "v": "viejo, ha entrado el gusano; [la novia (?)] que acariciabas"
+      },
+      {
+       "v": "y te alegraba, [su cuerpo] está lleno de polvo…"
+      },
+      {
+       "v": "… ha hablado y [se ha hundido en la tierra (?)],"
+      },
+      {
+       "v": "… ha hablado y [se ha hundido en la tierra (?)]»."
+      },
+      {
+       "v": "«[Al que cayó en…],"
+      },
+      {
+       "n": 100,
+       "v": "[¿lo viste?]». «Sí, lo vi…»."
+      },
+      {
+       "laguna": "Faltan unos diecisiete versos."
+      },
+      {
+       "n": 118,
+       "v": "«Como una hermosa columna"
+      },
+      {
+       "v": "[sostiene (?)] un pórtico (?) interior…»."
+      },
+      {
+       "laguna": "Faltan unos veinticinco versos.",
+       "hoy": "En la versión sumeria, Enkidu va contando la suerte de los muertos según los hijos que tuvieron en vida: cuantos más hijos, mejor es su suerte en el mundo de los muertos."
+      },
+      {
+       "n": 145,
+       "v": "«Al que cae de un palo,"
+      },
+      {
+       "v": "¿lo viste?». «[Sí, lo vi]:"
+      },
+      {
+       "v": "al instante…,"
+      },
+      {
+       "v": "al quitar un tapón…»."
+      },
+      {
+       "v": "«Al que la muerte…,"
+      },
+      {
+       "v": "¿lo viste?». «[Sí, lo vi]:"
+      },
+      {
+       "v": "descansa en un lecho"
+      },
+      {
+       "v": "y bebe agua clara»."
+      },
+      {
+       "v": "«Y al héroe muerto en combate,"
+      },
+      {
+       "v": "¿lo viste?». «Sí, lo vi:"
+      },
+      {
+       "n": 150,
+       "v": "su padre y su madre le sostienen la cabeza,"
+      },
+      {
+       "v": "y sobre él, su mujer [en amarga pena]»."
+      },
+      {
+       "v": "«Aquel cuyo cadáver yace en la estepa,"
+      },
+      {
+       "v": "¿lo has visto?». «Sí, lo vi:"
+      },
+      {
+       "v": "su espíritu no descansa en la tierra»."
+      },
+      {
+       "v": "«Aquel cuyo espíritu no tiene quien lo cuide,"
+      },
+      {
+       "v": "¿lo viste?». «Sí, lo vi:"
+      },
+      {
+       "v": "come los posos de la copa y el pan roto"
+      },
+      {
+       "v": "que se arrojan a la calle»."
+      },
+      {
+       "acot": "Aquí termina la Epopeya de Gilgamesh."
+      }
+     ]
+    }
+   ]
   }
  }
 }

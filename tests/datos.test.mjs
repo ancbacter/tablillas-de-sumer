@@ -139,13 +139,21 @@ describe('textos completos (data/completos.json)', () => {
       assert.match(x.fuente, /dominio público/, `${id}: la fuente debe declarar que es de dominio público`);
     }
   });
-  test('versos numerados en orden creciente, sin vacíos ni repetidos', () => {
+  test('versos numerados en orden creciente dentro de cada columna, sin vacíos', () => {
     for (const [id, x] of Object.entries(X)) {
       for (const tb of x.tablillas) {
-        const ns = tb.items.filter((it) => 'n' in it).map((it) => it.n);
-        assert.ok(ns.every((n, i) => Number.isInteger(n) && (i === 0 || n > ns[i - 1])), `${id} ${tb.titulo}: numeración`);
+        // La numeración vuelve a empezar en cada columna ({col}); no todos los versos llevan número.
+        let previo = -Infinity;
+        for (const it of tb.items) {
+          if ('col' in it) { previo = -Infinity; continue; }
+          if (!('n' in it)) continue;
+          assert.ok(Number.isInteger(it.n) && it.n > previo, `${id} ${tb.titulo}: numeración en ${it.n}`);
+          previo = it.n;
+        }
         assert.deepEqual(tb.items.filter((it) => 'n' in it && vacio(it.v)).map((it) => it.n), [], `${id} ${tb.titulo}: versos vacíos`);
-        assert.ok(tb.items.every((it) => 'n' in it || !vacio(it.laguna) || !vacio(it.acot) || it.epilogo === true), `${id} ${tb.titulo}: elemento desconocido`);
+        const conocido = (it) => !vacio(it.v) || !vacio(it.laguna) || !vacio(it.acot) || !vacio(it.col) || !vacio(it.sub) || it.epilogo === true;
+        assert.deepEqual(tb.items.filter((it) => !conocido(it)), [], `${id} ${tb.titulo}: elemento desconocido`);
+        assert.deepEqual(tb.items.filter((it) => 'nota' in it && vacio(it.v)), [], `${id} ${tb.titulo}: las notas van en versos`);
       }
     }
   });

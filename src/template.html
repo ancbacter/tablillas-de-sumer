@@ -669,8 +669,11 @@ blockquote.pasaje-texto { padding-left: 22px; border-left: 2px solid var(--lapis
 .versos { font-family: var(--f-lectura); font-size: 1.15rem; line-height: 1.6; max-width: 66ch; padding-left: 4px; border-left: 2px solid var(--lapis); }
 .verso { display: grid; grid-template-columns: 3.2em minmax(0, 1fr); margin: 0; scroll-margin-top: calc(var(--alto-barra) + 24px); }
 .verso-n { font-family: var(--f-texto); font-size: 0.72rem; font-variant-numeric: tabular-nums; color: var(--tinta-suave); text-align: right; padding: 0.45em 0.9em 0 0; user-select: none; }
-.verso:not(:nth-child(5n)) .verso-n { visibility: hidden; }
+.verso:not(.verso-numerado) .verso-n { visibility: hidden; }
 .verso:target .verso-n, .verso:hover .verso-n { visibility: visible; }
+.columna-tablilla { margin: 22px 0 6px 3.2em; font-family: var(--f-texto); font-size: 0.72rem; font-weight: 700; letter-spacing: 0.09em; text-transform: uppercase; color: var(--tinta-suave); }
+.columna-tablilla:first-child { margin-top: 4px; }
+.subtitulo-escena { margin: 16px 0 6px 3.2em; font-family: var(--f-texto); font-size: 0.9rem; font-weight: 650; color: var(--lapis); }
 .verso-t { min-width: 0; padding-left: 1.2em; text-indent: -1.2em; }
 .llamada { font-family: var(--f-texto); font-size: 0.75rem; font-weight: 700; vertical-align: super; line-height: 0; margin-left: 2px; text-decoration: none; padding: 0 2px; }
 .laguna { margin: 14px 0 14px 3.2em; padding: 10px 14px; font-family: var(--f-texto); font-size: 0.92rem; line-height: 1.55; color: var(--tinta-suave); border: 1px dashed var(--linea-fuerte); border-radius: var(--radio); background: var(--superficie); }
@@ -949,7 +952,7 @@ blockquote.pasaje-texto { padding-left: 22px; border-left: 2px solid var(--lapis
   .pasaje-texto { font-size: 1.12rem; }
   .versos { font-size: 1.06rem; }
   .verso { grid-template-columns: 2.4em minmax(0, 1fr); }
-  .laguna, .acotacion, .epilogo { margin-left: 0; }
+  .laguna, .acotacion, .epilogo, .columna-tablilla, .subtitulo-escena { margin-left: 0; }
   .boton-buscar .boton-etq { display: none; }
 }
 @media (max-width: 400px) {

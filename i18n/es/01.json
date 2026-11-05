@@ -155,6 +155,7 @@
   "ui.completo.presentacion": "Sobre esta versión",
   "ui.completo.tablillas": "Tablillas",
   "ui.completo.epilogo": "Epílogo",
+  "ui.completo.columna": "Columna {n}",
   "ui.completo.laguna": "Laguna",
   "ui.completo.hoy": "Lo que se sabe hoy",
   "ui.completo.notas": "Notas",

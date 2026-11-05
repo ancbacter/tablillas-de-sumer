@@ -428,13 +428,20 @@ describe('textos completos', () => {
     assert.deepEqual(L.parsearHash('#c-'), { vista: 'catalogo' });
   });
   test('normaliza data/completos.json: siete tablillas y 680 versos del Enuma Elish', () => {
-    const [x] = L.normalizarCompletos(leer('completos.json'));
-    assert.equal(x.id, 'enuma-elish');
+    const x = L.normalizarCompletos(leer('completos.json')).find((c) => c.id === 'enuma-elish');
     assert.equal(x.tablillas.length, 7);
     assert.equal(L.contarVersos(x), 680);
     assert.ok(x.fuente_url.startsWith('https://'));
     const tipos = new Set(x.tablillas.flatMap((tb) => tb.items.map((it) => it.tipo)));
     assert.deepEqual([...tipos].sort(), ['acot', 'epilogo', 'laguna', 'verso']);
+  });
+  test('Gilgamesh: doce tablillas con columnas, escenas y versos sin número', () => {
+    const x = L.normalizarCompletos(leer('completos.json')).find((c) => c.id === 'gilgamesh');
+    assert.equal(x.tablillas.length, 12);
+    assert.ok(L.contarVersos(x) > 1200);
+    const items = x.tablillas.flatMap((tb) => tb.items);
+    assert.ok(items.some((it) => it.tipo === 'col') && items.some((it) => it.tipo === 'sub'));
+    assert.ok(items.some((it) => it.tipo === 'verso' && it.n === null));
   });
   test('descarta lo mal formado sin romperse', () => {
     assert.deepEqual(L.normalizarCompletos(null), []);

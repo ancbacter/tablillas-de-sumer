@@ -155,6 +155,7 @@
   "ui.completo.presentacion": "About this version",
   "ui.completo.tablillas": "Tablets",
   "ui.completo.epilogo": "Epilogue",
+  "ui.completo.columna": "Column {n}",
   "ui.completo.laguna": "Gap",
   "ui.completo.hoy": "What we know today",
   "ui.completo.notas": "Notes",

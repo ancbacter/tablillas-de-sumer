@@ -155,6 +155,7 @@
   "ui.completo.presentacion": "Sobre aquesta versió",
   "ui.completo.tablillas": "Tauletes",
   "ui.completo.epilogo": "Epíleg",
+  "ui.completo.columna": "Columna {n}",
   "ui.completo.laguna": "Llacuna",
   "ui.completo.hoy": "El que se sap avui",
   "ui.completo.notas": "Notes",

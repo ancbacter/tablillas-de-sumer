@@ -579,6 +579,8 @@ describe('navegador', { skip: ruta ? false : 'no se encontró Chrome ni Edge' },
         await captura(`texto-enuma-actual-${ancho}-${tema}`, 2400);
         await irA('c-enuma-elish');
         await captura(`completo-enuma-${ancho}-${tema}`, 3200);
+        await irA('c-gilgamesh');
+        await captura(`completo-gilgamesh-${ancho}-${tema}`, 3200);
       }
     }
     assert.deepEqual(errores, []);
@@ -620,6 +622,39 @@ describe('navegador', { skip: ruta ? false : 'no se encontró Chrome ni Edge' },
     await abrir(url, { ancho: 400, alto: 860 });
     await irA('c-enuma-elish');
     assert.ok(await pag.evaluar(`document.documentElement.scrollWidth`) <= 400);
+    assert.deepEqual(errores, []);
+  });
+
+  test('#c-gilgamesh: doce tablillas con columnas y escenas', async () => {
+    await abrir(url, { ancho: 1280, alto: 900 });
+    await irA('t-gilgamesh');
+    assert.equal(await pag.evaluar(`document.querySelector('#leer-completo').getAttribute('href')`), '#c-gilgamesh');
+    await irA('c-gilgamesh');
+    const r = await pag.evaluar(`({
+      tablillas: document.querySelectorAll('#vista section.tablilla').length,
+      columnas: document.querySelectorAll('#vista .columna-tablilla').length,
+      escenas: document.querySelectorAll('#vista .subtitulo-escena').length,
+      llamadas: document.querySelectorAll('#vista .llamada').length,
+      notas: document.querySelectorAll('#vista .notas-tablilla li').length,
+      ids: [...document.querySelectorAll('#vista [id]')].map((e) => e.id)
+    })`);
+    assert.equal(r.tablillas, 12);
+    assert.ok(r.columnas > 40 && r.escenas > 30, JSON.stringify(r).slice(0, 80));
+    assert.equal(r.notas, r.llamadas);
+    assert.equal(new Set(r.ids).size, r.ids.length, 'ids repetidos');
+    // Todos los versos empiezan en la misma columna, tengan número o no
+    const lefts = await pag.evaluar(`(() => {
+      const res = {};
+      for (const p of [...document.querySelectorAll('#tablilla-1 .verso')].slice(0, 12)) {
+        const t = p.querySelector('.verso-t'); const rg = document.createRange(); rg.selectNodeContents(t);
+        res[p.id] = Math.round(rg.getClientRects()[0].left);
+      }
+      return res;
+    })()`);
+    const primeras = new Set(Object.values(lefts));
+    assert.equal(primeras.size, 1, 'versos desalineados: ' + JSON.stringify(lefts));
+    await pag.evaluar(`document.querySelector('#tablilla-11 .llamada').click()`);
+    assert.match(await pag.evaluar(`document.activeElement.id`), /^tablilla-11-nota-\d+$/);
     assert.deepEqual(errores, []);
   });
 

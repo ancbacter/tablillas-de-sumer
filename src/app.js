@@ -158,8 +158,9 @@
 
   /**
    * Textos completos (solo en castellano): lista de {id, titulo, subtitulo, fuente, fuente_url, presentacion, tablillas}.
-   * Cada tablilla tiene {n, titulo, sinopsis, items}; un item es un verso {n, v, nota}, una laguna {laguna, hoy},
-   * una acotación {acot} o el comienzo del epílogo {epilogo}.
+   * Cada tablilla tiene {n, titulo, sinopsis, items}; un item es un verso {n?, v, nota} (n es la línea del original,
+   * que no todas las ediciones dan), una laguna {laguna, hoy}, una acotación {acot}, el comienzo de una columna
+   * de la tablilla {col} (la numeración vuelve a empezar), un subtítulo de escena {sub} o el epílogo {epilogo}.
    */
   function normalizarCompletos(raw) {
     var textos = obj(obj(raw).textos);
@@ -169,9 +170,11 @@
       var tablillas = arr(x.tablillas).filter(function (tb) { return tb && typeof tb === 'object'; }).map(function (tb, i) {
         var items = arr(tb.items).map(function (it) {
           it = obj(it);
-          if (num(it.n) !== null && str(it.v).trim()) return { tipo: 'verso', n: num(it.n), v: str(it.v), nota: str(it.nota) };
+          if (str(it.v).trim()) return { tipo: 'verso', n: num(it.n), v: str(it.v), nota: str(it.nota) };
           if (str(it.laguna).trim()) return { tipo: 'laguna', texto: str(it.laguna), hoy: str(it.hoy) };
           if (str(it.acot).trim()) return { tipo: 'acot', texto: str(it.acot) };
+          if (str(it.col).trim()) return { tipo: 'col', texto: str(it.col) };
+          if (str(it.sub).trim()) return { tipo: 'sub', texto: str(it.sub) };
           if (it.epilogo === true) return { tipo: 'epilogo' };
           return null;
         }).filter(Boolean);
@@ -831,6 +834,7 @@
     'ui.completo.presentacion': 'Sobre esta versión',
     'ui.completo.tablillas': 'Tablillas',
     'ui.completo.epilogo': 'Epílogo',
+    'ui.completo.columna': 'Columna {n}',
     'ui.completo.laguna': 'Laguna',
     'ui.completo.hoy': 'Lo que se sabe hoy',
     'ui.completo.notas': 'Notas',
@@ -1967,16 +1971,28 @@
     var base = 'tablilla-' + tb.n;
     var notas = [];
     var cuerpo = [];
-    tb.items.forEach(function (it) {
+    var col = '';
+    tb.items.forEach(function (it, k) {
       if (it.tipo === 'verso') {
+        // Referencia del verso: «12», o «II 12» si la tablilla está dividida en columnas; sin número, la del anterior.
+        var ref = it.n === null ? '' : (col ? col + ' ' : '') + it.n;
         var nota = null;
         if (it.nota) {
-          notas.push(it);
-          var idNota = base + '-nota-' + it.n;
-          nota = h('a', { class: 'llamada', href: '#' + idNota, id: idNota + '-ref', 'aria-label': t('ui.completo.nota_n', { n: it.n }),
+          var idNota = base + '-nota-' + k;
+          notas.push({ id: idNota, ref: ref, nota: it.nota });
+          nota = h('a', { class: 'llamada', href: '#' + idNota, id: idNota + '-ref', 'aria-label': ref ? t('ui.completo.nota_n', { n: ref }) : t('ui.completo.notas'),
             onclick: function (ev) { ev.preventDefault(); irA(idNota); } }, '*');
         }
-        cuerpo.push(h('p', { class: 'verso', id: base + '-v' + it.n }, [h('span', { class: 'verso-n', 'aria-hidden': 'true' }, String(it.n)), h('span', { class: 'verso-t' }, [it.v, nota])]));
+        var marca = it.n !== null && it.n % 5 === 0;
+        cuerpo.push(h('p', { class: 'verso' + (marca ? ' verso-numerado' : ''), id: base + '-i' + k }, [
+          h('span', { class: 'verso-n', 'aria-hidden': 'true' }, it.n === null ? '' : String(it.n)),
+          h('span', { class: 'verso-t' }, [it.v, nota])
+        ]));
+      } else if (it.tipo === 'col') {
+        col = it.texto;
+        cuerpo.push(h('h4', { class: 'columna-tablilla' }, t('ui.completo.columna', { n: it.texto })));
+      } else if (it.tipo === 'sub') {
+        cuerpo.push(h('p', { class: 'subtitulo-escena' }, it.texto));
       } else if (it.tipo === 'laguna') {
         cuerpo.push(h('div', { class: 'laguna', role: 'note' }, [
           h('p', null, [h('span', { class: 'rot' }, t('ui.completo.laguna')), it.texto]),
@@ -1996,11 +2012,10 @@
       h('div', { class: 'versos' }, cuerpo),
       notas.length ? h('aside', { class: 'notas-tablilla', 'aria-label': t('ui.completo.notas') + ' · ' + (tb.titulo || romano(tb.n)) }, [
         h('h4', null, t('ui.completo.notas')),
-        h('ol', null, notas.map(function (it) {
-          var idNota = base + '-nota-' + it.n;
-          return h('li', { id: idNota, tabindex: '-1' }, [
-            h('a', { href: '#' + base + '-v' + it.n, class: 'nota-verso', onclick: function (ev) { ev.preventDefault(); irA(idNota + '-ref'); } }, String(it.n)),
-            ' ', it.nota
+        h('ol', null, notas.map(function (x) {
+          return h('li', { id: x.id, tabindex: '-1' }, [
+            h('a', { href: '#' + x.id + '-ref', class: 'nota-verso', onclick: function (ev) { ev.preventDefault(); irA(x.id + '-ref'); } }, x.ref || '*'),
+            ' ', x.nota
           ]);
         }))
       ]) : null
