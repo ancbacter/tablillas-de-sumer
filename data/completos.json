@@ -9208,6 +9208,2321 @@
      ]
     }
    ]
+  },
+  "diluvio-ziusudra": {
+   "titulo": "El diluvio sumerio (Ziusudra)",
+   "subtitulo": "La tablilla de Nippur, texto conservado",
+   "antigua": true,
+   "aviso": "Traducción de 1916 (Barton, a partir de Poebel). Es la única tablilla sumeria del diluvio, pero varias lecturas están superadas: el héroe no adora un ídolo y el texto no habla de Tiamat.",
+   "fuente": "Versión española a partir de G. A. Barton, Archaeology and the Bible (Filadelfia, American Sunday-School Union, 1916), capítulo VII, que traduce al inglés la tablilla de Nippur publicada por A. Poebel en 1914. La obra de Barton es de dominio público.",
+   "fuente_url": "https://www.gutenberg.org/ebooks/43070",
+   "presentacion": "Es la única tablilla que se conserva de la versión sumeria del diluvio: una tablilla de Nippur de hacia 1600 a. C., con tres columnas por cada cara, de la que falta más de la mitad. La publicó Arno Poebel en 1914 y aquí se sigue la traducción inglesa que dio George A. Barton dos años después.\n\nLimitaciones de esta versión: Barton leía el nombre del héroe como «Ziugiddu»; hoy se lee Ziusudra, que es la forma que se usa en el resto de la página. Algunas de sus interpretaciones están superadas: pensaba que Ziusudra hacía un ídolo de madera y le rendía culto, y que el relato de la creación de esta tablilla incluía la victoria de Enlil sobre Tiamat, cosa que el texto no dice. También entendía que Ninhursag era un nombre sumerio de Ishtar, y no es así. La traducción de referencia actual, la del ETCSL de Oxford, tiene derechos de autor. Las notas «Lo que se sabe hoy» resumen con palabras propias lo que ha cambiado.\n\nLos puntos suspensivos marcan texto perdido; los corchetes [ ], reconstrucciones; (?), lecturas dudosas. Barton no numeró los versos.",
+   "tablillas": [
+    {
+     "n": 1,
+     "titulo": "Tablilla de Nippur",
+     "sinopsis": "Los dioses crean a la humanidad y a los animales, fundan las cinco primeras ciudades y deciden después enviar un diluvio. Un dios advierte a Ziusudra, rey de Shuruppak, junto a una pared. Tras siete días y siete noches de tormenta, Ziusudra sacrifica a Shamash, y Anu y Enlil le conceden la vida eterna en Dilmun.",
+     "items": [
+      {
+       "col": "I"
+      },
+      {
+       "laguna": "Faltan unas tres cuartas partes de la columna."
+      },
+      {
+       "v": "«A mi humanidad, de su destrucción [la levantaré];"
+      },
+      {
+       "v": "con la ayuda de Nintu mi creación… levantaré;"
+      },
+      {
+       "v": "estableceré a la gente en sus asentamientos;"
+      },
+      {
+       "v": "la ciudad, dondequiera que el hombre la cree, en verdad su protección, allí le daré descanso."
+      },
+      {
+       "v": "Nuestra casa: ¡que funda su ladrillo en un lugar puro!"
+      },
+      {
+       "v": "¡Que establezca nuestros lugares en un lugar puro!»."
+      },
+      {
+       "v": "Su brillante esplendor, la plataforma del templo, enderezó;"
+      },
+      {
+       "v": "completó para ella los preceptos excelsos;"
+      },
+      {
+       "v": "repartió la tierra; estableció un plan favorable."
+      },
+      {
+       "v": "Después de que Anu, Enlil, Enki y Ninhursag"
+      },
+      {
+       "v": "hubieran creado a la raza de los cabezas negras,"
+      },
+      {
+       "v": "todo lo que sale de la tierra lo hicieron brotar de la tierra;"
+      },
+      {
+       "v": "el ganado y las bestias del campo los hicieron existir como convenía."
+      },
+      {
+       "acot": "Aquí acaba la primera columna. Según Barton, el pasaje empieza en medio del discurso de un dios, quizá Ninhursag o quizá Enlil, el dios de Nippur, que cuenta cómo levantará a la humanidad derribada; después se cuenta cómo hizo sus planes y cómo cuatro dioses crearon a los hombres y a los animales."
+      },
+      {
+       "col": "II"
+      },
+      {
+       "laguna": "Faltan unas tres quintas partes del texto."
+      },
+      {
+       "v": "… yo…"
+      },
+      {
+       "v": "… volveré mi mirada hacia él…"
+      },
+      {
+       "v": "El… creador del país…"
+      },
+      {
+       "v": "… de la realeza…"
+      },
+      {
+       "v": "… de la realeza fue por él determinado;"
+      },
+      {
+       "v": "el excelso palacio del trono real fue por él reservado;"
+      },
+      {
+       "v": "los excelsos preceptos… los perfeccionó;"
+      },
+      {
+       "v": "en lugares puros… ciudades… fundó;"
+      },
+      {
+       "v": "se pronunciaron sus nombres, se asignaron a espíritus guardianes (?)."
+      },
+      {
+       "v": "De estas ciudades, Eridu: el mando principal se lo dio a Nudimmud;"
+      },
+      {
+       "v": "la segunda se la dio a los sacerdotes nisag de Umma (?);"
+      },
+      {
+       "v": "la tercera, Larak, se la dio a Pabilsag;"
+      },
+      {
+       "v": "la cuarta, Sippar, se la dio como morada a Shamash;"
+      },
+      {
+       "v": "la quinta, Shuruppak, se la dio a Lamkurru."
+      },
+      {
+       "v": "Se asignaron sus nombres; se repartieron entre espíritus guardianes (?)."
+      },
+      {
+       "v": "Su terraplén (?), una muralla (?), levantó, estableció;"
+      },
+      {
+       "v": "estableció pequeños ríos, canales (?) y cauces (?)."
+      },
+      {
+       "acot": "Según Barton, esta parte cuenta cómo un dios fundó cinco ciudades; de los primeros versos no se puede sacar nada.",
+       "hoy": "Las cinco ciudades son las «antediluvianas» que también aparecen en la Lista Real Sumeria. En la lectura actual, la segunda es Bad-tibira."
+      },
+      {
+       "col": "III"
+      },
+      {
+       "v": "…"
+      },
+      {
+       "v": "La tierra, el dominio de Anu…"
+      },
+      {
+       "v": "La gente…"
+      },
+      {
+       "v": "Un diluvio…"
+      },
+      {
+       "v": "…"
+      },
+      {
+       "v": "Su tierra (?) entró…"
+      },
+      {
+       "v": "Entonces Nintu [gritó] como [una mujer de parto]…"
+      },
+      {
+       "v": "La brillante Ishtar [lanzó] un gemido por su pueblo."
+      },
+      {
+       "v": "Enki deliberó consigo mismo en su sabiduría."
+      },
+      {
+       "v": "Anu, Enlil, Enki y Ninhursag,"
+      },
+      {
+       "v": "los dioses del cielo y de la tierra, invocaron los nombres de Anu y Enlil."
+      },
+      {
+       "v": "En aquel tiempo Ziusudra era rey, el sacerdote de…"
+      },
+      {
+       "v": "La deidad principal hizo de madera…"
+      },
+      {
+       "v": "humildemente postrado, con reverencia…"
+      },
+      {
+       "v": "cada día, a todas horas, estaba presente en persona…"
+      },
+      {
+       "v": "sueños crecientes que no habían venido [antes],"
+      },
+      {
+       "v": "conjurando por el nombre del cielo y de la tierra…"
+      },
+      {
+       "acot": "Barton entiende que los dioses han decidido enviar un diluvio y que Ziusudra fabrica un ídolo de madera, lo adora con fervor y busca oráculos que lo guíen.",
+       "hoy": "Hoy se entiende que Ziusudra es un rey piadoso y humilde que recibe sueños y presta atención a los dioses; lo del «ídolo de madera» es una lectura de Barton que ya no se sigue."
+      },
+      {
+       "col": "IV"
+      },
+      {
+       "v": "Para el asentamiento (?) los dioses una pared (?)…"
+      },
+      {
+       "v": "Ziusudra estaba de pie a su lado, oyó…"
+      },
+      {
+       "v": "«Junto a la pared, a mi izquierda, ponte de pie…"
+      },
+      {
+       "v": "Junto a la pared te diré una palabra."
+      },
+      {
+       "v": "Oh, mi brillante, que entre en tu oído…"
+      },
+      {
+       "v": "Por nuestra mano un diluvio… será enviado."
+      },
+      {
+       "v": "Destruir la semilla de la humanidad…"
+      },
+      {
+       "v": "es la decisión trascendental de la asamblea [de los dioses],"
+      },
+      {
+       "v": "las palabras de Anu y Enlil…"
+      },
+      {
+       "v": "Su reino, su gobierno…"
+      },
+      {
+       "v": "A ellos…»."
+      },
+      {
+       "acot": "Barton señala el parecido con la tablilla XI de Gilgamesh, donde Ea habla a Utnapishtim a través de una pared de cañas, y con la asamblea de los dioses que allí se menciona."
+      },
+      {
+       "laguna": "Entre esta columna y la siguiente se pierde la construcción del barco.",
+       "hoy": "Por el paralelo con Atrahasis y Gilgamesh se sabe que aquí el dios ordenaba a Ziusudra construir un gran barco."
+      },
+      {
+       "col": "V"
+      },
+      {
+       "v": "Los vientos malos, el viento hostil, vinieron; todos descendieron;"
+      },
+      {
+       "v": "el diluvio… vino con ellos."
+      },
+      {
+       "v": "Siete días y siete noches"
+      },
+      {
+       "v": "el diluvio barrió la tierra,"
+      },
+      {
+       "v": "el viento malo hizo temblar el enorme barco."
+      },
+      {
+       "v": "Salió Shamash; brilló sobre el cielo y la tierra."
+      },
+      {
+       "v": "Ziusudra descubrió el barco por arriba;"
+      },
+      {
+       "v": "la paz de Shamash, su luz, entró en el barco."
+      },
+      {
+       "v": "Ziusudra, el rey,"
+      },
+      {
+       "v": "inclinó el rostro hasta el suelo ante Shamash."
+      },
+      {
+       "v": "El rey sacrificó un buey, ofreció una oveja en oblación."
+      },
+      {
+       "v": "…"
+      },
+      {
+       "col": "VI"
+      },
+      {
+       "v": "«Por la vida del cielo y la vida de la tierra lo conjuraréis,"
+      },
+      {
+       "v": "para que levante de vosotros…;"
+      },
+      {
+       "v": "a Anu y Enlil, por el alma del cielo y el alma de la tierra, conjuraréis,"
+      },
+      {
+       "v": "para que levanten de vosotros"
+      },
+      {
+       "v": "la maldición que ha caído sobre la tierra, para que la quiten»."
+      },
+      {
+       "v": "Ziusudra, el rey,"
+      },
+      {
+       "v": "inclinó el rostro hasta el suelo ante Anu y Enlil."
+      },
+      {
+       "v": "Le dio una vida como la de un dios,"
+      },
+      {
+       "v": "le trajo un espíritu inmortal como el de un dios."
+      },
+      {
+       "v": "Entonces a Ziusudra, el rey,"
+      },
+      {
+       "v": "de la semilla que estaba maldita, lo hicieron señor de la humanidad;",
+       "nota": "Lectura de Barton. Hoy se entiende que Ziusudra es «el que preservó la semilla de la humanidad»."
+      },
+      {
+       "v": "en la tierra fértil, la tierra de Dilmun…, lo hicieron morar."
+      },
+      {
+       "laguna": "Aquí la última columna está irremediablemente rota. Barton concluye que Ziusudra es llevado a la Isla de los Bienaventurados, como Utnapishtim en Gilgamesh, y que los dos relatos son versiones de la misma historia. Los nombres de los dos héroes, aunque parezcan tan distintos, significan lo mismo: Utnapishtim, «día de vida», y Ziusudra (Ziugiddu, según Barton), «vida de días prolongados»."
+      }
+     ]
+    }
+   ]
+  },
+  "enki-ninhursag": {
+   "titulo": "Enki y Ninhursag",
+   "subtitulo": "La tablilla de Nippur, en la versión de 1916",
+   "antigua": true,
+   "aviso": "Traducción de 1916 (Barton, a partir de Langdon), muy superada: no hay diluvio ni caída del hombre, «Tagtug» es la diosa Uttu y el lugar X es Dilmun. Las notas explican la lectura actual.",
+   "fuente": "Versión española a partir de G. A. Barton, Archaeology and the Bible (Filadelfia, American Sunday-School Union, 1916), capítulo VIII, que traduce al inglés la tablilla de Nippur publicada por S. Langdon en 1915. La obra de Barton es de dominio público.",
+   "fuente_url": "https://www.gutenberg.org/ebooks/43070",
+   "presentacion": "Es la primera traducción que se publicó de este mito, cuando el sumerio literario apenas se entendía. Langdon, que editó la tablilla en 1915, creyó que contaba el Paraíso, un diluvio y la caída del hombre. Barton, cuya versión se sigue aquí, rechazó lo de la caída del hombre y lo leyó como un relato del origen de la agricultura y de las plantas medicinales.\n\nLimitaciones de esta versión, que son muchas: las dos lecturas están superadas. No hay diluvio ni caída del hombre, y el personaje «Tagtug» es en realidad Uttu, la diosa del tejido. El mito cuenta cómo Enki se une sucesivamente con Ninhursag, con su hija y con su nieta; cómo se come las ocho plantas que han brotado de su semen; cómo Ninhursag lo maldice, y cómo lo cura dando a luz a ocho dioses, uno por cada parte del cuerpo que le duele. Barton tampoco identificó el lugar del comienzo (lo marca con X): es Dilmun. La traducción de referencia actual, la del ETCSL de Oxford, tiene derechos de autor. Las notas «Lo que se sabe hoy» resumen con palabras propias lo que dice el texto según la lectura actual.\n\nLa numeración es la de Barton, por columnas. Los corchetes [ ] marcan reconstrucciones; los puntos suspensivos, texto perdido; (?), lecturas dudosas.",
+   "tablillas": [
+    {
+     "n": 1,
+     "titulo": "Tablilla de Nippur",
+     "sinopsis": "Descripción de una tierra pura (Dilmun) donde no hay muerte ni enfermedad. Enki la riega con agua dulce. Se suceden uniones divinas que, tras nueve días convertidos en meses, dan a luz a nuevas diosas. Enki come las plantas, Ninhursag lo maldice y después lo cura creando ocho dioses.",
+     "items": [
+      {
+       "col": "I"
+      },
+      {
+       "n": 1,
+       "v": "Los que son excelsos, los que son excelsos sois vosotros,"
+      },
+      {
+       "v": "oh X, puro;"
+      },
+      {
+       "v": "los que son santos, los que son excelsos sois vosotros."
+      },
+      {
+       "v": "Oh X, puro;"
+      },
+      {
+       "n": 5,
+       "v": "X es puro, X es brillante,"
+      },
+      {
+       "v": "X es espléndido, X es resplandeciente."
+      },
+      {
+       "v": "Solos estaban en X; se acostaron."
+      },
+      {
+       "v": "Donde Enki y su esposa se acostaron,"
+      },
+      {
+       "v": "ese lugar es espléndido, ese lugar es puro."
+      },
+      {
+       "n": 10,
+       "v": "Solos [en X se acostaron]."
+      },
+      {
+       "v": "Donde Enki con Ninella se acostó,"
+      },
+      {
+       "v": "ese lugar es espléndido, [ese lugar es puro]."
+      },
+      {
+       "v": "En X el cuervo no graznaba,"
+      },
+      {
+       "v": "el milano no lanzaba su grito,"
+      },
+      {
+       "n": 15,
+       "v": "el león mortífero no destruía,"
+      },
+      {
+       "v": "el lobo no arrebataba al cordero,"
+      },
+      {
+       "v": "el perro no acosaba al cabrito débil,"
+      },
+      {
+       "v": "las ovejas no destruían el grano,"
+      },
+      {
+       "v": "la prole no aumentaba…"
+      },
+      {
+       "n": 20,
+       "v": "los pájaros del cielo… no su prole;"
+      },
+      {
+       "v": "las palomas no eran ahuyentadas (?)."
+      },
+      {
+       "v": "De la enfermedad de los ojos nadie decía «es enfermedad de los ojos»;"
+      },
+      {
+       "v": "del dolor de cabeza nadie decía «es dolor de cabeza»."
+      },
+      {
+       "v": "A una madre nadie le decía «madre»,"
+      },
+      {
+       "n": 25,
+       "v": "a un padre nadie le decía «padre»."
+      },
+      {
+       "v": "En el lugar santo no se derramaba libación; en la ciudad nadie bebía;"
+      },
+      {
+       "v": "el barquero no decía «¿lo cruzo?»;"
+      },
+      {
+       "v": "el miedo no turbaba el lecho;"
+      },
+      {
+       "v": "el músico no decía «canta»;"
+      },
+      {
+       "n": 30,
+       "v": "el príncipe de la ciudad no hablaba."
+      },
+      {
+       "v": "Ninella dijo a su padre Enki:"
+      },
+      {
+       "v": "«Has fundado una ciudad, has fundado una ciudad, has fijado su destino;"
+      },
+      {
+       "v": "en X has fundado una ciudad,"
+      },
+      {
+       "v": "… has fundado una ciudad,"
+      },
+      {
+       "n": 35,
+       "v": "… no hay canal allí,"
+      },
+      {
+       "v": "… has fundado una ciudad»."
+      },
+      {
+       "laguna": "Se ha perdido el resto de la columna; probablemente faltan unos nueve versos. Según Barton, toda la columna describe un lugar habitado solo por un dios y una diosa, donde faltan muchas actividades porque no hay nadie que las haga; compara los versos 16–21 con Isaías 11, 6–9.",
+       "hoy": "El lugar X es Dilmun, la tierra pura, y la diosa que habla es Ninsikila, su señora. Lo que pide a Enki es agua dulce para la ciudad."
+      },
+      {
+       "col": "II"
+      },
+      {
+       "n": 1,
+       "v": "«De la brillante cubierta de tu gran cielo fluyan las aguas,"
+      },
+      {
+       "v": "que tu ciudad se refresque con agua, que beba;"
+      },
+      {
+       "v": "que X se refresque con agua, que beba;"
+      },
+      {
+       "v": "que tu pozo de agua amarga mane como pozo de agua dulce;"
+      },
+      {
+       "n": 5,
+       "v": "que tu ciudad sea un descanso, una morada para la gente;"
+      },
+      {
+       "v": "que X sea un descanso, una morada para la gente."
+      },
+      {
+       "v": "Ahora, dios Sol, brilla;"
+      },
+      {
+       "v": "dios Sol, ponte en el cielo;"
+      },
+      {
+       "v": "trae de su lugar el grano de fiesta"
+      },
+      {
+       "n": 10,
+       "v": "[y] los peces, dios Luna, del agua."
+      },
+      {
+       "v": "Por la faz de la tierra, por el camino, ven con el agua dulce de la tierra»."
+      },
+      {
+       "v": "De la brillante cubierta de los grandes cielos fluyeron las aguas,"
+      },
+      {
+       "v": "su ciudad se refrescó con agua, bebió;"
+      },
+      {
+       "v": "X se refrescó con agua, bebió;"
+      },
+      {
+       "n": 15,
+       "v": "su pozo de agua amarga se volvió pozo de agua dulce."
+      },
+      {
+       "v": "Los campos y los prados, con la humedad, hicieron brotar (?) el grano;"
+      },
+      {
+       "v": "su ciudad fue un descanso, una morada para la gente;"
+      },
+      {
+       "v": "X fue un descanso, una morada para la gente."
+      },
+      {
+       "v": "Entonces el dios Sol brilló; así fue en verdad,"
+      },
+      {
+       "n": 20,
+       "v": "el brillante, creador de la inteligencia."
+      },
+      {
+       "v": "A Nintu, la madre de la gente…"
+      },
+      {
+       "acot": "Según Barton, los versos 22–30 describen, «con la franqueza habitual de los pueblos primitivos», la unión carnal del dios y la diosa. En muchas partes del mundo se ha pensado que los actos de creación proceden de uniones así."
+      },
+      {
+       "n": 31,
+       "v": "Enki, el padre de Damgalnunna, dijo su palabra."
+      },
+      {
+       "v": "Ninhursag inundó los campos;"
+      },
+      {
+       "v": "los campos recibieron las aguas de Enki."
+      },
+      {
+       "v": "Era el primer día, cuyo mes es el primero;"
+      },
+      {
+       "n": 35,
+       "v": "era el segundo día, cuyo mes es el segundo;"
+      },
+      {
+       "v": "era el tercer día, cuyo mes es el tercero;"
+      },
+      {
+       "v": "era el cuarto día, cuyo mes es el cuarto;"
+      },
+      {
+       "v": "era el quinto día, cuyo mes es el quinto;"
+      },
+      {
+       "v": "era el sexto día, cuyo mes es el sexto;"
+      },
+      {
+       "n": 40,
+       "v": "era el séptimo día, cuyo mes es el séptimo;"
+      },
+      {
+       "v": "era el octavo día, [cuyo mes es el octavo];"
+      },
+      {
+       "v": "era el noveno día, cuyo mes es el noveno, el mes de la fertilidad."
+      },
+      {
+       "v": "Como grasa, como grasa, como abundante aceite dulce,"
+      },
+      {
+       "v": "[Nintu], la madre del país,"
+      },
+      {
+       "n": 45,
+       "v": "… los había dado a luz."
+      },
+      {
+       "acot": "Barton entiende que, como consecuencia de la unión de los dioses, el agua fluyó para regar la tierra, y que los versos 34–42 cuentan de forma pintoresca cómo las aguas siguieron llegando durante nueve meses y nueve días.",
+       "hoy": "Hoy se entiende que lo que la tierra recibe es el semen de Enki, y que los nueve «días» que son «meses» son el embarazo de Ninhursag, abreviado: al cabo de nueve días da a luz a una hija, Ninsar."
+      },
+      {
+       "col": "III"
+      },
+      {
+       "n": 1,
+       "v": "Ninsar, a la orilla del río, gritó (?):"
+      },
+      {
+       "v": "«¡Oh Enki, para mí están llenos, están llenos!»."
+      },
+      {
+       "v": "Su mensajero, el propio Usmu, repitió la palabra."
+      },
+      {
+       "v": "Los hijos de los hombres no comprendieron su favor,"
+      },
+      {
+       "n": 5,
+       "v": "Ninsar no comprendió su favor."
+      },
+      {
+       "v": "Su mensajero, el propio Usmu, respondió;"
+      },
+      {
+       "v": "los hijos de los hombres no comprendieron su favor,"
+      },
+      {
+       "v": "Ninsar no comprendió su favor."
+      },
+      {
+       "v": "«¡Rey mío, una nube de tormenta! ¡Una nube de tormenta!»."
+      },
+      {
+       "n": 10,
+       "v": "Puso el pie en la barca,"
+      },
+      {
+       "v": "apostó a dos hombres fuertes como vigías;"
+      },
+      {
+       "v": "recibieron la orden, la tomaron."
+      },
+      {
+       "v": "Enki inundó los campos;"
+      },
+      {
+       "v": "los campos recibieron las aguas de Enki."
+      },
+      {
+       "n": 15,
+       "v": "Era el primer día, cuyo mes es el primero;"
+      },
+      {
+       "v": "era el segundo día, cuyo mes es el segundo;"
+      },
+      {
+       "v": "era el noveno día, cuyo mes es el noveno, el mes de la crecida de las aguas."
+      },
+      {
+       "v": "Como grasa, como grasa, como abundante aceite dulce,"
+      },
+      {
+       "v": "[Ninsar], como grasa,"
+      },
+      {
+       "n": 20,
+       "v": "Ninsar los había dado a luz."
+      },
+      {
+       "v": "Ninkurra [a la orilla del río] gr[itó (?)]:",
+       "nota": "Ninkurra es la «señora de la montaña»."
+      },
+      {
+       "v": "«¡Oh Enki, para mí están llenos, están llenos!»."
+      },
+      {
+       "v": "Su mensajero, Usmu, repitió la palabra."
+      },
+      {
+       "v": "Los hijos de los hombres no comprendieron su favor,"
+      },
+      {
+       "n": 25,
+       "v": "Ninkurra no comprendió su favor."
+      },
+      {
+       "v": "Su mensajero, el propio Usmu, respondió;"
+      },
+      {
+       "v": "los hijos de los hombres no comprendieron,"
+      },
+      {
+       "v": "Ninkurra no comprendió."
+      },
+      {
+       "v": "«¡Rey mío, una nube de tormenta! ¡Una nube de tormenta!»."
+      },
+      {
+       "n": 30,
+       "v": "Puso el pie en la barca,"
+      },
+      {
+       "v": "apostó a dos hombres fuertes como vigías;"
+      },
+      {
+       "v": "recibieron la orden, la tomaron."
+      },
+      {
+       "v": "Enki inundó los campos;"
+      },
+      {
+       "v": "los campos recibieron las aguas de Enki."
+      },
+      {
+       "n": 35,
+       "v": "Era el primer día, cuyo mes es el primero;"
+      },
+      {
+       "v": "era el noveno día, cuyo mes es el noveno, el mes de la crecida de las aguas."
+      },
+      {
+       "v": "Como grasa, como grasa, como abundante aceite dulce,"
+      },
+      {
+       "v": "Ninkurra, como grasa, los había dado a luz."
+      },
+      {
+       "v": "Al dios Tagtug y a su mujer ella los recibió;"
+      },
+      {
+       "n": 40,
+       "v": "Ninkurra habló a Tagtug [y a su mujer]:"
+      },
+      {
+       "v": "«En verdad te ayudaré (?), mi justo…"
+      },
+      {
+       "v": "con palabras favorables hablo…"
+      },
+      {
+       "v": "Un hombre se me contará…"
+      },
+      {
+       "v": "Enki para mí…»."
+      },
+      {
+       "laguna": "Falta el resto de la columna, dos o tres versos. Barton señala que la repetición es propia de la poesía antigua y que, para describir la llegada de las aguas, resultaba muy eficaz.",
+       "hoy": "Hoy se lee así: Enki ve a Ninsar desde su barca y se une con ella; nace Ninkurra. Después Enki se une con Ninkurra y nace Uttu, la diosa del tejido, a quien Barton llama «Tagtug». Ninhursag aconseja a Uttu que no ceda a Enki sin regalos."
+      },
+      {
+       "col": "IV"
+      },
+      {
+       "laguna": "Faltan unos doce versos al comienzo de la columna."
+      },
+      {
+       "n": 13,
+       "v": "[A Tagtug y a] su mujer habló…"
+      },
+      {
+       "v": "…"
+      },
+      {
+       "n": 15,
+       "v": "…"
+      },
+      {
+       "v": "… en el huerto…"
+      },
+      {
+       "v": "…"
+      },
+      {
+       "v": "[Eba]raguldu que funde,"
+      },
+      {
+       "v": "Erabgaran que funde;"
+      },
+      {
+       "n": 20,
+       "v": "en el templo estén mis bueyes atados;"
+      },
+      {
+       "v": "para Enki se sacrifiquen mis bueyes atados;"
+      },
+      {
+       "v": "que dos hombres fuertes viertan agua,"
+      },
+      {
+       "v": "que viertan agua abundante,"
+      },
+      {
+       "v": "que viertan agua del depósito,"
+      },
+      {
+       "n": 25,
+       "v": "que rieguen la tierra estéril;"
+      },
+      {
+       "v": "como hortelanos de las plantas pequeñas, que salgan;"
+      },
+      {
+       "v": "por la orilla, a lo largo de la orilla, que se extiendan (las plantas)."
+      },
+      {
+       "v": "¿Quién eres tú? El huerto…"
+      },
+      {
+       "v": "Para Enki el hortelano…"
+      },
+      {
+       "laguna": "Faltan cinco versos."
+      },
+      {
+       "n": 35,
+       "v": "Fundó Ebaraguldu,"
+      },
+      {
+       "v": "fundó Erabgaran, lo asentó sobre su cimiento."
+      },
+      {
+       "v": "Enki volvió los ojos hacia él; alzó su cetro;"
+      },
+      {
+       "v": "Enki indicó el camino a Tagtug."
+      },
+      {
+       "v": "En el templo gritó: «¡Abre la puerta, abre la puerta!»."
+      },
+      {
+       "n": 40,
+       "v": "«¿Quién eres tú?»."
+      },
+      {
+       "v": "«Soy un hortelano, con alegría…"
+      },
+      {
+       "v": "con… el precio (?) de la leche te ofreceré»."
+      },
+      {
+       "v": "Tagtug, con el corazón alegre, abrió la puerta en el templo."
+      },
+      {
+       "v": "Enki habló a Tagtug y a su mujer;"
+      },
+      {
+       "n": 45,
+       "v": "con alegría le dio sus bienes;"
+      },
+      {
+       "v": "le dio aquel Ebaraguldu,"
+      },
+      {
+       "v": "le dio aquel Erabgaran."
+      },
+      {
+       "v": "Tagtug y su mujer se inclinaron; con la mano izquierda se cubrieron la boca; con la derecha hicieron reverencia."
+      },
+      {
+       "acot": "Barton entiende que el mensajero revela a Tagtug los secretos de la agricultura, como Noé, que «empezó a labrar la tierra» (Génesis 9, 20).",
+       "hoy": "Hoy se lee que Enki, disfrazado de hortelano, lleva regalos (pepinos, manzanas, uvas) a la puerta de Uttu, que lo deja entrar. Enki se une con ella. Ninhursag retira el semen de Enki del cuerpo de Uttu y de él brotan ocho plantas."
+      },
+      {
+       "col": "V"
+      },
+      {
+       "laguna": "Al comienzo de la columna se han desmoronado unos siete versos, y el principio de otros ocho es ilegible."
+      },
+      {
+       "n": 8,
+       "v": "[La planta…] estaba verde,"
+      },
+      {
+       "v": "[la planta…] estaba verde,"
+      },
+      {
+       "n": 10,
+       "v": "[la planta…] estaba verde,"
+      },
+      {
+       "v": "[la planta…] estaba verde,"
+      },
+      {
+       "v": "[la planta…] estaba verde,"
+      },
+      {
+       "v": "[la planta…] estaba verde,"
+      },
+      {
+       "v": "[la planta…] estaba verde."
+      },
+      {
+       "n": 15,
+       "v": "«Oh Enki, para mí están contadas»."
+      },
+      {
+       "v": "Su mensajero, el propio Usmu, repitió la palabra:"
+      },
+      {
+       "v": "«Las plantas he hecho brotar, he ordenado su abundancia;"
+      },
+      {
+       "v": "el agua las hará brillantes, el agua las hará brillantes»."
+      },
+      {
+       "v": "Su mensajero, el propio Usmu, respondió:"
+      },
+      {
+       "n": 20,
+       "v": "«Rey mío, en cuanto a las plantas leñosas», dijo,"
+      },
+      {
+       "v": "«él las podará, él [las comerá]»."
+      },
+      {
+       "v": "«En cuanto a las plantas altas», dijo,"
+      },
+      {
+       "v": "«él las arrancará, él las comerá»."
+      },
+      {
+       "v": "«Rey mío, en cuanto a las plantas…», dijo,"
+      },
+      {
+       "n": 25,
+       "v": "«él las podará, él las comerá»."
+      },
+      {
+       "v": "«En cuanto a las plantas del huerto regado (?)», dijo,"
+      },
+      {
+       "v": "«él las arrancará, él las comerá»."
+      },
+      {
+       "v": "«[Rey mío], en cuanto a las plantas…», dijo,"
+      },
+      {
+       "v": "«[él las podará], él las comerá»."
+      },
+      {
+       "n": 30,
+       "v": "«[Rey mío, en cuanto a las plantas…]», dijo,"
+      },
+      {
+       "v": "«[él las arrancará, él las comerá]»."
+      },
+      {
+       "v": "[«Rey mío, en cuanto a las plantas…»], dijo,"
+      },
+      {
+       "v": "«[él las podará, él las] comerá»."
+      },
+      {
+       "v": "[«Rey mío, en] cuanto a la planta de casia», dijo,"
+      },
+      {
+       "n": 35,
+       "v": "«él [la arrancará]…, él la comerá»."
+      },
+      {
+       "v": "«[Enki] ha arrancado para [mí] la planta de su sabiduría, su corazón ha hablado»."
+      },
+      {
+       "v": "De Ninhursag pronunció Enki el nombre en maldición:"
+      },
+      {
+       "v": "«El rostro de la vida, cuando muera, no lo verá»."
+      },
+      {
+       "v": "Entonces los Anunnaki se sentaron en el polvo."
+      },
+      {
+       "n": 40,
+       "v": "La rebelde dijo a Enlil:"
+      },
+      {
+       "v": "«Yo, Ninhursag, he dado a luz gente para ti; ¿cuál es mi recompensa?»."
+      },
+      {
+       "v": "Enlil, el que engendra, respondió a la rebelde:"
+      },
+      {
+       "v": "«Tú, Ninhursag, has dado a luz gente;"
+      },
+      {
+       "v": "“En mi ciudad que se hagan dos criaturas”, así se llamará tu nombre»."
+      },
+      {
+       "n": 45,
+       "v": "Como dignatario solo alzó su cabeza,"
+      },
+      {
+       "v": "solo hizo impetuoso su corazón (?),"
+      },
+      {
+       "v": "solo llenó de fuego (?) su ojo."
+      },
+      {
+       "acot": "Langdon entendía esta columna como un relato de la caída del hombre, porque en su traducción del verso 36 Tagtug arranca y come, y en el siguiente se pronuncia una maldición. Barton no comparte esa lectura: según su traducción, no hay ninguna alusión a algo así.",
+       "hoy": "En la lectura actual es Enki quien se come las ocho plantas, para «conocer su corazón», y es Ninhursag quien, furiosa, maldice a Enki y jura no volver a mirarlo con buenos ojos mientras viva. Ninhursag desaparece y Enki enferma; los Anunnaki se sientan en el polvo porque no saben cómo salvarlo. Un zorro promete traer de vuelta a Ninhursag."
+      },
+      {
+       "col": "VI"
+      },
+      {
+       "laguna": "Quizá faltan cinco versos."
+      },
+      {
+       "n": 6,
+       "v": "… el señor Enlil…"
+      },
+      {
+       "v": "… el señor de la vida…"
+      },
+      {
+       "v": "A… fueron…"
+      },
+      {
+       "v": "A… fueron, el señor de los dioses…"
+      },
+      {
+       "n": 10,
+       "v": "le habló, el agua de la vida…"
+      },
+      {
+       "v": "…"
+      },
+      {
+       "v": "Ninhursag…"
+      },
+      {
+       "laguna": "Versos 13–17: solo restos ilegibles."
+      },
+      {
+       "n": 18,
+       "v": "Ninhursag…"
+      },
+      {
+       "v": "Enlil… su… fundaron,"
+      },
+      {
+       "n": 20,
+       "v": "ordenaron sacerdotes (?),"
+      },
+      {
+       "v": "determinaron el destino,"
+      },
+      {
+       "v": "lo establecieron con poder."
+      },
+      {
+       "v": "Ninhursag, en su templo, le concedió la vida:"
+      },
+      {
+       "v": "«Hermano mío, ¿qué te duele?»."
+      },
+      {
+       "n": 25,
+       "v": "«Me duele el rebaño (?)»."
+      },
+      {
+       "v": "«Al dios Absham he dado a luz para ti»."
+      },
+      {
+       "v": "«Hermano mío, ¿qué te duele?»."
+      },
+      {
+       "v": "«Me duele el rebaño»."
+      },
+      {
+       "v": "«A la diosa “Reina del rebaño” he dado a luz para ti»."
+      },
+      {
+       "n": 30,
+       "v": "«Hermano mío, ¿qué te duele?». «Me duele la cara»."
+      },
+      {
+       "v": "«A la diosa Ninkautu he dado a luz para ti»."
+      },
+      {
+       "v": "«Hermano mío, ¿qué te duele?». «Me duele la boca»."
+      },
+      {
+       "v": "«A la diosa “Reina que llena la boca” he dado a luz para ti»."
+      },
+      {
+       "v": "«Hermano mío, ¿qué te duele?». [«Me duele el…»]."
+      },
+      {
+       "n": 35,
+       "v": "«A la diosa Nazi he dado a luz para ti»."
+      },
+      {
+       "v": "«Hermano mío, ¿qué te duele?». «Me duele la mano»."
+      },
+      {
+       "v": "«A mi diosa “Mano viva” he dado a luz para ti»."
+      },
+      {
+       "v": "«Hermano mío, ¿qué te duele?». «Me duele la salud»."
+      },
+      {
+       "v": "«A la diosa “Reina de la salud” he dado a luz para ti»."
+      },
+      {
+       "n": 40,
+       "v": "«Hermano mío, ¿qué te duele?». «Me duele el entendimiento»."
+      },
+      {
+       "v": "«Al dios que aclara el entendimiento he dado a luz para ti»."
+      },
+      {
+       "v": "«Con grandeza son dados a luz, son creados."
+      },
+      {
+       "v": "Que Absham sea señor de la vegetación,"
+      },
+      {
+       "v": "que Nintulla sea señor de Magan,"
+      },
+      {
+       "n": 45,
+       "v": "que Ninkautu elija a Ninazu por esposo,"
+      },
+      {
+       "v": "que Ninkasi sea posesión del corazón lleno,"
+      },
+      {
+       "v": "que Nazi sea señora del tejido (?),"
+      },
+      {
+       "v": "que Dazima tome la casa de la vida fuerte,"
+      },
+      {
+       "v": "que Nintil sea señora del mes,"
+      },
+      {
+       "n": 50,
+       "v": "que Enshagme sea señor de X."
+      },
+      {
+       "v": "¡Gloria!»."
+      },
+      {
+       "acot": "Aquí termina la tablilla. Barton concluye que el texto no habla de la caída del hombre, como suponía Langdon, sino que es un relato mítico de los comienzos de la agricultura y del uso medicinal de las plantas en Babilonia.",
+       "hoy": "Hoy se entiende que Ninhursag cura a Enki dando a luz a ocho dioses, uno por cada parte de su cuerpo que le duele. Sus nombres juegan con el nombre de esa parte: por ejemplo, Ninti, «la señora de la costilla», nace para curar la costilla. Barton leía «rebaño» donde hoy se lee otra parte del cuerpo, y por eso no vio el juego de palabras. Es el pasaje que se ha comparado con la costilla de Eva en el Génesis."
+      }
+     ]
+    }
+   ]
+  },
+  "lista-reyes": {
+   "titulo": "Lista Real Sumeria",
+   "subtitulo": "Una copia de Nippur, en la versión de 1916",
+   "antigua": true,
+   "aviso": "Traducción de 1916 (Barton) de una sola copia de Nippur. Le falta el comienzo, con los reyes de antes del diluvio, y algunos nombres se leen hoy de otra forma.",
+   "fuente": "Versión española a partir de G. A. Barton, Archaeology and the Bible (Filadelfia, American Sunday-School Union, 1916), capítulo V, que traduce al inglés una de las copias de Nippur publicadas por A. Poebel en 1914. La obra de Barton es de dominio público.",
+   "fuente_url": "https://www.gutenberg.org/ebooks/43070",
+   "presentacion": "La Lista Real Sumeria enumera las ciudades que tuvieron la realeza y los reyes que reinaron en cada una, con la duración de sus reinados. Hay muchas copias, ninguna completa. Barton tradujo una tablilla de Nippur de seis columnas, a la que le falta el comienzo de todas ellas, y la usó para compararla con los patriarcas del Génesis.\n\nLimitaciones de esta versión: falta el comienzo de la lista, con los reyes de antes del diluvio y el propio diluvio, que se conocen por otras copias (sobre todo el prisma Weld-Blundell, publicado en 1923). Las lecturas de muchos nombres han cambiado: Barton escribe «Meskingashir», «Enmeirgan» o «Mesannipada» donde hoy se lee Meskiaggasher, Enmerkar y Mesannepada; aquí se dan esas formas actuales en los nombres más conocidos y se dejan las de Barton en los demás (como «Aripi», hoy Arwium). Sus comparaciones con el Génesis (Etana con Enoc, Aripi con Adán) no las sigue nadie hoy. La traducción de referencia actual, la del ETCSL de Oxford, tiene derechos de autor.\n\nLa numeración es la de Barton, por columnas. Los puntos suspensivos marcan texto perdido; (?), lecturas dudosas.",
+   "tablillas": [
+    {
+     "n": 1,
+     "titulo": "Tablilla de Nippur",
+     "sinopsis": "Reyes de Kish, entre ellos Etana, «que subió al cielo»; paso de la realeza a Uruk, con Meskiaggasher, Enmerkar, Lugalbanda, Dumuzi y Gilgamesh; después Ur, Awan y, al final, las dinastías de Isin y los totales de reyes y años.",
+     "items": [
+      {
+       "acot": "Falta el comienzo de todas las columnas.",
+       "hoy": "La lista completa empieza «cuando la realeza bajó del cielo» con los reyes de antes del diluvio, cuyos reinados duran decenas de miles de años, y tras el diluvio pasa a Kish. Estas cifras enormes son las que algunos autores de los antiguos astronautas leen como prueba de seres longevos; véase la ficha de la Lista Real."
+      },
+      {
+       "col": "I"
+      },
+      {
+       "n": 2,
+       "v": "… reinó 900 (?) años;"
+      },
+      {
+       "v": "…"
+      },
+      {
+       "n": 7,
+       "v": "Galumum"
+      },
+      {
+       "v": "reinó 900 (?) años;"
+      },
+      {
+       "v": "Zugagib"
+      },
+      {
+       "n": 10,
+       "v": "reinó 840 (?) años;",
+       "nota": "Barton observa que Galumum y Zugagib son nombres de animales: «cordero» y «escorpión»."
+      },
+      {
+       "v": "Aripi, hijo de Mashgag,"
+      },
+      {
+       "v": "reinó 720 años;"
+      },
+      {
+       "v": "Etana, el pastor,"
+      },
+      {
+       "v": "el que subió al cielo,"
+      },
+      {
+       "n": 15,
+       "v": "el que sometió todas las tierras,"
+      },
+      {
+       "v": "reinó 635 años;",
+       "nota": "Etana es el protagonista del mito del vuelo en águila; véase su ficha."
+      },
+      {
+       "v": "Pilikam,"
+      },
+      {
+       "v": "hijo de Etana,"
+      },
+      {
+       "v": "reinó 350 años;"
+      },
+      {
+       "n": 20,
+       "v": "Enmenunna"
+      },
+      {
+       "v": "reinó 611 años;"
+      },
+      {
+       "v": "Melam-Kish,"
+      },
+      {
+       "v": "hijo de Enmenunna,"
+      },
+      {
+       "v": "reinó 900 años;"
+      },
+      {
+       "n": 25,
+       "v": "Barsalnunna,"
+      },
+      {
+       "v": "hijo de Enmenunna,"
+      },
+      {
+       "v": "reinó 1200 años;"
+      },
+      {
+       "v": "Mes (?) zamu, hijo de Barsalnunna,"
+      },
+      {
+       "v": "reinó … años;"
+      },
+      {
+       "n": 30,
+       "v": "…, hijo de Barsalnunna;"
+      },
+      {
+       "col": "II"
+      },
+      {
+       "v": "…"
+      },
+      {
+       "n": 1,
+       "v": "de Kish"
+      },
+      {
+       "v": "la realeza"
+      },
+      {
+       "v": "pasó a Eanna."
+      },
+      {
+       "v": "En Eanna,"
+      },
+      {
+       "n": 5,
+       "v": "Meskiaggasher,"
+      },
+      {
+       "v": "hijo de Shamash,",
+       "nota": "Es decir, del dios Sol (Utu)."
+      },
+      {
+       "v": "como señor,"
+      },
+      {
+       "v": "como rey,"
+      },
+      {
+       "v": "reinó 325 años."
+      },
+      {
+       "n": 10,
+       "v": "Meskiaggasher"
+      },
+      {
+       "v": "entró en"
+      },
+      {
+       "v": "y salió de…"
+      },
+      {
+       "v": "Enmerkar,"
+      },
+      {
+       "n": 14,
+       "v": "hijo de Meskiaggasher,"
+      },
+      {
+       "n": 16,
+       "v": "rey de Uruk,"
+      },
+      {
+       "v": "a la gente de Uruk"
+      },
+      {
+       "v": "fortaleció,"
+      },
+      {
+       "v": "como rey"
+      },
+      {
+       "n": 20,
+       "v": "reinó 420 años."
+      },
+      {
+       "v": "Lugalbanda, el pastor,"
+      },
+      {
+       "v": "reinó 1200 años."
+      },
+      {
+       "v": "Dumuzi, el cazador (?),"
+      },
+      {
+       "v": "cuya ciudad está entre los peces,"
+      },
+      {
+       "n": 25,
+       "v": "reinó 100 años."
+      },
+      {
+       "v": "Gilgamesh,"
+      },
+      {
+       "v": "cuyo padre"
+      },
+      {
+       "v": "era señor de Kullab,"
+      },
+      {
+       "v": "reinó 126 años.",
+       "nota": "Hoy se lee que el padre de Gilgamesh era un lillu, un fantasma o demonio, y que fue señor de Kullab, el barrio sagrado de Uruk."
+      },
+      {
+       "col": "III"
+      },
+      {
+       "v": "(La realeza)"
+      },
+      {
+       "n": 1,
+       "v": "de Uruk"
+      },
+      {
+       "v": "pasó a Ur."
+      },
+      {
+       "v": "En Ur,"
+      },
+      {
+       "v": "Mesannepada"
+      },
+      {
+       "n": 5,
+       "v": "era rey;"
+      },
+      {
+       "v": "reinó 80 años."
+      },
+      {
+       "v": "Meskiagnunna,"
+      },
+      {
+       "v": "hijo de Mesannepada,"
+      },
+      {
+       "v": "reinó 30 años."
+      },
+      {
+       "n": 10,
+       "v": "Elu…"
+      },
+      {
+       "v": "reinó 25 años."
+      },
+      {
+       "v": "Balu…"
+      },
+      {
+       "v": "36 años."
+      },
+      {
+       "v": "4 reyes"
+      },
+      {
+       "n": 15,
+       "v": "reinaron 171 años."
+      },
+      {
+       "v": "En cuanto a Ur,"
+      },
+      {
+       "v": "la realeza"
+      },
+      {
+       "v": "pasó a Awan."
+      },
+      {
+       "laguna": "Se pierden las dinastías intermedias."
+      },
+      {
+       "col": "IV"
+      },
+      {
+       "n": 1,
+       "v": "reinó 21 años."
+      },
+      {
+       "v": "Ishme-Dagan,"
+      },
+      {
+       "v": "hijo de Iddin-Dagan,"
+      },
+      {
+       "v": "reinó 21 años."
+      },
+      {
+       "n": 5,
+       "v": "Lipit-Ishtar,"
+      },
+      {
+       "v": "hijo de Iddin-Dagan,"
+      },
+      {
+       "v": "reinó 11 años."
+      },
+      {
+       "v": "Ur-Ninurta,"
+      },
+      {
+       "v": "hijo de Im…,"
+      },
+      {
+       "v": "…"
+      },
+      {
+       "col": "V"
+      },
+      {
+       "n": 1,
+       "v": "Total, 51 reyes:"
+      },
+      {
+       "v": "sus años fueron 18 000 y más,"
+      },
+      {
+       "v": "9 años… meses…"
+      },
+      {
+       "v": "Cuatro veces"
+      },
+      {
+       "n": 5,
+       "v": "en Kish:"
+      },
+      {
+       "v": "total, 22 reyes;"
+      },
+      {
+       "v": "sus años fueron 2610 y más,"
+      },
+      {
+       "v": "6 meses y 15 días."
+      },
+      {
+       "v": "Cinco veces"
+      },
+      {
+       "n": 10,
+       "v": "en Uruk:"
+      },
+      {
+       "v": "total, 13 reyes;"
+      },
+      {
+       "v": "sus años fueron 396;"
+      },
+      {
+       "v": "reinaron."
+      },
+      {
+       "v": "Tres veces"
+      },
+      {
+       "n": 15,
+       "v": "en Ur:"
+      },
+      {
+       "v": "total, 3 reyes;"
+      },
+      {
+       "v": "sus años fueron 356;"
+      },
+      {
+       "v": "reinaron."
+      },
+      {
+       "v": "Una vez"
+      },
+      {
+       "n": 20,
+       "v": "en Awan:"
+      },
+      {
+       "v": "total, 1 rey;"
+      },
+      {
+       "v": "su reinado fue de 7 años."
+      },
+      {
+       "v": "Una vez"
+      },
+      {
+       "v": "en…"
+      },
+      {
+       "col": "VI"
+      },
+      {
+       "n": 1,
+       "v": "(total…) reyes;"
+      },
+      {
+       "v": "(sus años) fueron 196;"
+      },
+      {
+       "v": "reinaron."
+      },
+      {
+       "v": "Dos veces en Agadé:"
+      },
+      {
+       "n": 5,
+       "v": "total, 21 reyes;"
+      },
+      {
+       "v": "sus años fueron 125 años"
+      },
+      {
+       "v": "y 40 días; reinaron."
+      },
+      {
+       "v": "Una vez"
+      },
+      {
+       "v": "en el pueblo"
+      },
+      {
+       "n": 10,
+       "v": "de Gutium:"
+      },
+      {
+       "v": "total, 11 reyes;"
+      },
+      {
+       "v": "sus años fueron 159;"
+      },
+      {
+       "v": "reinaron"
+      },
+      {
+       "v": "en Isin (?)."
+      },
+      {
+       "n": 15,
+       "v": "Once"
+      },
+      {
+       "v": "ciudades reales"
+      },
+      {
+       "v": "reinaron."
+      },
+      {
+       "v": "Total, 134 reyes."
+      },
+      {
+       "v": "Gran total, 28 876 y más"
+      },
+      {
+       "n": 20,
+       "v": "años,"
+      },
+      {
+       "v": "… meses."
+      },
+      {
+       "acot": "Barton añade que otras tres tablillas del mismo volumen contienen material parecido, pero demasiado roto para traducirlo seguido."
+      }
+     ]
+    }
+   ]
+  },
+  "etana": {
+   "titulo": "Etana",
+   "subtitulo": "Los fragmentos de Nínive, en la selección de 1898",
+   "antigua": true,
+   "aviso": "Selección de fragmentos traducida en 1898 (Jastrow), con sus resúmenes entre medias. El orden de los episodios está cambiado: el poema empieza en realidad con el águila y la serpiente.",
+   "fuente": "Versión española a partir de M. Jastrow, The Religion of Babylonia and Assyria (Boston, Ginn & Co., 1898), capítulo XXIV, que traduce al inglés fragmentos de las tablillas de la Biblioteca de Asurbanipal editadas por E. T. Harper. La obra es de dominio público.",
+   "fuente_url": "https://www.gutenberg.org/ebooks/20758",
+   "presentacion": "Jastrow no tradujo el poema entero, que en su época solo se conocía por fragmentos: da los pasajes mejor conservados y los enlaza con resúmenes suyos. Aquí se mantienen así: los versos son su traducción y las acotaciones en cursiva, sus resúmenes.\n\nLimitaciones de esta versión: Jastrow no conocía el orden de los episodios. Hoy se sabe que el poema empieza con la historia del águila y la serpiente; después Etana, rey de Kish y sin hijos, encuentra al águila en el foso donde la ha dejado la serpiente, la cuida, y el águila lo lleva al cielo para buscar la «planta del nacimiento». Jastrow, además, situaba el vuelo después del nacimiento y lo leía como un desafío a los dioses castigado con la caída. Las copias halladas después (sobre todo las paleobabilónicas y las de Nínive editadas en 1985) completan mucho del texto; la traducción de referencia actual tiene derechos de autor. Las notas «Lo que se sabe hoy» resumen con palabras propias lo que ha cambiado.\n\nLos corchetes [ ] marcan reconstrucciones; los puntos suspensivos, texto perdido; (?), lecturas dudosas. Jastrow no numeró los versos.",
+   "tablillas": [
+    {
+     "n": 1,
+     "titulo": "El nacimiento",
+     "sinopsis": "La mujer de Etana no puede dar a luz. Etana ruega a Shamash que le muestre la «planta del nacimiento», y Shamash le indica el camino del monte.",
+     "items": [
+      {
+       "acot": "La mujer de Etana sufre porque no puede dar a luz al hijo que ha concebido. Etana acude a Shamash: por medio de los sacerdotes ha ofrecido sacrificios, y ahora ruega al dios Sol que le muestre la «planta del nacimiento»."
+      },
+      {
+       "v": "«Los oráculos han cumplido mis sacrificios,"
+      },
+      {
+       "v": "han cumplido mis ofrendas voluntarias a los dioses."
+      },
+      {
+       "v": "Señor, que tu boca lo ordene,"
+      },
+      {
+       "v": "y dame la planta del nacimiento;"
+      },
+      {
+       "v": "revélame la planta del nacimiento,"
+      },
+      {
+       "v": "haz salir el fruto, concédeme descendencia»."
+      },
+      {
+       "acot": "De la respuesta de Shamash solo se conserva entero un verso:"
+      },
+      {
+       "v": "«Toma el camino, sube al monte»."
+      },
+      {
+       "acot": "Jastrow supone que en el monte crece la planta cuyo poder mágico asegurará el buen parto, y que el águila que acompaña a Etana le ayuda a conseguirla, enviada probablemente por Shamash. Recuerda un paralelo en las leyendas armenias y mandeas del nacimiento de Rustam.",
+       "hoy": "Hoy se entiende que el problema no es un parto difícil, sino que Etana no tiene hijos y necesita un heredero para el trono de Kish."
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "titulo": "El vuelo",
+     "sinopsis": "El águila lleva a Etana hacia el cielo de Anu. Cada doble hora le muestra cómo se empequeñecen la tierra y el mar. Siguen subiendo hacia Ishtar, pero caen.",
+     "items": [
+      {
+       "acot": "El águila tienta a Etana para subir con ella a las regiones altas. Etana cuenta en parte la aventura en primera persona: se abren las puertas de lo alto, la de Anu, Enlil y Ea y la de Sin, Shamash, Adad e Ishtar; Etana ve un trono y se echa de bruces, aterrado. El águila lo tranquiliza:"
+      },
+      {
+       "v": "«Amigo mío, alza (?) [tu rostro],"
+      },
+      {
+       "v": "ven y déjame llevarte al cielo [de Anu]."
+      },
+      {
+       "v": "Pon tu pecho sobre mi pecho,"
+      },
+      {
+       "v": "pon tus palmas sobre mis alas,"
+      },
+      {
+       "v": "pon tu costado sobre mi costado»."
+      },
+      {
+       "acot": "Etana obedece y, bien sujeto al águila, empieza el viaje. Vuelan una doble hora, y entonces"
+      },
+      {
+       "v": "el águila habla a Etana:"
+      },
+      {
+       "v": "«Mira, amigo mío, cómo se ve la tierra;"
+      },
+      {
+       "v": "mira el mar y, a su lado, la casa de la sabiduría;",
+       "nota": "Probablemente el Apsu, la morada de Ea."
+      },
+      {
+       "v": "la tierra parece un monte, el mar se ha vuelto un estanque (?)»."
+      },
+      {
+       "v": "Una segunda doble hora lo llevó hacia lo alto."
+      },
+      {
+       "v": "El águila habló a Etana:"
+      },
+      {
+       "v": "«Mira, amigo mío, cómo se ve la tierra;"
+      },
+      {
+       "v": "el mar es solo un cinturón (?) en torno a la tierra»."
+      },
+      {
+       "v": "Una tercera doble hora lo llevó hacia lo alto."
+      },
+      {
+       "v": "El águila habló a Etana:"
+      },
+      {
+       "v": "«Mira, amigo mío, cómo se ve la tierra;"
+      },
+      {
+       "v": "el mar es solo la acequia de un hortelano»."
+      },
+      {
+       "acot": "Así llegan sanos y salvos a la puerta de Anu, Enlil y Ea, donde descansan. El águila no se da por satisfecha e invita a Etana a subir al dominio de Ishtar:"
+      },
+      {
+       "v": "«Ven, amigo mío, [déjame llevarte a Ishtar];"
+      },
+      {
+       "v": "con Ishtar, la señora [de los dioses, vivirás];"
+      },
+      {
+       "v": "en la gloria de Ishtar, la señora de los dioses, [te sentarás (?)]."
+      },
+      {
+       "v": "Pon tu costado sobre mi costado,"
+      },
+      {
+       "v": "pon tus palmas sobre mis alas»."
+      },
+      {
+       "acot": "Etana cede. Suben aún más; la tierra y el mar se hacen todavía más pequeños: la tierra, como «un bancal de huerto», y el mar, como «un patio». Vuelan tres dobles horas. Etana parece advertir al águila que desista, pero ya es tarde: los dos son arrojados de las alturas y caen a toda velocidad hasta el suelo. Lo que sigue es oscuro.",
+       "hoy": "Jastrow interpretaba el vuelo como un desafío a los dioses castigado con la caída. Hoy se sabe que el final del poema se ha perdido, pero que Etana tuvo hijo: la Lista Real Sumeria nombra a su sucesor, Balih. Este pasaje es el que algunos autores de los antiguos astronautas leen como la descripción de un vuelo a gran altura; véase la ficha de Etana."
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "titulo": "El águila y la serpiente",
+     "sinopsis": "El águila se come las crías de la serpiente pese a la advertencia de su propio aguilucho. Shamash enseña a la serpiente a tenderle una trampa en el cadáver de un toro salvaje, y la serpiente le arranca las alas.",
+     "items": [
+      {
+       "acot": "La suerte del águila se cuenta en otra tablilla de la serie. El águila ha perdido el favor de Shamash: hay enemistad entre el águila y la serpiente, y esta está bajo la protección del dios Sol. El águila planea destruir las crías de la serpiente, y un aguilucho «muy listo» le advierte:"
+      },
+      {
+       "v": "«No comas, padre mío; la red de Shamash está tendida (?);"
+      },
+      {
+       "v": "la trampa, el castigo de Shamash, caerá sobre ti y te atrapará."
+      },
+      {
+       "v": "Quien transgrede la ley de Shamash, de él se venga Shamash»."
+      },
+      {
+       "acot": "Pero el águila no hizo caso de la advertencia:"
+      },
+      {
+       "v": "bajó y se comió las crías de la serpiente."
+      },
+      {
+       "acot": "La serpiente acude a Shamash y le cuenta la crueldad del águila:"
+      },
+      {
+       "v": "«Mira, Shamash, el mal que me ha hecho."
+      },
+      {
+       "v": "Socorro (?), Shamash: tu red es la ancha tierra,"
+      },
+      {
+       "v": "tu trampa es el lejano cielo."
+      },
+      {
+       "v": "¿Quién puede escapar de tu red?"
+      },
+      {
+       "v": "Zu, el obrador del mal, la fuente del mal, [¿no escapó?]».",
+       "nota": "Zu es Anzu, el ave del mito del robo de la Tablilla de los Destinos; véase su texto completo."
+      },
+      {
+       "acot": "Shamash responde:"
+      },
+      {
+       "v": "Al oír el lamento de la serpiente,"
+      },
+      {
+       "v": "Shamash abrió la boca y habló a la serpiente:"
+      },
+      {
+       "v": "«Ve y sube al monte;"
+      },
+      {
+       "v": "haz del cadáver de un toro salvaje tu escondite."
+      },
+      {
+       "v": "Ábrelo, desgárrale el vientre,"
+      },
+      {
+       "v": "haz de [su vientre] tu morada."
+      },
+      {
+       "v": "Todos los pájaros del cielo bajarán;"
+      },
+      {
+       "v": "con ellos bajará el águila."
+      },
+      {
+       "v": "…"
+      },
+      {
+       "v": "Al llegar a la carne, avanzará deprisa"
+      },
+      {
+       "v": "hacia las partes ocultas."
+      },
+      {
+       "v": "En cuanto haya llegado dentro, agárrala por el ala,"
+      },
+      {
+       "v": "arráncale el ala, las plumas (?), las remeras,"
+      },
+      {
+       "v": "despedázala y arrójala a un rincón,"
+      },
+      {
+       "v": "para que muera de hambre y de sed»."
+      },
+      {
+       "acot": "El plan se cumple. El relato describe con habilidad cómo el águila, sospechando algo, no se une a los demás pájaros; pero al ver que escapan sin daño se tranquiliza y dice a sus crías:"
+      },
+      {
+       "v": "«Venid, vamos también nosotros a lanzarnos sobre el cadáver del toro salvaje y a comer»."
+      },
+      {
+       "acot": "De nuevo la advierte su cría «muy lista», y el resto de la nidada se une a la súplica, pero"
+      },
+      {
+       "v": "no los escuchó ni siguió el consejo de su nidada;"
+      },
+      {
+       "v": "se lanzó y se posó sobre el toro salvaje."
+      },
+      {
+       "v": "El águila examinó el cadáver, mirando con cuidado delante y detrás."
+      },
+      {
+       "v": "De nuevo examinó el cadáver, mirando con cuidado delante y detrás."
+      },
+      {
+       "acot": "Sin ver nada que justifique sus sospechas, hunde el pico en el cadáver, y apenas lo ha hecho la serpiente la agarra. El águila pide clemencia y promete a la serpiente lo que desee. La serpiente es implacable: soltarla sería traicionar a Shamash."
+      },
+      {
+       "v": "«Si te suelto…,"
+      },
+      {
+       "v": "tu castigo pasará a mí»."
+      },
+      {
+       "acot": "Según las instrucciones del dios Sol, despoja al águila de alas y plumas y la deja morir miserablemente.",
+       "hoy": "Hoy se sabe que este episodio es el comienzo del poema. Etana encuentra al águila moribunda en el foso, la cuida durante meses hasta que le vuelven a crecer las alas, y en agradecimiento el águila lo lleva al cielo."
+      }
+     ]
+    }
+   ]
+  },
+  "erra-ishum": {
+   "titulo": "Poema de Erra e Ishum",
+   "subtitulo": "Los fragmentos conocidos en 1898 («La leyenda de Dibbarra»)",
+   "antigua": true,
+   "aviso": "Selección de fragmentos traducida en 1898 (Jastrow), cuando el dios se leía «Dibbarra». Su interpretación histórica (Hammurabi) está abandonada y falta la mayor parte del poema.",
+   "fuente": "Versión española a partir de M. Jastrow, The Religion of Babylonia and Assyria (Boston, Ginn & Co., 1898), capítulo XXIV, «The Legend of Dibbarra», que traduce al inglés fragmentos de las tablillas de Nínive. La obra es de dominio público.",
+   "fuente_url": "https://www.gutenberg.org/ebooks/20758",
+   "presentacion": "En 1898 el nombre del dios se leía «Dibbarra»; hoy se lee Erra, que es la forma que se usa aquí. Jastrow conocía solo cuatro fragmentos de las cinco tablillas del poema, y no tradujo el texto seguido: da los pasajes mejor conservados y los enlaza con resúmenes suyos. Aquí se mantienen así: los versos son su traducción y las acotaciones, sus resúmenes.\n\nLimitaciones de esta versión: Jastrow leía el poema como una colección de cantos de guerra sobre las luchas que precedieron a Hammurabi, y veía en «el acadio» que vendrá al propio Hammurabi; esa interpretación está abandonada. Hoy se sabe que el poema se compuso en el primer milenio a. C., probablemente en los siglos IX u VIII, y que «el acadio» anuncia la restauración de Babilonia tras una época de desastres. Las copias halladas después (Sultantepe, Asur, Babilonia) completan casi todo el texto; la traducción de referencia actual tiene derechos de autor. Las notas «Lo que se sabe hoy» resumen con palabras propias lo que ha cambiado.\n\nLos corchetes [ ] marcan reconstrucciones; los puntos suspensivos, texto perdido; (?), lecturas dudosas. Jastrow no numeró los versos.",
+   "tablillas": [
+    {
+     "n": 1,
+     "titulo": "El discurso de Ishum",
+     "sinopsis": "Ishum, el servidor de Erra, enumera los estragos de su señor: Babilonia y Uruk arrasadas, justos e injustos muertos por igual. Erra anuncia la guerra de todos contra todos hasta que llegue «el acadio». Ishum devasta el monte Hihi.",
+     "items": [
+      {
+       "acot": "El fragmento más largo contiene un discurso de Ishum, el fiel servidor de Erra, en el que alaba el poder del dios de la guerra y cuenta algunas de sus hazañas.",
+       "hoy": "En el poema completo, el discurso de Ishum llega después de que Erra haya convencido a Marduk de dejar su trono para restaurar su estatua, y de que Erra haya aprovechado su ausencia para desatar el caos."
+      },
+      {
+       "v": "«[Los hijos de] Babilonia eran [como] pájaros,"
+      },
+      {
+       "v": "y tú su cetrero."
+      },
+      {
+       "v": "En una red los atrapaste, los encerraste y los destruiste,"
+      },
+      {
+       "v": "¡oh guerrero Erra!"
+      },
+      {
+       "v": "Dejando la ciudad, saliste afuera;"
+      },
+      {
+       "v": "tomando la forma de un león, entraste en el palacio."
+      },
+      {
+       "v": "La gente te vio y empuñó (?) sus armas."
+      },
+      {
+       "acot": "Según Jastrow, se alude a un ataque contra Babilonia. Después aparece el enemigo que la ataca, al que se llama «gobernador», y Erra le da instrucciones. Ishum sigue con su discurso:"
+      },
+      {
+       "v": "El corazón del gobernador, resuelto a vengarse de Babilonia, estaba enfurecido;"
+      },
+      {
+       "v": "para capturar los bienes del enemigo envía a su ejército,"
+      },
+      {
+       "v": "lleno de enemistad hacia la gente."
+      },
+      {
+       "acot": "Erra habla así al gobernador:"
+      },
+      {
+       "v": "“En la ciudad adonde te envío"
+      },
+      {
+       "v": "no temerás a nadie ni tendrás compasión."
+      },
+      {
+       "v": "Mata a jóvenes y viejos por igual,"
+      },
+      {
+       "v": "también al tierno lactante: no perdones a nadie."
+      },
+      {
+       "v": "Llévate como botín los tesoros de Babilonia”."
+      },
+      {
+       "acot": "Ishum continúa su relato:"
+      },
+      {
+       "v": "Se reunió la hueste real y entró en la ciudad."
+      },
+      {
+       "v": "Se tensó el arco, se desenvainó la espada."
+      },
+      {
+       "v": "Tú embotaste (?) las armas de los soldados,"
+      },
+      {
+       "v": "los servidores de Anu y Dagan."
+      },
+      {
+       "v": "Hiciste correr su sangre como torrentes de agua por las calles de la ciudad;"
+      },
+      {
+       "v": "les abriste las entrañas e hiciste que se las llevara la corriente."
+      },
+      {
+       "acot": "Marduk, señor de Babilonia, se enfurece al verlo, pero al parecer no puede hacer nada:"
+      },
+      {
+       "v": "El gran señor Marduk lo vio y gritó: «¡Ay!»."
+      },
+      {
+       "v": "Perdió el sentido."
+      },
+      {
+       "v": "Una violenta maldición salió de su boca."
+      },
+      {
+       "acot": "Aquí la tablilla está dañada, y cuando vuelve a entenderse Ishum describe el ataque de Erra contra Uruk, «la morada de Anu y de Ishtar», la ciudad de las sacerdotisas del amor. Uruk sufre la misma suerte que Babilonia:"
+      },
+      {
+       "v": "Pusiste sobre ellos a un gobernador cruel y malvado,"
+      },
+      {
+       "v": "que les trajo la miseria y quebrantó (?) sus leyes."
+      },
+      {
+       "v": "Ishtar se enfureció y se llenó de ira por Uruk."
+      },
+      {
+       "acot": "La avidez de Erra es insaciable. Ishum le sigue diciendo:"
+      },
+      {
+       "v": "Oh guerrero Erra, despachas al justo,"
+      },
+      {
+       "v": "despachas al injusto;"
+      },
+      {
+       "v": "al que peca contra ti, lo despachas,"
+      },
+      {
+       "v": "y al que no peca contra ti, lo despachas."
+      },
+      {
+       "acot": "Jastrow entiende que Ishum planea una guerra aún más terrible, que ha de alcanzar a toda la creación y llegar a las regiones altas, y pide el consentimiento de Erra:",
+       "hoy": "Hoy se entiende al revés: Ishum reprocha a Erra sus excesos, y es Erra quien anuncia la destrucción universal."
+      },
+      {
+       "v": "El resplandor de Shulpae lo destruiré."
+      },
+      {
+       "v": "La raíz del árbol la arrancaré"
+      },
+      {
+       "v": "para que no florezca más;"
+      },
+      {
+       "v": "contra la morada del rey de los dioses avanzaré…»."
+      },
+      {
+       "v": "El guerrero Erra lo oyó."
+      },
+      {
+       "v": "Las palabras de Ishum le fueron gratas como aceite fino,"
+      },
+      {
+       "v": "y así habló el guerrero Erra:"
+      },
+      {
+       "v": "«Costa contra costa, Subartu contra Subartu, asirio contra asirio,"
+      },
+      {
+       "v": "elamita contra elamita,"
+      },
+      {
+       "v": "casita contra casita,"
+      },
+      {
+       "v": "suteo contra suteo,"
+      },
+      {
+       "v": "cuteo contra cuteo,"
+      },
+      {
+       "v": "lulubeo contra lulubeo,"
+      },
+      {
+       "v": "país contra país, casa contra casa, hombre contra hombre."
+      },
+      {
+       "v": "Que el hermano no tenga piedad del hermano; que se maten unos a otros."
+      },
+      {
+       "v": "Al cabo de un tiempo vendrá el acadio,"
+      },
+      {
+       "v": "lo derribará todo y los vencerá a todos»."
+      },
+      {
+       "acot": "Jastrow identificaba al «acadio» con Hammurabi.",
+       "hoy": "Hoy se entiende como el anuncio de un futuro rey de Babilonia que restaurará el país tras la época de caos que describe el poema."
+      },
+      {
+       "acot": "Erra da su consentimiento al plan de Ishum:"
+      },
+      {
+       "v": "«Ve, Ishum, cumple la palabra que has dicho según tu deseo»."
+      },
+      {
+       "acot": "Ishum lo cumple. El primer lugar atacado es el monte Hihi:"
+      },
+      {
+       "v": "Ishum volvió el rostro hacia el monte Hihi."
+      },
+      {
+       "v": "El dios Sibi, guerrero sin rival,"
+      },
+      {
+       "v": "tronaba detrás de él."
+      },
+      {
+       "v": "El guerrero llegó al monte Hihi,"
+      },
+      {
+       "v": "alzó la mano y destruyó el monte;"
+      },
+      {
+       "v": "arrasó hasta el suelo el monte Hihi."
+      },
+      {
+       "v": "Destruyó las viñas del bosque de Hashur."
+      },
+      {
+       "acot": "El resto de la narración se ha perdido, salvo un pequeño fragmento que cuenta la destrucción de una ciudad, por lo demás desconocida, llamada Inmarmaru. Ea, el dios de la humanidad, se entera de los estragos y «se llena de ira»; el fragmento está demasiado roto para saber qué hace contra Erra. También se menciona a Marduk.",
+       "hoy": "Sibi son los Siete, los demonios guerreros que acompañan a Erra."
+      }
+     ]
+    },
+    {
+     "n": 5,
+     "titulo": "Tablilla V: el apaciguamiento",
+     "sinopsis": "Erra, ya calmado, reconoce ante los dioses que destruyó a justos e injustos. Ishum le pide que apacigüe a los dioses del país. El poema termina prometiendo protección a quien lo cante, lo copie o lo tenga en casa.",
+     "items": [
+      {
+       "acot": "La última tablilla se conserva en parte. Todos los dioses, con los Igigi y los Anunnaki, se reúnen en torno a Erra, que les dice:"
+      },
+      {
+       "v": "«Escuchadme todos."
+      },
+      {
+       "v": "A causa del pecado tramé antes el mal;"
+      },
+      {
+       "v": "mi corazón se enfureció y barrí a los pueblos»."
+      },
+      {
+       "acot": "Cuenta cómo destruyó los rebaños y devastó los frutos del campo, cómo barrió las tierras castigando por igual al justo y al malvado, sin perdonar a nadie. Ishum toma la palabra y le pide que deponga su ira:"
+      },
+      {
+       "v": "«Apacigua tú a los dioses del país, que estaban irritados;"
+      },
+      {
+       "v": "que florezcan los frutos (?) y el grano;"
+      },
+      {
+       "v": "que los montes y los mares den su producto»."
+      },
+      {
+       "acot": "Así empieza una era de paz y prosperidad, y el poema termina con las promesas solemnes de Erra de bendecir y proteger a quienes lo honren:"
+      },
+      {
+       "v": "«El que glorifique mi nombre gobernará el mundo."
+      },
+      {
+       "v": "El que proclame la gloria de mi poder"
+      },
+      {
+       "v": "no tendrá rival."
+      },
+      {
+       "v": "El cantor que cante [mis hazañas] no morirá de peste;"
+      },
+      {
+       "v": "a reyes y nobles agradarán sus palabras."
+      },
+      {
+       "v": "El escriba que las conserve escapará de las manos del enemigo."
+      },
+      {
+       "v": "En el templo donde la gente proclame mi nombre"
+      },
+      {
+       "v": "le abriré el oído;",
+       "nota": "Es decir, le daré entendimiento."
+      },
+      {
+       "v": "en la casa donde se coloque esta tablilla, aunque rabie la guerra"
+      },
+      {
+       "v": "y el dios Sibi cause estragos,"
+      },
+      {
+       "v": "la espada y la peste no la tocarán: vivirá segura."
+      },
+      {
+       "v": "Que este canto resuene siempre y dure por la eternidad."
+      },
+      {
+       "v": "Que todas las tierras lo oigan y proclamen mi poder."
+      },
+      {
+       "v": "Que los habitantes de todos los lugares aprendan a glorificar mi nombre»."
+      },
+      {
+       "acot": "Jastrow señala que el British Museum tiene dos tablillas con parte de este final, perforadas para colgarlas en las casas como amuleto contra Erra y sus acompañantes; de ahí el verso «en la casa donde se coloque esta tablilla»."
+      }
+     ]
+    }
+   ]
+  },
+  "anzu": {
+   "titulo": "El mito de Anzu",
+   "subtitulo": "Los fragmentos conocidos en 1898 («El mito del dios de la tormenta Zu»)",
+   "antigua": true,
+   "aviso": "Selección de fragmentos traducida en 1898 (Jastrow), cuando el ave se leía «Zu». Solo cubre el robo de la Tablilla de los Destinos; el vencedor no es Marduk, como creía Jastrow, sino Ninurta.",
+   "fuente": "Versión española a partir de M. Jastrow, The Religion of Babylonia and Assyria (Boston, Ginn & Co., 1898), capítulo XXIV, «The Myth of the Storm-God Zu», que traduce al inglés fragmentos de las tablillas de Nínive. La obra es de dominio público.",
+   "fuente_url": "https://www.gutenberg.org/ebooks/20758",
+   "presentacion": "En 1898 el nombre del ave se leía «Zu»; hoy se lee Anzu, que es la forma que se usa aquí. Jastrow conocía solo el comienzo del robo de la Tablilla de los Destinos y la búsqueda de un dios que se atreviera a enfrentarse al ave. No tradujo el texto seguido: da los pasajes mejor conservados y los enlaza con resúmenes suyos, que aquí se mantienen como acotaciones.\n\nLimitaciones de esta versión: Jastrow leía el mito como la lucha entre las nubes de tormenta y el sol, y suponía que el héroe que recupera las tablillas era Marduk. Hoy se sabe que es Ninurta, hijo de Enlil, que vence a Anzu con la ayuda de Ea y recupera la Tablilla de los Destinos. Las copias halladas después (sobre todo las de Sultantepe y las paleobabilónicas) permiten leer casi todo el poema; la traducción de referencia actual tiene derechos de autor. Las notas «Lo que se sabe hoy» resumen con palabras propias lo que ha cambiado. En la versión de Jastrow, el dios de la tormenta se llama Ramman; aquí se usa su nombre actual, Adad.\n\nLos corchetes [ ] marcan reconstrucciones; los puntos suspensivos, texto perdido; (?), lecturas dudosas. Jastrow no numeró los versos.",
+   "tablillas": [
+    {
+     "n": 1,
+     "titulo": "El robo de la Tablilla de los Destinos",
+     "sinopsis": "Anzu ve la Tablilla de los Destinos de Enlil, la roba mientras Enlil se baña y huye a su montaña. Anu busca un dios que lo derrote, pero Adad y otros dos dioses se niegan.",
+     "items": [
+      {
+       "acot": "Falta el comienzo del relato, que al parecer glorificaba al dios que controla el destino del universo. La segunda columna empieza así:",
+       "hoy": "El comienzo, conocido después, cuenta cómo nace Anzu y cómo Ea propone a Enlil que lo tome como guardián de su santuario."
+      },
+      {
+       "v": "y determinó los oráculos de todos los dioses."
+      },
+      {
+       "acot": "Por el contexto, se trata de Enlil, el señor de Nippur. Anzu se atreve a intentar robarle las tablillas:"
+      },
+      {
+       "v": "Sus ojos vieron la señal del poder,"
+      },
+      {
+       "v": "la corona de su soberanía, el manto de su divinidad."
+      },
+      {
+       "v": "Anzu vio la divina Tablilla de los Destinos."
+      },
+      {
+       "v": "Miró al padre de los dioses, el dios de Duranki;",
+       "nota": "Duranki, «lazo del cielo y la tierra», es el nombre del santuario de Enlil en Nippur."
+      },
+      {
+       "v": "el deseo de poder se apodera de su corazón."
+      },
+      {
+       "v": "«Tomaré las tablillas de los dioses"
+      },
+      {
+       "v": "y decretaré las decisiones [de todos los dioses]."
+      },
+      {
+       "v": "Estableceré mi trono, proclamaré leyes,"
+      },
+      {
+       "v": "daré todas las órdenes a todos los Igigi»."
+      },
+      {
+       "acot": "Anzu va a la morada de Enlil y espera el momento propicio para atacar."
+      },
+      {
+       "v": "Su corazón estaba resuelto a la lucha."
+      },
+      {
+       "v": "Con la mirada puesta en la entrada de la morada, espera el comienzo del día."
+      },
+      {
+       "v": "Mientras Enlil derramaba las aguas brillantes,"
+      },
+      {
+       "v": "se sentaba en su trono y se ponía la corona,"
+      },
+      {
+       "v": "él le arrebató de las manos la Tablilla de los Destinos,"
+      },
+      {
+       "v": "se apoderó del mando, de la promulgación de las leyes."
+      },
+      {
+       "v": "Entonces Anzu echó a volar y se escondió en su montaña."
+      },
+      {
+       "acot": "Jastrow interpreta que Enlil, como dios de la atmósfera, controla las aguas de arriba, y que sin las tablillas la lluvia se vuelve diluvio y tormenta. El atrevimiento de Anzu siembra la consternación entre los dioses. Anu pide que alguien persiga a Anzu y lo capture; el ave vive en un rincón inaccesible de los montes y los dioses temen acercarse a su nido. La escena recuerda la del Enuma Elish en la que Anshar recurre a Anu y a Ea para someter a Tiamat.",
+       "hoy": "Hoy se lee que Enlil se estaba bañando con agua pura antes de vestirse, y que Anzu aprovechó ese momento para robarle la tablilla."
+      },
+      {
+       "v": "Anu abre la boca y habla,"
+      },
+      {
+       "v": "dirigiéndose a los dioses, sus hijos:"
+      },
+      {
+       "v": "«¿Quién obligará a Anzu a someterse"
+      },
+      {
+       "v": "y hará así grande su nombre entre los habitantes del mundo entero?»."
+      },
+      {
+       "acot": "Los dioses reunidos llaman primero a Adad, el dios de la tormenta por excelencia:"
+      },
+      {
+       "v": "«Adad, el jefe», gritaron, «el hijo de Anu»."
+      },
+      {
+       "v": "Anu le comunicó la orden:"
+      },
+      {
+       "v": "«Ve, hijo mío Adad, vencedor que no cede ante nadie,"
+      },
+      {
+       "v": "somete a Anzu con tu arma,"
+      },
+      {
+       "v": "para que tu nombre sea glorificado en la asamblea de los grandes dioses."
+      },
+      {
+       "v": "No tendrás rival entre los dioses, tus hermanos»."
+      },
+      {
+       "acot": "Anu promete además a Adad que, si triunfa, se le levantarán altos santuarios en muchas ciudades:"
+      },
+      {
+       "v": "«Se construirán templos en tu honor;"
+      },
+      {
+       "v": "en todos los rincones del mundo estarán tus ciudades;"
+      },
+      {
+       "v": "tus ciudades llegarán hasta Ekur."
+      },
+      {
+       "v": "Muéstrate fuerte entre los dioses, para que tu nombre sea poderoso»."
+      },
+      {
+       "acot": "Pero Adad teme el combate:"
+      },
+      {
+       "v": "Adad respondió a esas palabras,"
+      },
+      {
+       "v": "dirigiéndose a su padre Anu:"
+      },
+      {
+       "v": "«Padre mío, ¿quién puede ir al monte inaccesible?"
+      },
+      {
+       "v": "¿Quién hay como Anzu entre los dioses, tus hijos?»."
+      },
+      {
+       "acot": "Alega además que Anzu, que tiene en sus manos la Tablilla de los Destinos, es invencible: tiene el poder de decretar el destino de los dioses y todos han de inclinarse ante su voluntad. Aquí el texto se vuelve defectuoso. Anu llama a otros dos dioses para que se enfrenten a Anzu; el nombre de uno se ha perdido, el otro es hijo de Ishtar. Los dos se niegan, y responden a Anu exactamente igual que Adad. Lo que sucede al final hay que conjeturarlo.",
+       "hoy": "El segundo dios es Shara, hijo de Ishtar. El primero, Girra, el dios del fuego."
+      },
+      {
+       "acot": "Jastrow descarta que el vencedor sea Shamash, como proponía Harper, y supone que es Marduk, porque es el único dios, aparte de Enlil, que en la literatura babilónica tiene la Tablilla de los Destinos.",
+       "hoy": "Hoy se sabe que el vencedor es Ninurta. Ea propone que la diosa madre envíe a su hijo; Ninurta parte con los siete vientos, pero las flechas no alcanzan a Anzu porque la Tablilla le permite ordenarles que vuelvan a su origen. Por consejo de Ea, Ninurta agota al ave, le arranca las plumas y, cuando Anzu las llama, le dispara y lo mata. Ninurta recupera la Tablilla y recibe muchos nombres."
+      }
+     ]
+    }
+   ]
   }
  }
 }

@@ -581,6 +581,8 @@ describe('navegador', { skip: ruta ? false : 'no se encontró Chrome ni Edge' },
         await captura(`completo-enuma-${ancho}-${tema}`, 3200);
         await irA('c-gilgamesh');
         await captura(`completo-gilgamesh-${ancho}-${tema}`, 3200);
+        await irA('c-enki-ninhursag');
+        await captura(`antigua-enki-${ancho}-${tema}`, 1600);
       }
     }
     assert.deepEqual(errores, []);
@@ -655,6 +657,23 @@ describe('navegador', { skip: ruta ? false : 'no se encontró Chrome ni Edge' },
     assert.equal(primeras.size, 1, 'versos desalineados: ' + JSON.stringify(lefts));
     await pag.evaluar(`document.querySelector('#tablilla-11 .llamada').click()`);
     assert.match(await pag.evaluar(`document.activeElement.id`), /^tablilla-11-nota-\d+$/);
+    assert.deepEqual(errores, []);
+  });
+
+  test('traducciones antiguas: etiqueta propia y aviso visible; los textos completos no lo llevan', async () => {
+    await abrir(url, { ancho: 1280, alto: 900 });
+    await irA('t-enki-ninhursag');
+    assert.match(await pag.evaluar(`document.querySelector('#leer-completo').textContent`), /traducción antigua/);
+    await irA('c-enki-ninhursag');
+    const r = await pag.evaluar(`({ aviso: (document.querySelector('.aviso-antigua') || {}).textContent || '', etq: document.querySelector('#vista .tt-lengua').textContent })`);
+    assert.match(r.aviso, /^Traducción superada\. .*1916/);
+    assert.match(r.etq, /^Traducción antigua/);
+    await irA('c-gilgamesh');
+    assert.equal(await pag.evaluar(`!!document.querySelector('.aviso-antigua')`), false);
+    await irA('textos');
+    const etiquetas = await pag.evaluar(`[...document.querySelectorAll('.tt-completo')].map((e) => e.className + ':' + e.textContent)`);
+    assert.equal(etiquetas.length, 12);
+    assert.equal(etiquetas.filter((e) => e.includes('tt-antigua')).length, 6);
     assert.deepEqual(errores, []);
   });
 

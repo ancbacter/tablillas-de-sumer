@@ -180,8 +180,10 @@
         }).filter(Boolean);
         return { n: num(tb.n) === null ? i + 1 : num(tb.n), titulo: str(tb.titulo), sinopsis: str(tb.sinopsis), items: items };
       }).filter(function (tb) { return tb.items.length; });
+      // antigua: traducción superada (fragmentaria o con lecturas abandonadas), con un aviso visible.
       return tablillas.length ? {
         id: id, titulo: str(x.titulo) || id, subtitulo: str(x.subtitulo), fuente: str(x.fuente),
+        antigua: x.antigua === true, aviso: str(x.aviso),
         fuente_url: /^https?:\/\//.test(str(x.fuente_url)) ? str(x.fuente_url) : '', presentacion: str(x.presentacion), tablillas: tablillas
       } : null;
     }).filter(Boolean);
@@ -829,6 +831,9 @@
     'ui.textos.ficha': 'Ficha de la entrada',
     'ui.completo.leer': 'Leer el texto completo',
     'ui.completo.etiqueta': 'Texto completo',
+    'ui.completo.etiqueta_antigua': 'Traducción antigua',
+    'ui.completo.leer_antigua': 'Leer la traducción antigua',
+    'ui.completo.aviso_titulo': 'Traducción superada.',
     'ui.completo.versos': '{n} versos',
     'ui.completo.solo_es': 'El texto completo solo está disponible en castellano por ahora.',
     'ui.completo.presentacion': 'Sobre esta versión',
@@ -1807,7 +1812,7 @@
           x.version ? h('span', { class: 'tt-version' }, x.version) : null,
           h('span', { class: 'tt-pie' }, [
             h('span', { class: 'tt-num' }, textoPasajes(x.pasajes.length)),
-            completoPorId[x.id] ? h('span', { class: 'tt-completo' }, t('ui.completo.etiqueta')) : null,
+            completoPorId[x.id] ? h('span', { class: 'tt-completo' + (completoPorId[x.id].antigua ? ' tt-antigua' : '') }, etqCompleto(completoPorId[x.id])) : null,
             tipos.map(function (tp) { return h('span', { class: 'tipo-pasaje tp-' + tp }, t(CLAVE_TIPO_PASAJE[tp])); }),
             e ? h('span', { class: 'tt-entrada' }, e.nombre) : null
           ])
@@ -1939,7 +1944,7 @@
             h('ul', { class: 'biblio' }, x.ediciones.map(function (ed) { return referencia({ titulo: ed.titulo, autor: ed.autor, anio: ed.anio, url: '' }); }))
           ]) : null,
           h('div', { class: 'texto-acciones' }, [
-            completoPorId[x.id] ? h('a', { class: 'boton boton-primario', href: '#c-' + x.id, id: 'leer-completo' }, [icono('libro'), t('ui.completo.leer')]) : null,
+            completoPorId[x.id] ? h('a', { class: 'boton boton-primario', href: '#c-' + x.id, id: 'leer-completo' }, [icono('libro'), t(completoPorId[x.id].antigua ? 'ui.completo.leer_antigua' : 'ui.completo.leer')]) : null,
             e ? h('a', { class: 'boton', href: '#e-' + e.id, id: 'ver-ficha' }, [t('ui.textos.ficha'), ': ', e.nombre, icono('flecha')]) : null
           ])
         ])
@@ -1952,6 +1957,8 @@
   }
 
   /* --- Texto completo (solo castellano) --- */
+  function etqCompleto(x) { return t(x.antigua ? 'ui.completo.etiqueta_antigua' : 'ui.completo.etiqueta'); }
+
   function romano(n) {
     var r = '', v = [[10, 'X'], [9, 'IX'], [5, 'V'], [4, 'IV'], [1, 'I']];
     v.forEach(function (p) { while (n >= p[0]) { r += p[1]; n -= p[0]; } });
@@ -2045,12 +2052,13 @@
       h('p', { class: 'migas' }, [
         h('a', { href: '#textos' }, t('ui.nav.textos')), h('span', { 'aria-hidden': 'true' }, ' / '),
         tx ? h('a', { href: '#t-' + tx.id }, tx.titulo) : x.titulo, h('span', { 'aria-hidden': 'true' }, ' / '),
-        t('ui.completo.etiqueta')
+        etqCompleto(x)
       ]),
       h('header', { class: 'texto-cab' }, [
-        h('p', { class: 'tt-lengua' }, [t('ui.completo.etiqueta'), ' · ', t('ui.completo.versos', { n: contarVersos(x) })]),
+        h('p', { class: 'tt-lengua' }, [etqCompleto(x), ' · ', t('ui.completo.versos', { n: contarVersos(x) })]),
         h('h2', { tabindex: '-1', class: 'foco-inicial' }, x.titulo),
         x.subtitulo ? h('p', { class: 'texto-version' }, x.subtitulo) : null,
+        x.aviso ? h('p', { class: 'aviso-antigua', role: 'note', lang: 'es' }, [h('strong', null, t('ui.completo.aviso_titulo')), ' ', x.aviso]) : null,
         estado.idioma !== IDIOMA_ORIGINAL ? h('p', { class: 'aviso-solo-es', lang: estado.idioma }, t('ui.completo.solo_es')) : null,
         h('div', { class: 'texto-meta' }, [
           x.fuente ? h('p', { class: 'pasaje-fuente' }, [h('span', { class: 'rot' }, t('ui.textos.fuente')), x.fuente_url ? h('a', { href: x.fuente_url, rel: 'noopener', target: '_blank' }, x.fuente) : x.fuente]) : null,
@@ -2463,7 +2471,7 @@
     var nombre;
     if (r.vista === 'ficha') nombre = porId[r.id] ? porId[r.id].nombre : t('ui.ficha.titulo');
     else if (r.vista === 'texto') nombre = textoPorId[r.id] ? textoPorId[r.id].titulo : t('ui.nav.textos');
-    else if (r.vista === 'completo') nombre = completoPorId[r.id] ? completoPorId[r.id].titulo + ' (' + t('ui.completo.etiqueta') + ')' : t('ui.nav.textos');
+    else if (r.vista === 'completo') nombre = completoPorId[r.id] ? completoPorId[r.id].titulo + ' (' + etqCompleto(completoPorId[r.id]) + ')' : t('ui.nav.textos');
     else nombre = t('ui.nav.' + r.vista);
     document.title = nombre + ' · ' + t('ui.sitio.titulo');
 
