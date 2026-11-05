@@ -14,7 +14,7 @@ const aqui = dirname(fileURLToPath(import.meta.url));
 const raiz = join(aqui, '..');
 const capturas = join(aqui, 'capturas');
 const ruta = buscarNavegador();
-const VISTAS = ['catalogo', 'textos', 't-enuma-elish', 'cronologia', 'mapa', 'actual', 'asiriologos', 'as-lambert', 'autores', 'glosario', 'e-nibiru'];
+const VISTAS = ['catalogo', 'textos', 't-enuma-elish', 'cronologia', 'mapa', 'actual', 'asiriologos', 'as-lambert', 'autores', 'teorias', 'te-luna-hueca', 'glosario', 'e-nibiru'];
 const idsTextos = JSON.parse(readFileSync(join(raiz, 'data/textos.json'), 'utf8')).textos.map((x) => x.id);
 
 const envolver = (frag) => '<!doctype html>\n<html lang="es">\n<head>\n<meta charset="utf-8">\n<meta name="viewport" content="width=device-width, initial-scale=1">\n</head>\n<body>\n' + frag + '\n</body>\n</html>\n';
@@ -583,6 +583,10 @@ describe('navegador', { skip: ruta ? false : 'no se encontró Chrome ni Edge' },
         await captura(`completo-gilgamesh-${ancho}-${tema}`, 3200);
         await irA('c-enki-ninhursag');
         await captura(`antigua-enki-${ancho}-${tema}`, 1600);
+        await irA('teorias');
+        await captura(`teorias-${ancho}-${tema}`, 1200);
+        await irA('te-luna-hueca');
+        await captura(`teoria-luna-${ancho}-${tema}`, 4800);
       }
     }
     assert.deepEqual(errores, []);
@@ -674,6 +678,35 @@ describe('navegador', { skip: ruta ? false : 'no se encontró Chrome ni Edge' },
     const etiquetas = await pag.evaluar(`[...document.querySelectorAll('.tt-completo')].map((e) => e.className + ':' + e.textContent)`);
     assert.equal(etiquetas.length, 12);
     assert.equal(etiquetas.filter((e) => e.includes('tt-antigua')).length, 6);
+    assert.deepEqual(errores, []);
+  });
+
+  test('#teorias y #te-luna-hueca: tarjeta, corte, duelos, escala y enlaces a Mesopotamia', async () => {
+    await abrir(url, { ancho: 1280, alto: 900 });
+    await irA('teorias');
+    assert.equal(await pag.evaluar(`document.querySelector('.nav a[aria-current="page"]').getAttribute('data-vista')`), 'teorias');
+    assert.equal(await pag.evaluar(`document.querySelectorAll('.teoria-tarjeta').length`), 1);
+    await pag.evaluar(`document.querySelector('.teoria-tarjeta').click()`);
+    await pag.evaluar(`new Promise(r => requestAnimationFrame(() => requestAnimationFrame(r)))`);
+    const r = await pag.evaluar(`({
+      hash: location.hash, h2: document.querySelector('#vista h2').textContent,
+      capas: document.querySelectorAll('#vista .corte circle.capa').length,
+      duelos: document.querySelectorAll('#vista .duelo').length,
+      puntos: [...document.querySelectorAll('#vista .escala-punto')].map(e => e.className.replace('escala-punto ', '')),
+      enlaces: [...document.querySelectorAll('#vista .teoria-sumer a')].map(a => a.getAttribute('href')),
+      veredicto: !!document.querySelector('.veredicto-teoria'),
+      enfoque: document.getElementById('contexto').hidden
+    })`);
+    assert.equal(r.hash, '#te-luna-hueca');
+    assert.equal(r.h2, 'La Luna hueca');
+    assert.equal(r.capas, 5);
+    assert.equal(r.duelos, 4);
+    assert.ok(r.puntos.some(p => p.startsWith('ep-medido')) && r.puntos.some(p => p.startsWith('ep-teoria')), r.puntos.join());
+    assert.deepEqual(r.enlaces, ['#e-nanna-sin', '#e-tiamat', '#e-nibiru', '#c-enuma-elish']);
+    assert.equal(r.veredicto, true);
+    assert.equal(r.enfoque, true, 'el selector de enfoque no se muestra en las teorías');
+    await irA('te-no-existe');
+    assert.equal(await pag.evaluar(`document.querySelector('#vista h2').textContent`), 'Teoría no encontrada');
     assert.deepEqual(errores, []);
   });
 

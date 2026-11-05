@@ -158,3 +158,23 @@ describe('textos completos (data/completos.json)', () => {
     }
   });
 });
+
+describe('otras teorías (data/teorias.json)', () => {
+  const T = leer('teorias.json').teorias;
+  test('ids válidos y únicos; cada teoría tiene veredicto, origen y afirmaciones con réplica y fuente', () => {
+    assert.equal(new Set(T.map((x) => x.id)).size, T.length);
+    for (const x of T) {
+      assert.match(x.id, ID);
+      assert.ok(!vacio(x.nombre) && !vacio(x.veredicto) && !vacio(x.origen), x.id);
+      assert.ok(x.afirmaciones.length > 0, x.id);
+      for (const a of x.afirmaciones) assert.ok(!vacio(a.afirmacion) && !vacio(a.replica) && !vacio(a.fuente) && !vacio(a.autor), `${x.id}: ${a.afirmacion.slice(0, 40)}`);
+    }
+  });
+  test('las relaciones apuntan a entradas del catálogo y los enlaces a textos existentes', () => {
+    const textos = new Set(Object.keys(leer('completos.json').textos));
+    for (const x of T) {
+      for (const r of x.relaciones || []) assert.ok(idsCien.has(r.id), `${x.id} → ${r.id}`);
+      for (const e of x.enlaces_texto || []) assert.ok(textos.has(e.href.replace(/^#c-/, '')), `${x.id} → ${e.href}`);
+    }
+  });
+});

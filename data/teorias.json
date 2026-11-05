@@ -1,0 +1,97 @@
+{
+  "teorias": [
+    {
+      "id": "luna-hueca",
+      "nombre": "La Luna hueca",
+      "lema": "La Luna sería una nave artificial, vaciada por dentro y cubierta de una coraza metálica.",
+      "ambito": "astronomia",
+      "estado": "refutada",
+      "resumen": "Según esta teoría, la Luna no es un satélite natural sino un cuerpo hueco que una civilización avanzada vació por dentro y llevó hasta la órbita de la Tierra. Nació en un artículo de divulgación soviético de 1970 y se popularizó en los libros sobre ovnis y antiguos astronautas de los años setenta.",
+      "origen": "La idea de una Luna hueca viene de la ficción: en «Los primeros hombres en la Luna» (1901), H. G. Wells la llenó de cavernas habitadas. La versión «científica» la publicaron en 1970 Mijaíl Vasin y Alexánder Shcherbakov en Sputnik, una revista soviética de divulgación para el extranjero, no en una revista científica. Proponían que la Luna era un planetoide vaciado con máquinas, con una coraza interior de metal. Cinco años después, Don Wilson recogió la hipótesis en «Our Mysterious Spaceship Moon» y le sumó supuestas anomalías de las misiones Apolo. Desde entonces reaparece en libros como «Who Built the Moon?» (Christopher Knight y Alan Butler, 2005) y en programas de televisión sobre misterios.",
+      "hitos": [
+        { "anio": 1901, "texto": "H. G. Wells publica «Los primeros hombres en la Luna», con una Luna hueca habitada por selenitas. Es ficción." },
+        { "anio": 1969, "texto": "El 20 de noviembre, la etapa de ascenso del Apolo 12 choca contra la Luna a propósito. Los sismómetros registran vibraciones durante unos 55 minutos." },
+        { "anio": 1970, "texto": "Vasin y Shcherbakov publican en la revista Sputnik «¿Es la Luna una creación de una inteligencia extraterrestre?»." },
+        { "anio": 1975, "texto": "Don Wilson publica «Our Mysterious Spaceship Moon» y difunde la teoría en Occidente." },
+        { "anio": 1977, "texto": "Se apagan los sismómetros de las misiones Apolo, tras ocho años registrando miles de terremotos lunares e impactos." },
+        { "anio": 2005, "texto": "Christopher Knight y Alan Butler publican «Who Built the Moon?», que presenta la Luna como un objeto fabricado." },
+        { "anio": 2011, "texto": "Una nueva lectura de los datos sísmicos del Apolo detecta el núcleo de la Luna: hierro sólido por dentro y fundido alrededor." },
+        { "anio": 2012, "texto": "Las sondas gemelas GRAIL cartografían la gravedad lunar con un detalle sin precedentes." },
+        { "anio": 2014, "texto": "Con los datos de GRAIL y del láser lunar se mide el momento de inercia de la Luna con seis decimales: 0,392728." }
+      ],
+      "autores": [
+        { "nombre": "Mijaíl Vasin y Alexánder Shcherbakov", "obra": "«¿Es la Luna una creación de una inteligencia extraterrestre?», Sputnik", "anio": 1970 },
+        { "nombre": "Don Wilson", "obra": "Our Mysterious Spaceship Moon", "anio": 1975 },
+        { "nombre": "Christopher Knight y Alan Butler", "obra": "Who Built the Moon?", "anio": 2005 }
+      ],
+      "afirmaciones": [
+        {
+          "afirmacion": "Cuando la etapa del Apolo 12 chocó contra la Luna, esta «sonó como una campana» durante casi una hora, como lo haría un objeto hueco.",
+          "autor": "Don Wilson (1975) y la literatura posterior",
+          "evidencia": "sismologia",
+          "replica": "La vibración larga se debe a que la Luna es seca y fría. En la Tierra, el agua de las rocas amortigua las ondas sísmicas en pocos minutos; en la Luna no hay nada que las frene, y la corteza, rota por miles de millones de años de impactos, las dispersa en todas direcciones, como el eco en una sala vacía. Además, los mismos sismómetros registraron terremotos lunares a 700–1.200 km de profundidad, algo imposible si debajo de la corteza no hubiera roca.",
+          "fuente": "Experimento Sísmico Pasivo de las misiones Apolo (1969–1977)"
+        },
+        {
+          "afirmacion": "La densidad media de la Luna (3,3 g/cm³) es demasiado baja para un cuerpo macizo: la de la Tierra es 5,5. La diferencia sería el hueco interior.",
+          "autor": "Vasin y Shcherbakov (1970)",
+          "evidencia": "muestras",
+          "replica": "La densidad de la Luna es justo la de la roca de la que está hecha: las rocas lunares traídas por el Apolo pesan entre 3,0 y 3,4 g/cm³. La Tierra es más densa porque tiene un gran núcleo de hierro; la Luna apenas tiene hierro, y su núcleo mide unos 330 km de radio, una quinta parte del total. Es lo que se espera si se formó con el material exterior de la Tierra tras un gran impacto, como indican también los isótopos de oxígeno, casi idénticos en las dos.",
+          "fuente": "Muestras de las misiones Apolo; Weber et al., Science, 2011"
+        },
+        {
+          "afirmacion": "Bajo la superficie hay una coraza de metal muy dura: por eso los cráteres, incluso los enormes, son poco profundos.",
+          "autor": "Vasin y Shcherbakov (1970)",
+          "evidencia": "gravimetria",
+          "replica": "La relación entre el diámetro y la profundidad de los cráteres lunares es la misma que en otros cuerpos rocosos sin coraza, como Mercurio. Las sondas GRAIL midieron la gravedad de toda la Luna y vieron que la corteza tiene 34–43 km de espesor, que es roca porosa y no metal, y que bajo las grandes cuencas el manto se levantó tras el impacto, algo que solo puede pasar si debajo hay roca.",
+          "fuente": "Wieczorek et al., Science, 2013 (misión GRAIL)"
+        },
+        {
+          "afirmacion": "La Luna está colocada a propósito: tiene justo el tamaño aparente del Sol y por eso hay eclipses totales perfectos.",
+          "autor": "Christopher Knight y Alan Butler (2005)",
+          "evidencia": "laser",
+          "replica": "La coincidencia es real pero pasajera. Los reflectores que dejaron las misiones Apolo permiten medir con láser la distancia a la Luna, y muestran que se aleja unos 3,8 cm al año por efecto de las mareas. Hace cientos de millones de años se veía más grande que el Sol, y dentro de unos cientos de millones de años ya no habrá eclipses totales. Vivimos en una época en la que coinciden, nada más.",
+          "fuente": "Telemetría láser lunar (desde 1969)"
+        }
+      ],
+      "prueba": {
+        "titulo": "La prueba de la rueda: cuánto cuesta hacer girar la Luna",
+        "texto": "Un objeto hueco y uno macizo de la misma masa giran de forma distinta: en el hueco, toda la masa está lejos del centro y cuesta más hacerlo girar. Esa resistencia se mide con un número, el momento de inercia, y la Luna nos lo deja medir por cómo se balancea en su órbita. Una cáscara hueca daría 0,667; una bola maciza y uniforme, 0,400. La Luna da 0,3927: un poco menos que una bola uniforme, lo que significa que es maciza y algo más densa hacia el centro, por su pequeño núcleo de hierro.",
+        "valores": [
+          { "etiqueta": "Esfera hueca (cáscara)", "valor": 0.667, "tipo": "teoria" },
+          { "etiqueta": "Esfera maciza uniforme", "valor": 0.4, "tipo": "referencia" },
+          { "etiqueta": "La Luna (medido)", "valor": 0.3927, "tipo": "medido" },
+          { "etiqueta": "La Tierra (medido)", "valor": 0.3307, "tipo": "referencia" }
+        ],
+        "fuente": "Williams et al., Journal of Geophysical Research: Planets, 2014"
+      },
+      "interior": {
+        "radio": 1737,
+        "capas": [
+          { "nombre": "Corteza", "hasta": 1737, "desde": 1697 },
+          { "nombre": "Manto", "hasta": 1697, "desde": 480 },
+          { "nombre": "Capa parcialmente fundida", "hasta": 480, "desde": 330 },
+          { "nombre": "Núcleo externo fundido", "hasta": 330, "desde": 240 },
+          { "nombre": "Núcleo interno sólido", "hasta": 240, "desde": 0 }
+        ]
+      },
+      "por_que_atrae": "Parte de preguntas reales y llamativas: por qué la Luna vibró tanto tiempo, por qué los eclipses encajan tan bien, por qué su densidad es tan baja. Tiene además el aval aparente de «científicos soviéticos» y encaja en un relato más amplio sobre visitantes del pasado. Las respuestas, en cambio, exigen conocer sismología, gravimetría o mecánica orbital, y no caben en un titular.",
+      "relacion_sumer": "Algunos autores de los antiguos astronautas enlazan la Luna con los mitos mesopotámicos. Zecharia Sitchin, en «The 12th Planet» (1976), identificó a Qingu, el jefe del ejército de Tiamat en el Enuma Elish, con la Luna, satélite del planeta Tiamat antes de su choque con Nibiru. En los textos, en cambio, la Luna es el dios Nanna (Sin), y en la tablilla V del Enuma Elish Marduk le fija sus fases para medir los meses.",
+      "relaciones": [
+        { "id": "nanna-sin", "tipo": "dios Luna" },
+        { "id": "tiamat", "tipo": "según Sitchin" },
+        { "id": "nibiru", "tipo": "según Sitchin" }
+      ],
+      "enlaces_texto": [
+        { "href": "#c-enuma-elish", "texto": "Enuma Elish, tablilla V: Marduk fija las fases de la Luna" }
+      ],
+      "veredicto": "Refutada. La sismología, la gravimetría, las muestras de roca y la telemetría láser coinciden en lo mismo: la Luna es un cuerpo rocoso macizo, con corteza, manto y un pequeño núcleo de hierro.",
+      "fuentes": [
+        { "autor": "J. G. Williams et al.", "titulo": "Lunar interior properties from the GRAIL mission", "obra": "Journal of Geophysical Research: Planets 119", "anio": 2014 },
+        { "autor": "R. C. Weber et al.", "titulo": "Seismic detection of the lunar core", "obra": "Science 331", "anio": 2011 },
+        { "autor": "M. A. Wieczorek et al.", "titulo": "The crust of the Moon as seen by GRAIL", "obra": "Science 339", "anio": 2013 },
+        { "autor": "Jason Colavito", "titulo": "Spaceship Moon and Soviet scientific politics", "obra": "jasoncolavito.com", "anio": null, "url": "https://www.jasoncolavito.com/blog/spaceship-moon-and-soviet-scientific-politics" }
+      ]
+    }
+  ]
+}

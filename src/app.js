@@ -9,7 +9,7 @@
 
   var CATEGORIAS = ['mito', 'deidad', 'concepto'];
   var CULTURAS = ['sumeria', 'acadia', 'babilonia', 'asiria'];
-  var VISTAS = ['catalogo', 'textos', 'cronologia', 'mapa', 'actual', 'asiriologos', 'autores', 'glosario'];
+  var VISTAS = ['catalogo', 'textos', 'cronologia', 'mapa', 'actual', 'asiriologos', 'autores', 'teorias', 'glosario'];
   var ENFOQUES = ['cientifico', 'astronautas', 'actual', 'comparar'];
   /** Lecturas de una entrada o de un pasaje, en el orden del selector de enfoque. */
   var LECTURAS = ['cientifico', 'astronautas', 'actual'];
@@ -189,6 +189,52 @@
     }).filter(Boolean);
   }
 
+  var EVIDENCIAS = ['sismologia', 'gravimetria', 'muestras', 'laser', 'textos', 'otra'];
+
+  /**
+   * Otras teorías (solo castellano): fichas con origen, hitos, autores, afirmaciones con su prueba,
+   * una prueba clave con valores numéricos y, opcionalmente, el corte de un interior por capas.
+   */
+  function normalizarTeorias(raw) {
+    return unicosPorId(obj(raw).teorias, function (x, id) {
+      var p = obj(x.prueba), int = obj(x.interior);
+      var radio = num(int.radio);
+      return {
+        id: id, nombre: str(x.nombre) || id, lema: str(x.lema), ambito: normalizar(x.ambito), estado: normalizar(x.estado) || 'refutada',
+        resumen: str(x.resumen), origen: str(x.origen), por_que_atrae: str(x.por_que_atrae), relacion_sumer: str(x.relacion_sumer), veredicto: str(x.veredicto),
+        hitos: arr(x.hitos).filter(function (hh) { return hh && num(hh.anio) !== null && str(hh.texto).trim(); })
+          .map(function (hh) { return { anio: num(hh.anio), texto: str(hh.texto) }; }).sort(function (a, b) { return a.anio - b.anio; }),
+        autores: arr(x.autores).filter(function (a) { return a && str(a.nombre).trim(); })
+          .map(function (a) { return { nombre: str(a.nombre), obra: str(a.obra), anio: num(a.anio) }; }),
+        afirmaciones: arr(x.afirmaciones).filter(function (a) { return a && str(a.afirmacion).trim() && str(a.replica).trim(); }).map(function (a) {
+          var ev = normalizar(a.evidencia);
+          return { afirmacion: str(a.afirmacion), autor: str(a.autor), replica: str(a.replica), fuente: str(a.fuente), evidencia: EVIDENCIAS.indexOf(ev) >= 0 ? ev : 'otra' };
+        }),
+        prueba: str(p.titulo) ? {
+          titulo: str(p.titulo), texto: str(p.texto), fuente: str(p.fuente),
+          valores: arr(p.valores).filter(function (v) { return v && num(v.valor) !== null; })
+            .map(function (v) { return { etiqueta: str(v.etiqueta), valor: num(v.valor), tipo: ['teoria', 'medido'].indexOf(str(v.tipo)) >= 0 ? str(v.tipo) : 'referencia' }; })
+        } : null,
+        interior: radio > 0 ? {
+          radio: radio,
+          capas: arr(int.capas).filter(function (c) { return c && num(c.hasta) !== null && num(c.desde) !== null && num(c.hasta) > num(c.desde); })
+            .map(function (c) { return { nombre: str(c.nombre), hasta: Math.min(num(c.hasta), radio), desde: Math.max(num(c.desde), 0) }; })
+        } : null,
+        relaciones: arr(x.relaciones).filter(function (r) { return r && slug(r.id); }).map(function (r) { return { id: slug(r.id), tipo: str(r.tipo) }; }),
+        enlaces_texto: arr(x.enlaces_texto).filter(function (e) { return e && /^#[a-z0-9-]+$/.test(str(e.href)) && str(e.texto).trim(); })
+          .map(function (e) { return { href: str(e.href), texto: str(e.texto) }; }),
+        fuentes: arr(x.fuentes).filter(function (f) { return f && (str(f.titulo) || str(f.autor)); })
+          .map(function (f) { return { autor: str(f.autor), titulo: str(f.titulo), obra: str(f.obra), anio: num(f.anio), url: urlSegura(f.url) }; })
+      };
+    });
+  }
+
+  /** Posición (0–100 %) de un valor en una escala lineal [min, max], acotada. */
+  function posicionEscala(v, min, max) {
+    if (!(max > min)) return 0;
+    return Math.max(0, Math.min(100, (v - min) / (max - min) * 100));
+  }
+
   /** Versos de un texto completo. */
   function contarVersos(completo) {
     return arr(obj(completo).tablillas).reduce(function (s, tb) {
@@ -280,7 +326,8 @@
       actual: normalizarActual(r.actual),
       asiriologos: normalizarAsiriologos(r.asiriologos),
       textos: normalizarTextos(r.textos),
-      completos: normalizarCompletos(r.completos)
+      completos: normalizarCompletos(r.completos),
+      teorias: normalizarTeorias(r.teorias)
     };
   }
 
@@ -829,6 +876,34 @@
     'ui.textos.no_encontrado_texto': 'No hay ningún texto con el identificador «{id}».',
     'ui.textos.volver': 'Volver a los textos',
     'ui.textos.ficha': 'Ficha de la entrada',
+    'ui.nav.teorias': 'Otras teorías',
+    'ui.teorias.entradilla': 'El mismo método aplicado a otras teorías del entorno de los antiguos astronautas: qué sostienen, quién las propuso y qué dicen las pruebas.',
+    'ui.teorias.vacio': 'Todavía no hay teorías publicadas.',
+    'ui.teorias.nota_idioma': 'Las fichas de esta sección solo están en castellano por ahora.',
+    'ui.teorias.no_encontrada': 'Teoría no encontrada',
+    'ui.teorias.volver': 'Volver a las teorías',
+    'ui.teorias.estado_refutada': 'Refutada',
+    'ui.teorias.estado_sin_pruebas': 'Sin pruebas',
+    'ui.teorias.estado_debatida': 'En debate',
+    'ui.teorias.n_afirmaciones': 'Afirmaciones: {n}',
+    'ui.teorias.desde': 'Desde {anio}',
+    'ui.teorias.veredicto': 'Veredicto',
+    'ui.teorias.origen': 'Origen de la teoría',
+    'ui.teorias.afirmaciones': 'Afirmación y prueba',
+    'ui.teorias.prueba_clave': 'La prueba clave',
+    'ui.teorias.por_que_atrae': 'Por qué atrae',
+    'ui.teorias.relacion_sumer': 'Relación con Mesopotamia',
+    'ui.teorias.fuentes': 'Fuentes',
+    'ui.teorias.ev_sismologia': 'Sismología',
+    'ui.teorias.ev_gravimetria': 'Gravimetría',
+    'ui.teorias.ev_muestras': 'Muestras de roca',
+    'ui.teorias.ev_laser': 'Telemetría láser',
+    'ui.teorias.ev_textos': 'Textos antiguos',
+    'ui.teorias.ev_otra': 'Otras pruebas',
+    'ui.teorias.km': 'hasta {n} km del centro',
+    'ui.teorias.corte_aria': 'Corte de {nombre}: a la izquierda, lo que afirma la teoría; a la derecha, las capas medidas, a escala.',
+    'ui.teorias.corte_teoria': 'Lo que afirma la teoría',
+    'ui.teorias.corte_datos': 'Lo que miden los datos',
     'ui.completo.leer': 'Leer el texto completo',
     'ui.completo.etiqueta': 'Texto completo',
     'ui.completo.etiqueta_antigua': 'Traducción antigua',
@@ -1129,7 +1204,7 @@
   function parsearHash(hash) {
     var h = str(hash).replace(/^#/, '');
     try { h = decodeURIComponent(h); } catch (e) { /* hash mal formado: se usa tal cual */ }
-    var prefijos = [['e-', 'ficha'], ['t-', 'texto'], ['c-', 'completo'], ['as-', 'asiriologos']];
+    var prefijos = [['e-', 'ficha'], ['t-', 'texto'], ['te-', 'teoria'], ['c-', 'completo'], ['as-', 'asiriologos']];
     for (var i = 0; i < prefijos.length; i++) {
       var p = prefijos[i][0];
       if (h.indexOf(p) === 0 && h.length > p.length) {
@@ -1196,6 +1271,8 @@
     formatearRango: formatearRango,
     parsearHash: parsearHash,
     normalizarCompletos: normalizarCompletos,
+    normalizarTeorias: normalizarTeorias,
+    posicionEscala: posicionEscala,
     contarVersos: contarVersos,
     relacionesValidas: relacionesValidas,
     enfoqueValido: enfoqueValido,
@@ -1243,11 +1320,13 @@
     : codigos;
 
   var DATOS_ORIGINALES = global.__MESO_DATA__;
-  var C, A, ACT, AS, TX, porId, astroPorId, actualPorId, autorPorId, periodoPorId, textoPorId, corrientePorId, completoPorId;
+  var C, A, ACT, AS, TX, TE, porId, astroPorId, actualPorId, autorPorId, periodoPorId, textoPorId, corrientePorId, completoPorId, teoriaPorId;
   function prepararDatos(raw) {
     var D = normalizarDatos(raw);
     C = D.cientifico; A = D.astronautas; ACT = D.actual; AS = D.asiriologos; TX = D.textos;
     completoPorId = indexarPorId(D.completos);
+    TE = D.teorias;
+    teoriaPorId = indexarPorId(TE);
     porId = indexarPorId(C.entradas);
     astroPorId = indexarPorId(A.entradas.filter(function (e) { return porId[e.id]; }));
     actualPorId = indexarPorId(ACT.entradas.filter(function (e) { return porId[e.id]; }));
@@ -1533,7 +1612,7 @@
     return idiomaPreferido(nav.languages && nav.languages.length ? nav.languages : [nav.language], DISPONIBLES);
   }
 
-  var SECCION_DE = { ficha: 'catalogo', texto: 'textos', completo: 'textos', asiriologos: 'autores' };
+  var SECCION_DE = { ficha: 'catalogo', texto: 'textos', completo: 'textos', teoria: 'teorias', asiriologos: 'autores' };
   function marcarNav(v) {
     var actual = SECCION_DE[v] || v;
     Array.prototype.forEach.call(document.querySelectorAll('.nav a[data-vista]'), function (a) {
@@ -2073,6 +2152,165 @@
     ]);
   }
 
+  /* --- Otras teorías (solo castellano) --- */
+  function etqEstado(e) { return t('ui.teorias.estado_' + (['refutada', 'sin_pruebas', 'debatida'].indexOf(e) >= 0 ? e : 'refutada')); }
+
+  /** Corte de un cuerpo esférico: a la izquierda, lo que afirma la teoría (cáscara hueca); a la derecha, las capas medidas. */
+  function corteInterior(x) {
+    var R = 100, cx1 = 120, cx2 = 360, cy = 125;
+    var capas = x.interior.capas.slice().sort(function (a, b) { return b.hasta - a.hasta; });
+    var esc = R / x.interior.radio;
+    var leyenda = [];
+    var circulos = capas.map(function (c, i) {
+      leyenda.push(h('li', null, [h('span', { class: 'capa-marca capa-' + i, 'aria-hidden': 'true' }), c.nombre, h('span', { class: 'capa-km' }, ' · ' + t('ui.teorias.km', { n: c.hasta.toLocaleString('es-ES') }))]));
+      return s('circle', { class: 'capa capa-' + i, cx: cx2, cy: cy, r: Math.max(1.5, c.hasta * esc) });
+    });
+    var svg = s('svg', { class: 'corte', viewBox: '0 0 480 260', role: 'img', 'aria-label': t('ui.teorias.corte_aria', { nombre: x.nombre }) }, [
+      s('circle', { class: 'corte-hueco', cx: cx1, cy: cy, r: R }),
+      s('circle', { class: 'corte-coraza', cx: cx1, cy: cy, r: R - 9 }),
+      s('circle', { class: 'corte-vacio', cx: cx1, cy: cy, r: R - 16 }),
+      s('text', { class: 'corte-interrog', x: cx1, y: cy + 14, 'text-anchor': 'middle' }, '?'),
+      s('text', { class: 'corte-etq', x: cx1, y: 252, 'text-anchor': 'middle' }, t('ui.teorias.corte_teoria')),
+      circulos,
+      s('text', { class: 'corte-etq', x: cx2, y: 252, 'text-anchor': 'middle' }, t('ui.teorias.corte_datos'))
+    ]);
+    return h('figure', { class: 'corte-figura' }, [
+      svg,
+      h('figcaption', null, [h('ol', { class: 'corte-leyenda' }, leyenda)])
+    ]);
+  }
+
+  /** Escala horizontal con los valores de la prueba clave; la «teoría» y lo «medido» se distinguen por forma y color. */
+  function escalaPrueba(p) {
+    var vals = p.valores.map(function (v) { return v.valor; });
+    var min = Math.floor((Math.min.apply(null, vals) - 0.05) * 10) / 10, max = Math.ceil((Math.max.apply(null, vals) + 0.05) * 10) / 10;
+    var marcas = [];
+    // Las marcas del eje que caen casi encima de un valor se omiten para que no se solapen sus etiquetas.
+    for (var m = min; m <= max + 1e-9; m = Math.round((m + 0.1) * 10) / 10) {
+      if (!vals.some(function (v) { return Math.abs(v - m) < (max - min) * 0.04; })) marcas.push(m);
+    }
+    return h('div', { class: 'escala', role: 'img', 'aria-label': p.valores.map(function (v) { return v.etiqueta + ': ' + v.valor.toLocaleString('es-ES'); }).join('; ') }, [
+      h('div', { class: 'escala-pista', 'aria-hidden': 'true' }, [
+        marcas.map(function (m2) { return h('span', { class: 'escala-marca', style: 'left:' + posicionEscala(m2, min, max) + '%' }, m2.toLocaleString('es-ES')); }),
+        p.valores.map(function (v, i) {
+          return h('span', { class: 'escala-punto ep-' + v.tipo + (i % 2 ? ' abajo' : ''), style: 'left:' + posicionEscala(v.valor, min, max) + '%' }, [
+            h('span', { class: 'ep-valor' }, v.valor.toLocaleString('es-ES')),
+            h('span', { class: 'ep-etq' }, v.etiqueta)
+          ]);
+        })
+      ]),
+      h('ul', { class: 'escala-lista' }, p.valores.map(function (v) {
+        return h('li', { class: 'ep-' + v.tipo }, [h('span', { class: 'ep-signo', 'aria-hidden': 'true' }), h('strong', null, v.valor.toLocaleString('es-ES')), ' ', v.etiqueta]);
+      }))
+    ]);
+  }
+
+  function tarjetaTeoria(x) {
+    return h('li', null, h('a', { class: 'teoria-tarjeta', href: '#te-' + x.id }, [
+      h('span', { class: 'sello-estado se-' + x.estado }, etqEstado(x.estado)),
+      h('span', { class: 'tt-titulo' }, x.nombre),
+      x.lema ? h('span', { class: 'tt-version' }, x.lema) : null,
+      h('span', { class: 'tt-pie' }, [
+        h('span', { class: 'tt-num' }, t('ui.teorias.n_afirmaciones', { n: x.afirmaciones.length })),
+        x.hitos.length ? h('span', null, t('ui.teorias.desde', { anio: x.hitos[0].anio })) : null,
+        icono('flecha')
+      ])
+    ]));
+  }
+
+  function vistaTeorias() {
+    return h('div', { class: 'teorias' }, [
+      h('header', { class: 'cab-vista' }, [h('h2', null, t('ui.nav.teorias')), h('p', { class: 'entradilla' }, t('ui.teorias.entradilla'))]),
+      TE.length ? h('ul', { class: 'lista-teorias' }, TE.map(tarjetaTeoria)) : h('p', { class: 'vacio' }, t('ui.teorias.vacio')),
+      h('p', { class: 'nota' }, t('ui.teorias.nota_idioma'))
+    ]);
+  }
+
+  function vistaTeoria(id) {
+    var x = teoriaPorId[id];
+    if (!x) {
+      return h('div', { class: 'teoria' }, [
+        h('h2', { tabindex: '-1', class: 'foco-inicial' }, t('ui.teorias.no_encontrada')),
+        h('p', null, h('a', { href: '#teorias' }, t('ui.teorias.volver')))
+      ]);
+    }
+    var rel = x.relaciones.filter(function (r) { return porId[r.id]; });
+    return h('article', { class: 'teoria', lang: 'es' }, [
+      h('p', { class: 'migas' }, [h('a', { href: '#teorias' }, t('ui.nav.teorias')), h('span', { 'aria-hidden': 'true' }, ' / '), x.nombre]),
+      h('header', { class: 'teoria-cab' }, [
+        h('div', { class: 'teoria-cab-txt' }, [
+          h('span', { class: 'sello-estado se-' + x.estado }, etqEstado(x.estado)),
+          h('h2', { tabindex: '-1', class: 'foco-inicial' }, x.nombre),
+          x.lema ? h('p', { class: 'teoria-lema' }, x.lema) : null,
+          x.resumen ? h('p', { class: 'teoria-resumen' }, x.resumen) : null
+        ]),
+        x.interior ? corteInterior(x) : null
+      ]),
+      x.veredicto ? h('p', { class: 'veredicto-teoria', role: 'note' }, [h('span', { class: 'rot' }, t('ui.teorias.veredicto')), x.veredicto]) : null,
+
+      h('section', { class: 'teoria-bloque teoria-origen' }, [
+        h('h3', null, t('ui.teorias.origen')),
+        h('div', { class: 'origen-rejilla' }, [
+          h('div', { class: 'origen-txt' }, [
+            parrafos(x.origen),
+            x.autores.length ? h('ul', { class: 'teoria-autores' }, x.autores.map(function (a) {
+              return h('li', null, [icono('persona'), h('span', null, [h('strong', null, a.nombre), a.obra ? [' · ', h('cite', null, a.obra)] : null, a.anio !== null ? ' (' + a.anio + ')' : null])]);
+            })) : null
+          ]),
+          x.hitos.length ? h('ol', { class: 'hitos-teoria' }, x.hitos.map(function (hh) {
+            return h('li', null, [h('span', { class: 'ht-anio' }, String(hh.anio)), h('span', { class: 'ht-txt' }, hh.texto)]);
+          })) : null
+        ])
+      ]),
+
+      x.afirmaciones.length ? h('section', { class: 'teoria-bloque' }, [
+        h('h3', null, t('ui.teorias.afirmaciones')),
+        h('ol', { class: 'duelos' }, x.afirmaciones.map(function (a, i) {
+          return h('li', { class: 'duelo' }, [
+            h('div', { class: 'duelo-afirma' }, [
+              h('span', { class: 'duelo-n', 'aria-hidden': 'true' }, String(i + 1)),
+              h('span', { class: 'rot' }, t('ui.ficha.afirmacion')),
+              h('p', null, a.afirmacion),
+              a.autor ? h('p', { class: 'duelo-autor' }, a.autor) : null
+            ]),
+            h('div', { class: 'duelo-prueba' }, [
+              h('span', { class: 'chip-evidencia ev-' + a.evidencia }, t('ui.teorias.ev_' + a.evidencia)),
+              h('p', null, a.replica),
+              a.fuente ? h('p', { class: 'fuente' }, a.fuente) : null
+            ])
+          ]);
+        }))
+      ]) : null,
+
+      x.prueba ? h('section', { class: 'teoria-bloque prueba-clave' }, [
+        h('h3', null, t('ui.teorias.prueba_clave')),
+        h('p', { class: 'prueba-titulo' }, x.prueba.titulo),
+        x.prueba.valores.length ? escalaPrueba(x.prueba) : null,
+        parrafos(x.prueba.texto),
+        x.prueba.fuente ? h('p', { class: 'fuente' }, [h('span', { class: 'rot' }, t('ui.textos.fuente')), x.prueba.fuente]) : null
+      ]) : null,
+
+      h('div', { class: 'teoria-dos' }, [
+        x.por_que_atrae ? h('section', { class: 'teoria-bloque' }, [h('h3', null, t('ui.teorias.por_que_atrae')), parrafos(x.por_que_atrae)]) : null,
+        (x.relacion_sumer || rel.length || x.enlaces_texto.length) ? h('section', { class: 'teoria-bloque teoria-sumer' }, [
+          h('h3', null, t('ui.teorias.relacion_sumer')),
+          parrafos(x.relacion_sumer),
+          rel.length || x.enlaces_texto.length ? h('ul', { class: 'chips' }, rel.map(function (r) {
+            return h('li', null, h('a', { class: 'chip', href: '#e-' + r.id }, [porId[r.id].nombre, r.tipo ? h('span', { class: 'chip-tipo' }, ' · ' + r.tipo) : null]));
+          }).concat(x.enlaces_texto.map(function (e) { return h('li', null, h('a', { class: 'chip chip-texto', href: e.href }, [icono('libro'), e.texto])); }))) : null
+        ]) : null
+      ]),
+
+      x.fuentes.length ? h('section', { class: 'teoria-bloque' }, [
+        h('h3', null, t('ui.teorias.fuentes')),
+        h('ul', { class: 'biblio' }, x.fuentes.map(function (f) {
+          return referencia({ titulo: f.titulo + (f.obra ? ', ' + f.obra : ''), autor: f.autor, anio: f.anio, url: f.url });
+        }))
+      ]) : null,
+      estado.idioma !== IDIOMA_ORIGINAL ? h('p', { class: 'aviso-solo-es', lang: estado.idioma }, t('ui.teorias.nota_idioma')) : null
+    ]);
+  }
+
   /* --- Regla temporal (hallazgos, hitos de la disciplina) --- */
   function regla(items, ini, fin, paso, aria) {
     var marcas = reglaTemporal(items, ini, fin, 6);
@@ -2458,6 +2696,8 @@
     } else if (r.vista === 'ficha') contenido = vistaFicha(r.id);
     else if (r.vista === 'texto') contenido = vistaTexto(r.id);
     else if (r.vista === 'completo') contenido = vistaCompleto(r.id);
+    else if (r.vista === 'teoria') contenido = vistaTeoria(r.id);
+    else if (r.vista === 'teorias') contenido = vistaTeorias();
     else if (r.vista === 'textos') contenido = vistaTextos();
     else if (r.vista === 'cronologia') contenido = vistaCronologia();
     else if (r.vista === 'mapa') contenido = vistaMapa();
@@ -2471,6 +2711,7 @@
     var nombre;
     if (r.vista === 'ficha') nombre = porId[r.id] ? porId[r.id].nombre : t('ui.ficha.titulo');
     else if (r.vista === 'texto') nombre = textoPorId[r.id] ? textoPorId[r.id].titulo : t('ui.nav.textos');
+    else if (r.vista === 'teoria') nombre = teoriaPorId[r.id] ? teoriaPorId[r.id].nombre : t('ui.nav.teorias');
     else if (r.vista === 'completo') nombre = completoPorId[r.id] ? completoPorId[r.id].titulo + ' (' + etqCompleto(completoPorId[r.id]) + ')' : t('ui.nav.textos');
     else nombre = t('ui.nav.' + r.vista);
     document.title = nombre + ' · ' + t('ui.sitio.titulo');

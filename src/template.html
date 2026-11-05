@@ -39,6 +39,11 @@
   --astro-solido: #4a5966;
   --sombra: rgba(20, 30, 70, 0.08);
   --sombra-fuerte: rgba(20, 30, 70, 0.16);
+  --capa-0: #b9b2a5;
+  --capa-1: #8d8578;
+  --capa-2: #b5683f;
+  --capa-3: #d99a3d;
+  --capa-4: #f0cf6a;
   --transparente: rgba(0, 0, 0, 0);
   color-scheme: light;
 
@@ -87,6 +92,11 @@
     --astro-solido: #3c4a53;
     --sombra: rgba(0, 0, 0, 0.35);
     --sombra-fuerte: rgba(0, 0, 0, 0.55);
+    --capa-0: #6f6a62;
+    --capa-1: #4f4a44;
+    --capa-2: #a35a35;
+    --capa-3: #d08f34;
+    --capa-4: #f2d06d;
     color-scheme: dark;
   }
 }
@@ -125,6 +135,11 @@
   --astro-solido: #3c4a53;
   --sombra: rgba(0, 0, 0, 0.35);
   --sombra-fuerte: rgba(0, 0, 0, 0.55);
+  --capa-0: #6f6a62;
+  --capa-1: #4f4a44;
+  --capa-2: #a35a35;
+  --capa-3: #d08f34;
+  --capa-4: #f2d06d;
   color-scheme: dark;
 }
 
@@ -652,6 +667,97 @@ blockquote.pasaje-texto { padding-left: 22px; border-left: 2px solid var(--lapis
 .tipo-parafrasis .pasaje-texto { padding-left: 22px; border-left: 2px dashed var(--linea-fuerte); color: var(--tinta-suave); }
 .pasaje-fuente { font-size: 0.85rem; color: var(--tinta-suave); max-width: 72ch; margin: 4px 0 20px; }
 .pasaje-fuente .rot { display: inline; margin-right: 8px; }
+/* Otras teorías: tarjetas, cabecera con corte, duelos afirmación/prueba, escala de la prueba clave */
+.lista-teorias { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr)); gap: 14px; }
+.teoria-tarjeta { display: flex; flex-direction: column; gap: 8px; height: 100%; padding: 20px 22px 18px; color: var(--tinta); text-decoration: none; background: var(--astro-superficie); border: 1px solid var(--astro-linea); border-radius: var(--radio); border-top: 4px solid var(--astro-acento); transition: border-color var(--rapido), box-shadow var(--rapido), transform var(--rapido); }
+.teoria-tarjeta:hover { border-color: var(--astro-acento); box-shadow: 0 6px 20px var(--sombra); transform: translateY(-2px); }
+.teoria-tarjeta .tt-titulo { color: var(--astro-tinta); }
+.teoria-tarjeta .tt-pie .icono { margin-left: auto; width: 18px; height: 18px; }
+.sello-estado { align-self: flex-start; display: inline-flex; align-items: center; gap: 6px; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.09em; text-transform: uppercase; padding: 3px 10px; border-radius: 999px; border: 1px solid var(--cornalina); color: var(--cornalina); }
+.sello-estado::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: currentColor; }
+.se-debatida { border-color: var(--oro); color: var(--oro); }
+.teoria { min-width: 0; }
+.teoria-cab { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); gap: 24px 40px; align-items: center; padding-bottom: 26px; margin-bottom: 22px; border-bottom: 1px solid var(--linea); }
+.teoria-cab h2 { font-family: var(--f-lectura); font-weight: 500; font-size: clamp(2.4rem, 1.6rem + 3.4vw, 4rem); letter-spacing: -0.02em; line-height: 1.05; margin: 12px 0 10px; }
+.teoria-lema { font-family: var(--f-lectura); font-size: 1.25rem; font-style: italic; color: var(--tinta-suave); margin: 0 0 14px; max-width: 46ch; }
+.teoria-resumen { max-width: 62ch; margin: 0; }
+.corte-figura { margin: 0; min-width: 0; }
+.corte { display: block; width: 100%; height: auto; max-width: 480px; margin: 0 auto; }
+.corte-hueco { fill: var(--astro-superficie); stroke: var(--astro-acento); stroke-width: 1.5; stroke-dasharray: 5 4; }
+.corte-coraza { fill: var(--astro-linea); }
+.corte-vacio { fill: var(--fondo); }
+.corte-interrog { font-family: var(--f-lectura); font-size: 44px; fill: var(--astro-acento); }
+.corte-etq { font-family: var(--f-texto); font-size: 12px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; fill: var(--tinta-suave); }
+.capa { stroke: var(--fondo); stroke-width: 1; }
+.capa-0, .capa-marca.capa-0 { fill: var(--capa-0); background: var(--capa-0); }
+.capa-1, .capa-marca.capa-1 { fill: var(--capa-1); background: var(--capa-1); }
+.capa-2, .capa-marca.capa-2 { fill: var(--capa-2); background: var(--capa-2); }
+.capa-3, .capa-marca.capa-3 { fill: var(--capa-3); background: var(--capa-3); }
+.capa-4, .capa-marca.capa-4 { fill: var(--capa-4); background: var(--capa-4); }
+.corte-leyenda { list-style: none; margin: 10px auto 0; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 4px 14px; font-size: 0.8rem; color: var(--tinta-suave); max-width: 480px; }
+.corte-leyenda li { display: inline-flex; align-items: center; gap: 6px; }
+.capa-marca { width: 11px; height: 11px; border-radius: 50%; flex: none; }
+.capa-km { color: var(--tinta-tenue); }
+.veredicto-teoria { max-width: 76ch; margin: 0 0 30px; padding: 14px 18px; font-size: 1.05rem; background: var(--superficie); border: 1px solid var(--linea); border-left: 5px solid var(--cornalina); border-radius: var(--radio); }
+.veredicto-teoria .rot { display: block; color: var(--cornalina); margin-bottom: 4px; }
+.teoria-bloque { margin-bottom: 36px; min-width: 0; }
+.teoria-bloque > h3 { font-family: var(--f-titulo); font-size: 1.35rem; font-weight: 650; letter-spacing: -0.01em; text-transform: none; color: var(--tinta); margin-bottom: 14px; }
+.origen-rejilla { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 24px 40px; align-items: start; }
+.origen-txt p { max-width: 62ch; }
+.teoria-autores { list-style: none; margin: 14px 0 0; padding: 0; display: grid; gap: 8px; font-size: 0.92rem; }
+.teoria-autores li { display: flex; gap: 10px; align-items: flex-start; padding: 8px 12px; background: var(--superficie); border: 1px solid var(--linea); border-radius: var(--radio); }
+.teoria-autores .icono { width: 18px; height: 18px; flex: none; margin-top: 2px; color: var(--astro-acento); }
+.hitos-teoria { list-style: none; margin: 0; padding: 0 0 0 18px; border-left: 2px solid var(--linea-fuerte); display: grid; gap: 14px; }
+.hitos-teoria li { position: relative; display: grid; grid-template-columns: 3.4em minmax(0, 1fr); gap: 10px; font-size: 0.93rem; }
+.hitos-teoria li::before { content: ""; position: absolute; left: -25px; top: 0.45em; width: 10px; height: 10px; border-radius: 50%; background: var(--fondo); border: 2px solid var(--astro-acento); }
+.ht-anio { font-family: var(--f-mono); font-weight: 600; color: var(--astro-acento); }
+.duelos { list-style: none; margin: 0; padding: 0; display: grid; gap: 16px; }
+.duelo { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.25fr); border: 1px solid var(--linea); border-radius: var(--radio); overflow: hidden; }
+.duelo-afirma { position: relative; padding: 18px 20px 18px 56px; font-family: var(--f-mono); font-size: 0.92rem; color: var(--astro-tinta); background: repeating-linear-gradient(-45deg, var(--astro-fondo) 0 10px, var(--astro-superficie) 10px 20px); }
+.duelo-afirma p { margin: 4px 0 0; }
+.duelo-afirma .rot, .duelo-prueba .rot { color: var(--astro-acento); }
+.duelo-n { position: absolute; left: 16px; top: 16px; width: 28px; height: 28px; display: grid; place-items: center; border-radius: 50%; font-family: var(--f-texto); font-weight: 700; font-size: 0.85rem; color: var(--astro-superficie); background: var(--astro-acento); }
+.duelo-autor { margin-top: 10px !important; font-size: 0.8rem; color: var(--astro-acento); }
+.duelo-prueba { padding: 18px 20px; background: var(--superficie); border-left: 4px solid var(--lapis); }
+.duelo-prueba p { margin: 8px 0 0; }
+.duelo-prueba .fuente { font-size: 0.82rem; color: var(--tinta-suave); font-style: italic; }
+.chip-evidencia { display: inline-block; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; padding: 2px 10px; border-radius: 999px; background: var(--lapis-tenue); color: var(--lapis); }
+.prueba-clave { padding: 22px 24px; background: var(--superficie); border: 1px solid var(--linea); border-radius: var(--radio); }
+.prueba-titulo { font-family: var(--f-lectura); font-size: 1.3rem; margin: 0 0 6px; }
+.prueba-clave > p { max-width: 70ch; }
+.escala { margin: 18px 0 22px; }
+.escala-pista { position: relative; height: 150px; margin: 0 12px; }
+.escala-pista::before { content: ""; position: absolute; left: 0; right: 0; top: 75px; height: 3px; border-radius: 2px; background: linear-gradient(90deg, var(--linea-fuerte), var(--linea)); }
+.escala-marca { position: absolute; top: 84px; transform: translateX(-50%); font-family: var(--f-mono); font-size: 0.7rem; color: var(--tinta-tenue); }
+.escala-marca::before { content: ""; position: absolute; left: 50%; top: -11px; width: 1px; height: 8px; background: var(--linea-fuerte); }
+.escala-punto { position: absolute; top: 0; transform: translateX(-50%); width: 0; height: 76px; }
+.escala-punto::after { content: ""; position: absolute; left: -9px; bottom: -9px; width: 18px; height: 18px; border-radius: 50%; background: var(--superficie); border: 3px solid var(--linea-fuerte); }
+.escala-punto::before { content: ""; position: absolute; left: -1px; top: 34px; width: 2px; bottom: 6px; background: var(--linea-fuerte); }
+.escala-punto.abajo { top: 75px; height: 75px; }
+.escala-punto.abajo::after { bottom: auto; top: -9px; }
+.escala-punto.abajo::before { top: 6px; bottom: 34px; }
+.ep-valor, .ep-etq { position: absolute; left: 50%; transform: translateX(-50%); white-space: nowrap; text-align: center; }
+.ep-valor { top: 0; font-family: var(--f-mono); font-weight: 700; font-size: 0.95rem; }
+.ep-etq { top: 18px; font-size: 0.72rem; color: var(--tinta-suave); }
+.escala-punto.abajo .ep-valor { top: auto; bottom: 18px; }
+.escala-punto.abajo .ep-etq { top: auto; bottom: 0; }
+.ep-teoria::after { border-color: var(--astro-acento); border-style: dashed; }
+.ep-teoria .ep-valor { color: var(--astro-acento); }
+.ep-medido::after { background: var(--lapis); border-color: var(--lapis); box-shadow: 0 0 0 5px var(--lapis-tenue); }
+.ep-medido .ep-valor { color: var(--lapis); }
+.escala-lista { display: none; list-style: none; margin: 0; padding: 0; gap: 8px; font-size: 0.92rem; }
+.escala-lista li { display: flex; align-items: center; gap: 8px; }
+.ep-signo { width: 14px; height: 14px; border-radius: 50%; border: 3px solid var(--linea-fuerte); flex: none; }
+.escala-lista .ep-teoria .ep-signo { border-color: var(--astro-acento); border-style: dashed; }
+.escala-lista .ep-medido .ep-signo { background: var(--lapis); border-color: var(--lapis); }
+.escala-lista .ep-medido strong { color: var(--lapis); }
+.teoria-dos { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 0 40px; }
+.teoria-sumer { padding: 18px 20px; background: var(--oro-tenue); border: 1px solid var(--oro-linea); border-radius: var(--radio); align-self: start; }
+.teoria-sumer > h3 { color: var(--oro); }
+.teoria-sumer .chips { list-style: none; margin: 12px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.chip-texto { display: inline-flex; align-items: center; gap: 6px; }
+.chip-texto .icono { width: 16px; height: 16px; }
+.chip-tipo { color: var(--tinta-suave); font-weight: 400; }
 /* Texto completo: versos numerados, lagunas y notas por tablilla */
 .texto-acciones { display: flex; flex-wrap: wrap; gap: 10px; }
 .tt-completo { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.04em; padding: 2px 9px; border-radius: 999px; background: var(--oro-tenue); border: 1px solid var(--oro-linea); color: var(--oro); white-space: nowrap; }
@@ -956,6 +1062,11 @@ blockquote.pasaje-texto { padding-left: 22px; border-left: 2px solid var(--lapis
   .versos { font-size: 1.06rem; }
   .verso { grid-template-columns: 2.4em minmax(0, 1fr); }
   .laguna, .acotacion, .epilogo, .columna-tablilla, .subtitulo-escena { margin-left: 0; }
+  .teoria-cab, .origen-rejilla, .teoria-dos, .duelo { grid-template-columns: minmax(0, 1fr); }
+  .duelo-prueba { border-left: 0; border-top: 4px solid var(--lapis); }
+  .prueba-clave { padding: 18px 16px; }
+  .escala-pista { display: none; }
+  .escala-lista { display: grid; }
   .boton-buscar .boton-etq { display: none; }
 }
 @media (max-width: 400px) {
@@ -979,6 +1090,7 @@ blockquote.pasaje-texto { padding-left: 22px; border-left: 2px solid var(--lapis
             <li><a href="#mapa" data-vista="mapa" data-i18n="ui.nav.mapa">Mapa</a></li>
             <li><a href="#actual" data-vista="actual" data-i18n="ui.nav.actual">Lecturas actuales</a></li>
             <li><a href="#asiriologos" data-vista="autores" data-i18n="ui.nav.autores">Autores</a></li>
+            <li><a href="#teorias" data-vista="teorias" data-i18n="ui.nav.teorias">Otras teorías</a></li>
             <li><a href="#glosario" data-vista="glosario" data-i18n="ui.nav.glosario">Glosario</a></li>
           </ul>
         </nav>

@@ -27,11 +27,11 @@ export function leerJSON(ruta) {
  * la página se construye sin ellos (la sección de textos muestra un aviso).
  */
 export const ARCHIVOS = {
-  real: { cientifico: 'data/cientifico.json', astronautas: 'data/astronautas.json', actual: 'data/actual.json', asiriologos: 'data/asiriologos.json', textos: 'data/textos.json', completos: 'data/completos.json' },
-  muestra: { cientifico: 'data/muestra-cientifico.json', astronautas: 'data/muestra-astronautas.json', actual: 'data/actual.json', asiriologos: 'data/asiriologos.json', textos: 'data/muestra-textos.json', completos: 'data/completos.json' }
+  real: { cientifico: 'data/cientifico.json', astronautas: 'data/astronautas.json', actual: 'data/actual.json', asiriologos: 'data/asiriologos.json', textos: 'data/textos.json', completos: 'data/completos.json', teorias: 'data/teorias.json' },
+  muestra: { cientifico: 'data/muestra-cientifico.json', astronautas: 'data/muestra-astronautas.json', actual: 'data/actual.json', asiriologos: 'data/asiriologos.json', textos: 'data/muestra-textos.json', completos: 'data/completos.json', teorias: 'data/teorias.json' }
 };
-/** Los textos completos (data/completos.json) solo están en castellano: no generan claves de traducción. */
-export const OPCIONALES = ['textos', 'completos'];
+/** Los textos completos y las otras teorías solo están en castellano: no generan claves de traducción. */
+export const OPCIONALES = ['textos', 'completos', 'teorias'];
 
 /** Datos en bruto, tal como se insertan en la página (los opcionales ausentes valen null). */
 export function leerDatos(conjunto = 'real') {

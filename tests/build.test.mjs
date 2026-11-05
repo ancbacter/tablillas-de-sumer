@@ -62,7 +62,7 @@ for (const [nombre, b] of [['muestra', muestra], ['reales', real]]) {
       vm.runInNewContext(datos, ctx);
       const archivos = ARCHIVOS[nombre === 'muestra' ? 'muestra' : 'real'];
       const esperado = Object.fromEntries(Object.entries(archivos).map(([k, f]) => [k, existsSync(join(raiz, f)) ? JSON.parse(readFileSync(join(raiz, f), 'utf8')) : null]));
-      assert.deepEqual(Object.keys(esperado), ['cientifico', 'astronautas', 'actual', 'asiriologos', 'textos', 'completos']);
+      assert.deepEqual(Object.keys(esperado), ['cientifico', 'astronautas', 'actual', 'asiriologos', 'textos', 'completos', 'teorias']);
       assert.deepEqual(JSON.parse(JSON.stringify(ctx.window.__MESO_DATA__)), esperado);
       // Idiomas publicados: el castellano siempre, delante.
       assert.ok(Array.isArray(ctx.window.__MESO_IDIOMAS__));

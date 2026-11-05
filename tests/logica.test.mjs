@@ -454,6 +454,38 @@ describe('textos completos', () => {
   });
 });
 
+describe('otras teorías', () => {
+  test('#te-<id> abre una teoría y #teorias la lista', () => {
+    assert.deepEqual(L.parsearHash('#te-luna-hueca'), { vista: 'teoria', id: 'luna-hueca' });
+    assert.deepEqual(L.parsearHash('#teorias'), { vista: 'teorias' });
+    assert.deepEqual(L.parsearHash('#t-enuma-elish'), { vista: 'texto', id: 'enuma-elish' });
+  });
+  test('normaliza data/teorias.json', () => {
+    const [x] = L.normalizarTeorias(leer('teorias.json'));
+    assert.equal(x.id, 'luna-hueca');
+    assert.equal(x.afirmaciones.length, 4);
+    assert.ok(x.afirmaciones.every((a) => ['sismologia', 'gravimetria', 'muestras', 'laser'].includes(a.evidencia)));
+    assert.ok(x.hitos.every((h, i) => i === 0 || h.anio >= x.hitos[i - 1].anio));
+    assert.equal(x.interior.capas.length, 5);
+    assert.ok(x.prueba.valores.some((v) => v.tipo === 'medido'));
+  });
+  test('descarta lo mal formado', () => {
+    assert.deepEqual(L.normalizarTeorias(null), []);
+    const [x] = L.normalizarTeorias({ teorias: [{ id: 'X Y', afirmaciones: [{ afirmacion: 'a' }, { afirmacion: 'b', replica: 'c', evidencia: 'magia' }], interior: { radio: -1 }, enlaces_texto: [{ href: 'javascript:x', texto: 'mal' }], fuentes: [{ titulo: 't', url: 'javascript:alert(1)' }] }] });
+    assert.equal(x.id, 'x-y');
+    assert.equal(x.afirmaciones.length, 1);
+    assert.equal(x.afirmaciones[0].evidencia, 'otra');
+    assert.equal(x.interior, null);
+    assert.deepEqual(x.enlaces_texto, []);
+    assert.equal(x.fuentes[0].url, '');
+  });
+  test('posicionEscala acota entre 0 y 100', () => {
+    assert.equal(L.posicionEscala(0.5, 0, 1), 50);
+    assert.equal(L.posicionEscala(2, 0, 1), 100);
+    assert.equal(L.posicionEscala(1, 1, 1), 0);
+  });
+});
+
 describe('parsearHash', () => {
   test('vistas válidas', () => {
     for (const v of L.VISTAS) assert.deepEqual(L.parsearHash('#' + v), { vista: v });
