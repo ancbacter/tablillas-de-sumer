@@ -676,6 +676,11 @@ blockquote.pasaje-texto { padding-left: 22px; border-left: 2px solid var(--lapis
 .sello-estado { align-self: flex-start; display: inline-flex; align-items: center; gap: 6px; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.09em; text-transform: uppercase; padding: 3px 10px; border-radius: 999px; border: 1px solid var(--cornalina); color: var(--cornalina); }
 .sello-estado::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: currentColor; }
 .se-debatida { border-color: var(--oro); color: var(--oro); }
+.se-sin_pruebas { border-color: var(--astro-acento); color: var(--astro-acento); }
+.teoria-cab.sin-corte { grid-template-columns: minmax(0, 1fr); }
+.teoria-cab.sin-corte .teoria-resumen { max-width: 72ch; }
+.escala-punto.al-inicio .ep-valor, .escala-punto.al-inicio .ep-etq { left: -8px; transform: none; text-align: left; }
+.escala-punto.al-final .ep-valor, .escala-punto.al-final .ep-etq { left: auto; right: -8px; transform: none; text-align: right; }
 .teoria { min-width: 0; }
 .teoria-cab { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); gap: 24px 40px; align-items: center; padding-bottom: 26px; margin-bottom: 22px; border-bottom: 1px solid var(--linea); }
 .teoria-cab h2 { font-family: var(--f-lectura); font-weight: 500; font-size: clamp(2.4rem, 1.6rem + 3.4vw, 4rem); letter-spacing: -0.02em; line-height: 1.05; margin: 12px 0 10px; }
@@ -708,7 +713,7 @@ blockquote.pasaje-texto { padding-left: 22px; border-left: 2px solid var(--lapis
 .teoria-autores li { display: flex; gap: 10px; align-items: flex-start; padding: 8px 12px; background: var(--superficie); border: 1px solid var(--linea); border-radius: var(--radio); }
 .teoria-autores .icono { width: 18px; height: 18px; flex: none; margin-top: 2px; color: var(--astro-acento); }
 .hitos-teoria { list-style: none; margin: 0; padding: 0 0 0 18px; border-left: 2px solid var(--linea-fuerte); display: grid; gap: 14px; }
-.hitos-teoria li { position: relative; display: grid; grid-template-columns: 3.4em minmax(0, 1fr); gap: 10px; font-size: 0.93rem; }
+.hitos-teoria li { position: relative; display: grid; grid-template-columns: 5.6em minmax(0, 1fr); gap: 10px; font-size: 0.93rem; }
 .hitos-teoria li::before { content: ""; position: absolute; left: -25px; top: 0.45em; width: 10px; height: 10px; border-radius: 50%; background: var(--fondo); border: 2px solid var(--astro-acento); }
 .ht-anio { font-family: var(--f-mono); font-weight: 600; color: var(--astro-acento); }
 .duelos { list-style: none; margin: 0; padding: 0; display: grid; gap: 16px; }

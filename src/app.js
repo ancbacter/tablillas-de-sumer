@@ -189,7 +189,15 @@
     }).filter(Boolean);
   }
 
-  var EVIDENCIAS = ['sismologia', 'gravimetria', 'muestras', 'laser', 'textos', 'otra'];
+  var EVIDENCIAS = ['sismologia', 'gravimetria', 'muestras', 'laser', 'geologia', 'radiocarbono', 'imagenes', 'historia', 'textos', 'otra'];
+  var ESTADOS_TEORIA = ['refutada', 'sin_pruebas', 'debatida'];
+
+  /** Paso «redondo» (1, 2 o 5 × 10^k) para unas 4–8 marcas en un rango. */
+  function pasoEscala(rango) {
+    if (!(rango > 0)) return 1;
+    var bruto = rango / 6, pot = Math.pow(10, Math.floor(Math.log(bruto) / Math.LN10)), f = bruto / pot;
+    return (f < 1.5 ? 1 : f < 3.5 ? 2 : f < 7.5 ? 5 : 10) * pot;
+  }
 
   /**
    * Otras teorías (solo castellano): fichas con origen, hitos, autores, afirmaciones con su prueba,
@@ -200,7 +208,8 @@
       var p = obj(x.prueba), int = obj(x.interior);
       var radio = num(int.radio);
       return {
-        id: id, nombre: str(x.nombre) || id, lema: str(x.lema), ambito: normalizar(x.ambito), estado: normalizar(x.estado) || 'refutada',
+        id: id, nombre: str(x.nombre) || id, lema: str(x.lema), ambito: normalizar(x.ambito),
+        estado: ESTADOS_TEORIA.indexOf(normalizar(x.estado)) >= 0 ? normalizar(x.estado) : 'refutada',
         resumen: str(x.resumen), origen: str(x.origen), por_que_atrae: str(x.por_que_atrae), relacion_sumer: str(x.relacion_sumer), veredicto: str(x.veredicto),
         hitos: arr(x.hitos).filter(function (hh) { return hh && num(hh.anio) !== null && str(hh.texto).trim(); })
           .map(function (hh) { return { anio: num(hh.anio), texto: str(hh.texto) }; }).sort(function (a, b) { return a.anio - b.anio; }),
@@ -211,7 +220,7 @@
           return { afirmacion: str(a.afirmacion), autor: str(a.autor), replica: str(a.replica), fuente: str(a.fuente), evidencia: EVIDENCIAS.indexOf(ev) >= 0 ? ev : 'otra' };
         }),
         prueba: str(p.titulo) ? {
-          titulo: str(p.titulo), texto: str(p.texto), fuente: str(p.fuente),
+          titulo: str(p.titulo), texto: str(p.texto), fuente: str(p.fuente), formato: str(p.formato) === 'anio' ? 'anio' : 'numero',
           valores: arr(p.valores).filter(function (v) { return v && num(v.valor) !== null; })
             .map(function (v) { return { etiqueta: str(v.etiqueta), valor: num(v.valor), tipo: ['teoria', 'medido'].indexOf(str(v.tipo)) >= 0 ? str(v.tipo) : 'referencia' }; })
         } : null,
@@ -898,6 +907,10 @@
     'ui.teorias.ev_gravimetria': 'Gravimetría',
     'ui.teorias.ev_muestras': 'Muestras de roca',
     'ui.teorias.ev_laser': 'Telemetría láser',
+    'ui.teorias.ev_geologia': 'Geología',
+    'ui.teorias.ev_radiocarbono': 'Radiocarbono',
+    'ui.teorias.ev_imagenes': 'Imágenes',
+    'ui.teorias.ev_historia': 'Historia',
     'ui.teorias.ev_textos': 'Textos antiguos',
     'ui.teorias.ev_otra': 'Otras pruebas',
     'ui.teorias.km': 'hasta {n} km del centro',
@@ -1273,6 +1286,7 @@
     normalizarCompletos: normalizarCompletos,
     normalizarTeorias: normalizarTeorias,
     posicionEscala: posicionEscala,
+    pasoEscala: pasoEscala,
     contarVersos: contarVersos,
     relacionesValidas: relacionesValidas,
     enfoqueValido: enfoqueValido,
@@ -2153,7 +2167,7 @@
   }
 
   /* --- Otras teorías (solo castellano) --- */
-  function etqEstado(e) { return t('ui.teorias.estado_' + (['refutada', 'sin_pruebas', 'debatida'].indexOf(e) >= 0 ? e : 'refutada')); }
+  function etqEstado(e) { return t('ui.teorias.estado_' + (ESTADOS_TEORIA.indexOf(e) >= 0 ? e : 'refutada')); }
 
   /** Corte de un cuerpo esférico: a la izquierda, lo que afirma la teoría (cáscara hueca); a la derecha, las capas medidas. */
   function corteInterior(x) {
@@ -2183,24 +2197,31 @@
   /** Escala horizontal con los valores de la prueba clave; la «teoría» y lo «medido» se distinguen por forma y color. */
   function escalaPrueba(p) {
     var vals = p.valores.map(function (v) { return v.valor; });
-    var min = Math.floor((Math.min.apply(null, vals) - 0.05) * 10) / 10, max = Math.ceil((Math.max.apply(null, vals) + 0.05) * 10) / 10;
+    var lo = Math.min.apply(null, vals), hi = Math.max.apply(null, vals);
+    var paso = pasoEscala((hi - lo) * 1.2 || Math.abs(hi) || 1);
+    var min = Math.floor((lo - paso * 0.5) / paso) * paso, max = Math.ceil((hi + paso * 0.5) / paso) * paso;
+    var fmt = p.formato === 'anio'
+      ? function (v) { return formatearAnio(Math.round(v), false, traduccion); }
+      : function (v) { return (Math.round(v * 1e6) / 1e6).toLocaleString('es-ES'); };
     var marcas = [];
     // Las marcas del eje que caen casi encima de un valor se omiten para que no se solapen sus etiquetas.
-    for (var m = min; m <= max + 1e-9; m = Math.round((m + 0.1) * 10) / 10) {
-      if (!vals.some(function (v) { return Math.abs(v - m) < (max - min) * 0.04; })) marcas.push(m);
+    for (var m = min; m <= max + paso * 1e-6; m += paso) {
+      var mm = Math.round(m / paso) * paso;
+      if (!vals.some(function (v) { return Math.abs(v - mm) < (max - min) * 0.04; })) marcas.push(mm);
     }
-    return h('div', { class: 'escala', role: 'img', 'aria-label': p.valores.map(function (v) { return v.etiqueta + ': ' + v.valor.toLocaleString('es-ES'); }).join('; ') }, [
+    return h('div', { class: 'escala' + (p.formato === 'anio' ? ' escala-anios' : ''), role: 'img', 'aria-label': p.valores.map(function (v) { return v.etiqueta + ': ' + fmt(v.valor); }).join('; ') }, [
       h('div', { class: 'escala-pista', 'aria-hidden': 'true' }, [
-        marcas.map(function (m2) { return h('span', { class: 'escala-marca', style: 'left:' + posicionEscala(m2, min, max) + '%' }, m2.toLocaleString('es-ES')); }),
+        marcas.map(function (m2) { return h('span', { class: 'escala-marca', style: 'left:' + posicionEscala(m2, min, max) + '%' }, fmt(m2)); }),
         p.valores.map(function (v, i) {
-          return h('span', { class: 'escala-punto ep-' + v.tipo + (i % 2 ? ' abajo' : ''), style: 'left:' + posicionEscala(v.valor, min, max) + '%' }, [
-            h('span', { class: 'ep-valor' }, v.valor.toLocaleString('es-ES')),
+          var pos = posicionEscala(v.valor, min, max);
+          return h('span', { class: 'escala-punto ep-' + v.tipo + (i % 2 ? ' abajo' : '') + (pos < 15 ? ' al-inicio' : pos > 85 ? ' al-final' : ''), style: 'left:' + pos + '%' }, [
+            h('span', { class: 'ep-valor' }, fmt(v.valor)),
             h('span', { class: 'ep-etq' }, v.etiqueta)
           ]);
         })
       ]),
       h('ul', { class: 'escala-lista' }, p.valores.map(function (v) {
-        return h('li', { class: 'ep-' + v.tipo }, [h('span', { class: 'ep-signo', 'aria-hidden': 'true' }), h('strong', null, v.valor.toLocaleString('es-ES')), ' ', v.etiqueta]);
+        return h('li', { class: 'ep-' + v.tipo }, [h('span', { class: 'ep-signo', 'aria-hidden': 'true' }), h('strong', null, fmt(v.valor)), ' ', v.etiqueta]);
       }))
     ]);
   }
@@ -2237,7 +2258,7 @@
     var rel = x.relaciones.filter(function (r) { return porId[r.id]; });
     return h('article', { class: 'teoria', lang: 'es' }, [
       h('p', { class: 'migas' }, [h('a', { href: '#teorias' }, t('ui.nav.teorias')), h('span', { 'aria-hidden': 'true' }, ' / '), x.nombre]),
-      h('header', { class: 'teoria-cab' }, [
+      h('header', { class: 'teoria-cab' + (x.interior ? '' : ' sin-corte') }, [
         h('div', { class: 'teoria-cab-txt' }, [
           h('span', { class: 'sello-estado se-' + x.estado }, etqEstado(x.estado)),
           h('h2', { tabindex: '-1', class: 'foco-inicial' }, x.nombre),
@@ -2258,7 +2279,7 @@
             })) : null
           ]),
           x.hitos.length ? h('ol', { class: 'hitos-teoria' }, x.hitos.map(function (hh) {
-            return h('li', null, [h('span', { class: 'ht-anio' }, String(hh.anio)), h('span', { class: 'ht-txt' }, hh.texto)]);
+            return h('li', null, [h('span', { class: 'ht-anio' }, formatearAnio(hh.anio, false, traduccion)), h('span', { class: 'ht-txt' }, hh.texto)]);
           })) : null
         ])
       ]),

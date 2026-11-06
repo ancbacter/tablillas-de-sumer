@@ -461,7 +461,7 @@ describe('otras teorías', () => {
     assert.deepEqual(L.parsearHash('#t-enuma-elish'), { vista: 'texto', id: 'enuma-elish' });
   });
   test('normaliza data/teorias.json', () => {
-    const [x] = L.normalizarTeorias(leer('teorias.json'));
+    const x = L.normalizarTeorias(leer('teorias.json')).find((t) => t.id === 'luna-hueca');
     assert.equal(x.id, 'luna-hueca');
     assert.equal(x.afirmaciones.length, 4);
     assert.ok(x.afirmaciones.every((a) => ['sismologia', 'gravimetria', 'muestras', 'laser'].includes(a.evidencia)));
@@ -478,6 +478,11 @@ describe('otras teorías', () => {
     assert.equal(x.interior, null);
     assert.deepEqual(x.enlaces_texto, []);
     assert.equal(x.fuentes[0].url, '');
+  });
+  test('pasoEscala da pasos redondos', () => {
+    assert.equal(L.pasoEscala(0.4), 0.05);
+    assert.equal(L.pasoEscala(3700), 500);
+    assert.equal(L.pasoEscala(0), 1);
   });
   test('posicionEscala acota entre 0 y 100', () => {
     assert.equal(L.posicionEscala(0.5, 0, 1), 50);

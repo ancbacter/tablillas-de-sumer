@@ -9,20 +9,59 @@
       "resumen": "Según esta teoría, la Luna no es un satélite natural sino un cuerpo hueco que una civilización avanzada vació por dentro y llevó hasta la órbita de la Tierra. Nació en un artículo de divulgación soviético de 1970 y se popularizó en los libros sobre ovnis y antiguos astronautas de los años setenta.",
       "origen": "La idea de una Luna hueca viene de la ficción: en «Los primeros hombres en la Luna» (1901), H. G. Wells la llenó de cavernas habitadas. La versión «científica» la publicaron en 1970 Mijaíl Vasin y Alexánder Shcherbakov en Sputnik, una revista soviética de divulgación para el extranjero, no en una revista científica. Proponían que la Luna era un planetoide vaciado con máquinas, con una coraza interior de metal. Cinco años después, Don Wilson recogió la hipótesis en «Our Mysterious Spaceship Moon» y le sumó supuestas anomalías de las misiones Apolo. Desde entonces reaparece en libros como «Who Built the Moon?» (Christopher Knight y Alan Butler, 2005) y en programas de televisión sobre misterios.",
       "hitos": [
-        { "anio": 1901, "texto": "H. G. Wells publica «Los primeros hombres en la Luna», con una Luna hueca habitada por selenitas. Es ficción." },
-        { "anio": 1969, "texto": "El 20 de noviembre, la etapa de ascenso del Apolo 12 choca contra la Luna a propósito. Los sismómetros registran vibraciones durante unos 55 minutos." },
-        { "anio": 1970, "texto": "Vasin y Shcherbakov publican en la revista Sputnik «¿Es la Luna una creación de una inteligencia extraterrestre?»." },
-        { "anio": 1975, "texto": "Don Wilson publica «Our Mysterious Spaceship Moon» y difunde la teoría en Occidente." },
-        { "anio": 1977, "texto": "Se apagan los sismómetros de las misiones Apolo, tras ocho años registrando miles de terremotos lunares e impactos." },
-        { "anio": 2005, "texto": "Christopher Knight y Alan Butler publican «Who Built the Moon?», que presenta la Luna como un objeto fabricado." },
-        { "anio": 2011, "texto": "Una nueva lectura de los datos sísmicos del Apolo detecta el núcleo de la Luna: hierro sólido por dentro y fundido alrededor." },
-        { "anio": 2012, "texto": "Las sondas gemelas GRAIL cartografían la gravedad lunar con un detalle sin precedentes." },
-        { "anio": 2014, "texto": "Con los datos de GRAIL y del láser lunar se mide el momento de inercia de la Luna con seis decimales: 0,392728." }
+        {
+          "anio": 1901,
+          "texto": "H. G. Wells publica «Los primeros hombres en la Luna», con una Luna hueca habitada por selenitas. Es ficción."
+        },
+        {
+          "anio": 1969,
+          "texto": "El 20 de noviembre, la etapa de ascenso del Apolo 12 choca contra la Luna a propósito. Los sismómetros registran vibraciones durante unos 55 minutos."
+        },
+        {
+          "anio": 1970,
+          "texto": "Vasin y Shcherbakov publican en la revista Sputnik «¿Es la Luna una creación de una inteligencia extraterrestre?»."
+        },
+        {
+          "anio": 1975,
+          "texto": "Don Wilson publica «Our Mysterious Spaceship Moon» y difunde la teoría en Occidente."
+        },
+        {
+          "anio": 1977,
+          "texto": "Se apagan los sismómetros de las misiones Apolo, tras ocho años registrando miles de terremotos lunares e impactos."
+        },
+        {
+          "anio": 2005,
+          "texto": "Christopher Knight y Alan Butler publican «Who Built the Moon?», que presenta la Luna como un objeto fabricado."
+        },
+        {
+          "anio": 2011,
+          "texto": "Una nueva lectura de los datos sísmicos del Apolo detecta el núcleo de la Luna: hierro sólido por dentro y fundido alrededor."
+        },
+        {
+          "anio": 2012,
+          "texto": "Las sondas gemelas GRAIL cartografían la gravedad lunar con un detalle sin precedentes."
+        },
+        {
+          "anio": 2014,
+          "texto": "Con los datos de GRAIL y del láser lunar se mide el momento de inercia de la Luna con seis decimales: 0,392728."
+        }
       ],
       "autores": [
-        { "nombre": "Mijaíl Vasin y Alexánder Shcherbakov", "obra": "«¿Es la Luna una creación de una inteligencia extraterrestre?», Sputnik", "anio": 1970 },
-        { "nombre": "Don Wilson", "obra": "Our Mysterious Spaceship Moon", "anio": 1975 },
-        { "nombre": "Christopher Knight y Alan Butler", "obra": "Who Built the Moon?", "anio": 2005 }
+        {
+          "nombre": "Mijaíl Vasin y Alexánder Shcherbakov",
+          "obra": "«¿Es la Luna una creación de una inteligencia extraterrestre?», Sputnik",
+          "anio": 1970
+        },
+        {
+          "nombre": "Don Wilson",
+          "obra": "Our Mysterious Spaceship Moon",
+          "anio": 1975
+        },
+        {
+          "nombre": "Christopher Knight y Alan Butler",
+          "obra": "Who Built the Moon?",
+          "anio": 2005
+        }
       ],
       "afirmaciones": [
         {
@@ -58,39 +97,296 @@
         "titulo": "La prueba de la rueda: cuánto cuesta hacer girar la Luna",
         "texto": "Un objeto hueco y uno macizo de la misma masa giran de forma distinta: en el hueco, toda la masa está lejos del centro y cuesta más hacerlo girar. Esa resistencia se mide con un número, el momento de inercia, y la Luna nos lo deja medir por cómo se balancea en su órbita. Una cáscara hueca daría 0,667; una bola maciza y uniforme, 0,400. La Luna da 0,3927: un poco menos que una bola uniforme, lo que significa que es maciza y algo más densa hacia el centro, por su pequeño núcleo de hierro.",
         "valores": [
-          { "etiqueta": "Esfera hueca (cáscara)", "valor": 0.667, "tipo": "teoria" },
-          { "etiqueta": "Esfera maciza uniforme", "valor": 0.4, "tipo": "referencia" },
-          { "etiqueta": "La Luna (medido)", "valor": 0.3927, "tipo": "medido" },
-          { "etiqueta": "La Tierra (medido)", "valor": 0.3307, "tipo": "referencia" }
+          {
+            "etiqueta": "Esfera hueca (cáscara)",
+            "valor": 0.667,
+            "tipo": "teoria"
+          },
+          {
+            "etiqueta": "Esfera maciza uniforme",
+            "valor": 0.4,
+            "tipo": "referencia"
+          },
+          {
+            "etiqueta": "La Luna (medido)",
+            "valor": 0.3927,
+            "tipo": "medido"
+          },
+          {
+            "etiqueta": "La Tierra (medido)",
+            "valor": 0.3307,
+            "tipo": "referencia"
+          }
         ],
         "fuente": "Williams et al., Journal of Geophysical Research: Planets, 2014"
       },
       "interior": {
         "radio": 1737,
         "capas": [
-          { "nombre": "Corteza", "hasta": 1737, "desde": 1697 },
-          { "nombre": "Manto", "hasta": 1697, "desde": 480 },
-          { "nombre": "Capa parcialmente fundida", "hasta": 480, "desde": 330 },
-          { "nombre": "Núcleo externo fundido", "hasta": 330, "desde": 240 },
-          { "nombre": "Núcleo interno sólido", "hasta": 240, "desde": 0 }
+          {
+            "nombre": "Corteza",
+            "hasta": 1737,
+            "desde": 1697
+          },
+          {
+            "nombre": "Manto",
+            "hasta": 1697,
+            "desde": 480
+          },
+          {
+            "nombre": "Capa parcialmente fundida",
+            "hasta": 480,
+            "desde": 330
+          },
+          {
+            "nombre": "Núcleo externo fundido",
+            "hasta": 330,
+            "desde": 240
+          },
+          {
+            "nombre": "Núcleo interno sólido",
+            "hasta": 240,
+            "desde": 0
+          }
         ]
       },
       "por_que_atrae": "Parte de preguntas reales y llamativas: por qué la Luna vibró tanto tiempo, por qué los eclipses encajan tan bien, por qué su densidad es tan baja. Tiene además el aval aparente de «científicos soviéticos» y encaja en un relato más amplio sobre visitantes del pasado. Las respuestas, en cambio, exigen conocer sismología, gravimetría o mecánica orbital, y no caben en un titular.",
       "relacion_sumer": "Algunos autores de los antiguos astronautas enlazan la Luna con los mitos mesopotámicos. Zecharia Sitchin, en «The 12th Planet» (1976), identificó a Qingu, el jefe del ejército de Tiamat en el Enuma Elish, con la Luna, satélite del planeta Tiamat antes de su choque con Nibiru. En los textos, en cambio, la Luna es el dios Nanna (Sin), y en la tablilla V del Enuma Elish Marduk le fija sus fases para medir los meses.",
       "relaciones": [
-        { "id": "nanna-sin", "tipo": "dios Luna" },
-        { "id": "tiamat", "tipo": "según Sitchin" },
-        { "id": "nibiru", "tipo": "según Sitchin" }
+        {
+          "id": "nanna-sin",
+          "tipo": "dios Luna"
+        },
+        {
+          "id": "tiamat",
+          "tipo": "según Sitchin"
+        },
+        {
+          "id": "nibiru",
+          "tipo": "según Sitchin"
+        }
       ],
       "enlaces_texto": [
-        { "href": "#c-enuma-elish", "texto": "Enuma Elish, tablilla V: Marduk fija las fases de la Luna" }
+        {
+          "href": "#c-enuma-elish",
+          "texto": "Enuma Elish, tablilla V: Marduk fija las fases de la Luna"
+        }
       ],
       "veredicto": "Refutada. La sismología, la gravimetría, las muestras de roca y la telemetría láser coinciden en lo mismo: la Luna es un cuerpo rocoso macizo, con corteza, manto y un pequeño núcleo de hierro.",
       "fuentes": [
-        { "autor": "J. G. Williams et al.", "titulo": "Lunar interior properties from the GRAIL mission", "obra": "Journal of Geophysical Research: Planets 119", "anio": 2014 },
-        { "autor": "R. C. Weber et al.", "titulo": "Seismic detection of the lunar core", "obra": "Science 331", "anio": 2011 },
-        { "autor": "M. A. Wieczorek et al.", "titulo": "The crust of the Moon as seen by GRAIL", "obra": "Science 339", "anio": 2013 },
-        { "autor": "Jason Colavito", "titulo": "Spaceship Moon and Soviet scientific politics", "obra": "jasoncolavito.com", "anio": null, "url": "https://www.jasoncolavito.com/blog/spaceship-moon-and-soviet-scientific-politics" }
+        {
+          "autor": "J. G. Williams et al.",
+          "titulo": "Lunar interior properties from the GRAIL mission",
+          "obra": "Journal of Geophysical Research: Planets 119",
+          "anio": 2014
+        },
+        {
+          "autor": "R. C. Weber et al.",
+          "titulo": "Seismic detection of the lunar core",
+          "obra": "Science 331",
+          "anio": 2011
+        },
+        {
+          "autor": "M. A. Wieczorek et al.",
+          "titulo": "The crust of the Moon as seen by GRAIL",
+          "obra": "Science 339",
+          "anio": 2013
+        },
+        {
+          "autor": "Jason Colavito",
+          "titulo": "Spaceship Moon and Soviet scientific politics",
+          "obra": "jasoncolavito.com",
+          "anio": null,
+          "url": "https://www.jasoncolavito.com/blog/spaceship-moon-and-soviet-scientific-politics"
+        }
+      ]
+    },
+    {
+      "id": "arca-ararat",
+      "nombre": "El arca de Noé en el monte Ararat",
+      "lema": "Los restos del arca seguirían en el monte Ararat, en el este de Turquía, esperando a ser encontrados.",
+      "ambito": "arqueologia",
+      "estado": "sin_pruebas",
+      "resumen": "Según esta teoría, el arca de Noé existió tal como la describe el Génesis y sus restos se conservan en el monte Ararat (Ağrı Dağı, 5.137 m), en el este de Turquía, bajo el hielo de la cumbre o convertidos en piedra en sus laderas. Desde el siglo XIX, decenas de expediciones han anunciado haberla encontrado; ninguno de esos hallazgos ha resistido el examen.",
+      "origen": "El Génesis (8, 4) dice que el arca se posó «sobre los montes de Ararat», en plural: Ararat es el nombre hebreo de Urartu, un reino de la Edad del Hierro que ocupaba las tierras altas entre Turquía, Armenia e Irán, y no el nombre de una cumbre. Otras tradiciones antiguas situaban el lugar en otro sitio: el sacerdote babilonio Beroso hablaba de los montes de los gordienos, al sur del lago Van, y el Corán (11, 44) nombra el monte Judi. La identificación con la gran cumbre que los armenios llaman Masis se impuso en la Edad Media. La búsqueda moderna empezó en el siglo XIX y creció tras la Segunda Guerra Mundial, con expediciones como las de Fernand Navarra, la promoción de la formación de Durupınar por Ron Wyatt desde finales de los setenta y, más recientemente, anuncios de equipos evangélicos y de universidades turcas que han atraído mucha atención de la prensa.",
+      "hitos": [
+        {
+          "anio": -1640,
+          "texto": "El escriba Ipiq-Aya copia en Sippar el poema de Atrahasis, con un diluvio, un barco y un superviviente salvado por el dios Ea. Es más de mil años anterior a los textos bíblicos."
+        },
+        {
+          "anio": -280,
+          "texto": "Beroso, sacerdote de Babilonia, escribe en griego que los restos del barco siguen en los montes de los gordienos y que la gente raspa su betún para hacer amuletos."
+        },
+        {
+          "anio": 1876,
+          "texto": "James Bryce sube al Ararat y baja con un trozo de madera que cree que podría ser del arca."
+        },
+        {
+          "anio": 1949,
+          "texto": "Un vuelo de reconocimiento estadounidense fotografía en la cara noroeste de la cumbre una forma alargada, la «anomalía del Ararat». Las fotos se publican en 1995."
+        },
+        {
+          "anio": 1955,
+          "texto": "Fernand Navarra saca de un glaciar del Ararat unos maderos tallados. El radiocarbono los fecha después en los siglos VII y VIII d. C."
+        },
+        {
+          "anio": 1959,
+          "texto": "Una foto aérea turca muestra en Durupınar, a unos 30 km del Ararat, una formación con forma de barco. La revista Life la publica en 1960."
+        },
+        {
+          "anio": 1987,
+          "texto": "Tras años de promoción de Ron Wyatt, el gobierno turco convierte la zona de Durupınar en espacio protegido y atracción turística."
+        },
+        {
+          "anio": 1996,
+          "texto": "David Fasold, que había defendido Durupınar, publica con el geólogo Lorence Collins un estudio que la explica como un pliegue natural de roca."
+        },
+        {
+          "anio": 2010,
+          "texto": "Un equipo de Hong Kong anuncia haber hallado el arca a 4.000 m. Randall Price, que había colaborado con él, lo califica de montaje."
+        }
+      ],
+      "autores": [
+        {
+          "nombre": "Fernand Navarra",
+          "obra": "J’ai trouvé l’arche de Noé",
+          "anio": 1956
+        },
+        {
+          "nombre": "Ron Wyatt",
+          "obra": "Discovered: Noah’s Ark",
+          "anio": 1989
+        },
+        {
+          "nombre": "Noah’s Ark Ministries International",
+          "obra": "anuncio del hallazgo en el Ararat",
+          "anio": 2010
+        }
+      ],
+      "afirmaciones": [
+        {
+          "afirmacion": "La formación de Durupınar es el casco del arca petrificado: tiene forma de barco, unos 160 m de largo, cerca de los 300 codos del Génesis, y en su interior hay restos de cuadernas y remaches de hierro.",
+          "autor": "Ron Wyatt (desde 1977)",
+          "evidencia": "geologia",
+          "replica": "Es un sinclinal: un pliegue de capas de roca que la erosión ha dejado con forma alargada, un tipo de formación frecuente. Los supuestos «remaches» y «cuadernas» son concentraciones naturales de limonita y magnetita en las capas inclinadas, y la «madera petrificada» es una roca volcánica alterada. David Fasold, que la había presentado como el arca, publicó en 1996 con el geólogo Lorence Collins el estudio que lo demostraba.",
+          "fuente": "L. Collins y D. Fasold, Journal of Geoscience Education, 1996"
+        },
+        {
+          "afirmacion": "Junto a Durupınar y en el pueblo de Kazan hay grandes piedras perforadas que eran las anclas de piedra del arca.",
+          "autor": "Ron Wyatt",
+          "evidencia": "historia",
+          "replica": "Son piedras talladas de la región, algunas con cruces grabadas como las estelas cristianas armenias. Ninguna está hecha para un barco: son demasiado grandes para manejarlas a bordo y no se han encontrado nunca junto a restos de una embarcación.",
+          "fuente": "Revisiones críticas de los hallazgos de Wyatt (Collins y Fasold, 1996)"
+        },
+        {
+          "afirmacion": "Las fotos militares secretas de 1949 y las imágenes de satélite posteriores muestran en la cumbre del Ararat un objeto alargado, la «anomalía del Ararat», que podría ser el arca.",
+          "autor": "Porcher Taylor y otros investigadores (desde 1995)",
+          "evidencia": "imagenes",
+          "replica": "La forma está en una zona de hielo y roca a unos 4.700 m. Los analistas militares que estudiaron las fotos la atribuyeron al terreno y a la nieve, y las imágenes de satélite de alta resolución posteriores no muestran nada distinto de un afloramiento cubierto de hielo. Ninguna expedición ha encontrado allí una estructura.",
+          "fuente": "Análisis de la Agencia de Inteligencia de Defensa de EE. UU., publicados en 1995"
+        },
+        {
+          "afirmacion": "Los maderos tallados que sacó Fernand Navarra de un glaciar del Ararat en 1955 son vigas del arca.",
+          "autor": "Fernand Navarra (1956)",
+          "evidencia": "radiocarbono",
+          "replica": "Varios laboratorios fecharon la madera por radiocarbono y la situaron, en su mayoría, entre los siglos VII y VIII d. C., unos 3.000 años después de la fecha bíblica del diluvio. Encaja con los monasterios y santuarios cristianos que hubo en la montaña en la Edad Media.",
+          "fuente": "Dataciones de laboratorios de California y Pensilvania, entre otros (años setenta)"
+        },
+        {
+          "afirmacion": "En 2010 se halló a 4.000 m una estructura de madera con compartimentos, fechada en 4.800 años.",
+          "autor": "Noah’s Ark Ministries International (Hong Kong)",
+          "evidencia": "radiocarbono",
+          "replica": "Nunca se publicaron la ubicación, las muestras ni un informe que otros pudieran comprobar. Randall Price, arqueólogo que había colaborado con el equipo, afirmó que unos lugareños habían subido madera de otra zona y montado el hallazgo. A esa altura del Ararat no crecen árboles.",
+          "fuente": "Declaraciones de Randall Price recogidas por la prensa en 2010"
+        }
+      ],
+      "prueba": {
+        "titulo": "Las fechas no encajan",
+        "formato": "anio",
+        "texto": "Según la cronología bíblica de James Ussher (1650), el diluvio habría ocurrido en el 2348 a. C. Pero el relato de un diluvio con un barco y un superviviente ya estaba escrito en Mesopotamia siglos antes de los textos bíblicos, y «Ararat» es el nombre de un reino que no aparece hasta el primer milenio a. C. La única madera del Ararat fechada por varios laboratorios es medieval.",
+        "valores": [
+          {
+            "etiqueta": "Diluvio según Ussher",
+            "valor": -2348,
+            "tipo": "teoria"
+          },
+          {
+            "etiqueta": "Copia de Atrahasis",
+            "valor": -1640,
+            "tipo": "referencia"
+          },
+          {
+            "etiqueta": "Reino de Urartu (Ararat)",
+            "valor": -850,
+            "tipo": "referencia"
+          },
+          {
+            "etiqueta": "Madera de Navarra (medido)",
+            "valor": 750,
+            "tipo": "medido"
+          }
+        ],
+        "fuente": "Dataciones por radiocarbono de la madera de Navarra; colofón de Ipiq-Aya (Atrahasis)"
+      },
+      "por_que_atrae": "Promete una prueba física de un relato que millones de personas consideran sagrado. El Ararat es remoto, está casi siempre cubierto de hielo y su acceso ha estado restringido durante décadas, lo que hace fácil anunciar hallazgos y difícil comprobarlos. Cada nuevo anuncio llega a la prensa de todo el mundo; las refutaciones, mucho menos.",
+      "relacion_sumer": "El diluvio no nace en la Biblia. Los textos mesopotámicos lo contaban siglos antes: el poema de Atrahasis, la versión sumeria de Ziusudra y la tablilla XI de la Epopeya de Gilgamesh, donde el barco de Utnapishtim encalla en el monte Nisir, en los montes Zagros, y no en el Ararat. El Génesis comparte con ellos el aviso divino, el barco calafateado con betún y las aves soltadas para buscar tierra, y la mayoría de los especialistas cree que sus autores conocían esa tradición mesopotámica.",
+      "relaciones": [
+        {
+          "id": "atrahasis",
+          "tipo": "diluvio paleobabilónico"
+        },
+        {
+          "id": "diluvio-ziusudra",
+          "tipo": "diluvio sumerio"
+        },
+        {
+          "id": "gilgamesh",
+          "tipo": "tablilla XI"
+        }
+      ],
+      "enlaces_texto": [
+        {
+          "href": "#c-gilgamesh",
+          "texto": "Gilgamesh, tablilla XI: el diluvio y el monte Nisir"
+        },
+        {
+          "href": "#c-atrahasis",
+          "texto": "Atrahasis: las plagas antes del diluvio"
+        },
+        {
+          "href": "#c-diluvio-ziusudra",
+          "texto": "El diluvio sumerio de Ziusudra"
+        }
+      ],
+      "veredicto": "Sin pruebas. Ninguno de los hallazgos anunciados ha resistido el examen: la formación de Durupınar es geológica, la madera fechada es medieval y los anuncios más recientes no se han publicado de forma comprobable. El relato del diluvio, además, es una tradición mesopotámica más antigua que la Biblia.",
+      "fuentes": [
+        {
+          "autor": "L. G. Collins y D. F. Fasold",
+          "titulo": "Bogus «Noah’s Ark» from Turkey exposed as a common geologic structure",
+          "obra": "Journal of Geoscience Education 44",
+          "anio": 1996
+        },
+        {
+          "autor": "Talk.Origins Archive",
+          "titulo": "Claim CH504.2: Noah’s Ark has been found",
+          "obra": "",
+          "anio": null,
+          "url": "https://talkorigins.org/indexcc/CH/CH504_2.html"
+        },
+        {
+          "autor": "Catholic News Agency",
+          "titulo": "Noah’s Ark discovery could be hoax, critic says",
+          "obra": "",
+          "anio": 2010,
+          "url": "https://catholicnewsagency.com/news/noahs_ark_discovery_could_be_hoax_critic_says"
+        },
+        {
+          "autor": "I. L. Finkel",
+          "titulo": "The Ark Before Noah: Decoding the Story of the Flood",
+          "obra": "Hodder & Stoughton",
+          "anio": 2014
+        }
       ]
     }
   ]

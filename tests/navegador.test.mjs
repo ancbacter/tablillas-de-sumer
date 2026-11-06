@@ -14,7 +14,7 @@ const aqui = dirname(fileURLToPath(import.meta.url));
 const raiz = join(aqui, '..');
 const capturas = join(aqui, 'capturas');
 const ruta = buscarNavegador();
-const VISTAS = ['catalogo', 'textos', 't-enuma-elish', 'cronologia', 'mapa', 'actual', 'asiriologos', 'as-lambert', 'autores', 'teorias', 'te-luna-hueca', 'glosario', 'e-nibiru'];
+const VISTAS = ['catalogo', 'textos', 't-enuma-elish', 'cronologia', 'mapa', 'actual', 'asiriologos', 'as-lambert', 'autores', 'teorias', 'te-luna-hueca', 'te-arca-ararat', 'glosario', 'e-nibiru'];
 const idsTextos = JSON.parse(readFileSync(join(raiz, 'data/textos.json'), 'utf8')).textos.map((x) => x.id);
 
 const envolver = (frag) => '<!doctype html>\n<html lang="es">\n<head>\n<meta charset="utf-8">\n<meta name="viewport" content="width=device-width, initial-scale=1">\n</head>\n<body>\n' + frag + '\n</body>\n</html>\n';
@@ -587,6 +587,8 @@ describe('navegador', { skip: ruta ? false : 'no se encontró Chrome ni Edge' },
         await captura(`teorias-${ancho}-${tema}`, 1200);
         await irA('te-luna-hueca');
         await captura(`teoria-luna-${ancho}-${tema}`, 4800);
+        await irA('te-arca-ararat');
+        await captura(`teoria-arca-${ancho}-${tema}`, 4800);
       }
     }
     assert.deepEqual(errores, []);
@@ -685,7 +687,7 @@ describe('navegador', { skip: ruta ? false : 'no se encontró Chrome ni Edge' },
     await abrir(url, { ancho: 1280, alto: 900 });
     await irA('teorias');
     assert.equal(await pag.evaluar(`document.querySelector('.nav a[aria-current="page"]').getAttribute('data-vista')`), 'teorias');
-    assert.equal(await pag.evaluar(`document.querySelectorAll('.teoria-tarjeta').length`), 1);
+    assert.equal(await pag.evaluar(`document.querySelectorAll('.teoria-tarjeta').length`), 2);
     await pag.evaluar(`document.querySelector('.teoria-tarjeta').click()`);
     await pag.evaluar(`new Promise(r => requestAnimationFrame(() => requestAnimationFrame(r)))`);
     const r = await pag.evaluar(`({
