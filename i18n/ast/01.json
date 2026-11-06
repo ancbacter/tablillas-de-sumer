@@ -20,6 +20,7 @@
   "ui.aviso.traduccion_automatica": "Traducción automática, pendiente de revisión por falantes nativos.",
   "ui.aviso.idioma_error": "Nun se pudo cargar la traducción. La páxina sigue na llingua anterior.",
   "ui.pie.texto": "Les fiches resumen la investigación espublizada n'asiriloxía. Les teoríes de los antiguos astronautes inclúyense como fenómenu cultural: nun formen parte del consensu académicu.",
+  "ui.pie.licencia": "Conteníu en dominiu públicu (CC0) y códigu con llicencia MIT-0, sacante les cites curties d’otres obres. Ofrezse tal cual, ensin garantíes: ye un proyeutu divulgativu y pue tener errores.",
   "ui.fecha.ac": "{n} e.C.",
   "ui.fecha.dc": "{n} d.C.",
   "ui.fecha.circa": "c. {fecha}",

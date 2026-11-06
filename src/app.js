@@ -756,6 +756,7 @@
     'ui.aviso.traduccion_automatica': 'Traducción automática, pendiente de revisión por hablantes nativos.',
     'ui.aviso.idioma_error': 'No se ha podido cargar la traducción. La página sigue en el idioma anterior.',
     'ui.pie.texto': 'Las fichas resumen la investigación publicada en asiriología. Las teorías de los antiguos astronautas se incluyen como fenómeno cultural: no forman parte del consenso académico.',
+    'ui.pie.licencia': 'Contenido en dominio público (CC0) y código con licencia MIT-0, salvo las citas breves de otras obras. Se ofrece tal cual, sin garantías: es un proyecto divulgativo y puede contener errores.',
     'ui.fecha.ac': '{n} a. C.',
     'ui.fecha.dc': '{n} d. C.',
     'ui.fecha.circa': 'c. {fecha}',

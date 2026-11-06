@@ -20,6 +20,7 @@
   "ui.aviso.traduccion_automatica": "Itzulpen automatikoa, jatorrizko hiztunek berrikusteko zain.",
   "ui.aviso.idioma_error": "Ezin izan da itzulpena kargatu. Orriak aurreko hizkuntzan jarraitzen du.",
   "ui.pie.texto": "Fitxek asiriologian argitaratutako ikerketa laburbiltzen dute. Antzinako astronauten teoriak fenomeno kultural gisa sartu dira: ez dira adostasun akademikoaren parte.",
+  "ui.pie.licencia": "Edukia jabari publikoan (CC0) eta kodea MIT-0 lizentziapean, beste lan batzuetako aipamen laburrak izan ezik. Dagoen bezala eskaintzen da, bermerik gabe: dibulgazio-proiektu bat da eta akatsak izan ditzake.",
   "ui.fecha.ac": "K.a. {n}",
   "ui.fecha.dc": "K.o. {n}",
   "ui.fecha.circa": "k. {fecha}",

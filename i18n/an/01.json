@@ -20,6 +20,7 @@
   "ui.aviso.traduccion_automatica": "Traducción automatica, pendient de revisión por parladors nativos.",
   "ui.aviso.idioma_error": "No s'ha puesto cargar a traducción. A pachina sigue en l'idioma anterior.",
   "ui.pie.texto": "As fichas resumen a investigación publicada en asiriolochía. As teorías d'os antigos astronautas s'incluyen como fenomeno cultural: no fan parte d'o consenso academico.",
+  "ui.pie.licencia": "Conteniu en dominio publico (CC0) y codigo con licencia MIT-0, fueras d’as citas curtas d’atras obras. S’ofreix tal cual, sin garantías: ye un prochecto divulgativo y puede contener errors.",
   "ui.fecha.ac": "{n} a.C.",
   "ui.fecha.dc": "{n} d.C.",
   "ui.fecha.circa": "c. {fecha}",

@@ -20,6 +20,7 @@
   "ui.aviso.traduccion_automatica": "Traducció automàtica, pendent de revisió per parlants nadius.",
   "ui.aviso.idioma_error": "No s'ha pogut carregar la traducció. La pàgina continua en l'idioma anterior.",
   "ui.pie.texto": "Les fitxes resumeixen la recerca publicada en assiriologia. Les teories dels antics astronautes s'hi inclouen com a fenomen cultural: no formen part del consens acadèmic.",
+  "ui.pie.licencia": "Contingut en domini públic (CC0) i codi amb llicència MIT-0, excepte les citacions breus d’altres obres. S’ofereix tal com és, sense garanties: és un projecte divulgatiu i pot contenir errors.",
   "ui.fecha.ac": "{n} aC",
   "ui.fecha.dc": "{n} dC",
   "ui.fecha.circa": "c. {fecha}",

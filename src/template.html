@@ -1015,6 +1015,8 @@ blockquote.pasaje-texto { padding-left: 22px; border-left: 2px solid var(--lapis
 .pie .interior { display: flex; gap: 14px; align-items: flex-start; }
 .pie-signo { font-family: var(--f-cuna); font-size: 1.6rem; line-height: 1; color: var(--oro-vivo); }
 .pie p { max-width: 80ch; margin: 0; }
+.pie-textos { display: grid; gap: 8px; min-width: 0; }
+.pie .pie-licencia { font-size: 0.8rem; color: var(--tinta-tenue); }
 
 /* ---------- Pantallas medianas: menú compacto ---------- */
 @media (max-width: 1080px) {
@@ -1181,7 +1183,10 @@ blockquote.pasaje-texto { padding-left: 22px; border-left: 2px solid var(--lapis
   <footer class="pie banda">
     <div class="interior">
       <span class="pie-signo" aria-hidden="true">𒀭</span>
-      <p data-i18n="ui.pie.texto">Las fichas resumen la investigación publicada en asiriología. Las teorías de los antiguos astronautas se incluyen como fenómeno cultural: no forman parte del consenso académico.</p>
+      <div class="pie-textos">
+        <p data-i18n="ui.pie.texto">Las fichas resumen la investigación publicada en asiriología. Las teorías de los antiguos astronautas se incluyen como fenómeno cultural: no forman parte del consenso académico.</p>
+        <p class="pie-licencia" data-i18n="ui.pie.licencia">Contenido en dominio público (CC0) y código con licencia MIT-0, salvo las citas breves de otras obras. Se ofrece tal cual, sin garantías: es un proyecto divulgativo y puede contener errores.</p>
+      </div>
     </div>
   </footer>
 </div>

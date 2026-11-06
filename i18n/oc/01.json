@@ -20,6 +20,7 @@
   "ui.aviso.traduccion_automatica": "Traduccion automatica, pendenta de revision per parlants nadius.",
   "ui.aviso.idioma_error": "Non s'a pogut cargar era traduccion. Era pagina contunhe ena lengua d'abans.",
   "ui.pie.texto": "Es fiches resumissen era recèrca publicada en assiriologia. Es teories des antics astronautes s'i includen coma fenomèn culturau: non hèn part deth consens academic.",
+  "ui.pie.licencia": "Contengut en domeni public (CC0) e còdi damb licéncia MIT-0, fòra des citacions cortes d’autes òbres. S’ofrís atau coma ei, sense garanties: ei un projècte divulgatiu e pòt contier errors.",
   "ui.fecha.ac": "{n} aC",
   "ui.fecha.dc": "{n} dC",
   "ui.fecha.circa": "c. {fecha}",

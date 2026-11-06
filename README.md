@@ -59,3 +59,14 @@ npx serve dist        # o cualquier otro servidor estático
 ## Publicación
 
 El flujo `.github/workflows/pages.yml` pasa los tests y el build en cada push y en cada pull request. En cada push a `main` publica además `dist/` en GitHub Pages. Las capturas de los tests de navegador quedan como artefacto de cada ejecución durante siete días.
+
+## Licencia
+
+Todo el proyecto es tan abierto como es posible:
+
+- **Código:** [MIT No Attribution (MIT-0)](LICENSE). Puedes usarlo para lo que quieras, sin obligación de citar.
+- **Contenido:** dominio público con [CC0 1.0](LICENSE-CC0.txt). Fichas, traducciones de los textos antiguos, traducciones a otros idiomas y textos de la página. Puedes copiarlo, adaptarlo y publicarlo, también con fines comerciales, sin pedir permiso.
+
+Hay unas pocas excepciones: tres citas breves de obras con derechos de autor, incluidas por derecho de cita. Además, el contenido se ofrece tal cual, sin garantías: es un proyecto divulgativo y puede contener errores. Los detalles y el descargo de responsabilidad completo están en [LICENSE-CONTENIDO.md](LICENSE-CONTENIDO.md).
+
+© 2026 Luis San Juan

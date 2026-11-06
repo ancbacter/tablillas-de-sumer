@@ -19,6 +19,7 @@
   "ui.aviso.traduccion_automatica": "Traduçon outomática, a la spera de rebison por falantes nativos.",
   "ui.aviso.idioma_error": "Nun fui possible cargar la traduçon. La páigina cuntina na lhéngua anterior.",
   "ui.pie.texto": "Las fichas resúmen la ambestigaçon publicada an assiriologie. Las teories de ls antigos astronautas stan ancluídas cumo fenómeno cultural: nun fazen parte de l cunsenso académico.",
+  "ui.pie.licencia": "Cuntenido an domínio público (CC0) i código cula licença MIT-0, tirando las cítaçones cortas d’outras obras. Ye oufrecido tal cumo stá, sien garantias: ye un perjeto de çboulgaçon i puode tener erros.",
   "ui.fecha.ac": "{n} a.C.",
   "ui.fecha.dc": "{n} d.C.",
   "ui.fecha.circa": "c. {fecha}",

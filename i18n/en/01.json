@@ -20,6 +20,7 @@
   "ui.aviso.traduccion_automatica": "Machine translation, pending review by native speakers.",
   "ui.aviso.idioma_error": "The translation could not be loaded. The page remains in the previous language.",
   "ui.pie.texto": "The entries summarize published research in Assyriology. Ancient astronaut theories are included as a cultural phenomenon: they are not part of the academic consensus.",
+  "ui.pie.licencia": "Content in the public domain (CC0) and code under the MIT-0 licence, except for short quotations from other works. Provided as is, without warranty: this is a popular-science project and may contain errors.",
   "ui.fecha.ac": "{n} BC",
   "ui.fecha.dc": "AD {n}",
   "ui.fecha.circa": "c. {fecha}",
