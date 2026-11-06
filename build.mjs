@@ -1,6 +1,8 @@
-// Uso: node build.mjs [--muestra]
+// Uso: node build.mjs [--muestra] [--completa]
 // Lee los datos JSON y genera dist/index.html con CSS, JS y datos en línea (en castellano),
 // y dist/i18n/<idioma>.json por cada traducción presente en i18n/<idioma>/.
+// Por defecto index.html es un fragmento (el host de los artifacts añade doctype y <head>);
+// con --completa se escribe un documento HTML completo, para servidores estáticos como GitHub Pages.
 import { readFile, writeFile, mkdir, rm } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
@@ -9,6 +11,13 @@ import { ARCHIVOS, OPCIONALES } from './i18n/comun.mjs';
 
 const raiz = dirname(fileURLToPath(import.meta.url));
 const muestra = process.argv.includes('--muestra');
+const completa = process.argv.includes('--completa');
+
+/** Envuelve el fragmento en un documento completo: doctype, idioma, charset y viewport. */
+function documentoCompleto(fragmento) {
+  return '<!doctype html>\n<html lang="es">\n<head>\n<meta charset="utf-8">\n<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">\n</head>\n<body>\n'
+    + fragmento + '\n</body>\n</html>\n';
+}
 const archivos = ARCHIVOS[muestra ? 'muestra' : 'real'];
 
 const MARCADOR_DATOS = '/*__DATA__*/null';
@@ -107,7 +116,7 @@ async function main() {
     .replace(MARCADOR_DATOS, () => datos);
 
   await mkdir(join(raiz, 'dist'), { recursive: true });
-  await writeFile(join(raiz, 'dist/index.html'), html, 'utf8');
+  await writeFile(join(raiz, 'dist/index.html'), completa ? documentoCompleto(html) : html, 'utf8');
   const n = Array.isArray(cientifico && cientifico.entradas) ? cientifico.entradas.length : 0;
   const nt = Array.isArray(todos.textos && todos.textos.textos) ? todos.textos.textos.length : 0;
   console.log(`dist/index.html escrito (${(html.length / 1024).toFixed(1)} KB, ${n} entradas, ${nt} textos${muestra ? ', datos de muestra' : ''}; idiomas: ${idiomas.join(', ')}).`);

@@ -36,6 +36,10 @@ jobs:
           CHROME_PATH: /usr/bin/google-chrome
         run: node tests/ejecutar.mjs
 
+      # Los tests dejan dist/index.html como fragmento; para Pages hace falta el documento completo.
+      - name: Build para GitHub Pages
+        run: node build.mjs --completa
+
       - name: Guardar las capturas de los tests
         if: always()
         uses: actions/upload-artifact@v4

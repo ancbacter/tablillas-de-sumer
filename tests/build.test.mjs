@@ -117,6 +117,18 @@ describe('build de muestra: <script> inyectado', () => {
 });
 
 describe('build: casos especiales', () => {
+  test('--completa escribe un documento HTML entero (doctype, idioma, charset y viewport) para GitHub Pages', () => {
+    const r = spawnSync(process.execPath, ['build.mjs', '--completa'], { cwd: raiz, encoding: 'utf8' });
+    assert.equal(r.status, 0, r.stdout + r.stderr);
+    const html = readFileSync(dist, 'utf8');
+    assert.match(html, /^<!doctype html>\n<html lang="es">\n<head>\n<meta charset="utf-8">\n<meta name="viewport" content="width=device-width, initial-scale=1/);
+    assert.match(html, /<\/body>\n<\/html>\n$/);
+    assert.equal(html.split('<title>').length, 2, 'un solo <title>');
+    // Sin la opción vuelve a ser un fragmento (lo que esperan los artifacts).
+    const r2 = spawnSync(process.execPath, ['build.mjs'], { cwd: raiz, encoding: 'utf8' });
+    assert.equal(r2.status, 0, r2.stdout + r2.stderr);
+    assert.ok(readFileSync(dist, 'utf8').startsWith('<title>'));
+  });
   test('una traducción incompleta se publica con aviso (en una copia de i18n/)', () => {
     const tmp = mkdtempSync(join(tmpdir(), 'meso-build-'));
     try {
